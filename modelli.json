@@ -1,0 +1,10 @@
+{
+  "aggiornato": "",
+  "modelli": [
+    { "id": "trex3pro", "nome": "Amazfit T-Rex 3 Pro" },
+    { "id": "trex3", "nome": "Amazfit T-Rex 3" },
+    { "id": "balance2", "nome": "Amazfit Balance 2" },
+    { "id": "balance", "nome": "Amazfit Balance" },
+    { "id": "active2", "nome": "Amazfit Active 2" }
+  ]
+}

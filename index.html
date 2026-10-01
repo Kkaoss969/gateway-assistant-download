@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voice Assistant per Amazfit</title>
+<meta name="description" content="Assistente vocale con Gemini per orologi Amazfit e Gateway Assistant per il telefono: download e installazione.">
+<link rel="icon" href="icon.png">
+<style>
+  :root {
+    --bg: #0f1012; --card: #1b1c1f; --line: #2a2c31; --text: #f1f3f4; --muted: #a6acb5;
+    --blue: #4285f4; --red: #ea4335; --yellow: #fbbc05; --green: #34a853;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 24px 16px 48px; }
+  header { text-align: center; padding: 12px 0 8px; }
+  header img { width: 96px; height: 96px; }
+  h1 { font-size: 28px; margin: 12px 0 4px; }
+  .bar { display: flex; height: 4px; width: 120px; margin: 10px auto 14px; border-radius: 2px; overflow: hidden; }
+  .bar i { flex: 1; } .bar i:nth-child(1){background:var(--blue)} .bar i:nth-child(2){background:var(--red)} .bar i:nth-child(3){background:var(--yellow)} .bar i:nth-child(4){background:var(--green)}
+  .lead { color: var(--muted); margin: 0 auto; max-width: 480px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin-top: 18px; }
+  .step { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+  .num { flex: none; width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; font-weight: 700; color: #111; }
+  .s1 .num { background: var(--blue); } .s2 .num { background: var(--red); } .s3 .num { background: var(--yellow); } .s4 .num { background: var(--green); }
+  h2 { font-size: 20px; margin: 0; }
+  p, li { color: var(--muted); }
+  b { color: var(--text); }
+  .btn { display: block; text-align: center; background: var(--blue); color: #fff; text-decoration: none; font-weight: 600; padding: 14px; border-radius: 999px; margin-top: 12px; }
+  .btn.ghost { background: transparent; border: 1px solid var(--line); color: var(--text); }
+  select { width: 100%; font: inherit; color: var(--text); background: #111215; border: 1px solid var(--line); border-radius: 12px; padding: 12px; margin-top: 8px; }
+  .qr { margin-top: 14px; text-align: center; }
+  .qr img { width: 100%; max-width: 280px; background: #fff; padding: 12px; border-radius: 14px; }
+  .qr .none { border: 1px dashed var(--line); border-radius: 14px; padding: 20px; color: var(--muted); }
+  .small { font-size: 13px; color: var(--muted); }
+  ol { padding-left: 20px; margin: 8px 0 0; }
+  footer { text-align: center; margin-top: 28px; font-size: 13px; color: var(--muted); }
+  a { color: #8ab4f8; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="icon.png" alt="">
+    <h1>Voice Assistant</h1>
+    <div class="bar"><i></i><i></i><i></i><i></i></div>
+    <p class="lead">Parla con Gemini dal tuo orologio Amazfit. Con <b>Gateway Assistant</b> sul telefono comandi anche la casa Google, chiami, mandi e leggi i WhatsApp.</p>
+  </header>
+
+  <section class="card s1">
+    <div class="step"><span class="num">1</span><h2>App del telefono</h2></div>
+    <p>Scarica <b>Gateway Assistant</b> sul telefono Android e installalo (se Android lo chiede, consenti l'installazione da questa fonte).</p>
+    <a class="btn" href="GatewayAssistant.apk" download>Scarica Gateway Assistant</a>
+    <p class="small">Aprila, tocca <b>Avvia il gateway</b>, dai i permessi della lista finché sono tutti ✅ e copia il <b>codice</b>.</p>
+  </section>
+
+  <section class="card s2">
+    <div class="step"><span class="num">2</span><h2>App dell'orologio</h2></div>
+    <p>Scegli il tuo orologio: compare il codice QR da scansionare con l'app <b>Zepp</b>.</p>
+    <select id="model" aria-label="Modello dell'orologio"></select>
+    <div class="qr" id="qr"></div>
+    <ol>
+      <li>App Zepp → <b>Profilo</b> → <b>Impostazioni</b> → <b>Informazioni</b>: tocca più volte il logo Zepp finché si attiva la <b>modalità sviluppatore</b>.</li>
+      <li>Torna in <b>Profilo</b> e tocca l'icona di <b>scansione</b> in alto, poi inquadra il codice (da un altro schermo, o fai uno screenshot e scansionalo dall'app).</li>
+      <li>L'app <b>Voice Assistant</b> si installa sull'orologio.</li>
+    </ol>
+    <p class="small" id="when"></p>
+  </section>
+
+  <section class="card s3">
+    <div class="step"><span class="num">3</span><h2>Impostazioni</h2></div>
+    <p>App Zepp → il tuo orologio → App → <b>Voice Assistant</b> → Impostazioni:</p>
+    <ol>
+      <li><b>Chiave API Gemini</b>: gratuita da <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a></li>
+      <li><b>La mia città</b> (meteo e notizie locali)</li>
+      <li><b>Gateway Assistant → Codice</b>: incolla il codice copiato al passo 1</li>
+      <li><b>Nomi che usi spesso</b> (facoltativo): persone, paesi, squadre…</li>
+    </ol>
+  </section>
+
+  <section class="card s4">
+    <div class="step"><span class="num">4</span><h2>Cosa puoi dire</h2></div>
+    <ol>
+      <li>«Che tempo fa domani?», «Cosa ha fatto l'Avellino?»</li>
+      <li>«Accendi la luce della cucina», «buonanotte»</li>
+      <li>«Chiama Mario»</li>
+      <li>«Manda un WhatsApp a Mario: arrivo tra dieci minuti», «leggi i messaggi»</li>
+      <li>«Ricordami alle 18 di chiamare il dentista», «sveglia alle 7»</li>
+    </ol>
+    <a class="btn ghost" href="https://github.com/Kkaoss969/gateway-assistant-download/blob/main/GUIDA.md">Guida completa</a>
+  </section>
+
+  <footer>Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Gemini: niente viene condiviso.</footer>
+</div>
+<script>
+  const sel = document.getElementById('model')
+  const box = document.getElementById('qr')
+  const when = document.getElementById('when')
+  let data = { modelli: [] }
+
+  function show(id) {
+    const m = data.modelli.find((x) => x.id === id)
+    if (!m) return
+    try { localStorage.setItem('modello', id) } catch (e) {}
+    box.innerHTML = ''
+    const img = new Image()
+    img.alt = 'Codice QR per ' + m.nome
+    img.src = 'qr/' + m.id + '.png?v=' + encodeURIComponent(data.aggiornato || '')
+    img.onerror = () => {
+      box.innerHTML = '<div class="none">Il codice per <b>' + m.nome + '</b> non è ancora pronto.<br>Chiedilo a chi ti ha consigliato l\'app.</div>'
+    }
+    box.appendChild(img)
+  }
+
+  fetch('modelli.json', { cache: 'no-store' })
+    .then((r) => r.json())
+    .then((d) => {
+      data = d
+      sel.innerHTML = d.modelli.map((m) => '<option value="' + m.id + '">' + m.nome + '</option>').join('')
+      let saved = null
+      try { saved = localStorage.getItem('modello') } catch (e) {}
+      if (saved && d.modelli.some((m) => m.id === saved)) sel.value = saved
+      show(sel.value)
+      if (d.aggiornato) when.textContent = 'Codici aggiornati il ' + d.aggiornato + '. Se uno risulta scaduto, riapri la pagina più tardi.'
+    })
+    .catch(() => { box.innerHTML = '<div class="none">Elenco dei modelli non disponibile.</div>' })
+  sel.addEventListener('change', () => show(sel.value))
+</script>
+</body>
+</html>

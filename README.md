@@ -1,5 +1,7 @@
 # Gateway Assistant — download
 
+🌐 **Sito con download e codici QR per l'orologio: https://kkaoss969.github.io/gateway-assistant-download/**
+
 App Android che collega **Voice Assistant** (assistente vocale con Gemini per orologi Amazfit con Zepp OS) al telefono:
 casa Google tramite l'Assistente del telefono, chiamate, WhatsApp (invio, lettura e risposta) e voce di riserva.
 
