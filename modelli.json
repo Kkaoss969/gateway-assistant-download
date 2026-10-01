@@ -1,110 +1,110 @@
 {
-  "aggiornato": "01/10/2026 16:24",
+  "aggiornato": "01/10/2026 17:14",
   "modelli": [
     {
       "id": "balance2",
       "nome": "Amazfit Balance 2",
-      "scade": "2026-10-08 14:18:25"
+      "scade": "2026-10-08 15:09:29"
     },
     {
       "id": "trex3pro48mm",
       "nome": "Amazfit T-Rex 3 Pro (48mm)",
-      "scade": "2026-10-08 14:18:35"
+      "scade": "2026-10-08 15:09:37"
     },
     {
       "id": "trex3pro44mm",
       "nome": "Amazfit T-Rex 3 Pro (44mm)",
-      "scade": "2026-10-08 14:18:45"
+      "scade": "2026-10-08 15:09:46"
     },
     {
       "id": "trex3",
       "nome": "Amazfit T-Rex 3",
-      "scade": "2026-10-08 14:18:55"
+      "scade": "2026-10-08 15:09:54"
     },
     {
       "id": "trexultra2",
       "nome": "Amazfit T-Rex Ultra 2",
-      "scade": "2026-10-08 14:19:05"
+      "scade": "2026-10-08 15:10:04"
     },
     {
       "id": "trexultra",
       "nome": "Amazfit T-Rex Ultra",
-      "scade": "2026-10-08 14:19:14"
+      "scade": "2026-10-08 15:10:13"
     },
     {
       "id": "balance3",
       "nome": "Amazfit Balance 3",
-      "scade": "2026-10-08 14:19:24"
+      "scade": "2026-10-08 15:10:21"
     },
     {
       "id": "balance3ti",
       "nome": "Amazfit Balance 3 Titanium",
-      "scade": "2026-10-08 14:19:35"
+      "scade": "2026-10-08 15:10:30"
     },
     {
       "id": "balance2xt",
       "nome": "Amazfit Balance 2 XT",
-      "scade": "2026-10-08 14:19:45"
+      "scade": "2026-10-08 15:10:39"
     },
     {
       "id": "balance",
       "nome": "Amazfit Balance",
-      "scade": "2026-10-08 14:19:55"
+      "scade": "2026-10-08 15:10:47"
     },
     {
       "id": "balanceultra",
       "nome": "Amazfit Balance Ultra",
-      "scade": "2026-10-08 14:20:05"
+      "scade": "2026-10-08 15:10:56"
     },
     {
       "id": "active3premium",
       "nome": "Amazfit Active 3 Premium",
-      "scade": "2026-10-08 14:20:14"
+      "scade": "2026-10-08 15:11:05"
     },
     {
       "id": "active2round",
       "nome": "Amazfit Active 2 (Round)",
-      "scade": "2026-10-08 14:20:25"
+      "scade": "2026-10-08 15:11:13"
     },
     {
       "id": "active2nfcround",
       "nome": "Amazfit Active 2 NFC (Round)",
-      "scade": "2026-10-08 14:20:35"
+      "scade": "2026-10-08 15:11:22"
     },
     {
       "id": "activeedge",
       "nome": "Amazfit Active Edge",
-      "scade": "2026-10-08 14:20:44"
+      "scade": "2026-10-08 15:11:30"
     },
     {
       "id": "activemax",
       "nome": "Amazfit Active Max",
-      "scade": "2026-10-08 14:20:54"
+      "scade": "2026-10-08 15:11:39"
     },
     {
       "id": "cheetah2pro",
       "nome": "Amazfit Cheetah 2 Pro",
-      "scade": "2026-10-08 14:21:04"
+      "scade": "2026-10-08 15:11:47"
     },
     {
       "id": "cheetah2ultra",
       "nome": "Amazfit Cheetah 2 Ultra",
-      "scade": "2026-10-08 14:21:14"
+      "scade": "2026-10-08 15:11:56"
     },
     {
       "id": "cheetahpro",
       "nome": "Amazfit Cheetah Pro",
-      "scade": "2026-10-08 14:21:25"
+      "scade": "2026-10-08 15:12:04"
     },
     {
       "id": "cheetahround",
       "nome": "Amazfit Cheetah (Round)",
-      "scade": "2026-10-08 14:21:34"
+      "scade": "2026-10-08 15:12:13"
     },
     {
       "id": "falcon",
       "nome": "Amazfit Falcon",
-      "scade": "2026-10-08 14:24:15"
+      "scade": "2026-10-08 15:14:52"
     }
   ]
 }
