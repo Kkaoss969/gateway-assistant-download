@@ -110,6 +110,14 @@
     img.onerror = () => {
       box.innerHTML = '<div class="none">Il codice per <b>' + m.nome + '</b> non è ancora pronto.<br>Chiedilo a chi ti ha consigliato l\'app.</div>'
     }
+    img.onload = () => {
+      if (m.scade) {
+        const p = document.createElement('p')
+        p.className = 'small'
+        p.textContent = 'Codice valido fino al ' + m.scade.replace(/^(\d+)-(\d+)-(\d+)/, '$3/$2/$1')
+        box.appendChild(p)
+      }
+    }
     box.appendChild(img)
   }
 
@@ -122,7 +130,7 @@
       try { saved = localStorage.getItem('modello') } catch (e) {}
       if (saved && d.modelli.some((m) => m.id === saved)) sel.value = saved
       show(sel.value)
-      if (d.aggiornato) when.textContent = 'Codici aggiornati il ' + d.aggiornato + '. Se uno risulta scaduto, riapri la pagina più tardi.'
+      if (d.aggiornato) when.textContent = 'Codici aggiornati il ' + d.aggiornato + ' (si rinnovano ogni giorno).'
     })
     .catch(() => { box.innerHTML = '<div class="none">Elenco dei modelli non disponibile.</div>' })
   sel.addEventListener('change', () => show(sel.value))
