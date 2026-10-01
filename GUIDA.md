@@ -35,6 +35,14 @@ Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Ge
   Senza, il telefono si accende e il messaggio parte quando lo sblocchi.
 - **Comandi di casa a telefono bloccato**: app Google → Impostazioni → Assistente Google → Schermata di blocco → risposte personali attive.
 
+## Con l'iPhone
+Gateway Assistant esiste solo per Android: iOS non permette a un'app di restare sempre attiva, premere "Invia" in WhatsApp, leggere le notifiche o passare frasi all'Assistente Google.
+**Voice Assistant però funziona anche con l'iPhone**: domande a Gemini, voce, meteo, notizie, promemoria, volume, luminosità e torcia.
+Non funzionano: comandi per la casa Google, chiamate per nome dalla rubrica, invio e lettura dei WhatsApp, voce del telefono di riserva.
+- Salta il passo 1 e lascia vuoto **Gateway Assistant → Codice**.
+- Tieni l'**app Zepp aperta in sottofondo** (non chiuderla dal multitasking): se iOS la sospende, l'orologio dice "telefono non raggiungibile".
+- Le chiamate normali sull'orologio funzionano con le chiamate Bluetooth dell'app Zepp.
+
 ## Cosa puoi dire
 - "Che tempo fa domani?", "Cosa ha fatto l'Avellino?", qualsiasi domanda
 - "Accendi la luce della cucina", "buonanotte"

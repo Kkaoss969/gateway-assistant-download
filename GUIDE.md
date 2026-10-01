@@ -35,6 +35,14 @@ Everyone uses their own phone, Google account and Gemini key: nothing to share.
   Without it, the phone wakes up and the message is sent when you unlock it.
 - **Home commands with a locked phone**: Google app → Settings → Google Assistant → Lock screen → personal results on.
 
+## With an iPhone
+Gateway Assistant is Android-only: iOS does not let an app stay always on, press "Send" in WhatsApp, read notifications or pass phrases to Google Assistant.
+**Voice Assistant still works with an iPhone**: questions to Gemini, voice, weather, news, reminders, volume, brightness and torch.
+Not available: Google home commands, calls by name from your contacts, sending and reading WhatsApp, backup phone voice.
+- Skip step 1 and leave **Gateway Assistant → Code** empty.
+- Keep the **Zepp app open in the background** (don't swipe it away): if iOS suspends it, the watch says "phone unreachable".
+- Regular calls on the watch work with Bluetooth calls in the Zepp app.
+
 ## What you can say
 - "What's the weather tomorrow?", "How did Arsenal do?", any question
 - "Turn on the kitchen light", "good night"

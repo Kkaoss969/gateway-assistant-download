@@ -35,6 +35,14 @@ Cada uno usa su propio teléfono, su cuenta de Google y su clave de Gemini: no h
   Sin esto, el teléfono se enciende y el mensaje se envía cuando lo desbloquees.
 - **Órdenes de casa con el teléfono bloqueado**: app Google → Ajustes → Asistente de Google → Pantalla de bloqueo → resultados personales activados.
 
+## Con iPhone
+Gateway Assistant solo existe para Android: iOS no permite que una app esté siempre activa, pulse "Enviar" en WhatsApp, lea notificaciones o pase frases al Asistente de Google.
+**Pero Voice Assistant funciona también con iPhone**: preguntas a Gemini, voz, tiempo, noticias, recordatorios, volumen, brillo y linterna.
+No funcionan: órdenes para la casa Google, llamadas por nombre desde los contactos, envío y lectura de WhatsApp, voz de reserva del teléfono.
+- Sáltate el paso 1 y deja vacío **Gateway Assistant → Código**.
+- Mantén la **app Zepp abierta en segundo plano** (no la cierres desde la multitarea): si iOS la suspende, el reloj dice "teléfono no disponible".
+- Las llamadas normales en el reloj funcionan con las llamadas Bluetooth de la app Zepp.
+
 ## Qué puedes decir
 - «¿Qué tiempo hará mañana?», «¿Cómo ha quedado el Betis?», cualquier pregunta
 - «Enciende la luz de la cocina», «buenas noches»

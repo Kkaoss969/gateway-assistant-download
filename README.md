@@ -19,6 +19,7 @@ Tutti i passaggi (telefono, orologio, permessi, cosa puoi dire): **[GUIDA.md](GU
 🌐 Le app parlano italiano, inglese e spagnolo, secondo la lingua dell'orologio e del telefono.
 
 ## Note
+- **iPhone**: Gateway Assistant è solo per Android. Con l'iPhone Voice Assistant funziona lo stesso (domande, voce, meteo, notizie, promemoria), senza casa Google, chiamate per nome e WhatsApp. Dettagli nella guida.
 - Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Gemini: niente viene condiviso.
 - L'app sull'orologio (Voice Assistant) si installa con il codice QR del sito (modalità sviluppatore dell'app Zepp).
 - I permessi di accessibilità e notifiche servono solo per WhatsApp: l'app agisce solo dentro WhatsApp e solo subito dopo un tuo comando dall'orologio.
