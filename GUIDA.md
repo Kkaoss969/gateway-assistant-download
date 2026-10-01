@@ -4,6 +4,8 @@ Con l'orologio Amazfit (Zepp OS) parli con Gemini e, tramite l'app **Gateway Ass
 comandare la casa Google, chiamare, mandare/leggere/rispondere ai WhatsApp e avere la voce del telefono.
 Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Gemini: niente da condividere.
 
+🌐 Le app parlano **italiano, inglese e spagnolo**: seguono da sole la lingua dell'orologio e del telefono. · *English: [GUIDE.md](GUIDE.md)* · *Español: [GUIA.md](GUIA.md)*
+
 ## Cosa serve
 - Telefono Android con l'app **Zepp** e l'orologio già collegato
 - Una **chiave API Gemini** (gratuita, o con credito per risposte più veloci): https://aistudio.google.com/apikey
@@ -20,7 +22,7 @@ Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Ge
 
 ## 2 · Installa Voice Assistant sull'orologio
 1. Nell'app Zepp attiva la modalità sviluppatore: Profilo → Impostazioni → Informazioni → tocca più volte il logo Zepp.
-2. Scansiona con l'app Zepp il **codice QR** che ti ha mandato chi ti ha dato l'app (menu Profilo → scansione).
+2. Apri il sito **https://kkaoss969.github.io/gateway-assistant-download/**, scegli il tuo orologio e scansiona il **codice QR** con l'app Zepp (Profilo → icona di scansione).
 3. Nell'app Zepp apri le impostazioni dell'app **Voice Assistant** e compila:
    - **Chiave API Gemini**
    - **La mia città** (meteo e notizie locali)

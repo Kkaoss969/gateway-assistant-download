@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Voice Assistant per Amazfit</title>
-<meta name="description" content="Assistente vocale con Gemini per orologi Amazfit e Gateway Assistant per il telefono: download e installazione.">
+<title>Voice Assistant</title>
+<meta name="description" content="Gemini voice assistant for Amazfit watches and Gateway Assistant for the phone: download and setup.">
 <link rel="icon" href="icon.png">
 <style>
   :root {
@@ -37,89 +37,230 @@
   ol { padding-left: 20px; margin: 8px 0 0; }
   footer { text-align: center; margin-top: 28px; font-size: 13px; color: var(--muted); }
   a { color: #8ab4f8; }
+  .langs { display: flex; justify-content: flex-end; gap: 6px; }
+  .langs button { font: inherit; font-size: 13px; color: var(--muted); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; cursor: pointer; }
+  .langs button.on { color: var(--text); border-color: var(--blue); }
 </style>
 </head>
 <body>
 <div class="wrap">
+  <nav class="langs" aria-label="Language">
+    <button data-l="it">IT</button><button data-l="en">EN</button><button data-l="es">ES</button>
+  </nav>
   <header>
     <img src="icon.png" alt="">
     <h1>Voice Assistant</h1>
     <div class="bar"><i></i><i></i><i></i><i></i></div>
-    <p class="lead">Parla con Gemini dal tuo orologio Amazfit. Con <b>Gateway Assistant</b> sul telefono comandi anche la casa Google, chiami, mandi e leggi i WhatsApp.</p>
+    <p class="lead" data-t="lead"></p>
   </header>
 
   <section class="card s1">
-    <div class="step"><span class="num">1</span><h2>App del telefono</h2></div>
-    <p>Scarica <b>Gateway Assistant</b> sul telefono Android e installalo (se Android lo chiede, consenti l'installazione da questa fonte).</p>
-    <a class="btn" href="GatewayAssistant.apk" download>Scarica Gateway Assistant</a>
-    <p class="small">Aprila, tocca <b>Avvia il gateway</b>, dai i permessi della lista finché sono tutti ✅ e copia il <b>codice</b>.</p>
+    <div class="step"><span class="num">1</span><h2 data-t="s1"></h2></div>
+    <p data-t="s1p"></p>
+    <a class="btn" href="GatewayAssistant.apk" download data-t="s1btn"></a>
+    <p class="small" data-t="s1small"></p>
   </section>
 
   <section class="card s2">
-    <div class="step"><span class="num">2</span><h2>App dell'orologio</h2></div>
-    <p>Scegli il tuo orologio: compare il codice QR da scansionare con l'app <b>Zepp</b>.</p>
-    <select id="model" aria-label="Modello dell'orologio"></select>
+    <div class="step"><span class="num">2</span><h2 data-t="s2"></h2></div>
+    <p data-t="s2p"></p>
+    <select id="model"></select>
     <div class="qr" id="qr"></div>
     <ol>
-      <li>App Zepp → <b>Profilo</b> → <b>Impostazioni</b> → <b>Informazioni</b>: tocca più volte il logo Zepp finché si attiva la <b>modalità sviluppatore</b>.</li>
-      <li>Torna in <b>Profilo</b> e tocca l'icona di <b>scansione</b> in alto, poi inquadra il codice (da un altro schermo, o fai uno screenshot e scansionalo dall'app).</li>
-      <li>L'app <b>Voice Assistant</b> si installa sull'orologio.</li>
+      <li data-t="s2a"></li>
+      <li data-t="s2b"></li>
+      <li data-t="s2c"></li>
     </ol>
     <p class="small" id="when"></p>
   </section>
 
   <section class="card s3">
-    <div class="step"><span class="num">3</span><h2>Impostazioni</h2></div>
-    <p>App Zepp → il tuo orologio → App → <b>Voice Assistant</b> → Impostazioni:</p>
+    <div class="step"><span class="num">3</span><h2 data-t="s3"></h2></div>
+    <p data-t="s3p"></p>
     <ol>
-      <li><b>Chiave API Gemini</b>: gratuita da <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a></li>
-      <li><b>La mia città</b> (meteo e notizie locali)</li>
-      <li><b>Gateway Assistant → Codice</b>: incolla il codice copiato al passo 1</li>
-      <li><b>Nomi che usi spesso</b> (facoltativo): persone, paesi, squadre…</li>
+      <li data-t="s3a"></li>
+      <li data-t="s3b"></li>
+      <li data-t="s3c"></li>
+      <li data-t="s3d"></li>
     </ol>
   </section>
 
   <section class="card s4">
-    <div class="step"><span class="num">4</span><h2>Cosa puoi dire</h2></div>
+    <div class="step"><span class="num">4</span><h2 data-t="s4"></h2></div>
     <ol>
-      <li>«Che tempo fa domani?», «Cosa ha fatto l'Avellino?»</li>
-      <li>«Accendi la luce della cucina», «buonanotte»</li>
-      <li>«Chiama Mario»</li>
-      <li>«Manda un WhatsApp a Mario: arrivo tra dieci minuti», «leggi i messaggi»</li>
-      <li>«Ricordami alle 18 di chiamare il dentista», «sveglia alle 7»</li>
+      <li data-t="s4a"></li>
+      <li data-t="s4b"></li>
+      <li data-t="s4c"></li>
+      <li data-t="s4d"></li>
+      <li data-t="s4e"></li>
     </ol>
-    <a class="btn ghost" href="https://github.com/Kkaoss969/gateway-assistant-download/blob/main/GUIDA.md">Guida completa</a>
+    <a class="btn ghost" id="guide" data-t="guide"></a>
   </section>
 
-  <footer>Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Gemini: niente viene condiviso.</footer>
+  <footer data-t="foot"></footer>
 </div>
 <script>
+  // testi in italiano, inglese e spagnolo; la lingua segue quella del browser
+  const T = {
+    it: {
+      lead: 'Parla con Gemini dal tuo orologio Amazfit. Con <b>Gateway Assistant</b> sul telefono comandi anche la casa Google, chiami, mandi e leggi i WhatsApp.',
+      s1: 'App del telefono',
+      s1p: "Scarica <b>Gateway Assistant</b> sul telefono Android e installalo (se Android lo chiede, consenti l'installazione da questa fonte).",
+      s1btn: 'Scarica Gateway Assistant',
+      s1small: 'Aprila, tocca <b>Avvia il gateway</b>, dai i permessi della lista finché sono tutti ✅ e copia il <b>codice</b>.',
+      s2: "App dell'orologio",
+      s2p: "Scegli il tuo orologio: compare il codice QR da scansionare con l'app <b>Zepp</b>.",
+      s2a: 'App Zepp → <b>Profilo</b> → <b>Impostazioni</b> → <b>Informazioni</b>: tocca più volte il logo Zepp finché si attiva la <b>modalità sviluppatore</b>.',
+      s2b: "Torna in <b>Profilo</b> e tocca l'icona di <b>scansione</b> in alto, poi inquadra il codice (da un altro schermo, o fai uno screenshot e scansionalo dall'app).",
+      s2c: "L'app <b>Voice Assistant</b> si installa sull'orologio.",
+      s3: 'Impostazioni',
+      s3p: 'App Zepp → il tuo orologio → App → <b>Voice Assistant</b> → Impostazioni:',
+      s3a: '<b>Chiave API Gemini</b>: gratuita da <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a>',
+      s3b: '<b>La mia città</b> (meteo e notizie locali)',
+      s3c: '<b>Gateway Assistant → Codice</b>: incolla il codice copiato al passo 1',
+      s3d: '<b>Nomi che usi spesso</b> (facoltativo): persone, paesi, squadre…',
+      s4: 'Cosa puoi dire',
+      s4a: "«Che tempo fa domani?», «Cosa ha fatto l'Avellino?»",
+      s4b: '«Accendi la luce della cucina», «buonanotte»',
+      s4c: '«Chiama Mario»',
+      s4d: '«Manda un WhatsApp a Mario: arrivo tra dieci minuti», «leggi i messaggi»',
+      s4e: '«Ricordami alle 18 di chiamare il dentista», «sveglia alle 7»',
+      guide: 'Guida completa',
+      guideUrl: 'GUIDA.md',
+      foot: 'Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Gemini: niente viene condiviso. L\'app parla italiano, inglese e spagnolo, secondo la lingua dell\'orologio e del telefono.',
+      model: "Modello dell'orologio",
+      qrAlt: 'Codice QR per ',
+      notReady: (n) => 'Il codice per <b>' + n + '</b> non è ancora pronto.<br>Chiedilo a chi ti ha consigliato l\'app.',
+      valid: 'Codice valido fino al ',
+      updated: (d) => 'Codici aggiornati il ' + d + ' (si rinnovano ogni giorno).',
+      noList: 'Elenco dei modelli non disponibile.',
+    },
+    en: {
+      lead: 'Talk to Gemini from your Amazfit watch. With <b>Gateway Assistant</b> on your phone you can also control your Google home, make calls, and send and read WhatsApp messages.',
+      s1: 'Phone app',
+      s1p: 'Download <b>Gateway Assistant</b> on your Android phone and install it (if Android asks, allow installs from this source).',
+      s1btn: 'Download Gateway Assistant',
+      s1small: 'Open it, tap <b>Start the gateway</b>, grant the permissions in the list until they are all ✅ and copy the <b>code</b>.',
+      s2: 'Watch app',
+      s2p: 'Choose your watch: the QR code to scan with the <b>Zepp</b> app appears.',
+      s2a: 'Zepp app → <b>Profile</b> → <b>Settings</b> → <b>About</b>: tap the Zepp logo several times until <b>developer mode</b> turns on.',
+      s2b: 'Go back to <b>Profile</b>, tap the <b>scan</b> icon at the top and point it at the code (on another screen, or take a screenshot and scan it from the app).',
+      s2c: 'The <b>Voice Assistant</b> app installs on the watch.',
+      s3: 'Settings',
+      s3p: 'Zepp app → your watch → Apps → <b>Voice Assistant</b> → Settings:',
+      s3a: '<b>Gemini API key</b>: free from <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a>',
+      s3b: '<b>My city</b> (weather and local news)',
+      s3c: '<b>Gateway Assistant → Code</b>: paste the code copied in step 1',
+      s3d: '<b>Names you often use</b> (optional): people, towns, teams…',
+      s4: 'What you can say',
+      s4a: '“What\'s the weather tomorrow?”, “How did Arsenal do?”',
+      s4b: '“Turn on the kitchen light”, “good night”',
+      s4c: '“Call Mario”',
+      s4d: '“Send a WhatsApp to Mario: I\'ll be there in ten minutes”, “read my messages”',
+      s4e: '“Remind me at 6 pm to call the dentist”, “alarm at 7”',
+      guide: 'Full guide',
+      guideUrl: 'GUIDE.md',
+      foot: 'Everyone uses their own phone, Google account and Gemini key: nothing is shared. The app speaks Italian, English and Spanish, following the language of the watch and the phone.',
+      model: 'Watch model',
+      qrAlt: 'QR code for ',
+      notReady: (n) => 'The code for <b>' + n + '</b> is not ready yet.<br>Ask whoever recommended the app.',
+      valid: 'Code valid until ',
+      updated: (d) => 'Codes updated on ' + d + ' (renewed every day).',
+      noList: 'Model list not available.',
+    },
+    es: {
+      lead: 'Habla con Gemini desde tu reloj Amazfit. Con <b>Gateway Assistant</b> en el teléfono también controlas tu casa Google, llamas y envías y lees WhatsApp.',
+      s1: 'App del teléfono',
+      s1p: 'Descarga <b>Gateway Assistant</b> en tu teléfono Android e instálalo (si Android lo pide, permite la instalación desde esta fuente).',
+      s1btn: 'Descargar Gateway Assistant',
+      s1small: 'Ábrela, toca <b>Iniciar el gateway</b>, concede los permisos de la lista hasta que estén todos ✅ y copia el <b>código</b>.',
+      s2: 'App del reloj',
+      s2p: 'Elige tu reloj: aparece el código QR que debes escanear con la app <b>Zepp</b>.',
+      s2a: 'App Zepp → <b>Perfil</b> → <b>Ajustes</b> → <b>Acerca de</b>: toca varias veces el logo de Zepp hasta que se active el <b>modo desarrollador</b>.',
+      s2b: 'Vuelve a <b>Perfil</b>, toca el icono de <b>escanear</b> arriba y enfoca el código (desde otra pantalla, o haz una captura y escanéala desde la app).',
+      s2c: 'La app <b>Voice Assistant</b> se instala en el reloj.',
+      s3: 'Ajustes',
+      s3p: 'App Zepp → tu reloj → Apps → <b>Voice Assistant</b> → Ajustes:',
+      s3a: '<b>Clave API de Gemini</b>: gratis en <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a>',
+      s3b: '<b>Mi ciudad</b> (tiempo y noticias locales)',
+      s3c: '<b>Gateway Assistant → Código</b>: pega el código copiado en el paso 1',
+      s3d: '<b>Nombres que usas a menudo</b> (opcional): personas, pueblos, equipos…',
+      s4: 'Qué puedes decir',
+      s4a: '«¿Qué tiempo hará mañana?», «¿Cómo ha quedado el Betis?»',
+      s4b: '«Enciende la luz de la cocina», «buenas noches»',
+      s4c: '«Llama a Mario»',
+      s4d: '«Manda un WhatsApp a Mario: llego en diez minutos», «lee los mensajes»',
+      s4e: '«Recuérdame a las 18 llamar al dentista», «alarma a las 7»',
+      guide: 'Guía completa',
+      guideUrl: 'GUIA.md',
+      foot: 'Cada uno usa su propio teléfono, su cuenta de Google y su clave de Gemini: no se comparte nada. La app habla italiano, inglés y español, según el idioma del reloj y del teléfono.',
+      model: 'Modelo del reloj',
+      qrAlt: 'Código QR para ',
+      notReady: (n) => 'El código para <b>' + n + '</b> aún no está listo.<br>Pídeselo a quien te recomendó la app.',
+      valid: 'Código válido hasta el ',
+      updated: (d) => 'Códigos actualizados el ' + d + ' (se renuevan cada día).',
+      noList: 'Lista de modelos no disponible.',
+    },
+  }
+
+  function pickLang() {
+    let saved = null
+    try { saved = localStorage.getItem('lingua') } catch (e) {}
+    if (T[saved]) return saved
+    for (const l of navigator.languages || [navigator.language || '']) {
+      const c = String(l).slice(0, 2).toLowerCase()
+      if (T[c]) return c
+      if (c === 'ca' || c === 'gl' || c === 'eu') return 'es'
+    }
+    return 'en'
+  }
+
+  let L = pickLang()
   const sel = document.getElementById('model')
   const box = document.getElementById('qr')
   const when = document.getElementById('when')
   let data = { modelli: [] }
 
+  function applyLang() {
+    const t = T[L]
+    document.documentElement.lang = L
+    document.querySelectorAll('[data-t]').forEach((el) => { el.innerHTML = t[el.dataset.t] })
+    document.querySelectorAll('.langs button').forEach((b) => b.classList.toggle('on', b.dataset.l === L))
+    document.getElementById('guide').href = 'https://github.com/Kkaoss969/gateway-assistant-download/blob/main/' + t.guideUrl
+    sel.setAttribute('aria-label', t.model)
+    if (data.aggiornato) when.textContent = t.updated(data.aggiornato)
+    if (sel.value) show(sel.value)
+  }
+
   function show(id) {
+    const t = T[L]
     const m = data.modelli.find((x) => x.id === id)
     if (!m) return
     try { localStorage.setItem('modello', id) } catch (e) {}
     box.innerHTML = ''
     const img = new Image()
-    img.alt = 'Codice QR per ' + m.nome
+    img.alt = t.qrAlt + m.nome
     img.src = 'qr/' + m.id + '.png?v=' + encodeURIComponent(data.aggiornato || '')
-    img.onerror = () => {
-      box.innerHTML = '<div class="none">Il codice per <b>' + m.nome + '</b> non è ancora pronto.<br>Chiedilo a chi ti ha consigliato l\'app.</div>'
-    }
+    img.onerror = () => { box.innerHTML = '<div class="none">' + t.notReady(m.nome) + '</div>' }
     img.onload = () => {
       if (m.scade) {
         const p = document.createElement('p')
         p.className = 'small'
-        p.textContent = 'Codice valido fino al ' + m.scade.replace(/^(\d+)-(\d+)-(\d+)/, '$3/$2/$1')
+        p.textContent = t.valid + m.scade.replace(/^(\d+)-(\d+)-(\d+)/, '$3/$2/$1')
         box.appendChild(p)
       }
     }
     box.appendChild(img)
   }
+
+  document.querySelectorAll('.langs button').forEach((b) =>
+    b.addEventListener('click', () => {
+      L = b.dataset.l
+      try { localStorage.setItem('lingua', L) } catch (e) {}
+      applyLang()
+    }),
+  )
+  applyLang()
 
   fetch('modelli.json', { cache: 'no-store' })
     .then((r) => r.json())
@@ -129,10 +270,9 @@
       let saved = null
       try { saved = localStorage.getItem('modello') } catch (e) {}
       if (saved && d.modelli.some((m) => m.id === saved)) sel.value = saved
-      show(sel.value)
-      if (d.aggiornato) when.textContent = 'Codici aggiornati il ' + d.aggiornato + ' (si rinnovano ogni giorno).'
+      applyLang()
     })
-    .catch(() => { box.innerHTML = '<div class="none">Elenco dei modelli non disponibile.</div>' })
+    .catch(() => { box.innerHTML = '<div class="none">' + T[L].noList + '</div>' })
   sel.addEventListener('change', () => show(sel.value))
 </script>
 </body>

@@ -7,16 +7,18 @@ casa Google tramite l'Assistente del telefono, chiamate, WhatsApp (invio, lettur
 
 ## ⬇️ Scarica
 
-**[GatewayAssistant.apk](https://github.com/Kkaoss969/gateway-assistant-download/raw/main/GatewayAssistant.apk)** — versione 1.1
+**[GatewayAssistant.apk](https://github.com/Kkaoss969/gateway-assistant-download/raw/main/GatewayAssistant.apk)** — versione 1.2
 
 Apri il link dal telefono Android, scarica il file e installalo (consenti l'installazione da questa fonte se Android lo chiede).
 Per aggiornare basta installare la nuova versione sopra la vecchia: impostazioni e permessi restano.
 
 ## 📖 Guida
 
-Tutti i passaggi (telefono, orologio, permessi, cosa puoi dire): **[GUIDA.md](GUIDA.md)**
+Tutti i passaggi (telefono, orologio, permessi, cosa puoi dire): **[GUIDA.md](GUIDA.md)** · English: **[GUIDE.md](GUIDE.md)** · Español: **[GUIA.md](GUIA.md)**
+
+🌐 Le app parlano italiano, inglese e spagnolo, secondo la lingua dell'orologio e del telefono.
 
 ## Note
 - Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Gemini: niente viene condiviso.
-- L'app sull'orologio (Voice Assistant) si installa con il codice QR ricevuto da chi ti ha dato l'app (modalità sviluppatore dell'app Zepp).
+- L'app sull'orologio (Voice Assistant) si installa con il codice QR del sito (modalità sviluppatore dell'app Zepp).
 - I permessi di accessibilità e notifiche servono solo per WhatsApp: l'app agisce solo dentro WhatsApp e solo subito dopo un tuo comando dall'orologio.
