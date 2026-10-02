@@ -35,7 +35,7 @@ Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Ge
   Senza, il telefono si accende e il messaggio parte quando lo sblocchi.
 - **Comandi di casa a telefono bloccato**: app Google → Impostazioni → Assistente Google → Schermata di blocco → risposte personali attive.
 
-**Sveglia del telefono**: quando suona, l'orologio vibra e apre da solo i tasti **Spegni** e **Posticipa**. L'orologio impara l'ora della prossima sveglia ogni volta che apri Voice Assistant (e dopo ogni sveglia): se crei una sveglia nuova sul telefono, apri l'app sull'orologio una volta.
+**Sveglia del telefono**: quando suona, l'orologio vibra e apre da solo i tasti **Spegni** e **Posticipa**. L'orologio impara l'ora della prossima sveglia ogni volta che apri Voice Assistant (e dopo ogni sveglia): se crei una sveglia nuova sul telefono, apri l'app sull'orologio una volta. ⚠ In **modalità notte** o **non disturbare** l'orologio blocca le app esterne: programma la modalità notte / non disturbare in modo che finisca qualche minuto prima della sveglia (Impostazioni dell'orologio → Non disturbare → Programmato).
 
 ## Con l'iPhone
 Gateway Assistant esiste solo per Android: iOS non permette a un'app di restare sempre attiva, premere "Invia" in WhatsApp, leggere le notifiche o passare frasi all'Assistente Google.

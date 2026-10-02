@@ -35,7 +35,7 @@ Everyone uses their own phone, Google account and Gemini key: nothing to share.
   Without it, the phone wakes up and the message is sent when you unlock it.
 - **Home commands with a locked phone**: Google app → Settings → Google Assistant → Lock screen → personal results on.
 
-**Phone alarm**: when it rings, the watch vibrates and opens the **Turn off** and **Snooze** buttons by itself. The watch learns the time of the next alarm whenever you open Voice Assistant (and after each alarm): if you create a new alarm on the phone, open the app on the watch once.
+**Phone alarm**: when it rings, the watch vibrates and opens the **Turn off** and **Snooze** buttons by itself. The watch learns the time of the next alarm whenever you open Voice Assistant (and after each alarm): if you create a new alarm on the phone, open the app on the watch once. ⚠ In **sleep mode** or **do not disturb** the watch blocks third-party apps: schedule sleep mode / do not disturb to end a few minutes before the alarm (watch Settings → Do not disturb → Scheduled).
 
 ## With an iPhone
 Gateway Assistant is Android-only: iOS does not let an app stay always on, press "Send" in WhatsApp, read notifications or pass phrases to Google Assistant.
