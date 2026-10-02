@@ -35,6 +35,8 @@ Everyone uses their own phone, Google account and Gemini key: nothing to share.
   Without it, the phone wakes up and the message is sent when you unlock it.
 - **Home commands with a locked phone**: Google app → Settings → Google Assistant → Lock screen → personal results on.
 
+**Phone alarm ringing**: open Voice Assistant on the watch and the **Turn off** and **Snooze** buttons appear.
+
 ## With an iPhone
 Gateway Assistant is Android-only: iOS does not let an app stay always on, press "Send" in WhatsApp, read notifications or pass phrases to Google Assistant.
 **Voice Assistant still works with an iPhone**: questions to Gemini, voice, weather, news, reminders, volume, brightness and torch.

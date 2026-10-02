@@ -35,6 +35,8 @@ Cada uno usa su propio teléfono, su cuenta de Google y su clave de Gemini: no h
   Sin esto, el teléfono se enciende y el mensaje se envía cuando lo desbloquees.
 - **Órdenes de casa con el teléfono bloqueado**: app Google → Ajustes → Asistente de Google → Pantalla de bloqueo → resultados personales activados.
 
+**Alarma del teléfono sonando**: abre Voice Assistant en el reloj y aparecen los botones **Apagar** y **Posponer**.
+
 ## Con iPhone
 Gateway Assistant solo existe para Android: iOS no permite que una app esté siempre activa, pulse "Enviar" en WhatsApp, lea notificaciones o pase frases al Asistente de Google.
 **Pero Voice Assistant funciona también con iPhone**: preguntas a Gemini, voz, tiempo, noticias, recordatorios, volumen, brillo y linterna.
