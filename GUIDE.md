@@ -49,6 +49,7 @@ Not available: Google home commands, calls by name from your contacts, sending a
 - "Call Mario" (if there are several Marios you tap one on the watch)
 - "Send a WhatsApp to Mario: I'll be there in ten minutes" (tap **Send to …** to confirm)
 - "Read my WhatsApp messages", "reply to Anna: sounds good"
+- "Turn off tomorrow's alarm", "stop the alarm", "snooze the alarm" (**phone** alarms)
 - "Remind me at 6 pm to call the dentist", "alarm at 7", "turn the volume up"
 
 ## If something goes wrong

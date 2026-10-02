@@ -49,6 +49,7 @@ No funcionan: órdenes para la casa Google, llamadas por nombre desde los contac
 - «Llama a Mario» (si hay varios Mario eliges uno en el reloj)
 - «Manda un WhatsApp a Mario: llego en diez minutos» (toca **Enviar a …** para confirmar)
 - «Lee los mensajes de WhatsApp», «responde a Ana: vale»
+- «Desactiva la alarma de mañana», «para la alarma», «pospón la alarma» (alarmas del **teléfono**)
 - «Recuérdame a las 18 llamar al dentista», «alarma a las 7», «sube el volumen»
 
 ## Si algo no funciona

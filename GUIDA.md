@@ -49,6 +49,7 @@ Non funzionano: comandi per la casa Google, chiamate per nome dalla rubrica, inv
 - "Chiama Mario" (se ci sono più Mario li tocchi sull'orologio)
 - "Manda un WhatsApp a Mario: arrivo tra dieci minuti" (tocchi **Invia a …** per confermare)
 - "Leggi i messaggi WhatsApp", "rispondi ad Anna: va bene"
+- "Disattiva la sveglia di domani", "ferma la sveglia", "posticipa la sveglia" (sveglie del **telefono**)
 - "Ricordami alle 18 di chiamare il dentista", "sveglia alle 7", "alza il volume"
 
 ## Se qualcosa non va
