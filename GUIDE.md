@@ -42,7 +42,6 @@ Gateway Assistant is Android-only: iOS does not let an app stay always on, press
 **Voice Assistant still works with an iPhone**: questions to Gemini, voice, weather, news, reminders, volume, brightness and torch.
 Not available: Google home commands, calls by name from your contacts, sending and reading WhatsApp, backup phone voice.
 - Skip step 1 and leave **Gateway Assistant → Code** empty.
-- Keep the **Zepp app open in the background** (don't swipe it away): if iOS suspends it, the watch says "phone unreachable".
 - Regular calls on the watch work with Bluetooth calls in the Zepp app.
 
 ## What you can say
@@ -53,7 +52,6 @@ Not available: Google home commands, calls by name from your contacts, sending a
 - "Read my WhatsApp messages", "reply to Anna: sounds good"
 - "Turn off tomorrow's alarm", "stop the alarm", "snooze the alarm" (**phone** alarms)
 - "Put the dentist in my calendar on Thursday at 10, remind me an hour before", "what do I have tomorrow?" (**phone** calendar: in Gateway Assistant tap **Allow Calendar**)
-- "Add milk to my shopping list", "make a note: buy light bulbs" (**Keep** notes and lists, via the phone assistant)
 - "Turn on do not disturb until 7", "turn off do not disturb" (**phone** Do not disturb: in Gateway Assistant tap **Allow Do not disturb**; the exceptions set on the phone apply)
 - "Remind me at 6 pm to call the dentist", "alarm at 7", "turn the volume up"
 
