@@ -52,6 +52,8 @@ Not available: Google home commands, calls by name from your contacts, sending a
 - "Send a WhatsApp to Mario: I'll be there in ten minutes" (tap **Send to …** to confirm)
 - "Read my WhatsApp messages", "reply to Anna: sounds good"
 - "Turn off tomorrow's alarm", "stop the alarm", "snooze the alarm" (**phone** alarms)
+- "Put the dentist in my calendar on Thursday at 10, remind me an hour before", "what do I have tomorrow?" (**phone** calendar: in Gateway Assistant tap **Allow Calendar**)
+- "Add milk to my shopping list", "make a note: buy light bulbs" (**Keep** notes and lists, via the phone assistant)
 - "Remind me at 6 pm to call the dentist", "alarm at 7", "turn the volume up"
 
 ## If something goes wrong

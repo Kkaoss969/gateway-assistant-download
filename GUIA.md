@@ -52,6 +52,8 @@ No funcionan: órdenes para la casa Google, llamadas por nombre desde los contac
 - «Manda un WhatsApp a Mario: llego en diez minutos» (toca **Enviar a …** para confirmar)
 - «Lee los mensajes de WhatsApp», «responde a Ana: vale»
 - «Desactiva la alarma de mañana», «para la alarma», «pospón la alarma» (alarmas del **teléfono**)
+- «Apunta en el calendario el dentista el jueves a las 10, avísame una hora antes», «¿qué tengo mañana?» (calendario del **teléfono**: en Gateway Assistant toca **Permitir el Calendario**)
+- «Añade leche a la lista de la compra», «crea una nota: comprar bombillas» (notas y listas de **Keep**, a través del asistente del teléfono)
 - «Recuérdame a las 18 llamar al dentista», «alarma a las 7», «sube el volumen»
 
 ## Si algo no funciona

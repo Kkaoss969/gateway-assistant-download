@@ -7,7 +7,7 @@ casa Google tramite l'Assistente del telefono, chiamate, WhatsApp (invio, lettur
 
 ## ⬇️ Scarica
 
-**[GatewayAssistant.apk](https://github.com/Kkaoss969/gateway-assistant-download/raw/main/GatewayAssistant.apk)** — versione 1.21
+**[GatewayAssistant.apk](https://github.com/Kkaoss969/gateway-assistant-download/raw/main/GatewayAssistant.apk)** — versione 1.22
 
 Apri il link dal telefono Android, scarica il file e installalo (consenti l'installazione da questa fonte se Android lo chiede).
 Per aggiornare basta installare la nuova versione sopra la vecchia: impostazioni e permessi restano.

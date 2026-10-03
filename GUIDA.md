@@ -52,6 +52,8 @@ Non funzionano: comandi per la casa Google, chiamate per nome dalla rubrica, inv
 - "Manda un WhatsApp a Mario: arrivo tra dieci minuti" (tocchi **Invia a …** per confermare)
 - "Leggi i messaggi WhatsApp", "rispondi ad Anna: va bene"
 - "Disattiva la sveglia di domani", "ferma la sveglia", "posticipa la sveglia" (sveglie del **telefono**)
+- "Segna in calendario il dentista giovedì alle 10, avvisami un'ora prima", "cosa ho domani?" (calendario del **telefono**: in Gateway Assistant tocca **Consenti il Calendario**)
+- "Aggiungi il latte alla lista della spesa", "crea una nota: comprare le lampadine" (note e liste di **Keep**, tramite l'assistente del telefono)
 - "Ricordami alle 18 di chiamare il dentista", "sveglia alle 7", "alza il volume"
 
 ## Se qualcosa non va
