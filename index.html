@@ -62,7 +62,7 @@
     <p class="small" data-t="iphone"></p>
   </section>
 
-  <section class="card s2">
+  <section class="card s2" id="orologio">
     <div class="step"><span class="num">2</span><h2 data-t="s2"></h2></div>
     <p data-t="s2p"></p>
     <select id="model"></select>
@@ -274,6 +274,17 @@
       let saved = null
       try { saved = localStorage.getItem('modello') } catch (e) {}
       if (saved && d.modelli.some((m) => m.id === saved)) sel.value = saved
+      // link da Gateway Assistant: ?modello=<nome dell'orologio> sceglie il modello e mostra il codice
+      const asked = new URLSearchParams(location.search).get('modello')
+      if (asked) {
+        const norm = (s) => String(s).toLowerCase().replace(/amazfit|\(|\)/g, ' ').replace(/[^a-z0-9]+/g, ' ').trim()
+        const q = norm(asked)
+        const hit = d.modelli.find((m) => norm(m.nome) === q) ||
+          d.modelli.find((m) => m.id === asked) ||
+          d.modelli.find((m) => q && (norm(m.nome).includes(q) || q.includes(norm(m.nome))))
+        if (hit) sel.value = hit.id
+        setTimeout(() => document.getElementById('orologio').scrollIntoView({ behavior: 'smooth' }), 300)
+      }
       applyLang()
     })
     .catch(() => { box.innerHTML = '<div class="none">' + T[L].noList + '</div>' })
