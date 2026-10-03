@@ -42,6 +42,7 @@ Gateway Assistant is Android-only: iOS does not let an app stay always on, press
 **Voice Assistant still works with an iPhone**: questions to Gemini, voice, weather, news, reminders, volume, brightness and torch.
 Not available: Google home commands, calls by name from your contacts, sending and reading WhatsApp, backup phone voice.
 - Skip step 1 and leave **Gateway Assistant → Code** empty.
+- Keep the **Zepp app open in the background** (don't swipe it away): if iOS suspends it, the watch says "phone unreachable".
 - Regular calls on the watch work with Bluetooth calls in the Zepp app.
 
 ## What you can say
