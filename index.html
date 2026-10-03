@@ -134,6 +134,8 @@
       qrAlt: 'Codice QR per ',
       notReady: (n) => 'Il codice per <b>' + n + '</b> non è ancora pronto.<br>Chiedilo a chi ti ha consigliato l\'app.',
       valid: 'Codice valido fino al ',
+      save: '⬇ Scarica il codice QR',
+      saveHint: 'Poi nell\'app Zepp: Profilo → scansione → icona della galleria → scegli l\'immagine.',
       updated: (d) => 'Codici aggiornati il ' + d + ' (si rinnovano ogni giorno).',
       noList: 'Elenco dei modelli non disponibile.',
     },
@@ -168,6 +170,8 @@
       qrAlt: 'QR code for ',
       notReady: (n) => 'The code for <b>' + n + '</b> is not ready yet.<br>Ask whoever recommended the app.',
       valid: 'Code valid until ',
+      save: '⬇ Download the QR code',
+      saveHint: 'Then in the Zepp app: Profile → scan → gallery icon → pick the image.',
       updated: (d) => 'Codes updated on ' + d + ' (renewed every day).',
       noList: 'Model list not available.',
     },
@@ -202,6 +206,8 @@
       qrAlt: 'Código QR para ',
       notReady: (n) => 'El código para <b>' + n + '</b> aún no está listo.<br>Pídeselo a quien te recomendó la app.',
       valid: 'Código válido hasta el ',
+      save: '⬇ Descargar el código QR',
+      saveHint: 'Luego en la app Zepp: Perfil → escanear → icono de la galería → elige la imagen.',
       updated: (d) => 'Códigos actualizados el ' + d + ' (se renuevan cada día).',
       noList: 'Lista de modelos no disponible.',
     },
@@ -253,6 +259,17 @@
         p.textContent = t.valid + m.scade.replace(/^(\d+)-(\d+)-(\d+)/, '$3/$2/$1')
         box.appendChild(p)
       }
+      // scarica l'immagine: si legge poi dalla galleria con l'app Zepp
+      const a = document.createElement('a')
+      a.className = 'btn ghost'
+      a.href = 'qr/' + m.id + '.png?v=' + encodeURIComponent(data.aggiornato || '')
+      a.download = 'VoiceAssistant-QR-' + m.id + '.png'
+      a.textContent = t.save
+      box.appendChild(a)
+      const h = document.createElement('p')
+      h.className = 'small'
+      h.textContent = t.saveHint
+      box.appendChild(h)
     }
     box.appendChild(img)
   }
