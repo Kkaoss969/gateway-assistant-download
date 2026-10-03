@@ -37,6 +37,7 @@
   ol { padding-left: 20px; margin: 8px 0 0; }
   footer { text-align: center; margin-top: 28px; font-size: 13px; color: var(--muted); }
   a { color: #8ab4f8; }
+  .share img { display: block; width: 100%; max-width: 260px; margin: 14px auto 0; border-radius: 14px; }
   .langs { display: flex; justify-content: flex-end; gap: 6px; }
   .langs button { font: inherit; font-size: 13px; color: var(--muted); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; cursor: pointer; }
   .langs button.on { color: var(--text); border-color: var(--blue); }
@@ -98,6 +99,13 @@
     <a class="btn ghost" id="guide" data-t="guide"></a>
   </section>
 
+  <section class="card">
+    <h2 data-t="share"></h2>
+    <p data-t="shareP"></p>
+    <div class="share"><img id="shareImg" alt=""></div>
+    <a class="btn ghost" id="shareBtn" data-t="shareBtn"></a>
+  </section>
+
   <footer data-t="foot"></footer>
 </div>
 <script>
@@ -137,6 +145,9 @@
       save: '⬇ Scarica il codice QR',
       saveHint: 'Poi nell\'app Zepp: Profilo → scansione → icona della galleria → scegli l\'immagine.',
       updated: (d) => 'Codici aggiornati il ' + d + ' (si rinnovano ogni giorno).',
+      share: 'Condividi',
+      shareP: "Il codice QR di questa pagina, da mandare a chi vuole provare l'app (utile nei gruppi che non accettano link).",
+      shareBtn: '⬇ Scarica il codice QR del sito',
       noList: 'Elenco dei modelli non disponibile.',
     },
     en: {
@@ -173,6 +184,9 @@
       save: '⬇ Download the QR code',
       saveHint: 'Then in the Zepp app: Profile → scan → gallery icon → pick the image.',
       updated: (d) => 'Codes updated on ' + d + ' (renewed every day).',
+      share: 'Share',
+      shareP: "The QR code of this page, to send to anyone who wants to try the app (handy in groups that don't allow links).",
+      shareBtn: '⬇ Download the site QR code',
       noList: 'Model list not available.',
     },
     es: {
@@ -209,6 +223,9 @@
       save: '⬇ Descargar el código QR',
       saveHint: 'Luego en la app Zepp: Perfil → escanear → icono de la galería → elige la imagen.',
       updated: (d) => 'Códigos actualizados el ' + d + ' (se renuevan cada día).',
+      share: 'Compartir',
+      shareP: 'El código QR de esta página, para enviarlo a quien quiera probar la app (útil en grupos que no aceptan enlaces).',
+      shareBtn: '⬇ Descargar el QR de la web',
       noList: 'Lista de modelos no disponible.',
     },
   }
@@ -238,6 +255,11 @@
     document.querySelectorAll('.langs button').forEach((b) => b.classList.toggle('on', b.dataset.l === L))
     document.getElementById('guide').href = 'https://github.com/Kkaoss969/gateway-assistant-download/blob/main/' + t.guideUrl
     sel.setAttribute('aria-label', t.model)
+    const share = 'condividi/VoiceAssistant-' + L + '.png'
+    document.getElementById('shareImg').src = share
+    document.getElementById('shareImg').alt = t.share
+    document.getElementById('shareBtn').href = share
+    document.getElementById('shareBtn').download = 'VoiceAssistant-' + L + '.png'
     if (data.aggiornato) when.textContent = t.updated(data.aggiornato)
     if (sel.value) show(sel.value)
   }
