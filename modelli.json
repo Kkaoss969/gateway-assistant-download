@@ -1,145 +1,253 @@
 {
-  "aggiornato": "03/10/2026 12:13",
+  "aggiornato": "03/10/2026 12:26",
   "modelli": [
     {
       "id": "balance2",
       "nome": "Amazfit Balance 2",
-      "scade": "2026-10-10 10:10:15"
+      "scade": "2026-10-10 10:22:09",
+      "fonti": [
+        9568512,
+        9568513,
+        9568515
+      ]
     },
     {
       "id": "trex3pro48mm",
       "nome": "Amazfit T-Rex 3 Pro (48mm)",
-      "scade": "2026-10-10 10:10:24"
+      "scade": "2026-10-10 10:22:19",
+      "fonti": [
+        10551552,
+        10551553,
+        10551555
+      ]
     },
     {
       "id": "trex3pro44mm",
       "nome": "Amazfit T-Rex 3 Pro (44mm)",
-      "scade": "2026-10-10 10:10:31"
+      "scade": "2026-10-10 10:22:29",
+      "fonti": [
+        10682624,
+        10682625,
+        10682627
+      ]
     },
     {
       "id": "trex3",
       "nome": "Amazfit T-Rex 3",
-      "scade": "2026-10-10 10:10:40"
+      "scade": "2026-10-10 10:22:39",
+      "fonti": [
+        8716544,
+        8716545,
+        8716547
+      ]
     },
     {
       "id": "trexultra2",
       "nome": "Amazfit T-Rex Ultra 2",
-      "scade": "2026-10-10 10:10:47"
+      "scade": "2026-10-10 10:22:49",
+      "fonti": [
+        10879232,
+        10879233,
+        10879235
+      ]
     },
     {
       "id": "trexultra",
       "nome": "Amazfit T-Rex Ultra",
-      "scade": "2026-10-10 10:10:54"
+      "scade": "2026-10-10 10:22:59",
+      "fonti": [
+        6553856,
+        6553857
+      ]
     },
     {
       "id": "balance3",
       "nome": "Amazfit Balance 3",
-      "scade": "2026-10-10 10:11:02"
+      "scade": "2026-10-10 10:23:09",
+      "fonti": [
+        11141376,
+        11141377,
+        11141379
+      ]
     },
     {
       "id": "balance3ti",
       "nome": "Amazfit Balance 3 Titanium",
-      "scade": "2026-10-10 10:11:10"
+      "scade": "2026-10-10 10:23:19"
     },
     {
       "id": "balance2xt",
       "nome": "Amazfit Balance 2 XT",
-      "scade": "2026-10-10 10:11:17"
+      "scade": "2026-10-10 10:23:29"
     },
     {
       "id": "balance",
       "nome": "Amazfit Balance",
-      "scade": "2026-10-10 10:11:25"
+      "scade": "2026-10-10 10:23:39",
+      "fonti": [
+        8519936,
+        8519937,
+        8519939
+      ]
     },
     {
       "id": "balanceultra",
       "nome": "Amazfit Balance Ultra",
-      "scade": "2026-10-10 10:11:32"
+      "scade": "2026-10-10 10:23:59",
+      "fonti": [
+        11075840,
+        11075841
+      ]
     },
     {
       "id": "active3premium",
       "nome": "Amazfit Active 3 Premium",
-      "scade": "2026-10-10 10:11:39"
+      "scade": "2026-10-10 10:24:09"
     },
     {
       "id": "active2round",
       "nome": "Amazfit Active 2 (Round)",
-      "scade": "2026-10-10 10:11:47"
+      "scade": "2026-10-10 10:24:19",
+      "fonti": [
+        8913152,
+        8913153,
+        8913155,
+        8913159
+      ]
     },
     {
       "id": "active2nfcround",
       "nome": "Amazfit Active 2 NFC (Round)",
-      "scade": "2026-10-10 10:11:55"
+      "scade": "2026-10-10 10:24:29",
+      "fonti": [
+        10092800,
+        10092801,
+        10092803,
+        10092807
+      ]
     },
     {
       "id": "activeedge",
       "nome": "Amazfit Active Edge",
-      "scade": "2026-10-10 10:12:02"
+      "scade": "2026-10-10 10:24:38",
+      "fonti": [
+        8388864,
+        8388865
+      ]
     },
     {
       "id": "activemax",
       "nome": "Amazfit Active Max",
-      "scade": "2026-10-10 10:12:10"
+      "scade": "2026-10-10 10:24:48",
+      "fonti": [
+        10813697,
+        10813699
+      ]
     },
     {
       "id": "cheetah2pro",
       "nome": "Amazfit Cheetah 2 Pro",
-      "scade": "2026-10-10 10:12:17"
+      "scade": "2026-10-10 10:24:58",
+      "fonti": [
+        11010304,
+        11010305,
+        11010307
+      ]
     },
     {
       "id": "cheetah2ultra",
       "nome": "Amazfit Cheetah 2 Ultra",
-      "scade": "2026-10-10 10:12:24"
+      "scade": "2026-10-10 10:25:08",
+      "fonti": [
+        9961728,
+        9961729
+      ]
     },
     {
       "id": "cheetahpro",
       "nome": "Amazfit Cheetah Pro",
-      "scade": "2026-10-10 10:12:32"
+      "scade": "2026-10-10 10:25:18",
+      "fonti": [
+        8126720,
+        8126721
+      ]
     },
     {
       "id": "cheetahround",
       "nome": "Amazfit Cheetah (Round)",
-      "scade": "2026-10-10 10:12:39"
+      "scade": "2026-10-10 10:25:28",
+      "fonti": [
+        8192256,
+        8192257
+      ]
     },
     {
       "id": "falcon",
       "nome": "Amazfit Falcon",
-      "scade": "2026-10-10 10:12:46"
+      "scade": "2026-10-10 10:25:37",
+      "fonti": [
+        414,
+        415
+      ]
     },
     {
       "id": "bip6",
       "nome": "Amazfit Bip 6",
-      "scade": "2026-10-10 10:12:54"
+      "scade": "2026-10-10 10:25:47",
+      "fonti": [
+        9765120,
+        9765121,
+        10158337
+      ]
     },
     {
       "id": "bipmax",
       "nome": "Amazfit Bip Max",
-      "scade": "2026-10-10 10:13:02"
+      "scade": "2026-10-10 10:25:57",
+      "fonti": [
+        11206915
+      ]
     },
     {
       "id": "active2square",
       "nome": "Amazfit Active 2 (Square)",
-      "scade": "2026-10-10 10:13:09"
+      "scade": "2026-10-10 10:26:08",
+      "fonti": [
+        10223872,
+        10223873,
+        10223875
+      ]
     },
     {
       "id": "active2nfcsquare",
       "nome": "Amazfit Active 2 NFC (Square)",
-      "scade": "2026-10-10 10:13:17"
+      "scade": "2026-10-10 10:26:18"
     },
     {
       "id": "active",
       "nome": "Amazfit Active",
-      "scade": "2026-10-10 10:13:25"
+      "scade": "2026-10-10 10:26:28",
+      "fonti": [
+        8323328,
+        8323329
+      ]
     },
     {
       "id": "gts4",
       "nome": "Amazfit GTS 4",
-      "scade": "2026-10-10 10:13:40"
+      "scade": "2026-10-10 10:26:38",
+      "fonti": [
+        7995648,
+        7995649
+      ]
     },
     {
       "id": "cheetahsquare",
       "nome": "Amazfit Cheetah (Square)",
-      "scade": "2026-10-10 10:13:47"
+      "scade": "2026-10-10 10:26:48",
+      "fonti": [
+        8257793
+      ]
     }
   ]
 }
