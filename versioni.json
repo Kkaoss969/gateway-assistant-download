@@ -1,0 +1,9 @@
+{
+  "gateway": {
+    "versione": "1.9",
+    "codice": 19
+  },
+  "orologio": {
+    "versione": "1.2.0"
+  }
+}
