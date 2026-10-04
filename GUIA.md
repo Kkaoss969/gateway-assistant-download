@@ -53,6 +53,7 @@ No funcionan: órdenes para la casa Google, llamadas por nombre desde los contac
 - «Lee los mensajes de WhatsApp», «responde a Ana: vale»
 - «Desactiva la alarma de mañana», «para la alarma», «pospón la alarma» (alarmas del **teléfono**)
 - «Apunta en el calendario el dentista el jueves a las 10, avísame una hora antes», «¿qué tengo mañana?» (calendario del **teléfono**: en Gateway Assistant toca **Permitir el Calendario**)
+- «Añade leche a la lista de la compra», «crea una nota: comprar bombillas», «recuérdame mañana a las 9 en Google Tasks llamar a Luca» (**Keep** y **Tasks**: Gateway escribe la frase a Gemini en el teléfono; hacen falta la accesibilidad de Gateway Assistant y las extensiones Keep y Tasks activas en Gemini)
 - «Activa no molestar hasta las 7», «quita no molestar» (No molestar del **teléfono**: en Gateway Assistant toca **Permitir No molestar**; valen las excepciones configuradas en el teléfono)
 - «Recuérdame a las 18 llamar al dentista», «alarma a las 7», «sube el volumen»
 
