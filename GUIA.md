@@ -57,6 +57,8 @@ No funcionan: órdenes para la casa Google, llamadas por nombre desde los contac
 - «Activa no molestar hasta las 7», «quita no molestar» (No molestar del **teléfono**: en Gateway Assistant toca **Permitir No molestar**; valen las excepciones configuradas en el teléfono)
 - «Recuérdame a las 18 llamar al dentista», «alarma a las 7», «sube el volumen»
 
+**Modo privacidad**: si no puedes hablar, **mantén pulsado** el botón central durante un segundo: aparece el teclado del reloj, escribe la pregunta y la respuesta llega solo escrita, sin voz (necesita un reloj con Zepp OS 4 o posterior).
+
 ## Si algo no funciona
 - App Zepp → Voice Assistant → **Diagnóstico**: muestra qué ha pasado con cada pregunta.
 - En Gateway Assistant el **Registro** muestra llamadas, mensajes y órdenes.

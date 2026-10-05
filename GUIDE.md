@@ -57,6 +57,8 @@ Not available: Google home commands, calls by name from your contacts, sending a
 - "Turn on do not disturb until 7", "turn off do not disturb" (**phone** Do not disturb: in Gateway Assistant tap **Allow Do not disturb**; the exceptions set on the phone apply)
 - "Remind me at 6 pm to call the dentist", "alarm at 7", "turn the volume up"
 
+**Privacy mode**: if you can't speak, **press and hold** the central button for about a second: the watch keyboard appears, type your question and the answer comes back as text only, with no voice (needs a watch with Zepp OS 4 or later).
+
 ## If something goes wrong
 - Zepp app → Voice Assistant → **Diagnostics**: shows what happened with each question.
 - In Gateway Assistant the **Log** shows calls, messages and commands.

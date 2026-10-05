@@ -57,6 +57,8 @@ Non funzionano: comandi per la casa Google, chiamate per nome dalla rubrica, inv
 - "Attiva il non disturbare fino alle 7", "togli il non disturbare" (Non disturbare del **telefono**: in Gateway Assistant tocca **Consenti il Non disturbare**; valgono le eccezioni impostate sul telefono)
 - "Ricordami alle 18 di chiamare il dentista", "sveglia alle 7", "alza il volume"
 
+**Modalità privacy**: se non puoi parlare, **tieni premuto** il pulsante centrale per circa un secondo: compare la tastiera dell'orologio, scrivi la domanda e la risposta arriva solo scritta, senza voce (serve un orologio con Zepp OS 4 o successivo).
+
 ## Se qualcosa non va
 - App Zepp → Voice Assistant → **Diagnostica**: mostra cosa è successo a ogni domanda.
 - In Gateway Assistant il **Diario** mostra chiamate, messaggi e comandi.
