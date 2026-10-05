@@ -57,9 +57,9 @@ Not available: Google home commands, calls by name from your contacts, sending a
 - "Turn on do not disturb until 7", "turn off do not disturb" (**phone** Do not disturb: in Gateway Assistant tap **Allow Do not disturb**; the exceptions set on the phone apply)
 - "Remind me at 6 pm to call the dentist", "alarm at 7", "turn the volume up"
 
-**Quick commands and favorites**: in Gateway Assistant, in the "On the watch: quick commands and favorites" section, add buttons with a phrase for the Assistant (e.g. "Shield" → "turn on Shield") and favorite contacts from your address book. On the watch, tap the **»** button to the right of the central button on the main screen (or swipe left): you'll find the buttons (they go straight to the phone's Assistant, without Gemini), **Do not disturb** to turn on and off, and your favorites with **WhatsApp** (say the message and confirm with Send) and **Call**.
+**Quick commands and favorites**: in Gateway Assistant, in the "On the watch: quick commands and favorites" section, add buttons with a phrase for the Assistant (e.g. "Shield" → "turn on Shield") and favorite contacts from your address book. On the watch, beside the central button: **‹** opens **Home**, with your buttons (they go straight to the phone's Assistant, without Gemini) and **Do not disturb** to turn on and off; **›** opens **Contacts**, with your favorites and the **WhatsApp** (say the message and confirm with Send) and **Call** buttons.
 
-**Privacy mode**: tap the **Aa** button to the left of the central button (it turns green): the microphone stays off and the central button opens the keyboard; type your question and the answer comes back as text only, with no voice. Tap **Aa** again to go back to voice. For a single typed question you can also **press and hold** the central button. Needs a watch with Zepp OS 4 or later.
+**Privacy mode**: tap the **Aa** button at the bottom, next to New chat (it turns green): the microphone stays off and the central button opens the keyboard; type your question and the answer comes back as text only, with no voice. Tap **Aa** again to go back to voice. For a single typed question you can also **press and hold** the central button. Needs a watch with Zepp OS 4 or later.
 
 ## If something goes wrong
 - Zepp app → Voice Assistant → **Diagnostics**: shows what happened with each question.
