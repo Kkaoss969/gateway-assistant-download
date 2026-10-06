@@ -17,6 +17,7 @@ Everyone uses their own phone, Google account and Gemini key: nothing to share.
 3. Open **Gateway Assistant** and tap **Start the gateway**.
 4. In the **Permissions** list tap each row with ⚪ until they are all ✅:
    contacts and calls · display over other apps · WhatsApp sending (accessibility) · WhatsApp reading (notifications) · battery unrestricted.
+   ⚠ **Accessibility**: on Android's "Gateway Assistant (WhatsApp sending)" page turn on **only the first switch at the top** ("On"). **Do not turn on** the second one, "Gateway Assistant (WhatsApp sending) shortcut": it's just an Android shortcut and, if on, the automatic taps (WhatsApp Send, alarm Turn off/Snooze, sending to Gemini) don't work.
    If a setting is "restricted": Settings → Apps → Gateway Assistant → ⋮ menu → *Allow restricted settings*.
 5. Tap **Copy code** (the channel code).
 

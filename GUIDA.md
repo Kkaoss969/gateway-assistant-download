@@ -17,6 +17,7 @@ Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Ge
 3. Apri **Gateway Assistant** e tocca **Avvia il gateway**.
 4. Nella lista **Permessi** tocca ogni riga con ⚪ finché diventano tutte ✅:
    contatti e chiamate · mostra sopra altre app · invio WhatsApp (accessibilità) · lettura WhatsApp (notifiche) · batteria senza restrizioni.
+   ⚠ **Accessibilità**: nella pagina di Android "Gateway Assistant (invio WhatsApp)" attiva **solo il primo interruttore in alto** ("Attivato"). **Non attivare** il secondo, "Collegamento a Gateway Assistant": è solo una scorciatoia di Android e, se acceso, i tocchi automatici (Invia di WhatsApp, Spegni/Posticipa della sveglia, invio a Gemini) non funzionano.
    Se un'impostazione risulta "con restrizioni": Impostazioni → App → Gateway Assistant → menu ⋮ → *Consenti impostazioni con restrizioni*.
 5. Tocca **Copia codice** (il codice del canale).
 
