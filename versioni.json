@@ -1,7 +1,7 @@
 {
   "gateway": {
-    "versione": "1.30",
-    "codice": 40
+    "versione": "1.31",
+    "codice": 41
   },
   "orologio": {
     "versione": "1.2.28"
