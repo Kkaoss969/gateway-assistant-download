@@ -2,12 +2,12 @@
 
 🌐 **Sito con download e codici QR per l'orologio: https://kkaoss969.github.io/gateway-assistant-download/**
 
-App Android che collega **Voice Assistant** (assistente vocale con Gemini per orologi Amazfit con Zepp OS) al telefono:
+App Android che collega **Voice Assistant** (assistente vocale con Gemini per orologi Amazfit con Zepp OS e Huawei Watch 3 / Watch 4) al telefono:
 casa Google tramite l'Assistente del telefono, chiamate, WhatsApp (invio, lettura e risposta) e voce di riserva.
 
 ## ⬇️ Scarica
 
-**[GatewayAssistant.apk](https://github.com/Kkaoss969/gateway-assistant-download/raw/main/GatewayAssistant.apk)** — versione 1.35
+**[GatewayAssistant.apk](https://github.com/Kkaoss969/gateway-assistant-download/raw/main/GatewayAssistant.apk)** — versione 1.50
 
 Apri il link dal telefono Android, scarica il file e installalo (consenti l'installazione da questa fonte se Android lo chiede).
 Per aggiornare basta installare la nuova versione sopra la vecchia: impostazioni e permessi restano.
@@ -22,4 +22,5 @@ Tutti i passaggi (telefono, orologio, permessi, cosa puoi dire): **[GUIDA.md](GU
 - **iPhone**: Gateway Assistant è solo per Android. Con l'iPhone Voice Assistant funziona lo stesso (domande, voce, meteo, notizie, promemoria), senza casa Google, chiamate per nome e WhatsApp. Dettagli nella guida.
 - Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Gemini: niente viene condiviso.
 - L'app sull'orologio (Voice Assistant) si installa con il codice QR del sito (modalità sviluppatore dell'app Zepp).
+- **Huawei Watch 3 / Watch 4**: Voice Assistant si installa da Gateway Assistant (⌚ Orologio Huawei: installa e diagnostica) con il Debug via Wi-Fi dell'orologio. APK diretto: **[VoiceAssistantHuawei.apk](https://github.com/Kkaoss969/gateway-assistant-download/raw/main/VoiceAssistantHuawei.apk)** — versione 0.23
 - I permessi di accessibilità e notifiche servono solo per WhatsApp: l'app agisce solo dentro WhatsApp e solo subito dopo un tuo comando dall'orologio.

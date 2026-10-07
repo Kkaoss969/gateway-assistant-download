@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Voice Assistant</title>
-<meta name="description" content="Gemini voice assistant for Amazfit watches and Gateway Assistant for the phone: download and setup.">
+<meta name="description" content="Gemini voice assistant for Amazfit and Huawei watches and Gateway Assistant for the phone: download and setup.">
 <link rel="icon" href="icon.png">
 <style>
   :root {
@@ -41,6 +41,7 @@
   .langs { display: flex; justify-content: flex-end; gap: 6px; }
   .langs button { font: inherit; font-size: 13px; color: var(--muted); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; cursor: pointer; }
   .langs button.on { color: var(--text); border-color: var(--blue); }
+  .hw .num { background: #c7000b; color: #fff; font-size: 13px; }
 </style>
 </head>
 <body>
@@ -74,6 +75,19 @@
       <li data-t="s2c"></li>
     </ol>
     <p class="small" id="when"></p>
+  </section>
+
+  <section class="card hw" id="huawei">
+    <div class="step"><span class="num">⌚</span><h2 data-t="hw"></h2></div>
+    <p data-t="hwp"></p>
+    <ol>
+      <li data-t="hwa"></li>
+      <li data-t="hwb"></li>
+      <li data-t="hwc"></li>
+      <li data-t="hwd"></li>
+    </ol>
+    <a class="btn ghost" href="VoiceAssistantHuawei.apk" download data-t="hwbtn"></a>
+    <p class="small" data-t="hwsmall"></p>
   </section>
 
   <section class="card s3">
@@ -112,7 +126,15 @@
   // testi in italiano, inglese e spagnolo; la lingua segue quella del browser
   const T = {
     it: {
-      lead: 'Parla con Gemini dal tuo orologio Amazfit. Con <b>Gateway Assistant</b> sul telefono comandi anche la casa Google, chiami, mandi e leggi i WhatsApp.',
+      hw: 'Hai un Huawei Watch 3 o Watch 4?',
+      hwp: "Voice Assistant c'è anche per gli orologi Huawei con base Android. Al posto dei passi 2 e 3 si installa da <b>Gateway Assistant</b>:",
+      hwa: 'Orologio: Impostazioni → Informazioni → tocca più volte il <b>numero di build</b>; poi Opzioni sviluppatore → attiva <b>Debug HDC</b> e <b>Debug via Wi-Fi</b>.',
+      hwb: 'Orologio e telefono sulla stessa rete Wi-Fi (va bene l\'hotspot del telefono).',
+      hwc: 'Gateway Assistant → <b>⌚ Orologio Huawei: installa e diagnostica</b> → scrivi l\'IP dell\'orologio → <b>Scarica e installa Voice Assistant</b>. Chiave Gemini e codice passano da soli.',
+      hwd: 'Tocca <b>Consenti Bluetooth Huawei</b> (funziona anche senza Wi-Fi né LTE) e <b>Tasto inferiore: apri Voice Assistant</b> per aprirlo col tasto al posto di Celia.',
+      hwbtn: '⬇ Scarica l\'APK per Huawei',
+      hwsmall: 'L\'APK serve solo se lo installi in altro modo: con Gateway Assistant non devi scaricarlo. Dettagli nella guida completa.',
+      lead: 'Parla con Gemini dal tuo orologio Amazfit o Huawei. Con <b>Gateway Assistant</b> sul telefono comandi anche la casa Google, chiami, mandi e leggi i WhatsApp.',
       s1: 'App del telefono',
       s1p: "Scarica <b>Gateway Assistant</b> sul telefono Android e installalo (se Android lo chiede, consenti l'installazione da questa fonte).",
       s1btn: 'Scarica Gateway Assistant',
@@ -151,7 +173,15 @@
       noList: 'Elenco dei modelli non disponibile.',
     },
     en: {
-      lead: 'Talk to Gemini from your Amazfit watch. With <b>Gateway Assistant</b> on your phone you can also control your Google home, make calls, and send and read WhatsApp messages.',
+      hw: 'Got a Huawei Watch 3 or Watch 4?',
+      hwp: 'Voice Assistant is also available for the Android-based Huawei watches. Instead of steps 2 and 3 it installs from <b>Gateway Assistant</b>:',
+      hwa: 'Watch: Settings → About → tap the <b>build number</b> several times; then Developer options → turn on <b>HDC debugging</b> and <b>Debugging over Wi-Fi</b>.',
+      hwb: "Watch and phone on the same Wi-Fi (the phone's hotspot is fine).",
+      hwc: "Gateway Assistant → <b>⌚ Huawei watch: install and diagnostics</b> → enter the watch's IP → <b>Download and install Voice Assistant</b>. The Gemini key and the code are passed automatically.",
+      hwd: "Tap <b>Allow Huawei Bluetooth</b> (it works even without Wi-Fi or LTE) and <b>Lower button: open Voice Assistant</b> to open it with the button instead of Celia.",
+      hwbtn: '⬇ Download the Huawei APK',
+      hwsmall: "The APK is only needed if you install it another way: with Gateway Assistant you don't have to download it. Details in the full guide.",
+      lead: 'Talk to Gemini from your Amazfit or Huawei watch. With <b>Gateway Assistant</b> on your phone you can also control your Google home, make calls, and send and read WhatsApp messages.',
       s1: 'Phone app',
       s1p: 'Download <b>Gateway Assistant</b> on your Android phone and install it (if Android asks, allow installs from this source).',
       s1btn: 'Download Gateway Assistant',
@@ -190,7 +220,15 @@
       noList: 'Model list not available.',
     },
     es: {
-      lead: 'Habla con Gemini desde tu reloj Amazfit. Con <b>Gateway Assistant</b> en el teléfono también controlas tu casa Google, llamas y envías y lees WhatsApp.',
+      hw: '¿Tienes un Huawei Watch 3 o Watch 4?',
+      hwp: 'Voice Assistant también existe para los relojes Huawei basados en Android. En lugar de los pasos 2 y 3 se instala desde <b>Gateway Assistant</b>:',
+      hwa: 'Reloj: Ajustes → Información → toca varias veces el <b>número de compilación</b>; luego Opciones de desarrollador → activa <b>Depuración HDC</b> y <b>Depuración por Wi-Fi</b>.',
+      hwb: 'Reloj y teléfono en la misma red Wi-Fi (sirve el punto de acceso del teléfono).',
+      hwc: 'Gateway Assistant → <b>⌚ Reloj Huawei: instalar y diagnóstico</b> → escribe la IP del reloj → <b>Descargar e instalar Voice Assistant</b>. La clave de Gemini y el código pasan solos.',
+      hwd: 'Toca <b>Permitir Bluetooth Huawei</b> (funciona incluso sin Wi-Fi ni LTE) y <b>Botón inferior: abrir Voice Assistant</b> para abrirlo con el botón en lugar de Celia.',
+      hwbtn: '⬇ Descargar el APK para Huawei',
+      hwsmall: 'El APK solo hace falta si lo instalas de otra forma: con Gateway Assistant no tienes que descargarlo. Detalles en la guía completa.',
+      lead: 'Habla con Gemini desde tu reloj Amazfit o Huawei. Con <b>Gateway Assistant</b> en el teléfono también controlas tu casa Google, llamas y envías y lees WhatsApp.',
       s1: 'App del teléfono',
       s1p: 'Descarga <b>Gateway Assistant</b> en tu teléfono Android e instálalo (si Android lo pide, permite la instalación desde esta fuente).',
       s1btn: 'Descargar Gateway Assistant',

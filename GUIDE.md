@@ -1,6 +1,6 @@
 # Voice Assistant (watch) + Gateway Assistant (phone) — quick guide
 
-With your Amazfit watch (Zepp OS) you talk to Gemini and, through the **Gateway Assistant** app on your Android phone, you can:
+With your Amazfit watch (Zepp OS) or Huawei Watch 3 / Watch 4 you talk to Gemini and, through the **Gateway Assistant** app on your Android phone, you can:
 control your Google home, make calls, send/read/reply to WhatsApp messages and use the phone's voice.
 Everyone uses their own phone, Google account and Gemini key: nothing to share.
 
@@ -37,6 +37,19 @@ Everyone uses their own phone, Google account and Gemini key: nothing to share.
 - **Home commands with a locked phone**: Google app → Settings → Google Assistant → Lock screen → personal results on.
 
 **Phone alarm**: when it rings, the watch vibrates and opens the **Turn off** and **Snooze** buttons by itself. The watch learns the time of the next alarm whenever you open Voice Assistant (and after each alarm): if you create a new alarm on the phone, open the app on the watch once. ⚠ In **sleep mode** or **do not disturb** the watch blocks third-party apps: schedule sleep mode / do not disturb to end a few minutes before the alarm (watch Settings → Do not disturb → Scheduled).
+
+## Huawei watch (Watch 3, Watch 4)
+Voice Assistant is also available for **Huawei Watch 3 and Watch 4** (the Android-based ones). It installs from **Gateway Assistant**, no computer needed.
+1. On the watch: Settings → About → tap the **build number** several times. Then in **Developer options** turn on **HDC debugging** and **Debugging over Wi-Fi**.
+2. Watch and phone on the **same Wi-Fi** (the phone's hotspot is fine).
+3. In Gateway Assistant tap **⌚ Huawei watch: install and diagnostics**, enter the IP shown under *Debugging over Wi-Fi* and tap **Download and install Voice Assistant**. The first time the watch asks to allow the connection: tap **Always allow**.
+   Gateway gives the watch the channel code and, if the box is ticked, your Gemini key; it also excludes the app from battery saving.
+4. In Gateway Assistant tap **⚪ Allow Huawei Bluetooth** until it shows **✅ Huawei Bluetooth: on**: the watch then works **without Wi-Fi or LTE**, through the phone's Bluetooth.
+5. **Lower button**: on the same page tap **Lower button: open Voice Assistant**. Pressing the watch's lower button then opens Voice Assistant, already listening, instead of Celia (*Restore Celia* undoes it).
+
+On the watch the **gear** under *New chat* opens the settings (city, Auto/Bluetooth/Internet connection, voice, updates, diagnostics); the **crown** scrolls the pages. Questions, voice, weather and news, Google home, Contacts and WhatsApp, calls, quick commands, reminders, torch, volume and brightness, steps and heart rate all work.
+**Updates**: Gateway Assistant shows the installed and the new version; update from the same page or from the watch (Settings → *Check and install*, with Debugging over Wi-Fi on).
+**Diagnostics**: watch settings → *Send to Gateway Assistant*; read it in Gateway on the Huawei watch page.
 
 ## With an iPhone
 Gateway Assistant is Android-only: iOS does not let an app stay always on, press "Send" in WhatsApp, read notifications or pass phrases to Google Assistant.

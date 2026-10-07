@@ -1,6 +1,6 @@
 # Voice Assistant (orologio) + Gateway Assistant (telefono) — guida rapida
 
-Con l'orologio Amazfit (Zepp OS) parli con Gemini e, tramite l'app **Gateway Assistant** sul telefono Android, puoi:
+Con l'orologio Amazfit (Zepp OS) o Huawei Watch 3 / Watch 4 parli con Gemini e, tramite l'app **Gateway Assistant** sul telefono Android, puoi:
 comandare la casa Google, chiamare, mandare/leggere/rispondere ai WhatsApp e avere la voce del telefono.
 Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Gemini: niente da condividere.
 
@@ -37,6 +37,19 @@ Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Ge
 - **Comandi di casa a telefono bloccato**: app Google → Impostazioni → Assistente Google → Schermata di blocco → risposte personali attive.
 
 **Sveglia del telefono**: quando suona, l'orologio vibra e apre da solo i tasti **Spegni** e **Posticipa**. L'orologio impara l'ora della prossima sveglia ogni volta che apri Voice Assistant (e dopo ogni sveglia): se crei una sveglia nuova sul telefono, apri l'app sull'orologio una volta. ⚠ In **modalità notte** o **non disturbare** l'orologio blocca le app esterne: programma la modalità notte / non disturbare in modo che finisca qualche minuto prima della sveglia (Impostazioni dell'orologio → Non disturbare → Programmato).
+
+## Orologio Huawei (Watch 3, Watch 4)
+Voice Assistant esiste anche per gli orologi **Huawei Watch 3 e Watch 4** (quelli con base Android). Si installa da **Gateway Assistant**, senza computer.
+1. Sull'orologio: Impostazioni → Informazioni → tocca più volte il **numero di build**. Poi in **Opzioni sviluppatore** attiva **Debug HDC** e **Debug via Wi-Fi**.
+2. Orologio e telefono sulla **stessa rete Wi-Fi** (va bene anche l'hotspot del telefono).
+3. In Gateway Assistant tocca **⌚ Orologio Huawei: installa e diagnostica**, scrivi l'IP mostrato sotto *Debug via Wi-Fi* e tocca **Scarica e installa Voice Assistant**. La prima volta l'orologio chiede di consentire il collegamento: tocca **Consenti sempre**.
+   Gateway passa all'orologio il codice del canale e, se la spunta è attiva, la tua chiave Gemini; esclude anche l'app dal risparmio batteria.
+4. In Gateway Assistant tocca **⚪ Consenti Bluetooth Huawei** finché diventa **✅ Bluetooth Huawei: attivo**: così l'orologio funziona anche **senza Wi-Fi né LTE**, tramite il Bluetooth del telefono.
+5. **Tasto inferiore**: nella stessa pagina tocca **Tasto inferiore: apri Voice Assistant**. Premendo il tasto inferiore dell'orologio si apre Voice Assistant già in ascolto al posto di Celia (*Ripristina Celia* torna come prima).
+
+Sull'orologio l'**ingranaggio** sotto *Nuova chat* apre le impostazioni (città, collegamento Auto/Bluetooth/Internet, voce, aggiornamenti, diagnostica); la **corona** scorre le pagine. Funzionano domande, voce, meteo e notizie, casa Google, Contatti e WhatsApp, chiamate, comandi rapidi, promemoria, torcia, volume e luminosità, passi e battito.
+**Aggiornamenti**: Gateway Assistant mostra la versione installata e quella nuova; aggiorni dalla stessa pagina o dall'orologio (Impostazioni → *Controlla e installa*, con il Debug via Wi-Fi attivo).
+**Diagnostica**: impostazioni dell'orologio → *Invia a Gateway Assistant*; la leggi in Gateway nella pagina dell'orologio Huawei.
 
 ## Con l'iPhone
 Gateway Assistant esiste solo per Android: iOS non permette a un'app di restare sempre attiva, premere "Invia" in WhatsApp, leggere le notifiche o passare frasi all'Assistente Google.
