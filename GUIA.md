@@ -28,6 +28,7 @@ Cada uno usa su propio teléfono, su cuenta de Google y su clave de Gemini: no h
    - **Clave API de Gemini**
    - **Mi ciudad** (tiempo y noticias locales)
    - **Gateway Assistant → Código**: pega el código copiado en el paso 1
+   - **Clave API de Groq** (opcional, gratis en https://console.groq.com → *API Keys*): noticias y preguntas escritas responden en 1 segundo aprox.; las preguntas habladas siguen con Gemini
    - **Nombres que usas a menudo** (opcional): personas, pueblos, equipos… ayudan a entender los nombres correctos
 
 ## 3 · Recomendado

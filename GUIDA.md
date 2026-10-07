@@ -28,6 +28,7 @@ Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Ge
    - **Chiave API Gemini**
    - **La mia città** (meteo e notizie locali)
    - **Gateway Assistant → Codice**: incolla il codice copiato al punto 1
+   - **Chiave API Groq** (facoltativa, gratuita da https://console.groq.com → *API Keys*): notizie e domande scritte rispondono in circa 1 secondo; le domande a voce restano a Gemini
    - **Nomi che usi spesso** (facoltativo): persone, paesi, squadre… aiutano a capire i nomi giusti
 
 ## 3 · Consigliato

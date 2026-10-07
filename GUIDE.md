@@ -28,6 +28,7 @@ Everyone uses their own phone, Google account and Gemini key: nothing to share.
    - **Gemini API key**
    - **My city** (weather and local news)
    - **Gateway Assistant → Code**: paste the code copied in step 1
+   - **Groq API key** (optional, free from https://console.groq.com → *API Keys*): news and typed questions are answered in about 1 second; spoken questions stay with Gemini
    - **Names you often use** (optional): people, towns, teams… they help it understand the right names
 
 ## 3 · Recommended
