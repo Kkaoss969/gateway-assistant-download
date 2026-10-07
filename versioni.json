@@ -1,13 +1,13 @@
 {
   "gateway": {
-    "versione": "1.59",
-    "codice": 69
+    "versione": "1.60",
+    "codice": 70
   },
   "orologio": {
     "versione": "1.2.44"
   },
   "orologioHuawei": {
-    "versione": "0.41",
-    "codice": 41
+    "versione": "0.46",
+    "codice": 46
   }
 }

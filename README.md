@@ -7,7 +7,7 @@ casa Google tramite l'Assistente del telefono, chiamate, WhatsApp (invio, lettur
 
 ## ⬇️ Scarica
 
-**[GatewayAssistant.apk](https://github.com/Kkaoss969/gateway-assistant-download/raw/main/GatewayAssistant.apk)** — versione 1.59
+**[GatewayAssistant.apk](https://github.com/Kkaoss969/gateway-assistant-download/raw/main/GatewayAssistant.apk)** — versione 1.60
 
 Apri il link dal telefono Android, scarica il file e installalo (consenti l'installazione da questa fonte se Android lo chiede).
 Per aggiornare basta installare la nuova versione sopra la vecchia: impostazioni e permessi restano.
@@ -22,5 +22,5 @@ Tutti i passaggi (telefono, orologio, permessi, cosa puoi dire): **[GUIDA.md](GU
 - **iPhone**: Gateway Assistant è solo per Android. Con l'iPhone Voice Assistant funziona lo stesso (domande, voce, meteo, notizie, promemoria), senza casa Google, chiamate per nome e WhatsApp. Dettagli nella guida.
 - Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Gemini: niente viene condiviso.
 - L'app sull'orologio (Voice Assistant) si installa con il codice QR del sito (modalità sviluppatore dell'app Zepp).
-- **Huawei Watch 3 / Watch 4**: Voice Assistant si installa da Gateway Assistant (⌚ Orologio Huawei: installa e diagnostica) con il Debug via Wi-Fi dell'orologio. APK diretto: **[VoiceAssistantHuawei.apk](https://github.com/Kkaoss969/gateway-assistant-download/raw/main/VoiceAssistantHuawei.apk)** — versione 0.41
+- **Huawei Watch 3 / Watch 4**: Voice Assistant si installa da Gateway Assistant (⌚ Orologio Huawei: installa e diagnostica) con il Debug via Wi-Fi dell'orologio. APK diretto: **[VoiceAssistantHuawei.apk](https://github.com/Kkaoss969/gateway-assistant-download/raw/main/VoiceAssistantHuawei.apk)** — versione 0.46
 - I permessi di accessibilità e notifiche servono solo per WhatsApp: l'app agisce solo dentro WhatsApp e solo subito dopo un tuo comando dall'orologio.
