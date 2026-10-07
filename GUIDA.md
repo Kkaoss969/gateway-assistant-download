@@ -49,6 +49,7 @@ Voice Assistant esiste anche per gli orologi **Huawei Watch 3 e Watch 4** (quell
 
 Sull'orologio l'**ingranaggio** sotto *Nuova chat* apre le impostazioni (città, collegamento Auto/Bluetooth/Internet, voce, aggiornamenti, diagnostica); la **corona** scorre le pagine. Funzionano domande, voce, meteo e notizie, casa Google, Contatti e WhatsApp, chiamate, comandi rapidi, promemoria, torcia, volume e luminosità, passi e battito.
 **Aggiornamenti**: Gateway Assistant mostra la versione installata e quella nuova; aggiorni dalla stessa pagina o dall'orologio (Impostazioni → *Controlla e installa*, con il Debug via Wi-Fi attivo).
+**Risposte più rapide (facoltativo)**: crea una chiave gratuita su https://console.groq.com → *API Keys* → *Create API Key* (inizia con `gsk_`) e incollala in Gateway, pagina dell'orologio Huawei → *Salva chiave Groq*. Con il motore **Auto** le domande a voce restano a Gemini, mentre notizie, meteo di altri luoghi e domande scritte rispondono in un attimo con Groq, che sostituisce anche Gemini se non risponde.
 **Diagnostica**: impostazioni dell'orologio → *Invia a Gateway Assistant*; la leggi in Gateway nella pagina dell'orologio Huawei.
 
 ## Con l'iPhone

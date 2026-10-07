@@ -49,6 +49,7 @@ Voice Assistant is also available for **Huawei Watch 3 and Watch 4** (the Androi
 
 On the watch the **gear** under *New chat* opens the settings (city, Auto/Bluetooth/Internet connection, voice, updates, diagnostics); the **crown** scrolls the pages. Questions, voice, weather and news, Google home, Contacts and WhatsApp, calls, quick commands, reminders, torch, volume and brightness, steps and heart rate all work.
 **Updates**: Gateway Assistant shows the installed and the new version; update from the same page or from the watch (Settings → *Check and install*, with Debugging over Wi-Fi on).
+**Faster answers (optional)**: create a free key at https://console.groq.com → *API Keys* → *Create API Key* (it starts with `gsk_`) and paste it in Gateway, Huawei watch page → *Save Groq key*. With the **Auto** engine spoken questions stay with Gemini, while news, weather elsewhere and typed questions are answered in a flash by Groq, which also stands in if Gemini does not answer.
 **Diagnostics**: watch settings → *Send to Gateway Assistant*; read it in Gateway on the Huawei watch page.
 
 ## With an iPhone
