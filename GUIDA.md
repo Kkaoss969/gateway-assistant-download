@@ -1,4 +1,4 @@
-# Voice Assistant (orologio) + Gateway Assistant (telefono) — guida rapida
+# Live Assistant (orologio) + Gateway Assistant (telefono) — guida rapida
 
 Con l'orologio Amazfit (Zepp OS) o Huawei Watch 3 / Watch 4 parli con Gemini e, tramite l'app **Gateway Assistant** sul telefono Android, puoi:
 comandare la casa Google, chiamare, mandare/leggere/rispondere ai WhatsApp e avere la voce del telefono.
@@ -21,10 +21,10 @@ Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Ge
    Se un'impostazione risulta "con restrizioni": Impostazioni → App → Gateway Assistant → menu ⋮ → *Consenti impostazioni con restrizioni*.
 5. Tocca **Copia codice** (il codice del canale).
 
-## 2 · Installa Voice Assistant sull'orologio
+## 2 · Installa Live Assistant sull'orologio
 1. Nell'app Zepp attiva la modalità sviluppatore: Profilo → Impostazioni → Informazioni → tocca più volte il logo Zepp.
 2. Apri il sito **https://kkaoss969.github.io/gateway-assistant-download/**, scegli il tuo orologio e scansiona il **codice QR** con l'app Zepp (Profilo → icona di scansione).
-3. Nell'app Zepp apri le impostazioni dell'app **Voice Assistant** e compila:
+3. Nell'app Zepp apri le impostazioni dell'app **Live Assistant** e compila:
    - **Chiave API Gemini**
    - **La mia città** (meteo e notizie locali)
    - **Gateway Assistant → Codice**: incolla il codice copiato al punto 1
@@ -37,7 +37,9 @@ Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Ge
   Senza, il telefono si accende e il messaggio parte quando lo sblocchi.
 - **Comandi di casa a telefono bloccato**: app Google → Impostazioni → Assistente Google → Schermata di blocco → risposte personali attive.
 
-**Sveglia del telefono**: quando suona, l'orologio vibra e apre da solo i tasti **Spegni** e **Posticipa**. L'orologio impara l'ora della prossima sveglia ogni volta che apri Voice Assistant (e dopo ogni sveglia): se crei una sveglia nuova sul telefono, apri l'app sull'orologio una volta. ⚠ In **modalità notte** o **non disturbare** l'orologio blocca le app esterne: programma la modalità notte / non disturbare in modo che finisca qualche minuto prima della sveglia (Impostazioni dell'orologio → Non disturbare → Programmato).
+**Sveglia del telefono**: quando suona, l'orologio vibra e apre da solo i tasti **Spegni** e **Posticipa**. L'orologio impara l'ora della prossima sveglia ogni volta che apri Live Assistant (e dopo ogni sveglia): se crei una sveglia nuova sul telefono, apri l'app sull'orologio una volta. ⚠ In **modalità notte** o **non disturbare** l'orologio blocca le app esterne: programma la modalità notte / non disturbare in modo che finisca qualche minuto prima della sveglia (Impostazioni dell'orologio → Non disturbare → Programmato).
+
+**Gemini Live (prova)**: nell'app Zepp → Live Assistant → Impostazioni accendi **Usa Gemini Live** (serve Gateway Assistant 1.65 o successivo sullo stesso telefono). La risposta arriva già a voce, senza aspettare la sintesi; se Live non risponde si usa il metodo normale.
 
 ## Orologio Huawei (Watch 3, Watch 4)
 Per gli orologi **Huawei Watch 3 e Watch 4** (quelli con base Android) c'è **Live Assistant**, con **Gemini Live**: mentre parli la domanda parte già verso Gemini e la risposta arriva direttamente a voce, di solito in 1-3 secondi. Funziona con il Wi-Fi o l'LTE dell'orologio e anche solo via Bluetooth tramite Gateway. Si installa da **Gateway Assistant**, senza computer.
@@ -56,7 +58,7 @@ Sull'orologio l'**ingranaggio** sotto *Nuova chat* apre le impostazioni (città,
 
 ## Con l'iPhone
 Gateway Assistant esiste solo per Android: iOS non permette a un'app di restare sempre attiva, premere "Invia" in WhatsApp, leggere le notifiche o passare frasi all'Assistente Google.
-**Voice Assistant però funziona anche con l'iPhone**: domande a Gemini, voce, meteo, notizie, promemoria, volume, luminosità e torcia.
+**Live Assistant però funziona anche con l'iPhone**: domande a Gemini, voce, meteo, notizie, promemoria, volume, luminosità e torcia.
 Non funzionano: comandi per la casa Google, chiamate per nome dalla rubrica, invio e lettura dei WhatsApp, voce del telefono di riserva.
 - Salta il passo 1 e lascia vuoto **Gateway Assistant → Codice**.
 - Tieni l'**app Zepp aperta in sottofondo** (non chiuderla dal multitasking): se iOS la sospende, l'orologio dice "telefono non raggiungibile".
@@ -79,6 +81,6 @@ Non funzionano: comandi per la casa Google, chiamate per nome dalla rubrica, inv
 **Modalità privacy**: tocca il pulsante col **microfono** in basso a destra del pulsante centrale: diventa una **tastiera** verde: il microfono resta spento e il pulsante centrale apre la tastiera; scrivi la domanda e la risposta arriva solo scritta, senza voce. Toccalo di nuovo per tornare alla voce. Per una sola domanda scritta puoi anche **tenere premuto** il pulsante centrale. Serve un orologio con Zepp OS 4 o successivo.
 
 ## Se qualcosa non va
-- App Zepp → Voice Assistant → **Diagnostica**: mostra cosa è successo a ogni domanda.
+- App Zepp → Live Assistant → **Diagnostica**: mostra cosa è successo a ogni domanda.
 - In Gateway Assistant il **Diario** mostra chiamate, messaggi e comandi.
 - Il gateway deve essere avviato ("Gateway attivo ✓") e con la batteria senza restrizioni.

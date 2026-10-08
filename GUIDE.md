@@ -1,4 +1,4 @@
-# Voice Assistant (watch) + Gateway Assistant (phone) — quick guide
+# Live Assistant (watch) + Gateway Assistant (phone) — quick guide
 
 With your Amazfit watch (Zepp OS) or Huawei Watch 3 / Watch 4 you talk to Gemini and, through the **Gateway Assistant** app on your Android phone, you can:
 control your Google home, make calls, send/read/reply to WhatsApp messages and use the phone's voice.
@@ -21,10 +21,10 @@ Everyone uses their own phone, Google account and Gemini key: nothing to share.
    If a setting is "restricted": Settings → Apps → Gateway Assistant → ⋮ menu → *Allow restricted settings*.
 5. Tap **Copy code** (the channel code).
 
-## 2 · Install Voice Assistant on the watch
+## 2 · Install Live Assistant on the watch
 1. In the Zepp app turn on developer mode: Profile → Settings → About → tap the Zepp logo several times.
 2. Open **https://kkaoss969.github.io/gateway-assistant-download/**, choose your watch and scan the **QR code** with the Zepp app (Profile → scan icon).
-3. In the Zepp app open the settings of the **Voice Assistant** app and fill in:
+3. In the Zepp app open the settings of the **Live Assistant** app and fill in:
    - **Gemini API key**
    - **My city** (weather and local news)
    - **Gateway Assistant → Code**: paste the code copied in step 1
@@ -37,7 +37,9 @@ Everyone uses their own phone, Google account and Gemini key: nothing to share.
   Without it, the phone wakes up and the message is sent when you unlock it.
 - **Home commands with a locked phone**: Google app → Settings → Google Assistant → Lock screen → personal results on.
 
-**Phone alarm**: when it rings, the watch vibrates and opens the **Turn off** and **Snooze** buttons by itself. The watch learns the time of the next alarm whenever you open Voice Assistant (and after each alarm): if you create a new alarm on the phone, open the app on the watch once. ⚠ In **sleep mode** or **do not disturb** the watch blocks third-party apps: schedule sleep mode / do not disturb to end a few minutes before the alarm (watch Settings → Do not disturb → Scheduled).
+**Phone alarm**: when it rings, the watch vibrates and opens the **Turn off** and **Snooze** buttons by itself. The watch learns the time of the next alarm whenever you open Live Assistant (and after each alarm): if you create a new alarm on the phone, open the app on the watch once. ⚠ In **sleep mode** or **do not disturb** the watch blocks third-party apps: schedule sleep mode / do not disturb to end a few minutes before the alarm (watch Settings → Do not disturb → Scheduled).
+
+**Gemini Live (trial)**: in the Zepp app → Live Assistant → Settings turn on **Use Gemini Live** (needs Gateway Assistant 1.65 or later on the same phone). The answer arrives already as voice, without waiting for speech synthesis; if Live fails the normal method is used.
 
 ## Huawei watch (Watch 3, Watch 4)
 For **Huawei Watch 3 and Watch 4** (the Android-based ones) there is **Live Assistant**, with **Gemini Live**: while you speak the question is already going to Gemini and the answer comes straight back as voice, usually in 1-3 seconds. It works with the watch's Wi-Fi or LTE and also over Bluetooth only, through Gateway. It installs from **Gateway Assistant**, no computer needed.
@@ -56,7 +58,7 @@ On the watch the **gear** under *New chat* opens the settings (city, Auto/Blueto
 
 ## With an iPhone
 Gateway Assistant is Android-only: iOS does not let an app stay always on, press "Send" in WhatsApp, read notifications or pass phrases to Google Assistant.
-**Voice Assistant still works with an iPhone**: questions to Gemini, voice, weather, news, reminders, volume, brightness and torch.
+**Live Assistant still works with an iPhone**: questions to Gemini, voice, weather, news, reminders, volume, brightness and torch.
 Not available: Google home commands, calls by name from your contacts, sending and reading WhatsApp, backup phone voice.
 - Skip step 1 and leave **Gateway Assistant → Code** empty.
 - Keep the **Zepp app open in the background** (don't swipe it away): if iOS suspends it, the watch says "phone unreachable".
@@ -79,6 +81,6 @@ Not available: Google home commands, calls by name from your contacts, sending a
 **Privacy mode**: tap the **microphone** button at the bottom right of the central button: it becomes a green **keyboard**: the microphone stays off and the central button opens the keyboard; type your question and the answer comes back as text only, with no voice. Tap it again to go back to voice. For a single typed question you can also **press and hold** the central button. Needs a watch with Zepp OS 4 or later.
 
 ## If something goes wrong
-- Zepp app → Voice Assistant → **Diagnostics**: shows what happened with each question.
+- Zepp app → Live Assistant → **Diagnostics**: shows what happened with each question.
 - In Gateway Assistant the **Log** shows calls, messages and commands.
 - The gateway must be running ("Gateway running ✓") with the battery unrestricted.
