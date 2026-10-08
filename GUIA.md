@@ -40,18 +40,18 @@ Cada uno usa su propio teléfono, su cuenta de Google y su clave de Gemini: no h
 **Alarma del teléfono**: cuando suena, el reloj vibra y abre solo los botones **Apagar** y **Posponer**. El reloj aprende la hora de la próxima alarma cada vez que abres Voice Assistant (y después de cada alarma): si creas una alarma nueva en el teléfono, abre la app en el reloj una vez. ⚠ En **modo sueño** o **no molestar** el reloj bloquea las apps externas: programa el modo sueño / no molestar para que termine unos minutos antes de la alarma (Ajustes del reloj → No molestar → Programado).
 
 ## Reloj Huawei (Watch 3, Watch 4)
-Voice Assistant también existe para los **Huawei Watch 3 y Watch 4** (los basados en Android). Se instala desde **Gateway Assistant**, sin ordenador.
+Para los **Huawei Watch 3 y Watch 4** (los basados en Android) existe **Live Assistant**, con **Gemini Live**: mientras hablas la pregunta ya va hacia Gemini y la respuesta llega directamente por voz, normalmente en 1-3 segundos. Funciona con el Wi-Fi o LTE del reloj y también solo por Bluetooth, a través de Gateway. Se instala desde **Gateway Assistant**, sin ordenador.
 1. En el reloj: Ajustes → Información → toca varias veces el **número de compilación**. Luego en **Opciones de desarrollador** activa **Depuración HDC** y **Depuración por Wi-Fi**.
 2. Reloj y teléfono en la **misma red Wi-Fi** (sirve el punto de acceso del teléfono).
-3. En Gateway Assistant toca **⌚ Reloj Huawei: instalar y diagnóstico**, escribe la IP que aparece en *Depuración por Wi-Fi* y toca **Descargar e instalar Voice Assistant**. La primera vez el reloj pide permitir la conexión: toca **Permitir siempre**.
+3. En Gateway Assistant toca **⌚ Reloj Huawei: instalar y diagnóstico**, escribe la IP que aparece en *Depuración por Wi-Fi* y toca **Descargar e instalar Live Assistant**. La primera vez el reloj pide permitir la conexión: toca **Permitir siempre**.
    Gateway pasa al reloj el código del canal y, si la casilla está marcada, tu clave de Gemini; también excluye la app del ahorro de batería.
 4. En Gateway Assistant toca **⚪ Permitir Bluetooth Huawei** hasta que aparezca **✅ Bluetooth Huawei: activo**: así el reloj funciona **sin Wi-Fi ni LTE**, a través del Bluetooth del teléfono.
-5. **Botón inferior**: en la misma página toca **Botón inferior: abrir Voice Assistant**. Al pulsar el botón inferior del reloj se abre Voice Assistant ya escuchando en lugar de Celia (*Restaurar Celia* lo deshace).
+5. **Botón inferior**: en la misma página toca **Botón inferior: abrir Live Assistant**. Al pulsar el botón inferior del reloj se abre Live Assistant ya escuchando en lugar de Celia (*Restaurar Celia* lo deshace).
 
 En el reloj el **engranaje** bajo *Nuevo chat* abre los ajustes (ciudad, conexión Auto/Bluetooth/Internet, voz, actualizaciones, diagnóstico); la **corona** desplaza las páginas. Funcionan preguntas, voz, tiempo y noticias, casa Google, Contactos y WhatsApp, llamadas, órdenes rápidas, recordatorios, linterna, volumen y brillo, pasos y pulso.
 **Alarma del teléfono**: cuando suena, el reloj vibra y muestra **Apagar** y **Posponer** (también en modo noche, que se desactiva un minuto antes; con Posponer se reactiva). Funciona también con alarmas creadas en el último momento: en la app Salud → Dispositivos → reloj → Notificaciones activa **Gateway Assistant**.
 **Actualizaciones**: Gateway Assistant muestra la versión instalada y la nueva; actualizas desde la misma página o desde el reloj (Ajustes → *Comprobar e instalar*, con la Depuración por Wi-Fi activa).
-**Respuestas más rápidas (opcional)**: crea una clave gratuita en https://console.groq.com → *API Keys* → *Create API Key* (empieza por `gsk_`) y pégala en Gateway, página del reloj Huawei → *Guardar clave de Groq*. Con el motor **Auto** las preguntas habladas siguen con Gemini, mientras noticias, tiempo de otros lugares y preguntas escritas las responde al instante Groq, que también sustituye a Gemini si no responde.
+**Groq (opcional)**: Live responde solo a las preguntas generales; las órdenes (casa, llamadas, WhatsApp, alarmas, tiempo, noticias) las ejecuta la app y, con una clave de Groq, la parte escrita está lista en 1 segundo aprox. Clave gratuita: https://console.groq.com → *API Keys* → *Create API Key* (empieza por `gsk_`) y pégala en Gateway, página del reloj Huawei → *Guardar clave de Groq*.
 **Diagnóstico**: ajustes del reloj → *Enviar a Gateway Assistant*; lo lees en Gateway en la página del reloj Huawei.
 
 ## Con iPhone
