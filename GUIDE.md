@@ -59,7 +59,7 @@ On the watch the **gear** under *New chat* opens the settings (city, Auto/Blueto
 **Huawei power saving**: the watch may close Live Assistant in the background (lower button and shakes stop working until you open the app again). In Gateway, Huawei watch page, tap **PowerGenie: remove** (if the watch doesn't allow it, it disables it; **PowerGenie: restore** undoes it). If Debugging over Wi-Fi stays on and you are on the same network, Gateway reactivates Live Assistant by itself when the watch closes it.
 
 ### Install your own apps on the watch
-On the same Gateway page, section **Install your own apps on the watch**: tap **📲 Choose the app to install** and pick the downloaded file. Single **APK**s and split bundles **APKS**, **XAPK** (OBB files included) and **APKM** all work. Debugging over Wi-Fi is needed, as for Live Assistant. In the box below you can type an **adb command** (e.g. `pm list packages -3` to list the installed apps) and tap **Run on the watch**: the result appears below.
+On the same Gateway page, section **Install your own apps on the watch**: tap **📲 Choose the app to install** and pick the downloaded file. Single **APK**s and split bundles **APKS**, **XAPK** (OBB files included) and **APKM** all work. Debugging over Wi-Fi is needed, as for Live Assistant. In the box below you can type an **adb command** (e.g. `pm list packages -3` to list the installed apps) (section **Run on the watch**) and tap **Run**: the result appears below and **Copy result** copies it.
 
 ## With an iPhone
 Gateway Assistant is Android-only: iOS does not let an app stay always on, press "Send" in WhatsApp, read notifications or pass phrases to Google Assistant.
