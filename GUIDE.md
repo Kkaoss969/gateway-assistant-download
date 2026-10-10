@@ -35,6 +35,7 @@ Everyone uses their own phone, Google account and Gemini key: nothing to share.
 - **Calls on the watch**: Zepp app → Profile → watch → App settings → Phone → *Answer calls on the watch* (and pair Bluetooth).
 - **WhatsApp with a locked phone**: Settings → Security → Smart Lock / Extend Unlock → *Trusted devices* → add the watch.
 - **Dual WhatsApp (clone)**: if the phone has a second, cloned WhatsApp (Samsung Dual Messenger, "Dual apps" on other phones), text messages are sent but **voice messages from the watch are not** (WhatsApp opens the chat without the audio). To send voice messages remove the cloned WhatsApp; two accounts in the same WhatsApp are fine. Gateway flags it with ⚠️ on the WhatsApp sending button.
+- **Beeper (experimental)**: if you use [Beeper](https://play.google.com/store/apps/details?id=com.beeper.android) with WhatsApp and Telegram linked, tap *🧪 Beeper* in Gateway and allow access: text messages are sent without opening WhatsApp and without accessibility, even with the phone locked, and on Telegram you can write to any chat. Voice messages still go through WhatsApp.
   Without it, the phone wakes up and the message is sent when you unlock it.
 - **Home commands with a locked phone**: Google app → Settings → Google Assistant → Lock screen → personal results on.
 
