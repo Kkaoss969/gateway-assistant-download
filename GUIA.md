@@ -54,7 +54,12 @@ En el reloj el **engranaje** bajo *Nuevo chat* abre los ajustes (ciudad, conexi�
 **Alarma del teléfono**: cuando suena, el reloj vibra y muestra **Apagar** y **Posponer** (también en modo noche, que se desactiva un minuto antes; con Posponer se reactiva). Funciona también con alarmas creadas en el último momento: en la app Salud → Dispositivos → reloj → Notificaciones activa **Gateway Assistant**.
 **Actualizaciones**: Gateway Assistant muestra la versión instalada y la nueva; actualizas desde la misma página o desde el reloj (Ajustes → *Comprobar e instalar*, con la Depuración por Wi-Fi activa).
 **Groq (opcional)**: Live responde solo a las preguntas generales; las órdenes (casa, llamadas, WhatsApp, alarmas, tiempo, noticias) las ejecuta la app y, con una clave de Groq, la parte escrita está lista en 1 segundo aprox. Clave gratuita: https://console.groq.com → *API Keys* → *Create API Key* (empieza por `gsk_`) y pégala en Gateway, página del reloj Huawei → *Guardar clave de Groq*.
-**Diagnóstico**: ajustes del reloj → *Enviar a Gateway Assistant*; lo lees en Gateway en la página del reloj Huawei.
+**Diagnóstico**: llega solo a Gateway (página del reloj Huawei; desde el reloj también Ajustes → *Enviar a Gateway Assistant*). Con **Compartir archivo** lo envías como archivo de texto (WhatsApp, Telegram, email) a quien te ayude.
+**Dos sacudidas para abrir (prueba)**: en los ajustes del reloj activa *Prueba: dos sacudidas fuertes abren la app*. Con la pantalla encendida, dos sacudidas secas y seguidas abren Live Assistant escuchando; con la pantalla siempre activa funcionan 2 minutos, luego levanta la muñeca para encender la pantalla. El botón inferior también funciona.
+**Ahorro de energía Huawei**: el reloj puede cerrar Live Assistant en segundo plano (el botón inferior y las sacudidas dejan de funcionar hasta que abras la app). En Gateway, página del reloj Huawei, toca **PowerGenie: eliminar** (si el reloj no lo permite, lo desactiva; **PowerGenie: restaurar** lo deshace). Si la Depuración por Wi-Fi sigue activa y estás en la misma red, Gateway reactiva solo Live Assistant cuando el reloj lo cierra.
+
+### Instala tus apps en el reloj
+En la misma página de Gateway, sección **Instala tus apps en el reloj**: toca **Elegir una app del teléfono** y elige el archivo descargado. Sirven los **APK** sueltos y los paquetes divididos **APKS**, **XAPK** (también con archivos OBB) y **APKM**. Hace falta la Depuración por Wi-Fi, como para Live Assistant. En la casilla de abajo puedes escribir una **orden adb** (p. ej. `pm list packages -3` para ver las apps instaladas) y tocar **Ejecutar en el reloj**: el resultado aparece debajo.
 
 ## Con iPhone
 Gateway Assistant solo existe para Android: iOS no permite que una app esté siempre activa, pulse "Enviar" en WhatsApp, lea notificaciones o pase frases al Asistente de Google.
@@ -63,6 +68,15 @@ No funcionan: órdenes para la casa Google, llamadas por nombre desde los contac
 - Sáltate el paso 1 y deja vacío **Gateway Assistant → Código**.
 - Mantén la **app Zepp abierta en segundo plano** (no la cierres desde la multitarea): si iOS la suspende, el reloj dice "teléfono no disponible".
 - Las llamadas normales en el reloj funcionan con las llamadas Bluetooth de la app Zepp.
+
+## Gestos de muñeca (sacudidas)
+Útiles con ruido de fondo o con las manos ocupadas. Se activan y desactivan en los ajustes de la app en el reloj (Huawei) y funcionan con la app abierta:
+- **Una sacudida mientras escucha**: envía la pregunta enseguida, sin esperar el silencio.
+- **Una sacudida mientras piensa** (giran los colores): cancela la pregunta.
+- **Una sacudida mientras habla**: para la voz.
+- **Una sacudida en reposo**: nueva pregunta (vuelve a escuchar).
+- **Dos sacudidas**: cierran la app. La segunda, tras una breve pausa y **más fuerte** que la primera, para que un segundo intento normal no la cierre por error.
+Las sacudidas no cuentan en los 2 primeros segundos tras abrir. Tras **30 segundos** sin hacer nada la app vuelve sola a la esfera.
 
 ## Qué puedes decir
 - «¿Qué tiempo hará mañana?», «¿Cómo ha quedado el Betis?», cualquier pregunta
@@ -81,6 +95,6 @@ No funcionan: órdenes para la casa Google, llamadas por nombre desde los contac
 **Modo privacidad**: toca el botón del **micrófono** abajo a la derecha del botón central: se convierte en un **teclado** verde: el micrófono queda apagado y el botón central abre el teclado; escribe la pregunta y la respuesta llega solo escrita, sin voz. Tócalo otra vez para volver a la voz. Para una sola pregunta escrita también puedes **mantener pulsado** el botón central. Necesita un reloj con Zepp OS 4 o posterior.
 
 ## Si algo no funciona
-- App Zepp → Live Assistant → **Diagnóstico**: muestra qué ha pasado con cada pregunta.
+- App Zepp → Live Assistant → **Diagnóstico**: muestra qué ha pasado con cada pregunta. También llega a Gateway Assistant (**⌚ Reloj Amazfit: diagnóstico**): desde ahí lo copias o lo envías como archivo con **Compartir archivo**.
 - En Gateway Assistant el **Registro** muestra llamadas, mensajes y órdenes.
 - El gateway debe estar en marcha ("Gateway activo ✓") y con la batería sin restricciones.

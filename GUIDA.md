@@ -54,7 +54,12 @@ Sull'orologio l'**ingranaggio** sotto *Nuova chat* apre le impostazioni (città,
 **Sveglia del telefono**: quando suona, l'orologio vibra e mostra **Spegni** e **Posticipa** (anche in modalità notte, che viene spenta un minuto prima; con Posticipa si riaccende). Funziona anche con le sveglie create all'ultimo momento: in app Salute → Dispositivi → orologio → Notifiche attiva **Gateway Assistant**.
 **Aggiornamenti**: Gateway Assistant mostra la versione installata e quella nuova; aggiorni dalla stessa pagina o dall'orologio (Impostazioni → *Controlla e installa*, con il Debug via Wi-Fi attivo).
 **Groq (facoltativo)**: Live risponde da solo alle domande generali; i comandi (casa, chiamate, WhatsApp, sveglie, meteo, notizie) li esegue l'app e, con una chiave Groq, la parte scritta è pronta in circa 1 secondo. Chiave gratuita: https://console.groq.com → *API Keys* → *Create API Key* (inizia con `gsk_`) e incollala in Gateway, pagina dell'orologio Huawei → *Salva chiave Groq*.
-**Diagnostica**: impostazioni dell'orologio → *Invia a Gateway Assistant*; la leggi in Gateway nella pagina dell'orologio Huawei.
+**Diagnostica**: arriva da sola in Gateway (pagina dell'orologio Huawei; dall'orologio anche Impostazioni → *Invia a Gateway Assistant*). Con **Condividi file** la mandi come file di testo (WhatsApp, Telegram, email) a chi ti aiuta.
+**Due scossoni per aprire (prova)**: nelle impostazioni dell'orologio accendi *Prova: due scossoni forti aprono l'app*. Con lo schermo acceso due scossoni secchi e ravvicinati aprono Live Assistant in ascolto; con lo schermo sempre attivo funzionano per 2 minuti, poi alza il polso per riaccendere lo schermo. Funziona anche il tasto inferiore.
+**Risparmio energetico Huawei**: l'orologio può chiudere Live Assistant in sottofondo (tasto inferiore e scossoni smettono di funzionare finché non riapri l'app). In Gateway, pagina dell'orologio Huawei, tocca **PowerGenie: rimuovi** (se l'orologio non lo permette, lo disattiva; **PowerGenie: rimetti** torna come prima). Se il Debug via Wi-Fi resta attivo e sei sulla stessa rete, Gateway riattiva da solo Live Assistant quando l'orologio lo chiude.
+
+### Installa le tue app sull'orologio
+Nella stessa pagina di Gateway, sezione **Installa le tue app sull'orologio**: tocca **Scegli un'app dal telefono** e scegli il file scaricato. Vanno bene gli **APK** singoli e i pacchetti divisi **APKS**, **XAPK** (anche con i file OBB) e **APKM**. Serve il Debug via Wi-Fi, come per Live Assistant. Nella casella sotto puoi scrivere un **comando adb** (es. `pm list packages -3` per l'elenco delle app installate) e toccare **Esegui sull'orologio**: il risultato compare sotto.
 
 ## Con l'iPhone
 Gateway Assistant esiste solo per Android: iOS non permette a un'app di restare sempre attiva, premere "Invia" in WhatsApp, leggere le notifiche o passare frasi all'Assistente Google.
@@ -63,6 +68,15 @@ Non funzionano: comandi per la casa Google, chiamate per nome dalla rubrica, inv
 - Salta il passo 1 e lascia vuoto **Gateway Assistant → Codice**.
 - Tieni l'**app Zepp aperta in sottofondo** (non chiuderla dal multitasking): se iOS la sospende, l'orologio dice "telefono non raggiungibile".
 - Le chiamate normali sull'orologio funzionano con le chiamate Bluetooth dell'app Zepp.
+
+## Gesti del polso (scossoni)
+Utili col rumore di fondo o con le mani occupate. Si attivano e si spengono nelle impostazioni dell'app sull'orologio (Huawei) e funzionano con l'app aperta:
+- **Uno scossone mentre ascolta**: invia subito la domanda, senza aspettare il silenzio.
+- **Uno scossone mentre pensa** (girano i colori): annulla la domanda.
+- **Uno scossone mentre parla**: ferma la voce.
+- **Uno scossone da fermo**: nuova domanda (ascolta di nuovo).
+- **Due scossoni**: chiudono l'app. Il secondo va dato dopo una breve pausa e **più forte** del primo, così un secondo tentativo normale non la chiude per sbaglio.
+Nei primi 2 secondi dopo l'apertura gli scossoni non contano. Dopo **30 secondi** senza fare niente l'app torna al quadrante da sola.
 
 ## Cosa puoi dire
 - "Che tempo fa domani?", "Cosa ha fatto l'Avellino?", qualsiasi domanda
@@ -81,6 +95,6 @@ Non funzionano: comandi per la casa Google, chiamate per nome dalla rubrica, inv
 **Modalità privacy**: tocca il pulsante col **microfono** in basso a destra del pulsante centrale: diventa una **tastiera** verde: il microfono resta spento e il pulsante centrale apre la tastiera; scrivi la domanda e la risposta arriva solo scritta, senza voce. Toccalo di nuovo per tornare alla voce. Per una sola domanda scritta puoi anche **tenere premuto** il pulsante centrale. Serve un orologio con Zepp OS 4 o successivo.
 
 ## Se qualcosa non va
-- App Zepp → Live Assistant → **Diagnostica**: mostra cosa è successo a ogni domanda.
+- App Zepp → Live Assistant → **Diagnostica**: mostra cosa è successo a ogni domanda. Arriva anche in Gateway Assistant (**⌚ Orologio Amazfit: diagnostica**): da lì la copi o la mandi come file con **Condividi file**.
 - In Gateway Assistant il **Diario** mostra chiamate, messaggi e comandi.
 - Il gateway deve essere avviato ("Gateway attivo ✓") e con la batteria senza restrizioni.

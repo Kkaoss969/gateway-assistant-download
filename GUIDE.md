@@ -54,7 +54,12 @@ On the watch the **gear** under *New chat* opens the settings (city, Auto/Blueto
 **Phone alarm**: when it rings, the watch vibrates and shows **Stop** and **Snooze** (even in night mode, which is turned off one minute before; Snooze turns it back on). It also works with last-minute alarms: in the Health app → Devices → watch → Notifications turn on **Gateway Assistant**.
 **Updates**: Gateway Assistant shows the installed and the new version; update from the same page or from the watch (Settings → *Check and install*, with Debugging over Wi-Fi on).
 **Groq (optional)**: Live answers general questions by itself; commands (home, calls, WhatsApp, alarms, weather, news) are carried out by the app and, with a Groq key, the text part is ready in about 1 second. Free key: https://console.groq.com → *API Keys* → *Create API Key* (it starts with `gsk_`) and paste it in Gateway, Huawei watch page → *Save Groq key*.
-**Diagnostics**: watch settings → *Send to Gateway Assistant*; read it in Gateway on the Huawei watch page.
+**Diagnostics**: it reaches Gateway by itself (Huawei watch page; from the watch also Settings → *Send to Gateway Assistant*). With **Share file** you send it as a text file (WhatsApp, Telegram, email) to whoever is helping you.
+**Two shakes to open (trial)**: in the watch settings turn on *Trial: two strong shakes open the app*. With the screen on, two sharp shakes close together open Live Assistant listening; with the always-on screen they work for 2 minutes, then raise your wrist to turn the screen back on. The lower button works too.
+**Huawei power saving**: the watch may close Live Assistant in the background (lower button and shakes stop working until you open the app again). In Gateway, Huawei watch page, tap **PowerGenie: remove** (if the watch doesn't allow it, it disables it; **PowerGenie: restore** undoes it). If Debugging over Wi-Fi stays on and you are on the same network, Gateway reactivates Live Assistant by itself when the watch closes it.
+
+### Install your own apps on the watch
+On the same Gateway page, section **Install your own apps on the watch**: tap **Choose an app from the phone** and pick the downloaded file. Single **APK**s and split bundles **APKS**, **XAPK** (OBB files included) and **APKM** all work. Debugging over Wi-Fi is needed, as for Live Assistant. In the box below you can type an **adb command** (e.g. `pm list packages -3` to list the installed apps) and tap **Run on the watch**: the result appears below.
 
 ## With an iPhone
 Gateway Assistant is Android-only: iOS does not let an app stay always on, press "Send" in WhatsApp, read notifications or pass phrases to Google Assistant.
@@ -63,6 +68,15 @@ Not available: Google home commands, calls by name from your contacts, sending a
 - Skip step 1 and leave **Gateway Assistant → Code** empty.
 - Keep the **Zepp app open in the background** (don't swipe it away): if iOS suspends it, the watch says "phone unreachable".
 - Regular calls on the watch work with Bluetooth calls in the Zepp app.
+
+## Wrist gestures (shakes)
+Handy with background noise or busy hands. They are turned on and off in the app settings on the watch (Huawei) and work with the app open:
+- **One shake while listening**: sends the question right away, without waiting for silence.
+- **One shake while thinking** (colours spinning): cancels the question.
+- **One shake while speaking**: stops the voice.
+- **One shake when idle**: new question (listens again).
+- **Two shakes**: close the app. Give the second after a short pause and **harder** than the first, so a normal second try doesn't close it by mistake.
+Shakes don't count in the first 2 seconds after opening. After **30 seconds** of inactivity the app goes back to the watch face by itself.
 
 ## What you can say
 - "What's the weather tomorrow?", "How did Arsenal do?", any question
@@ -81,6 +95,6 @@ Not available: Google home commands, calls by name from your contacts, sending a
 **Privacy mode**: tap the **microphone** button at the bottom right of the central button: it becomes a green **keyboard**: the microphone stays off and the central button opens the keyboard; type your question and the answer comes back as text only, with no voice. Tap it again to go back to voice. For a single typed question you can also **press and hold** the central button. Needs a watch with Zepp OS 4 or later.
 
 ## If something goes wrong
-- Zepp app → Live Assistant → **Diagnostics**: shows what happened with each question.
+- Zepp app → Live Assistant → **Diagnostics**: shows what happened with each question. It also reaches Gateway Assistant (**⌚ Amazfit watch: diagnostics**): from there you copy it or send it as a file with **Share file**.
 - In Gateway Assistant the **Log** shows calls, messages and commands.
 - The gateway must be running ("Gateway running ✓") with the battery unrestricted.
