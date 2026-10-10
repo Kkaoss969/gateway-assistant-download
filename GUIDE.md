@@ -84,6 +84,7 @@ Shakes don't count in the first 2 seconds after opening. After **30 seconds** of
 - "Call Mario" (if there are several Marios you tap one on the watch)
 - "Send a WhatsApp to Mario: I'll be there in ten minutes" (tap **Send to …** to confirm)
 - "Read my WhatsApp messages", "reply to Anna: sounds good"
+- "Reply on Telegram to Luca: on my way" (only to Telegram chats with a recent notification; "read my messages" also shows Telegram ones)
 - "Turn off tomorrow's alarm", "stop the alarm", "snooze the alarm" (**phone** alarms)
 - "Put the dentist in my calendar on Thursday at 10, remind me an hour before", "what do I have tomorrow?" (**phone** calendar: in Gateway Assistant tap **Allow Calendar**)
 - "Add milk to my shopping list", "make a note: buy light bulbs", "remind me tomorrow at 9 on Google Tasks to call Luca" (**Keep** and **Tasks**: Gateway types the phrase to Gemini on the phone; needs Gateway Assistant accessibility and the Keep and Tasks extensions on in Gemini)
