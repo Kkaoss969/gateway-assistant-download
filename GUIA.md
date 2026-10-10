@@ -85,7 +85,7 @@ Las sacudidas no cuentan en los 2 primeros segundos tras abrir. Tras **30 segund
 - «Manda un WhatsApp a Mario: llego en diez minutos» (toca **Enviar a …** para confirmar)
 - «Lee los mensajes de WhatsApp», «responde a Ana: vale»
 - "Responde en Telegram a Luca: llego" (solo a chats de Telegram con una notificación reciente; "lee los mensajes" muestra también los de Telegram)
-- "Envía un audio a Mario" (reloj Huawei): toca el contacto 🎤, habla y vuelve a tocar para enviar. Llega como archivo de audio, tras un mensaje que avisa de escucharlo; hace falta el Bluetooth con el teléfono
+- "Envía un audio a Mario" (reloj Huawei): toca el contacto 🎤, habla y vuelve a tocar para enviar. Llega como archivo de audio, tras un mensaje que avisa de escucharlo; hace falta el Bluetooth con el teléfono (o, en la página Contactos, **mantén pulsado WhatsApp** en un favorito: la grabación empieza enseguida)
 - «Desactiva la alarma de mañana», «para la alarma», «pospón la alarma» (alarmas del **teléfono**)
 - «Apunta en el calendario el dentista el jueves a las 10, avísame una hora antes», «¿qué tengo mañana?» (calendario del **teléfono**: en Gateway Assistant toca **Permitir el Calendario**)
 - «Añade leche a la lista de la compra», «crea una nota: comprar bombillas», «recuérdame mañana a las 9 en Google Tasks llamar a Luca» (**Keep** y **Tasks**: Gateway escribe la frase a Gemini en el teléfono; hacen falta la accesibilidad de Gateway Assistant y las extensiones Keep y Tasks activas en Gemini)

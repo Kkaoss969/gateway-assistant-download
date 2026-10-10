@@ -85,7 +85,7 @@ Nei primi 2 secondi dopo l'apertura gli scossoni non contano. Dopo **30 secondi*
 - "Manda un WhatsApp a Mario: arrivo tra dieci minuti" (tocchi **Invia a …** per confermare)
 - "Leggi i messaggi WhatsApp", "rispondi ad Anna: va bene"
 - "Rispondi su Telegram a Luca: arrivo" (solo alle chat Telegram con una notifica recente; "leggi i messaggi" mostra anche quelli di Telegram)
-- "Manda un vocale a Mario" (orologio Huawei): tocchi il contatto 🎤, parli e tocchi di nuovo per inviare. Arriva come file audio, preceduto da un messaggio che dice di ascoltarlo; serve il Bluetooth con il telefono
+- "Manda un vocale a Mario" (orologio Huawei): tocchi il contatto 🎤, parli e tocchi di nuovo per inviare. Arriva come file audio, preceduto da un messaggio che dice di ascoltarlo; serve il Bluetooth con il telefono (oppure, nella pagina Contatti, **tieni premuto WhatsApp** su un preferito: parte subito la registrazione)
 - "Disattiva la sveglia di domani", "ferma la sveglia", "posticipa la sveglia" (sveglie del **telefono**)
 - "Segna in calendario il dentista giovedì alle 10, avvisami un'ora prima", "cosa ho domani?" (calendario del **telefono**: in Gateway Assistant tocca **Consenti il Calendario**)
 - "Aggiungi il latte alla lista della spesa", "crea una nota: comprare le lampadine", "ricordami domani alle 9 su Google Tasks di chiamare Luca" (**Keep** e **Tasks**: Gateway scrive la frase a Gemini sul telefono; servono l'accessibilità di Gateway Assistant e le estensioni Keep e Tasks attive in Gemini)
