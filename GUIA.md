@@ -34,6 +34,7 @@ Cada uno usa su propio teléfono, su cuenta de Google y su clave de Gemini: no h
 ## 3 · Recomendado
 - **Llamadas en el reloj**: app Zepp → Perfil → reloj → Ajustes de apps → Teléfono → *Contestar llamadas en el reloj* (y vincula el Bluetooth).
 - **WhatsApp con el teléfono bloqueado**: Ajustes → Seguridad → Smart Lock / Desbloqueo ampliado → *Dispositivos de confianza* → añade el reloj.
+- **WhatsApp doble (clon)**: si el teléfono tiene un segundo WhatsApp clonado (Dual Messenger de Samsung, "Apps duplicadas" en otros teléfonos), los mensajes de texto se envían pero **los audios del reloj no** (WhatsApp abre el chat sin el audio). Para enviar audios elimina el WhatsApp clonado; dos cuentas en el mismo WhatsApp sí funcionan. Gateway lo indica con ⚠️ en el botón de envío de WhatsApp.
   Sin esto, el teléfono se enciende y el mensaje se envía cuando lo desbloquees.
 - **Órdenes de casa con el teléfono bloqueado**: app Google → Ajustes → Asistente de Google → Pantalla de bloqueo → resultados personales activados.
 

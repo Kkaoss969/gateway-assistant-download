@@ -34,6 +34,7 @@ Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Ge
 ## 3 · Consigliato
 - **Chiamate sull'orologio**: app Zepp → Profilo → orologio → Impostazioni app → Telefono → *Chiama sull'orologio* (e associa il Bluetooth).
 - **WhatsApp a telefono bloccato**: Impostazioni → Sicurezza → Smart Lock / Sblocco esteso → *Dispositivi attendibili* → aggiungi l'orologio.
+- **WhatsApp doppio (clone)**: se sul telefono hai un secondo WhatsApp clonato (Dual Messenger dei Samsung, "App doppie" su altri telefoni), i messaggi di testo partono ma i **vocali dall'orologio no** (WhatsApp apre la chat senza l'audio). Per mandare i vocali elimina il WhatsApp clonato; due account nello stesso WhatsApp invece vanno bene. Gateway lo segnala con ⚠️ sul pulsante dell'invio WhatsApp.
   Senza, il telefono si accende e il messaggio parte quando lo sblocchi.
 - **Comandi di casa a telefono bloccato**: app Google → Impostazioni → Assistente Google → Schermata di blocco → risposte personali attive.
 
