@@ -78,6 +78,7 @@ No funcionan: órdenes para la casa Google, llamadas por nombre desde los contac
 - **Una sacudida mientras habla**: para la voz.
 - **Una sacudida en reposo**: nueva pregunta (vuelve a escuchar).
 - **Dos sacudidas**: cierran la app. La segunda, tras una breve pausa y **más fuerte** que la primera, para que un segundo intento normal no la cierre por error.
+- **Sin gestos (Huawei)**: mientras te escucha, **mantén pulsado** el botón central para cancelar (un toque envía); mientras prepara la respuesta, **toca** el botón para cancelar. Cuando un mensaje de WhatsApp/Telegram o un audio se envía, aparece una gran **✓ verde** con vibración y un breve sonido (sin sonido en modo privacidad); si no se envía, una **✗ roja**.
 Las sacudidas no cuentan en los 2 primeros segundos tras abrir. Tras **30 segundos** sin hacer nada la app vuelve sola a la esfera.
 
 ## Qué puedes decir

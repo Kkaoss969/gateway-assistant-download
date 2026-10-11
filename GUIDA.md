@@ -78,6 +78,7 @@ Utili col rumore di fondo o con le mani occupate. Si attivano e si spengono nell
 - **Uno scossone mentre parla**: ferma la voce.
 - **Uno scossone da fermo**: nuova domanda (ascolta di nuovo).
 - **Due scossoni**: chiudono l'app. Il secondo va dato dopo una breve pausa e **più forte** del primo, così un secondo tentativo normale non la chiude per sbaglio.
+- **Senza gesti (Huawei)**: mentre ti ascolta, **tieni premuto** il pulsante centrale per annullare (un tocco invia); mentre elabora la risposta, **tocca** il pulsante per annullare. Quando un messaggio WhatsApp/Telegram o un vocale parte, compare una grande **✓ verde** con vibrazione e un breve suono (senza suono in modalità privacy); se non parte, una **✗ rossa**.
 Nei primi 2 secondi dopo l'apertura gli scossoni non contano. Dopo **30 secondi** senza fare niente l'app torna al quadrante da sola.
 
 ## Cosa puoi dire
