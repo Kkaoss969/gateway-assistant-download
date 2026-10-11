@@ -78,7 +78,7 @@ Handy with background noise or busy hands. They are turned on and off in the app
 - **One shake while speaking**: stops the voice.
 - **One shake when idle**: new question (listens again).
 - **Two shakes**: close the app. Give the second after a short pause and **harder** than the first, so a normal second try doesn't close it by mistake.
-- **Without gestures (Huawei)**: while it is listening, a **tap** on the central button cancels without sending (the question goes by itself when you stop talking; **press and hold** to send it right away); while it is working on the answer, **tap** the button to cancel. When a WhatsApp/Telegram message or a voice message is sent, a big **green ✓** appears with a vibration and a short sound (no sound in privacy mode); if it fails, a **red ✗**.
+- **Stop button (Huawei)**: from when it starts listening until the answer arrives, a red **■ Stop** button replaces *New chat*: it cancels the question without sending it (or drops the incoming answer) and that question's commands are not carried out. A tap on the central button while listening sends right away. When a WhatsApp/Telegram message or a voice message is sent, a big **green ✓** appears with a vibration and a short sound (no sound in privacy mode); if it fails, a **red ✗**.
 Shakes don't count in the first 2 seconds after opening. After **30 seconds** of inactivity the app goes back to the watch face by itself.
 
 ## What you can say
