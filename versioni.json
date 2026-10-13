@@ -1,13 +1,13 @@
 {
   "gateway": {
-    "versione": "2.29",
-    "codice": 139
+    "versione": "2.30",
+    "codice": 140
   },
   "orologio": {
     "versione": "1.2.86"
   },
   "orologioLive": {
-    "versione": "1.1.60",
-    "codice": 171
+    "versione": "1.1.61",
+    "codice": 172
   }
 }
