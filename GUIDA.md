@@ -64,18 +64,20 @@ Sull'orologio l'**ingranaggio** sotto *Nuova chat* apre le impostazioni (città,
 Nella stessa pagina di Gateway, sezione **Installa le tue app sull'orologio**: tocca **📲 Scegli l'app da installare** e scegli il file scaricato. Vanno bene gli **APK** singoli e i pacchetti divisi **APKS**, **XAPK** (anche con i file OBB) e **APKM**. Serve il Debug via Wi-Fi, come per Live Assistant. Nella casella sotto puoi scrivere un **comando adb** (es. `pm list packages -3` per l'elenco delle app installate) (sezione **Esegui sull'orologio**) e toccare **Esegui**: il risultato compare sotto e lo copi con **Copia risultato**.
 
 ## Orologio Wear OS (prova)
-Live Assistant funziona anche sugli orologi **Wear OS da Android 9 in poi** (Galaxy Watch, Pixel Watch, Oppo, TicWatch, Fossil…), compresi i vecchi **Wear OS 2 e 3** dove l'Assistente Google e WhatsApp non funzionano più. È la stessa app dell'Huawei: domande a voce con Gemini Live, Casa, Contatti, WhatsApp e Telegram tramite Gateway, collegato via Bluetooth (anche senza Wi-Fi né LTE sull'orologio).
-1. Sull'orologio attiva le **Opzioni sviluppatore**: Impostazioni → Informazioni (sul Galaxy: *Informazioni sull'orologio → Informazioni software*) → tocca più volte **Versione software** o **Numero build**.
-2. Orologio e telefono sulla **stessa rete Wi-Fi** (va bene anche l'hotspot del telefono).
-3. In Gateway Assistant tocca **⌚ Orologio Wear OS: installa e diagnostica → 📲 Installa Live Assistant**:
-   - **Wear OS 4 e successivi**: Opzioni sviluppatore → **Debug wireless** attivo (*Consenti sempre su questa rete*). Scrivi **indirizzo IP e porta** mostrati in alto; poi sull'orologio tocca **Abbina nuovo dispositivo** e scrivi anche **porta di abbinamento e codice** (6 cifre, solo la prima volta). Non usare la porta 5555.
-   - **Wear OS 2 e 3**: Opzioni sviluppatore → **Debug ADB** e **Debug via Wi-Fi** attivi. Scrivi l'IP e la porta **5555** e lascia vuoti porta e codice di abbinamento; sull'orologio accetta il debug (**Consenti sempre**).
-   Gateway installa l'app, dà il permesso del microfono, la esclude dal risparmio batteria e la apre.
-4. Tieni acceso il **Bluetooth** dell'orologio e in Gateway **✅ Bluetooth Huawei: attivo** (lo stesso canale vale per Wear OS). La chiave Gemini resta nel telefono: l'orologio usa quella di Gateway.
+Live Assistant funziona anche sugli orologi **Wear OS da Android 9 in poi**, tondi e rettangolari (Galaxy Watch, Pixel Watch, Oppo Watch, Mi Watch, TicWatch, Fossil…), compresi i vecchi **Wear OS 2 e 3** dove l'Assistente Google e WhatsApp non funzionano più. È la stessa app dell'Huawei: domande a voce con Gemini Live, meteo grafico, Casa, Contatti, WhatsApp e Telegram tramite Gateway.
+**Collegamento con il telefono**: prima il canale ufficiale di Wear OS (Bluetooth, Wi-Fi o rete, lo sceglie Wear OS), poi il Bluetooth diretto. Gateway passa all'orologio le chiavi e il codice del canale: funziona anche lontano dal telefono, se l'orologio ha la rete.
 
-**Aggiornamenti**: sull'orologio, Impostazioni → *Controlla e installa*. Su Wear OS 4 e successivi li installa l'app stessa (la prima volta consenti *Installa app sconosciute*, poi conferma); su Wear OS 2 e 3 passano dal Debug via Wi-Fi, da lasciare attivo.
-**Avvio rapido sul Galaxy Watch**: Impostazioni → Funzioni avanzate → Personalizza tasti → *Premi due volte* → **Live Assistant**.
-**Diagnostica**: in Gateway, **⌚ Orologio Wear OS → 🩺 Diagnostica**.
+**Installazione** — in Gateway Assistant tocca **⌚ Orologio Wear OS: installa e diagnostica**. Prima, sull'orologio, attiva le **Opzioni sviluppatore**: Impostazioni → Informazioni (sul Galaxy *Informazioni sull'orologio → Informazioni software*) → tocca più volte **Versione software** o **Numero build**. Orologio e telefono sulla **stessa rete Wi-Fi** (va bene l'hotspot del telefono). Poi scegli il collegamento:
+- **Debug wireless (Wear OS 4 e successivi)**: Opzioni sviluppatore → **Debug wireless** attivo (*Consenti sempre su questa rete*).
+  1. Sull'orologio apri **Abbina nuovo dispositivo** (compare un codice di 6 cifre).
+  2. In Gateway scrivi **solo il codice** e tocca **🔗 Abbina**: IP, porta di collegamento e porta di abbinamento li trova da solo sulla rete (pulsante **🔍 Trova l'orologio**; si possono anche scrivere a mano nei loro campi). Dopo l'abbinamento il pulsante diventa verde, **Abbinato ✓**: non serve rifarlo.
+  3. Tocca **⬇ Scarica e installa Live Assistant**. La porta di collegamento cambia ogni volta che riaccendi il Debug wireless: se un comando non si collega, svuota il campo porta e Gateway la ritrova.
+- **Debug via Wi-Fi (Wear OS 2 e 3)**: Opzioni sviluppatore → **Debug ADB** e **Debug via Wi-Fi** attivi. Scrivi l'IP dell'orologio (la porta è già **5555**) e tocca **⬇ Scarica e installa Live Assistant**; sull'orologio accetta il debug (**Consenti sempre**).
+
+Gateway installa l'app, dà i permessi (microfono, sensori, aggiornamenti), la esclude dal risparmio batteria, le passa le chiavi e la apre. Ogni pulsante mostra i passaggi in una finestra (**Copia** per mandarli a chi ti aiuta).
+**Aggiornamenti**: sull'orologio, ingranaggio → *Controlla e installa*. Su Wear OS 4 e successivi l'app si aggiorna da sola (la prima volta consenti *Installa app sconosciute*, poi conferma); su Wear OS 2 e 3 passa dal Debug via Wi-Fi, da lasciare attivo.
+**Nella stessa pagina**: *Invia le chiavi all'orologio*; **DPI dello schermo** (*Ripristina* torna ai DPI di fabbrica del modello, es. 340 sui Samsung); **Installa le tue app** (APK, APKS, XAPK, APKM); **Esegui sull'orologio** (comandi adb); **Diagnostica** dell'orologio (con modello e versione di Android).
+**Tasto**: sul Galaxy Watch, Impostazioni → Funzioni avanzate → Personalizza tasti → *Premi due volte* → **Live Assistant**. Per il tasto centrale dei Galaxy Watch Ultra stiamo preparando il guardiano del tasto: in Gateway tocca **🔎 Studia i tasti**, premi i tasti dell'orologio per 15 secondi e manda il risultato.
 
 ## Con l'iPhone
 Gateway Assistant esiste solo per Android: iOS non permette a un'app di restare sempre attiva, premere "Invia" in WhatsApp, leggere le notifiche o passare frasi all'Assistente Google.
@@ -96,7 +98,7 @@ Utili col rumore di fondo o con le mani occupate. Si attivano e si spengono nell
 Nei primi 2 secondi dopo l'apertura gli scossoni non contano. Dopo **30 secondi** senza fare niente l'app torna al quadrante da sola.
 
 ## Cosa puoi dire
-- "Che tempo fa domani?", "Cosa ha fatto l'Avellino?", qualsiasi domanda
+- "Che tempo fa domani?", "Cosa ha fatto l'Avellino?", qualsiasi domanda (alle domande sul meteo l'orologio mostra anche la **scheda grafica**: adesso, prossime ore e prossimi giorni)
 - "Accendi la luce della cucina", "buonanotte"
 - "Chiama Mario" (se ci sono più Mario li tocchi sull'orologio)
 - "Manda un WhatsApp a Mario: arrivo tra dieci minuti" (tocchi **Invia a …** per confermare)

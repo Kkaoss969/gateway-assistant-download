@@ -64,18 +64,20 @@ En el reloj el **engranaje** bajo *Nuevo chat* abre los ajustes (ciudad, conexi�
 En la misma página de Gateway, sección **Instala tus apps en el reloj**: toca **📲 Elegir la app que instalar** y elige el archivo descargado. Sirven los **APK** sueltos y los paquetes divididos **APKS**, **XAPK** (también con archivos OBB) y **APKM**. Hace falta la Depuración por Wi-Fi, como para Live Assistant. En la casilla de abajo puedes escribir una **orden adb** (p. ej. `pm list packages -3` para ver las apps instaladas) (sección **Ejecutar en el reloj**) y tocar **Ejecutar**: el resultado aparece debajo y lo copias con **Copiar resultado**.
 
 ## Reloj Wear OS (prueba)
-Live Assistant también funciona en relojes **Wear OS desde Android 9** (Galaxy Watch, Pixel Watch, Oppo, TicWatch, Fossil…), incluidos los antiguos **Wear OS 2 y 3** donde el Asistente de Google y WhatsApp ya no funcionan. Es la misma app que en Huawei: preguntas por voz con Gemini Live, Casa, Contactos, WhatsApp y Telegram a través de Gateway, conectado por Bluetooth (incluso sin Wi-Fi ni LTE en el reloj).
-1. En el reloj activa las **Opciones de desarrollador**: Ajustes → Información (en Galaxy: *Acerca del reloj → Información de software*) → toca varias veces **Versión de software** o **Número de compilación**.
-2. Reloj y teléfono en la **misma red Wi-Fi** (vale el punto de acceso del teléfono).
-3. En Gateway Assistant toca **⌚ Reloj Wear OS: instalar y diagnóstico → 📲 Instalar Live Assistant**:
-   - **Wear OS 4 y posteriores**: Opciones de desarrollador → **Depuración inalámbrica** activa (*Permitir siempre en esta red*). Escribe la **dirección IP y el puerto** que aparecen arriba; luego en el reloj toca **Vincular dispositivo nuevo** y escribe también el **puerto de vinculación y el código** (6 cifras, solo la primera vez). No uses el puerto 5555.
-   - **Wear OS 2 y 3**: Opciones de desarrollador → **Depuración ADB** y **Depuración por Wi-Fi** activas. Escribe la IP y el puerto **5555** y deja vacíos puerto y código de vinculación; en el reloj acepta la depuración (**Permitir siempre**).
-   Gateway instala la app, da el permiso del micrófono, la excluye del ahorro de batería y la abre.
-4. Mantén el **Bluetooth** del reloj activo y, en Gateway, **✅ Bluetooth Huawei: activo** (el mismo canal sirve para Wear OS). Tu clave de Gemini se queda en el teléfono: el reloj usa la de Gateway.
+Live Assistant también funciona en relojes **Wear OS desde Android 9**, redondos y rectangulares (Galaxy Watch, Pixel Watch, Oppo Watch, Mi Watch, TicWatch, Fossil…), incluidos los antiguos **Wear OS 2 y 3** donde el Asistente de Google y WhatsApp ya no funcionan. Es la misma app que en Huawei: preguntas por voz con Gemini Live, tiempo gráfico, Casa, Contactos, WhatsApp y Telegram a través de Gateway.
+**Conexión con el teléfono**: primero el canal oficial de Wear OS (Bluetooth, Wi-Fi o red, lo elige Wear OS), luego el Bluetooth directo. Gateway pasa al reloj las claves y el código del canal: funciona también lejos del teléfono si el reloj tiene red.
 
-**Actualizaciones**: en el reloj, Ajustes → *Comprobar e instalar*. En Wear OS 4 y posteriores las instala la propia app (la primera vez permite *Instalar apps desconocidas* y luego confirma); en Wear OS 2 y 3 pasan por la depuración por Wi-Fi, que debe quedar activa.
-**Inicio rápido en Galaxy Watch**: Ajustes → Funciones avanzadas → Personalizar botones → *Pulsar dos veces* → **Live Assistant**.
-**Diagnóstico**: en Gateway, **⌚ Reloj Wear OS → 🩺 Diagnóstico**.
+**Instalación** — en Gateway Assistant toca **⌚ Reloj Wear OS: instalar y diagnóstico**. Antes, en el reloj, activa las **Opciones de desarrollador**: Ajustes → Información (en Galaxy *Acerca del reloj → Información de software*) → toca varias veces **Versión de software** o **Número de compilación**. Reloj y teléfono en la **misma Wi-Fi** (vale el punto de acceso del teléfono). Luego elige la conexión:
+- **Depuración inalámbrica (Wear OS 4 y posteriores)**: Opciones de desarrollador → **Depuración inalámbrica** activa (*Permitir siempre en esta red*).
+  1. En el reloj abre **Vincular dispositivo nuevo** (aparece un código de 6 cifras).
+  2. En Gateway escribe **solo el código** y toca **🔗 Vincular**: IP, puerto de conexión y puerto de vinculación los encuentra solo en la red (botón **🔍 Buscar el reloj**; también se pueden escribir en sus campos). Tras vincular el botón se pone verde, **Vinculado ✓**: no hace falta repetirlo.
+  3. Toca **⬇ Descargar e instalar Live Assistant**. El puerto de conexión cambia cada vez que reactivas la depuración inalámbrica: si una orden no se conecta, vacía el campo del puerto y Gateway lo vuelve a encontrar.
+- **Depuración por Wi-Fi (Wear OS 2 y 3)**: Opciones de desarrollador → **Depuración ADB** y **Depuración por Wi-Fi** activas. Escribe la IP del reloj (el puerto ya es **5555**) y toca **⬇ Descargar e instalar Live Assistant**; en el reloj acepta la depuración (**Permitir siempre**).
+
+Gateway instala la app, da los permisos (micrófono, sensores, actualizaciones), la excluye del ahorro de batería, le pasa las claves y la abre. Cada botón muestra los pasos en una ventana (**Copiar** para enviarlos a quien te ayude).
+**Actualizaciones**: en el reloj, engranaje → *Comprobar e instalar*. En Wear OS 4 y posteriores la app se actualiza sola (la primera vez permite *Instalar apps desconocidas* y luego confirma); en Wear OS 2 y 3 pasa por la depuración por Wi-Fi, que debe quedar activa.
+**En la misma página**: *Enviar las claves al reloj*; **DPI de la pantalla** (*Restablecer* vuelve a los DPI de fábrica del modelo, p. ej. 340 en Samsung); **Instala tus apps** (APK, APKS, XAPK, APKM); **Ejecutar en el reloj** (órdenes adb); **Diagnóstico** del reloj (con modelo y versión de Android).
+**Botón**: en Galaxy Watch, Ajustes → Funciones avanzadas → Personalizar botones → *Pulsar dos veces* → **Live Assistant**. Para el botón central de los Galaxy Watch Ultra estamos preparando el guardián del botón: en Gateway toca **🔎 Estudiar los botones**, pulsa los botones del reloj durante 15 segundos y envía el resultado.
 
 ## Con iPhone
 Gateway Assistant solo existe para Android: iOS no permite que una app esté siempre activa, pulse "Enviar" en WhatsApp, lea notificaciones o pase frases al Asistente de Google.
@@ -96,7 +98,7 @@ No funcionan: órdenes para la casa Google, llamadas por nombre desde los contac
 Las sacudidas no cuentan en los 2 primeros segundos tras abrir. Tras **30 segundos** sin hacer nada la app vuelve sola a la esfera.
 
 ## Qué puedes decir
-- «¿Qué tiempo hará mañana?», «¿Cómo ha quedado el Betis?», cualquier pregunta
+- «¿Qué tiempo hará mañana?», «¿Cómo ha quedado el Betis?», cualquier pregunta (con las preguntas sobre el tiempo el reloj muestra también la **tarjeta gráfica**: ahora, próximas horas y próximos días)
 - «Enciende la luz de la cocina», «buenas noches»
 - «Llama a Mario» (si hay varios Mario eliges uno en el reloj)
 - «Manda un WhatsApp a Mario: llego en diez minutos» (toca **Enviar a …** para confirmar)

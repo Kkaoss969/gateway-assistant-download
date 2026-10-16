@@ -64,18 +64,20 @@ On the watch the **gear** under *New chat* opens the settings (city, Auto/Blueto
 On the same Gateway page, section **Install your own apps on the watch**: tap **📲 Choose the app to install** and pick the downloaded file. Single **APK**s and split bundles **APKS**, **XAPK** (OBB files included) and **APKM** all work. Debugging over Wi-Fi is needed, as for Live Assistant. In the box below you can type an **adb command** (e.g. `pm list packages -3` to list the installed apps) (section **Run on the watch**) and tap **Run**: the result appears below and **Copy result** copies it.
 
 ## Wear OS watch (beta)
-Live Assistant also runs on **Wear OS watches from Android 9 on** (Galaxy Watch, Pixel Watch, Oppo, TicWatch, Fossil…), including old **Wear OS 2 and 3** watches where Google Assistant and WhatsApp no longer work. It is the same app as on Huawei: voice questions with Gemini Live, Home, Contacts, WhatsApp and Telegram through Gateway, linked via Bluetooth (even without Wi-Fi or LTE on the watch).
-1. On the watch turn on **Developer options**: Settings → About (on Galaxy: *About watch → Software information*) → tap **Software version** or **Build number** several times.
-2. Watch and phone on the **same Wi-Fi network** (the phone's hotspot is fine).
-3. In Gateway Assistant tap **⌚ Wear OS watch: install and diagnostics → 📲 Install Live Assistant**:
-   - **Wear OS 4 and later**: Developer options → **Wireless debugging** on (*Always allow on this network*). Enter the **IP address and port** shown at the top; then on the watch tap **Pair new device** and also enter the **pairing port and code** (6 digits, first time only). Don't use port 5555.
-   - **Wear OS 2 and 3**: Developer options → **ADB debugging** and **Debug over Wi-Fi** on. Enter the IP and port **5555** and leave pairing port and code empty; on the watch accept debugging (**Always allow**).
-   Gateway installs the app, grants the microphone permission, excludes it from battery saving and opens it.
-4. Keep the watch's **Bluetooth** on and, in Gateway, **✅ Huawei Bluetooth: on** (the same channel works for Wear OS). Your Gemini key stays on the phone: the watch uses Gateway's.
+Live Assistant also runs on **Wear OS watches from Android 9 on**, round and rectangular (Galaxy Watch, Pixel Watch, Oppo Watch, Mi Watch, TicWatch, Fossil…), including old **Wear OS 2 and 3** watches where Google Assistant and WhatsApp no longer work. It is the same app as on Huawei: voice questions with Gemini Live, graphic weather, Home, Contacts, WhatsApp and Telegram through Gateway.
+**Link with the phone**: first the official Wear OS channel (Bluetooth, Wi-Fi or network, chosen by Wear OS), then direct Bluetooth. Gateway gives the watch the keys and the channel code: it also works away from the phone if the watch has a network.
 
-**Updates**: on the watch, Settings → *Check and install*. On Wear OS 4 and later the app installs them itself (the first time allow *Install unknown apps*, then confirm); on Wear OS 2 and 3 they go through Debug over Wi-Fi, which must stay on.
-**Quick launch on Galaxy Watch**: Settings → Advanced features → Customize keys → *Double press* → **Live Assistant**.
-**Diagnostics**: in Gateway, **⌚ Wear OS watch → 🩺 Diagnostics**.
+**Installation** — in Gateway Assistant tap **⌚ Wear OS watch: install and diagnostics**. First, on the watch, turn on **Developer options**: Settings → About (on Galaxy *About watch → Software information*) → tap **Software version** or **Build number** several times. Watch and phone on the **same Wi-Fi** (the phone's hotspot is fine). Then choose the connection:
+- **Wireless debugging (Wear OS 4 and later)**: Developer options → **Wireless debugging** on (*Always allow on this network*).
+  1. On the watch open **Pair new device** (a 6-digit code appears).
+  2. In Gateway type **only the code** and tap **🔗 Pair**: IP, connection port and pairing port are found automatically on the network (**🔍 Find the watch** button; they can also be typed in their fields). After pairing the button turns green, **Paired ✓**: no need to redo it.
+  3. Tap **⬇ Download and install Live Assistant**. The connection port changes every time you turn Wireless debugging back on: if a command can't connect, empty the port field and Gateway finds it again.
+- **Debug over Wi-Fi (Wear OS 2 and 3)**: Developer options → **ADB debugging** and **Debug over Wi-Fi** on. Enter the watch IP (port is already **5555**) and tap **⬇ Download and install Live Assistant**; on the watch accept debugging (**Always allow**).
+
+Gateway installs the app, grants the permissions (microphone, sensors, updates), excludes it from battery saving, gives it the keys and opens it. Every button shows the steps in a window (**Copy** to send them to whoever helps you).
+**Updates**: on the watch, gear → *Check and install*. On Wear OS 4 and later the app updates itself (the first time allow *Install unknown apps*, then confirm); on Wear OS 2 and 3 it goes through Debug over Wi-Fi, which must stay on.
+**On the same page**: *Send the keys to the watch*; **Screen DPI** (*Reset* goes back to the model's factory DPI, e.g. 340 on Samsung); **Install your own apps** (APK, APKS, XAPK, APKM); **Run on the watch** (adb commands); watch **Diagnostics** (with model and Android version).
+**Button**: on Galaxy Watch, Settings → Advanced features → Customize keys → *Double press* → **Live Assistant**. For the center button of the Galaxy Watch Ultra we are preparing the button guardian: in Gateway tap **🔎 Study the buttons**, press the watch buttons for 15 seconds and send the result.
 
 ## With an iPhone
 Gateway Assistant is Android-only: iOS does not let an app stay always on, press "Send" in WhatsApp, read notifications or pass phrases to Google Assistant.
@@ -96,7 +98,7 @@ Handy with background noise or busy hands. They are turned on and off in the app
 Shakes don't count in the first 2 seconds after opening. After **30 seconds** of inactivity the app goes back to the watch face by itself.
 
 ## What you can say
-- "What's the weather tomorrow?", "How did Arsenal do?", any question
+- "What's the weather tomorrow?", "How did Arsenal do?", any question (for weather questions the watch also shows a **graphic card**: now, next hours and next days)
 - "Turn on the kitchen light", "good night"
 - "Call Mario" (if there are several Marios you tap one on the watch)
 - "Send a WhatsApp to Mario: I'll be there in ten minutes" (tap **Send to …** to confirm)
