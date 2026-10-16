@@ -1,6 +1,6 @@
 # Live Assistant (watch) + Gateway Assistant (phone) — quick guide
 
-With your Amazfit watch (Zepp OS) or Huawei Watch 3 / Watch 4 you talk to Gemini and, through the **Gateway Assistant** app on your Android phone, you can:
+With your Amazfit watch (Zepp OS), Huawei Watch 3 / Watch 4 or **Wear OS** watch (Galaxy Watch, Pixel Watch, TicWatch…) you talk to Gemini and, through the **Gateway Assistant** app on your Android phone, you can:
 control your Google home, make calls, send/read/reply to WhatsApp messages and use the phone's voice.
 Everyone uses their own phone, Google account and Gemini key: nothing to share.
 
@@ -63,6 +63,20 @@ On the watch the **gear** under *New chat* opens the settings (city, Auto/Blueto
 ### Install your own apps on the watch
 On the same Gateway page, section **Install your own apps on the watch**: tap **📲 Choose the app to install** and pick the downloaded file. Single **APK**s and split bundles **APKS**, **XAPK** (OBB files included) and **APKM** all work. Debugging over Wi-Fi is needed, as for Live Assistant. In the box below you can type an **adb command** (e.g. `pm list packages -3` to list the installed apps) (section **Run on the watch**) and tap **Run**: the result appears below and **Copy result** copies it.
 
+## Wear OS watch (beta)
+Live Assistant also runs on **Wear OS watches from Android 9 on** (Galaxy Watch, Pixel Watch, Oppo, TicWatch, Fossil…), including old **Wear OS 2 and 3** watches where Google Assistant and WhatsApp no longer work. It is the same app as on Huawei: voice questions with Gemini Live, Home, Contacts, WhatsApp and Telegram through Gateway, linked via Bluetooth (even without Wi-Fi or LTE on the watch).
+1. On the watch turn on **Developer options**: Settings → About (on Galaxy: *About watch → Software information*) → tap **Software version** or **Build number** several times.
+2. Watch and phone on the **same Wi-Fi network** (the phone's hotspot is fine).
+3. In Gateway Assistant tap **⌚ Wear OS watch: install and diagnostics → 📲 Install Live Assistant**:
+   - **Wear OS 4 and later**: Developer options → **Wireless debugging** on (*Always allow on this network*). Enter the **IP address and port** shown at the top; then on the watch tap **Pair new device** and also enter the **pairing port and code** (6 digits, first time only). Don't use port 5555.
+   - **Wear OS 2 and 3**: Developer options → **ADB debugging** and **Debug over Wi-Fi** on. Enter the IP and port **5555** and leave pairing port and code empty; on the watch accept debugging (**Always allow**).
+   Gateway installs the app, grants the microphone permission, excludes it from battery saving and opens it.
+4. Keep the watch's **Bluetooth** on and, in Gateway, **✅ Huawei Bluetooth: on** (the same channel works for Wear OS). Your Gemini key stays on the phone: the watch uses Gateway's.
+
+**Updates**: on the watch, Settings → *Check and install*. On Wear OS 4 and later the app installs them itself (the first time allow *Install unknown apps*, then confirm); on Wear OS 2 and 3 they go through Debug over Wi-Fi, which must stay on.
+**Quick launch on Galaxy Watch**: Settings → Advanced features → Customize keys → *Double press* → **Live Assistant**.
+**Diagnostics**: in Gateway, **⌚ Wear OS watch → 🩺 Diagnostics**.
+
 ## With an iPhone
 Gateway Assistant is Android-only: iOS does not let an app stay always on, press "Send" in WhatsApp, read notifications or pass phrases to Google Assistant.
 **Live Assistant still works with an iPhone**: questions to Gemini, voice, weather, news, reminders, volume, brightness and torch.
@@ -97,9 +111,14 @@ Shakes don't count in the first 2 seconds after opening. After **30 seconds** of
 
 **Quick commands and favorites**: in Gateway Assistant, in the "On the watch: quick commands and favorites" section, add buttons with a phrase for the Assistant (e.g. "Shield" → "turn on Shield") and favorite contacts from your address book. On the watch, beside the central button: the **house** icon (or the **‹** arrow) opens **Home**, with your buttons (they go straight to the phone's Assistant, without Gemini) and **Do not disturb** to turn on and off; the **messages** icon (or the **›** arrow) opens **Contacts**, with your favorites and the **WhatsApp** (say the message and confirm with Send) and **Call** buttons.
 
+**Favorites and groups**: up to **16 favorites** between contacts and groups. With **+ Add WhatsApp group** and **+ Add Telegram group** you pick a group: on the watch it gets its own card with the last message (and who wrote it), the bubbles and replies. **Alerts**: when a favorite writes to you (or in a favorite group) the watch shows name and preview, and tapping it opens that app's chat. With direct WhatsApp and Telegram, alerts arrive even if the phone shows no notification.
+
 **Privacy mode**: tap the **microphone** button at the bottom right of the central button: it becomes a green **keyboard**: the microphone stays off and the central button opens the keyboard; type your question and the answer comes back as text only, with no voice. Tap it again to go back to voice. For a single typed question you can also **press and hold** the central button. Needs a watch with Zepp OS 4 or later.
 
 ## If something goes wrong
 - Zepp app → Live Assistant → **Diagnostics**: shows what happened with each question. It also reaches Gateway Assistant (**⌚ Amazfit watch: diagnostics**): from there you copy it or send it as a file with **Share file**.
 - In Gateway Assistant the **Log** shows calls, messages and commands.
 - The gateway must be running ("Gateway running ✓") with the battery unrestricted.
+- **🐞 Report a problem** in Gateway, or by voice from the watch ("report a problem: the WhatsApp button doesn't work"): the report reaches the developer with the log and the watches' diagnostics, with message texts and numbers hidden. The first time it asks for consent. Gateway also reports repeated problems by itself (at most once a day per type).
+- The gateway button is **green** when running and **red** when stopped.
+- **Anonymous usage count**: once a day Gateway sends only a random ID and the app versions, no personal data. Turn it off with **📊 Anonymous usage count**.

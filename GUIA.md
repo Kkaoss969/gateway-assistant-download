@@ -1,6 +1,6 @@
 # Live Assistant (reloj) + Gateway Assistant (teléfono) — guía rápida
 
-Con tu reloj Amazfit (Zepp OS) o Huawei Watch 3 / Watch 4 hablas con Gemini y, a través de la app **Gateway Assistant** en tu teléfono Android, puedes:
+Con tu reloj Amazfit (Zepp OS), Huawei Watch 3 / Watch 4 o **Wear OS** (Galaxy Watch, Pixel Watch, TicWatch…) hablas con Gemini y, a través de la app **Gateway Assistant** en tu teléfono Android, puedes:
 controlar tu casa Google, llamar, enviar/leer/responder WhatsApp y usar la voz del teléfono.
 Cada uno usa su propio teléfono, su cuenta de Google y su clave de Gemini: no hay nada que compartir.
 
@@ -63,6 +63,20 @@ En el reloj el **engranaje** bajo *Nuevo chat* abre los ajustes (ciudad, conexi�
 ### Instala tus apps en el reloj
 En la misma página de Gateway, sección **Instala tus apps en el reloj**: toca **📲 Elegir la app que instalar** y elige el archivo descargado. Sirven los **APK** sueltos y los paquetes divididos **APKS**, **XAPK** (también con archivos OBB) y **APKM**. Hace falta la Depuración por Wi-Fi, como para Live Assistant. En la casilla de abajo puedes escribir una **orden adb** (p. ej. `pm list packages -3` para ver las apps instaladas) (sección **Ejecutar en el reloj**) y tocar **Ejecutar**: el resultado aparece debajo y lo copias con **Copiar resultado**.
 
+## Reloj Wear OS (prueba)
+Live Assistant también funciona en relojes **Wear OS desde Android 9** (Galaxy Watch, Pixel Watch, Oppo, TicWatch, Fossil…), incluidos los antiguos **Wear OS 2 y 3** donde el Asistente de Google y WhatsApp ya no funcionan. Es la misma app que en Huawei: preguntas por voz con Gemini Live, Casa, Contactos, WhatsApp y Telegram a través de Gateway, conectado por Bluetooth (incluso sin Wi-Fi ni LTE en el reloj).
+1. En el reloj activa las **Opciones de desarrollador**: Ajustes → Información (en Galaxy: *Acerca del reloj → Información de software*) → toca varias veces **Versión de software** o **Número de compilación**.
+2. Reloj y teléfono en la **misma red Wi-Fi** (vale el punto de acceso del teléfono).
+3. En Gateway Assistant toca **⌚ Reloj Wear OS: instalar y diagnóstico → 📲 Instalar Live Assistant**:
+   - **Wear OS 4 y posteriores**: Opciones de desarrollador → **Depuración inalámbrica** activa (*Permitir siempre en esta red*). Escribe la **dirección IP y el puerto** que aparecen arriba; luego en el reloj toca **Vincular dispositivo nuevo** y escribe también el **puerto de vinculación y el código** (6 cifras, solo la primera vez). No uses el puerto 5555.
+   - **Wear OS 2 y 3**: Opciones de desarrollador → **Depuración ADB** y **Depuración por Wi-Fi** activas. Escribe la IP y el puerto **5555** y deja vacíos puerto y código de vinculación; en el reloj acepta la depuración (**Permitir siempre**).
+   Gateway instala la app, da el permiso del micrófono, la excluye del ahorro de batería y la abre.
+4. Mantén el **Bluetooth** del reloj activo y, en Gateway, **✅ Bluetooth Huawei: activo** (el mismo canal sirve para Wear OS). Tu clave de Gemini se queda en el teléfono: el reloj usa la de Gateway.
+
+**Actualizaciones**: en el reloj, Ajustes → *Comprobar e instalar*. En Wear OS 4 y posteriores las instala la propia app (la primera vez permite *Instalar apps desconocidas* y luego confirma); en Wear OS 2 y 3 pasan por la depuración por Wi-Fi, que debe quedar activa.
+**Inicio rápido en Galaxy Watch**: Ajustes → Funciones avanzadas → Personalizar botones → *Pulsar dos veces* → **Live Assistant**.
+**Diagnóstico**: en Gateway, **⌚ Reloj Wear OS → 🩺 Diagnóstico**.
+
 ## Con iPhone
 Gateway Assistant solo existe para Android: iOS no permite que una app esté siempre activa, pulse "Enviar" en WhatsApp, lea notificaciones o pase frases al Asistente de Google.
 **Pero Live Assistant funciona también con iPhone**: preguntas a Gemini, voz, tiempo, noticias, recordatorios, volumen, brillo y linterna.
@@ -97,9 +111,14 @@ Las sacudidas no cuentan en los 2 primeros segundos tras abrir. Tras **30 segund
 
 **Órdenes rápidas y favoritos**: en Gateway Assistant, en la sección "En el reloj: órdenes rápidas y favoritos", añade botones con una frase para el Asistente (p. ej. "Shield" → "enciende Shield") y los contactos favoritos de la agenda. En el reloj, a los lados del botón central: el icono de la **casa** (o la flecha **‹**) abre **Casa**, con tus botones (van directamente al Asistente del teléfono, sin Gemini) y **No molestar** para activar y desactivar; el icono de los **mensajes** (o la flecha **›**) abre **Contactos**, con los favoritos y los botones **WhatsApp** (dictas el mensaje y confirmas con Enviar) y **Llamar**.
 
+**Favoritos y grupos**: hasta **16 favoritos** entre contactos y grupos. Con **+ Añadir grupo de WhatsApp** y **+ Añadir grupo de Telegram** eliges un grupo: en el reloj tiene su tarjeta con el último mensaje (y quién lo escribió), las burbujas y la respuesta. **Avisos**: cuando te escribe un favorito (o en un grupo favorito) el reloj muestra nombre y vista previa, y al tocarlo se abre el chat de esa app. Con WhatsApp y Telegram directos los avisos llegan aunque el teléfono no muestre la notificación.
+
 **Modo privacidad**: toca el botón del **micrófono** abajo a la derecha del botón central: se convierte en un **teclado** verde: el micrófono queda apagado y el botón central abre el teclado; escribe la pregunta y la respuesta llega solo escrita, sin voz. Tócalo otra vez para volver a la voz. Para una sola pregunta escrita también puedes **mantener pulsado** el botón central. Necesita un reloj con Zepp OS 4 o posterior.
 
 ## Si algo no funciona
 - App Zepp → Live Assistant → **Diagnóstico**: muestra qué ha pasado con cada pregunta. También llega a Gateway Assistant (**⌚ Reloj Amazfit: diagnóstico**): desde ahí lo copias o lo envías como archivo con **Compartir archivo**.
 - En Gateway Assistant el **Registro** muestra llamadas, mensajes y órdenes.
 - El gateway debe estar en marcha ("Gateway activo ✓") y con la batería sin restricciones.
+- **🐞 Informar de un problema** en Gateway, o por voz desde el reloj ("informa de un problema: el botón de WhatsApp no va"): el informe llega al desarrollador con el registro y el diagnóstico de los relojes, con textos de los mensajes y números ocultos. La primera vez pide el consentimiento. Gateway también informa solo de los problemas que se repiten (como máximo una vez al día por tipo).
+- El botón del gateway es **verde** cuando está activo y **rojo** cuando está detenido.
+- **Recuento anónimo de uso**: una vez al día Gateway envía solo un identificador aleatorio y las versiones de las apps, ningún dato personal. Se desactiva con **📊 Recuento anónimo de uso**.
