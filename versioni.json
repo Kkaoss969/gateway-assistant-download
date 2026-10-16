@@ -9,5 +9,9 @@
   "orologioLive": {
     "versione": "1.1.108",
     "codice": 219
+  },
+  "orologioWear": {
+    "versione": "1.0.0",
+    "codice": 1
   }
 }
