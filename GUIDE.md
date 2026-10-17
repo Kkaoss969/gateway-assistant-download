@@ -75,6 +75,7 @@ Live Assistant also runs on **Wear OS watches from Android 9 on**, round and rec
 - **Debug over Wi-Fi (Wear OS 2 and 3)**: Developer options → **ADB debugging** and **Debug over Wi-Fi** on. Enter the watch IP (port is already **5555**) and tap **⬇ Download and install Live Assistant**; on the watch accept debugging (**Always allow**).
 
 Gateway installs the app, grants the permissions (microphone, sensors, updates), excludes it from battery saving, gives it the keys and opens it. Every button shows the steps in a window (**Copy** to send them to whoever helps you).
+On **Pixel Watch**, if the icon doesn't appear in the app list after installing, restart the watch.
 **Button to open Live** — in Live's settings on the watch (gear): *Long press Home: Live instead of the Google assistant*; on the **Galaxy Watch Ultra** the **middle (orange) button**: in Samsung's button settings choose **No app**, then in Live tap **Learn the button app** and press the button once. If the button guardian is not active, in Gateway tap **🔑 Give Live its permissions**.
 **Updates**: on the watch, gear → *Check and install*. On Wear OS 4 and later the app updates itself (the first time allow *Install unknown apps*, then confirm); on Wear OS 2 and 3 it goes through Debug over Wi-Fi, which must stay on.
 **On the same page**: *Send the keys to the watch*; **Screen DPI** (*Reset* goes back to the model's factory DPI, e.g. 340 on Samsung); **Install your own apps** (APK, APKS, XAPK, APKM); **Run on the watch** (adb commands); watch **Diagnostics** (with model and Android version).
