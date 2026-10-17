@@ -11,6 +11,12 @@ Everyone uses their own phone, Google account and Gemini key: nothing to share.
 - A **Gemini API key** (free, or with credit for faster answers): https://aistudio.google.com/apikey
 - The **Google** app (Assistant) on the phone, linked to your Google Home (only for home commands)
 
+## API keys
+Keys are entered **only once** in Gateway Assistant → **🔑 API keys** and work for all watches; from each watch's page you give them to Live with *Send the keys to the watch* (or when installing).
+- **Gemini** (required, free): open https://aistudio.google.com/apikey with your Google account → **Create API key** → choose or create a project → copy the key (starts with `AIza` or `AQ.`) and paste it in Gateway → *Save Gemini key*. The free plan has daily limits; with some credit answers are faster.
+- **Groq** (optional, free): open https://console.groq.com/keys, sign in (Google works) → **Create API Key** → give it a name → copy the key (starts with `gsk_`, shown only once) and paste it in Gateway → *Save Groq key*. It gives written answers in about 1 second.
+- To remove a key, long-press its *Save* button.
+
 ## 1 · Install Gateway Assistant (phone)
 1. Download the APK on the phone: **https://github.com/Kkaoss969/gateway-assistant-download/raw/main/GatewayAssistant.apk**
 2. Open it and allow installs from this source if Android asks.
@@ -55,7 +61,7 @@ For **Huawei Watch 3 and Watch 4** (the Android-based ones) there is **Live Assi
 On the watch the **gear** under *New chat* opens the settings (city, Auto/Bluetooth/Internet connection, voice, updates, diagnostics); the **crown** scrolls the pages. Questions, voice, weather and news, Google home, Contacts and WhatsApp, calls, quick commands, reminders, torch, volume and brightness, steps and heart rate all work. By voice you can also change the **screen DPI** ("set the dpi to 280", "reset the dpi"; 90 to 400, standard 320); the watch settings have **Reset DPI**, and Gateway (Huawei watch page, *Screen DPI* section) has **Set** and **Reset (320)**.
 **Phone alarm**: when it rings, the watch vibrates and shows **Stop** and **Snooze** (even in night mode, which is turned off one minute before; Snooze turns it back on). It also works with last-minute alarms: in the Health app → Devices → watch → Notifications turn on **Gateway Assistant**.
 **Updates**: Gateway Assistant shows the installed and the new version; update from the same page or from the watch (Settings → *Check and install*, with Debugging over Wi-Fi on).
-**Groq (optional)**: Live answers general questions by itself; commands (home, calls, WhatsApp, alarms, weather, news) are carried out by the app and, with a Groq key, the text part is ready in about 1 second. Free key: https://console.groq.com → *API Keys* → *Create API Key* (it starts with `gsk_`) and paste it in Gateway, Huawei watch page → *Save Groq key*.
+**Groq (optional)**: Live answers general questions by itself; commands (home, calls, WhatsApp, alarms, weather, news) are carried out by the app and, with a Groq key, the text part is ready in about 1 second. Free key: https://console.groq.com → *API Keys* → *Create API Key* (it starts with `gsk_`) and paste it in Gateway → *🔑 API keys* → *Save Groq key*.
 **Diagnostics**: it reaches Gateway by itself (Huawei watch page; from the watch also Settings → *Send to Gateway Assistant*). With **Share** you send it as a text file (WhatsApp, Telegram, email) to whoever is helping you.
 **Two shakes to open (trial)**: in the watch settings turn on *Trial: two strong shakes open the app*. With the screen on, two sharp shakes close together open Live Assistant listening; with the always-on screen the sensor is off to save battery: raise your wrist to turn the screen back on. The lower button works too.
 **Huawei power saving**: the watch may close Live Assistant in the background (lower button and shakes stop working until you open the app again). In Gateway, Huawei watch page, tap **PowerGenie: remove** (if the watch doesn't allow it, it disables it; **PowerGenie: restore** undoes it). If Debugging over Wi-Fi stays on and you are on the same network, Gateway reactivates Live Assistant by itself when the watch closes it.
