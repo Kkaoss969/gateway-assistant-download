@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Live Assistant</title>
-<meta name="description" content="Gemini voice assistant for Amazfit and Huawei watches and Gateway Assistant for the phone: download and setup.">
+<meta name="description" content="Gemini voice assistant for Amazfit, Huawei and Wear OS watches and Gateway Assistant for the phone: download and setup.">
 <link rel="icon" href="icon.png">
 <style>
   :root {
@@ -42,6 +42,7 @@
   .langs button { font: inherit; font-size: 13px; color: var(--muted); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; cursor: pointer; }
   .langs button.on { color: var(--text); border-color: var(--blue); }
   .hw .num { background: #c7000b; color: #fff; font-size: 13px; }
+  .wo .num { background: #1a73e8; color: #fff; font-size: 13px; }
 </style>
 </head>
 <body>
@@ -90,6 +91,20 @@
     <p class="small" data-t="hwsmall"></p>
   </section>
 
+  <section class="card wo" id="wearos">
+    <div class="step"><span class="num">⌚</span><h2 data-t="wo"></h2></div>
+    <p data-t="wop"></p>
+    <ol>
+      <li data-t="woa"></li>
+      <li data-t="wob"></li>
+      <li data-t="woc"></li>
+      <li data-t="wod"></li>
+    </ol>
+    <a class="btn ghost" id="woGuide" data-t="woguide"></a>
+    <a class="btn ghost" href="LiveAssistantWear.apk" download data-t="wobtn"></a>
+    <p class="small" data-t="wosmall"></p>
+  </section>
+
   <section class="card s3">
     <div class="step"><span class="num">3</span><h2 data-t="s3"></h2></div>
     <p data-t="s3p"></p>
@@ -126,6 +141,16 @@
   // testi in italiano, inglese e spagnolo; la lingua segue quella del browser
   const T = {
     it: {
+      wo: 'Hai un orologio Wear OS?',
+      wop: "Galaxy Watch, Pixel Watch, TicWatch, Oppo, Mi Watch, Fossil… da <b>Android 9 in poi</b>, anche i vecchi Wear OS 2 e 3: c'è <b>Live Assistant</b> con Gemini Live, Casa, Contatti, WhatsApp e Telegram. Al posto dei passi 2 e 3 si installa da <b>Gateway Assistant</b>:",
+      woa: "Orologio: Impostazioni → Informazioni (sul Galaxy <i>Informazioni sull'orologio → Informazioni software</i>) → tocca più volte <b>Versione software</b> o <b>Numero build</b> per avere le Opzioni sviluppatore.",
+      wob: "Orologio e telefono sulla stessa rete Wi-Fi (va bene l'hotspot del telefono). <b>Wear OS 4 e successivi</b>: attiva <b>Debug wireless</b>. <b>Wear OS 2 e 3</b>: attiva <b>Debug ADB</b> e <b>Debug via Wi-Fi</b>.",
+      woc: "Gateway Assistant → <b>⌚ Orologio Wear OS: installa e diagnostica</b>. Con il Debug wireless: sull'orologio <b>Abbina nuovo dispositivo</b>, in Gateway scrivi solo il codice e tocca <b>🔗 Abbina</b> (l'orologio lo trova da solo). Poi <b>⬇ Scarica e installa Live Assistant</b>: chiavi e permessi passano da soli.",
+      wod: "Gli aggiornamenti arrivano da soli sull'orologio. Sul Galaxy Watch Ultra puoi aprire Live anche con il <b>tasto arancione</b> (impostazioni di Live sull'orologio).",
+      woguide: '📖 Guida Wear OS passo passo',
+      wobtn: "⬇ Scarica l'APK per Wear OS",
+      wosmall: "L'APK serve solo se lo installi in altro modo: con Gateway Assistant non devi scaricarlo.",
+      woUrl: 'GUIDA.md#orologio-wear-os-prova',
       hw: 'Hai un Huawei Watch 3 o Watch 4?',
       hwp: "Per gli orologi Huawei con base Android c'è <b>Live Assistant</b>, con Gemini Live: risponde a voce in 1-3 secondi, anche via Bluetooth. Al posto dei passi 2 e 3 si installa da <b>Gateway Assistant</b>:",
       hwa: 'Orologio: Impostazioni → Informazioni → tocca più volte il <b>numero di build</b>; poi Opzioni sviluppatore → attiva <b>Debug HDC</b> e <b>Debug via Wi-Fi</b>.',
@@ -134,7 +159,7 @@
       hwd: 'Tocca <b>Consenti Bluetooth Huawei</b> (funziona anche senza Wi-Fi né LTE) e <b>Tasto inferiore: apri Live Assistant</b> per aprirlo col tasto al posto di Celia.',
       hwbtn: '⬇ Scarica l\'APK per Huawei',
       hwsmall: 'L\'APK serve solo se lo installi in altro modo: con Gateway Assistant non devi scaricarlo. Dettagli nella guida completa.',
-      lead: 'Parla con Gemini dal tuo orologio Amazfit o Huawei. Con <b>Gateway Assistant</b> sul telefono comandi anche la casa Google, chiami, mandi e leggi i WhatsApp.',
+      lead: 'Parla con Gemini dal tuo orologio Amazfit, Huawei o Wear OS. Con <b>Gateway Assistant</b> sul telefono comandi anche la casa Google, chiami, mandi e leggi i WhatsApp.',
       s1: 'App del telefono',
       s1p: "Scarica <b>Gateway Assistant</b> sul telefono Android e installalo (se Android lo chiede, consenti l'installazione da questa fonte).",
       s1btn: 'Scarica Gateway Assistant',
@@ -173,6 +198,16 @@
       noList: 'Elenco dei modelli non disponibile.',
     },
     en: {
+      wo: 'Got a Wear OS watch?',
+      wop: 'Galaxy Watch, Pixel Watch, TicWatch, Oppo, Mi Watch, Fossil… from <b>Android 9 onwards</b>, including the old Wear OS 2 and 3: there is <b>Live Assistant</b> with Gemini Live, Home, Contacts, WhatsApp and Telegram. Instead of steps 2 and 3 it installs from <b>Gateway Assistant</b>:',
+      woa: 'Watch: Settings → About (on Galaxy <i>About watch → Software information</i>) → tap <b>Software version</b> or <b>Build number</b> several times to get Developer options.',
+      wob: "Watch and phone on the same Wi-Fi (the phone's hotspot is fine). <b>Wear OS 4 and later</b>: turn on <b>Wireless debugging</b>. <b>Wear OS 2 and 3</b>: turn on <b>ADB debugging</b> and <b>Debug over Wi-Fi</b>.",
+      woc: 'Gateway Assistant → <b>⌚ Wear OS watch: install and diagnostics</b>. With Wireless debugging: on the watch <b>Pair new device</b>, in Gateway type only the code and tap <b>🔗 Pair</b> (it finds the watch by itself). Then <b>⬇ Download and install Live Assistant</b>: keys and permissions are passed automatically.',
+      wod: 'Updates arrive on the watch by themselves. On the Galaxy Watch Ultra you can also open Live with the <b>orange button</b> (Live settings on the watch).',
+      woguide: '📖 Wear OS step-by-step guide',
+      wobtn: '⬇ Download the Wear OS APK',
+      wosmall: "The APK is only needed if you install it another way: with Gateway Assistant you don't have to download it.",
+      woUrl: 'GUIDE.md#wear-os-watch-beta',
       hw: 'Got a Huawei Watch 3 or Watch 4?',
       hwp: 'For the Android-based Huawei watches there is <b>Live Assistant</b>, with Gemini Live: it answers by voice in 1-3 seconds, even via Bluetooth. Instead of steps 2 and 3 it installs from <b>Gateway Assistant</b>:',
       hwa: 'Watch: Settings → About → tap the <b>build number</b> several times; then Developer options → turn on <b>HDC debugging</b> and <b>Debugging over Wi-Fi</b>.',
@@ -181,7 +216,7 @@
       hwd: "Tap <b>Allow Huawei Bluetooth</b> (it works even without Wi-Fi or LTE) and <b>Lower button: open Live Assistant</b> to open it with the button instead of Celia.",
       hwbtn: '⬇ Download the Huawei APK',
       hwsmall: "The APK is only needed if you install it another way: with Gateway Assistant you don't have to download it. Details in the full guide.",
-      lead: 'Talk to Gemini from your Amazfit or Huawei watch. With <b>Gateway Assistant</b> on your phone you can also control your Google home, make calls, and send and read WhatsApp messages.',
+      lead: 'Talk to Gemini from your Amazfit, Huawei or Wear OS watch. With <b>Gateway Assistant</b> on your phone you can also control your Google home, make calls, and send and read WhatsApp messages.',
       s1: 'Phone app',
       s1p: 'Download <b>Gateway Assistant</b> on your Android phone and install it (if Android asks, allow installs from this source).',
       s1btn: 'Download Gateway Assistant',
@@ -220,6 +255,16 @@
       noList: 'Model list not available.',
     },
     es: {
+      wo: '¿Tienes un reloj Wear OS?',
+      wop: 'Galaxy Watch, Pixel Watch, TicWatch, Oppo, Mi Watch, Fossil… desde <b>Android 9</b>, incluso los antiguos Wear OS 2 y 3: existe <b>Live Assistant</b> con Gemini Live, Casa, Contactos, WhatsApp y Telegram. En lugar de los pasos 2 y 3 se instala desde <b>Gateway Assistant</b>:',
+      woa: 'Reloj: Ajustes → Información (en Galaxy <i>Acerca del reloj → Información de software</i>) → toca varias veces <b>Versión de software</b> o <b>Número de compilación</b> para tener las Opciones de desarrollador.',
+      wob: 'Reloj y teléfono en la misma red Wi-Fi (sirve el punto de acceso del teléfono). <b>Wear OS 4 y posteriores</b>: activa <b>Depuración inalámbrica</b>. <b>Wear OS 2 y 3</b>: activa <b>Depuración ADB</b> y <b>Depuración por Wi-Fi</b>.',
+      woc: 'Gateway Assistant → <b>⌚ Reloj Wear OS: instalar y diagnóstico</b>. Con la depuración inalámbrica: en el reloj <b>Vincular nuevo dispositivo</b>, en Gateway escribe solo el código y toca <b>🔗 Vincular</b> (encuentra el reloj solo). Luego <b>⬇ Descargar e instalar Live Assistant</b>: claves y permisos pasan solos.',
+      wod: 'Las actualizaciones llegan solas al reloj. En el Galaxy Watch Ultra también puedes abrir Live con el <b>botón naranja</b> (ajustes de Live en el reloj).',
+      woguide: '📖 Guía de Wear OS paso a paso',
+      wobtn: '⬇ Descargar el APK para Wear OS',
+      wosmall: 'El APK solo hace falta si lo instalas de otra forma: con Gateway Assistant no tienes que descargarlo.',
+      woUrl: 'GUIA.md#reloj-wear-os-prueba',
       hw: '¿Tienes un Huawei Watch 3 o Watch 4?',
       hwp: 'Para los relojes Huawei basados en Android existe <b>Live Assistant</b>, con Gemini Live: responde por voz en 1-3 segundos, también por Bluetooth. En lugar de los pasos 2 y 3 se instala desde <b>Gateway Assistant</b>:',
       hwa: 'Reloj: Ajustes → Información → toca varias veces el <b>número de compilación</b>; luego Opciones de desarrollador → activa <b>Depuración HDC</b> y <b>Depuración por Wi-Fi</b>.',
@@ -228,7 +273,7 @@
       hwd: 'Toca <b>Permitir Bluetooth Huawei</b> (funciona incluso sin Wi-Fi ni LTE) y <b>Botón inferior: abrir Live Assistant</b> para abrirlo con el botón en lugar de Celia.',
       hwbtn: '⬇ Descargar el APK para Huawei',
       hwsmall: 'El APK solo hace falta si lo instalas de otra forma: con Gateway Assistant no tienes que descargarlo. Detalles en la guía completa.',
-      lead: 'Habla con Gemini desde tu reloj Amazfit o Huawei. Con <b>Gateway Assistant</b> en el teléfono también controlas tu casa Google, llamas y envías y lees WhatsApp.',
+      lead: 'Habla con Gemini desde tu reloj Amazfit, Huawei o Wear OS. Con <b>Gateway Assistant</b> en el teléfono también controlas tu casa Google, llamas y envías y lees WhatsApp.',
       s1: 'App del teléfono',
       s1p: 'Descarga <b>Gateway Assistant</b> en tu teléfono Android e instálalo (si Android lo pide, permite la instalación desde esta fuente).',
       s1btn: 'Descargar Gateway Assistant',
@@ -292,6 +337,7 @@
     document.querySelectorAll('[data-t]').forEach((el) => { el.innerHTML = t[el.dataset.t] })
     document.querySelectorAll('.langs button').forEach((b) => b.classList.toggle('on', b.dataset.l === L))
     document.getElementById('guide').href = 'https://github.com/Kkaoss969/gateway-assistant-download/blob/main/' + t.guideUrl
+    document.getElementById('woGuide').href = 'https://github.com/Kkaoss969/gateway-assistant-download/blob/main/' + t.woUrl
     sel.setAttribute('aria-label', t.model)
     const share = 'condividi/VoiceAssistant-' + L + '.png'
     document.getElementById('shareImg').src = share
