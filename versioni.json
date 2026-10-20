@@ -1,17 +1,17 @@
 {
   "gateway": {
-    "versione": "3.61",
-    "codice": 272
+    "versione": "3.62",
+    "codice": 273
   },
   "orologio": {
     "versione": "1.3.37"
   },
   "orologioLive": {
-    "versione": "1.1.144",
-    "codice": 255
+    "versione": "1.1.145",
+    "codice": 256
   },
   "orologioWear": {
-    "versione": "1.1.65",
-    "codice": 69
+    "versione": "1.1.66",
+    "codice": 70
   }
 }
