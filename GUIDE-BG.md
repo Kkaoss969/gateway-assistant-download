@@ -4,7 +4,7 @@
 да управлявате дома си в Google, да се обаждате, да пращате, четете и отговаряте на съобщения в WhatsApp и да ползвате гласа на телефона.
 Всеки използва собствения си телефон, профил в Google и ключ за Gemini: нищо не се споделя.
 
-🌐 Приложенията говорят **италиански, английски, испански, френски, португалски (Португалия и Бразилия) и български**: следват автоматично езика на часовника и телефона. · *Italiano: [GUIDA.md](GUIDA.md)* · *English: [GUIDE.md](GUIDE.md)* · *Español: [GUIA.md](GUIA.md)* · *Français: [GUIDE-FR.md](GUIDE-FR.md)* · *Português: [GUIA-PT.md](GUIA-PT.md)* · *Português do Brasil: [GUIA-BR.md](GUIA-BR.md)*
+🌐 Приложенията говорят **италиански, английски, испански, френски, португалски (Португалия и Бразилия) български и турски**: следват автоматично езика на часовника и телефона. · *Italiano: [GUIDA.md](GUIDA.md)* · *English: [GUIDE.md](GUIDE.md)* · *Español: [GUIA.md](GUIA.md)* · *Français: [GUIDE-FR.md](GUIDE-FR.md)* · *Português: [GUIA-PT.md](GUIA-PT.md)* · *Português do Brasil: [GUIA-BR.md](GUIA-BR.md)* · *Türkçe: [GUIDE-TR.md](GUIDE-TR.md)*
 
 ## Какво ви трябва
 - Телефон с Android с приложението **Zepp** и вече сдвоен часовник

@@ -4,7 +4,7 @@ Com o seu relógio Amazfit (Zepp OS), Huawei Watch 3 / Watch 4 ou **Wear OS** (G
 controlar a sua casa Google, fazer chamadas, enviar/ler/responder a mensagens de WhatsApp e usar a voz do telemóvel.
 Cada pessoa usa o seu próprio telemóvel, conta Google e chave Gemini: nada a partilhar.
 
-🌐 As apps falam **italiano, inglês, espanhol, francês, português (Portugal e Brasil) e búlgaro**: seguem automaticamente a língua do relógio e do telemóvel. · *Italiano: [GUIDA.md](GUIDA.md)* · *English: [GUIDE.md](GUIDE.md)* · *Español: [GUIA.md](GUIA.md)* · *Français: [GUIDE-FR.md](GUIDE-FR.md)* · *Português do Brasil: [GUIA-BR.md](GUIA-BR.md)* · *Български: [GUIDE-BG.md](GUIDE-BG.md)*
+🌐 As apps falam **italiano, inglês, espanhol, francês, português (Portugal e Brasil) búlgaro e turco**: seguem automaticamente a língua do relógio e do telemóvel. · *Italiano: [GUIDA.md](GUIDA.md)* · *English: [GUIDE.md](GUIDE.md)* · *Español: [GUIA.md](GUIA.md)* · *Français: [GUIDE-FR.md](GUIDE-FR.md)* · *Português do Brasil: [GUIA-BR.md](GUIA-BR.md)* · *Български: [GUIDE-BG.md](GUIDE-BG.md)* · *Türkçe: [GUIDE-TR.md](GUIDE-TR.md)*
 
 ## Do que precisa
 - Um telemóvel Android com a app **Zepp** e o relógio já emparelhado
