@@ -38,7 +38,7 @@
   footer { text-align: center; margin-top: 28px; font-size: 13px; color: var(--muted); }
   a { color: #8ab4f8; }
   .share img { display: block; width: 100%; max-width: 260px; margin: 14px auto 0; border-radius: 14px; }
-  .langs { display: flex; justify-content: flex-end; gap: 6px; }
+  .langs { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 6px; }
   .langs button { font: inherit; font-size: 13px; color: var(--muted); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; cursor: pointer; }
   .langs button.on { color: var(--text); border-color: var(--blue); }
   .hw .num { background: #c7000b; color: #fff; font-size: 13px; }
@@ -48,7 +48,7 @@
 <body>
 <div class="wrap">
   <nav class="langs" aria-label="Language">
-    <button data-l="it">IT</button><button data-l="en">EN</button><button data-l="es">ES</button>
+    <button data-l="it">IT</button><button data-l="en">EN</button><button data-l="es">ES</button><button data-l="fr">FR</button><button data-l="pt">PT</button><button data-l="br" title="Português do Brasil">BR</button><button data-l="bg">BG</button>
   </nav>
   <header>
     <img src="icon.png" alt="">
@@ -113,6 +113,7 @@
       <li data-t="s3b"></li>
       <li data-t="s3c"></li>
       <li data-t="s3d"></li>
+      <li data-t="s3e"></li>
     </ol>
   </section>
 
@@ -138,7 +139,8 @@
   <footer data-t="foot"></footer>
 </div>
 <script>
-  // testi in italiano, inglese e spagnolo; la lingua segue quella del browser
+  // testi in italiano, inglese, spagnolo, francese, portoghese (pt = Portogallo, br = Brasile) e bulgaro;
+  // la lingua segue quella del browser
   const T = {
     it: {
       wo: 'Hai un orologio Wear OS?',
@@ -184,7 +186,8 @@
       s4e: '«Ricordami alle 18 di chiamare il dentista», «disattiva la sveglia di domani»',
       guide: 'Guida completa',
       guideUrl: 'GUIDA.md',
-      foot: 'Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Gemini: niente viene condiviso. L\'app parla italiano, inglese e spagnolo, secondo la lingua dell\'orologio e del telefono.',
+      s3e: '<b>Lingua dell\'app</b>: di solito quella dell\'orologio; il bulgaro si sceglie qui',
+      foot: 'Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Gemini: niente viene condiviso. L\'app parla italiano, inglese, spagnolo, francese, portoghese (Portogallo e Brasile) e bulgaro, secondo la lingua dell\'orologio e del telefono.',
       model: "Modello dell'orologio",
       qrAlt: 'Codice QR per ',
       notReady: (n) => 'Il codice per <b>' + n + '</b> non è ancora pronto.<br>Chiedilo a chi ti ha consigliato l\'app.',
@@ -241,7 +244,8 @@
       s4e: '“Remind me at 6 pm to call the dentist”, “turn off tomorrow\'s alarm”',
       guide: 'Full guide',
       guideUrl: 'GUIDE.md',
-      foot: 'Everyone uses their own phone, Google account and Gemini key: nothing is shared. The app speaks Italian, English and Spanish, following the language of the watch and the phone.',
+      s3e: '<b>App language</b>: usually the watch\'s; Bulgarian is chosen here',
+      foot: 'Everyone uses their own phone, Google account and Gemini key: nothing is shared. The app speaks Italian, English, Spanish, French, Portuguese (Portugal and Brazil) and Bulgarian, following the language of the watch and the phone.',
       model: 'Watch model',
       qrAlt: 'QR code for ',
       notReady: (n) => 'The code for <b>' + n + '</b> is not ready yet.<br>Ask whoever recommended the app.',
@@ -298,7 +302,8 @@
       s4e: '«Recuérdame a las 18 llamar al dentista», «desactiva la alarma de mañana»',
       guide: 'Guía completa',
       guideUrl: 'GUIA.md',
-      foot: 'Cada uno usa su propio teléfono, su cuenta de Google y su clave de Gemini: no se comparte nada. La app habla italiano, inglés y español, según el idioma del reloj y del teléfono.',
+      s3e: '<b>Idioma de la app</b>: normalmente el del reloj; el búlgaro se elige aquí',
+      foot: 'Cada uno usa su propio teléfono, su cuenta de Google y su clave de Gemini: no se comparte nada. La app habla italiano, inglés, español, francés, portugués (Portugal y Brasil) y búlgaro, según el idioma del reloj y del teléfono.',
       model: 'Modelo del reloj',
       qrAlt: 'Código QR para ',
       notReady: (n) => 'El código para <b>' + n + '</b> aún no está listo.<br>Pídeselo a quien te recomendó la app.',
@@ -311,6 +316,238 @@
       shareBtn: '⬇ Descargar el QR de la web',
       noList: 'Lista de modelos no disponible.',
     },
+    fr: {
+      wo: 'Vous avez une montre Wear OS ?',
+      wop: 'Galaxy Watch, Pixel Watch, TicWatch, Oppo, Mi Watch, Fossil… à partir d\'<b>Android 9</b>, y compris les anciennes Wear OS 2 et 3 : il y a <b>Live Assistant</b> avec Gemini Live, Maison, Contacts, WhatsApp et Telegram. Au lieu des étapes 2 et 3, il s\'installe depuis <b>Gateway Assistant</b> :',
+      woa: 'Montre : Paramètres → À propos (sur Galaxy <i>À propos de la montre → Informations sur le logiciel</i>) → touchez plusieurs fois <b>Version du logiciel</b> ou <b>Numéro de build</b> pour avoir les Options pour les développeurs.',
+      wob: 'Montre et téléphone sur le même Wi-Fi (le partage de connexion du téléphone convient). <b>Wear OS 4 et plus récent</b> : activez le <b>Débogage sans fil</b>. <b>Wear OS 2 et 3</b> : activez le <b>Débogage ADB</b> et le <b>Débogage via Wi-Fi</b>.',
+      woc: 'Gateway Assistant → <b>⌚ Montre Wear OS : installation et diagnostic</b>. Avec le Débogage sans fil : sur la montre <b>Associer un nouvel appareil</b>, dans Gateway tapez seulement le code et touchez <b>🔗 Associer</b> (il trouve la montre tout seul). Puis <b>⬇ Télécharger et installer Live Assistant</b> : clés et autorisations sont transmises automatiquement.',
+      wod: 'Les mises à jour arrivent toutes seules sur la montre. Sur la Galaxy Watch Ultra, vous pouvez aussi ouvrir Live avec le <b>bouton orange</b> (réglages de Live sur la montre).',
+      woguide: '📖 Guide Wear OS pas à pas',
+      wobtn: '⬇ Télécharger l\'APK Wear OS',
+      wosmall: 'L\'APK ne sert que si vous l\'installez autrement : avec Gateway Assistant, inutile de le télécharger.',
+      woUrl: 'GUIDE-FR.md#montre-wear-os-bêta',
+      hw: 'Vous avez une Huawei Watch 3 ou Watch 4 ?',
+      hwp: 'Pour les montres Huawei basées sur Android, il y a <b>Live Assistant</b>, avec Gemini Live : il répond à voix haute en 1 à 3 secondes, même en Bluetooth. Au lieu des étapes 2 et 3, il s\'installe depuis <b>Gateway Assistant</b> :',
+      hwa: 'Montre : Paramètres → À propos → touchez plusieurs fois le <b>numéro de build</b> ; puis Options pour les développeurs → activez le <b>débogage HDC</b> et le <b>Débogage via Wi-Fi</b>.',
+      hwb: 'Montre et téléphone sur le même Wi-Fi (le partage de connexion du téléphone convient).',
+      hwc: 'Gateway Assistant → <b>⌚ Montre Huawei : installation et diagnostic</b> → saisissez l\'IP de la montre → <b>Télécharger et installer Live Assistant</b>. La clé Gemini et le code sont transmis automatiquement.',
+      hwd: 'Touchez <b>Autoriser le Bluetooth Huawei</b> (fonctionne même sans Wi-Fi ni LTE) et <b>Bouton du bas : ouvrir Live Assistant</b> pour l\'ouvrir avec le bouton au lieu de Celia.',
+      hwbtn: '⬇ Télécharger l\'APK Huawei',
+      hwsmall: 'L\'APK ne sert que si vous l\'installez autrement : avec Gateway Assistant, inutile de le télécharger. Détails dans le guide complet.',
+      lead: 'Parlez à Gemini depuis votre montre Amazfit, Huawei ou Wear OS. Avec <b>Gateway Assistant</b> sur le téléphone, vous pouvez aussi commander votre maison Google, téléphoner, et envoyer et lire des messages WhatsApp.',
+      s1: 'App du téléphone',
+      s1p: 'Téléchargez <b>Gateway Assistant</b> sur votre téléphone Android et installez-le (si Android le demande, autorisez les installations depuis cette source).',
+      s1btn: 'Télécharger Gateway Assistant',
+      s1small: 'Ouvrez-la, touchez <b>Démarrer la passerelle</b>, accordez les autorisations de la liste jusqu\'à ce qu\'elles soient toutes ✅ et copiez le <b>code</b>.',
+      iphone: '<b>Vous avez un iPhone ?</b> Gateway Assistant n\'existe que sur Android, mais Live Assistant fonctionne quand même : questions à Gemini, voix, météo, actualités, rappels et commandes de la montre. Il manque seulement la maison Google, les appels par nom et WhatsApp. Sautez cette étape et laissez le code Gateway vide ; gardez l\'app Zepp ouverte en arrière-plan, sinon iOS la suspend.',
+      s2: 'App de la montre',
+      s2p: 'Choisissez votre montre : le code QR à scanner avec l\'app <b>Zepp</b> apparaît.',
+      s2a: 'App Zepp → <b>Profil</b> → <b>Paramètres</b> → <b>À propos</b> : touchez plusieurs fois le logo Zepp jusqu\'à ce que le <b>mode développeur</b> s\'active.',
+      s2b: 'Revenez à <b>Profil</b>, touchez l\'icône de <b>scan</b> en haut et visez le code (sur un autre écran, ou faites une capture et scannez-la depuis l\'app).',
+      s2c: 'L\'app <b>Live Assistant</b> s\'installe sur la montre.',
+      s3: 'Réglages',
+      s3p: 'App Zepp → votre montre → Apps → <b>Live Assistant</b> → Réglages :',
+      s3a: '<b>Clé API Gemini</b> : gratuite sur <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a>',
+      s3b: '<b>Ma ville</b> (météo et actualités locales)',
+      s3c: '<b>Gateway Assistant → Code</b> : collez le code copié à l\'étape 1',
+      s3d: '<b>Noms que vous utilisez souvent</b> (facultatif) : personnes, villes, équipes…',
+      s3e: '<b>Langue de l\'app</b> : d\'habitude celle de la montre ; le bulgare se choisit ici',
+      s4: 'Ce que vous pouvez dire',
+      s4a: '« Quel temps fera-t-il demain ? », « Comment a joué le PSG ? »',
+      s4b: '« Allume la lumière de la cuisine », « bonne nuit »',
+      s4c: '« Appelle Marc »',
+      s4d: '« Envoie un WhatsApp à Marc : j\'arrive dans dix minutes », « lis mes messages »',
+      s4e: '« Rappelle-moi à 18 h d\'appeler le dentiste », « désactive l\'alarme de demain »',
+      guide: 'Guide complet',
+      guideUrl: 'GUIDE-FR.md',
+      foot: 'Chacun utilise son propre téléphone, son compte Google et sa clé Gemini : rien n\'est partagé. L\'app parle italien, anglais, espagnol, français, portugais (Portugal et Brésil) et bulgare, selon la langue de la montre et du téléphone.',
+      model: 'Modèle de montre',
+      qrAlt: 'Code QR pour ',
+      notReady: (n) => 'Le code pour <b>' + n + '</b> n\'est pas encore prêt.<br>Demandez-le à la personne qui vous a conseillé l\'app.',
+      valid: 'Code valable jusqu\'au ',
+      save: '⬇ Télécharger le code QR',
+      saveHint: 'Puis dans l\'app Zepp : Profil → scanner → icône galerie → choisissez l\'image.',
+      updated: (d) => 'Codes mis à jour le ' + d + ' (renouvelés chaque jour).',
+      share: 'Partager',
+      shareP: 'Le code QR de cette page, à envoyer à qui veut essayer l\'app (pratique dans les groupes qui n\'acceptent pas les liens).',
+      shareBtn: '⬇ Télécharger le QR du site',
+      noList: 'Liste des modèles non disponible.',
+    },
+    pt: {
+      wo: 'Tem um relógio Wear OS?',
+      wop: 'Galaxy Watch, Pixel Watch, TicWatch, Oppo, Mi Watch, Fossil… a partir do <b>Android 9</b>, incluindo os antigos Wear OS 2 e 3: existe o <b>Live Assistant</b> com Gemini Live, Casa, Contactos, WhatsApp e Telegram. Em vez dos passos 2 e 3, instala-se a partir do <b>Gateway Assistant</b>:',
+      woa: 'Relógio: Definições → Acerca de (no Galaxy <i>Acerca do relógio → Informações do software</i>) → toque várias vezes em <b>Versão do software</b> ou <b>Número da compilação</b> para ter as Opções de programador.',
+      wob: 'Relógio e telemóvel no mesmo Wi-Fi (o hotspot do telemóvel serve). <b>Wear OS 4 e posterior</b>: ligue a <b>Depuração sem fios</b>. <b>Wear OS 2 e 3</b>: ligue a <b>Depuração ADB</b> e <b>Depurar por Wi-Fi</b>.',
+      woc: 'Gateway Assistant → <b>⌚ Relógio Wear OS: instalação e diagnóstico</b>. Com a Depuração sem fios: no relógio <b>Sincronizar novo dispositivo</b>, no Gateway escreva só o código e toque em <b>🔗 Sincronizar</b> (encontra o relógio sozinho). Depois <b>⬇ Transferir e instalar o Live Assistant</b>: chaves e permissões passam automaticamente.',
+      wod: 'As atualizações chegam sozinhas ao relógio. No Galaxy Watch Ultra também pode abrir o Live com o <b>botão laranja</b> (definições do Live no relógio).',
+      woguide: '📖 Guia Wear OS passo a passo',
+      wobtn: '⬇ Transferir o APK para Wear OS',
+      wosmall: 'O APK só é preciso se o instalar de outra forma: com o Gateway Assistant não tem de o transferir.',
+      woUrl: 'GUIA-PT.md#relógio-wear-os-beta',
+      hw: 'Tem um Huawei Watch 3 ou Watch 4?',
+      hwp: 'Para os relógios Huawei baseados em Android existe o <b>Live Assistant</b>, com Gemini Live: responde por voz em 1-3 segundos, também por Bluetooth. Em vez dos passos 2 e 3, instala-se a partir do <b>Gateway Assistant</b>:',
+      hwa: 'Relógio: Definições → Acerca de → toque várias vezes no <b>número da compilação</b>; depois Opções de programador → ligue a <b>depuração HDC</b> e a <b>Depuração por Wi-Fi</b>.',
+      hwb: 'Relógio e telemóvel no mesmo Wi-Fi (o hotspot do telemóvel serve).',
+      hwc: 'Gateway Assistant → <b>⌚ Relógio Huawei: instalação e diagnóstico</b> → introduza o IP do relógio → <b>Transferir e instalar o Live Assistant</b>. A chave Gemini e o código passam automaticamente.',
+      hwd: 'Toque em <b>Permitir Bluetooth Huawei</b> (funciona mesmo sem Wi-Fi nem LTE) e em <b>Botão inferior: abrir o Live Assistant</b> para o abrir com o botão em vez da Celia.',
+      hwbtn: '⬇ Transferir o APK para Huawei',
+      hwsmall: 'O APK só é preciso se o instalar de outra forma: com o Gateway Assistant não tem de o transferir. Detalhes no guia completo.',
+      lead: 'Fale com o Gemini a partir do seu relógio Amazfit, Huawei ou Wear OS. Com o <b>Gateway Assistant</b> no telemóvel também controla a casa Google, faz chamadas e envia e lê mensagens de WhatsApp.',
+      s1: 'App do telemóvel',
+      s1p: 'Transfira o <b>Gateway Assistant</b> no seu telemóvel Android e instale-o (se o Android pedir, permita as instalações desta origem).',
+      s1btn: 'Transferir o Gateway Assistant',
+      s1small: 'Abra-a, toque em <b>Iniciar o gateway</b>, conceda as permissões da lista até estarem todas ✅ e copie o <b>código</b>.',
+      iphone: '<b>Tem um iPhone?</b> O Gateway Assistant é só para Android, mas o Live Assistant funciona na mesma: perguntas ao Gemini, voz, meteorologia, notícias, lembretes e comandos do relógio. Só faltam a casa Google, as chamadas por nome e o WhatsApp. Salte este passo e deixe vazio o código do Gateway; mantenha a app Zepp aberta em segundo plano, senão o iOS suspende-a.',
+      s2: 'App do relógio',
+      s2p: 'Escolha o seu relógio: aparece o código QR a ler com a app <b>Zepp</b>.',
+      s2a: 'App Zepp → <b>Perfil</b> → <b>Definições</b> → <b>Acerca de</b>: toque várias vezes no logótipo Zepp até ligar o <b>modo de programador</b>.',
+      s2b: 'Volte a <b>Perfil</b>, toque no ícone de <b>leitura</b> em cima e aponte para o código (noutro ecrã, ou faça uma captura de ecrã e leia-a a partir da app).',
+      s2c: 'A app <b>Live Assistant</b> instala-se no relógio.',
+      s3: 'Definições',
+      s3p: 'App Zepp → o seu relógio → Apps → <b>Live Assistant</b> → Definições:',
+      s3a: '<b>Chave API do Gemini</b>: grátis em <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a>',
+      s3b: '<b>A minha cidade</b> (meteorologia e notícias locais)',
+      s3c: '<b>Gateway Assistant → Código</b>: cole o código copiado no passo 1',
+      s3d: '<b>Nomes que usa muitas vezes</b> (opcional): pessoas, terras, equipas…',
+      s3e: '<b>Idioma da app</b>: normalmente o do relógio; o búlgaro escolhe-se aqui',
+      s4: 'O que pode dizer',
+      s4a: '«Que tempo vai fazer amanhã?», «Como ficou o Benfica?»',
+      s4b: '«Acende a luz da cozinha», «boa noite»',
+      s4c: '«Liga ao Mário»',
+      s4d: '«Manda um WhatsApp ao Mário: chego daqui a dez minutos», «lê as mensagens»',
+      s4e: '«Lembra-me às 18 de ligar ao dentista», «desliga o alarme de amanhã»',
+      guide: 'Guia completo',
+      guideUrl: 'GUIA-PT.md',
+      foot: 'Cada pessoa usa o seu próprio telemóvel, conta Google e chave Gemini: nada é partilhado. A app fala italiano, inglês, espanhol, francês, português (Portugal e Brasil) e búlgaro, conforme a língua do relógio e do telemóvel.',
+      model: 'Modelo do relógio',
+      qrAlt: 'Código QR para ',
+      notReady: (n) => 'O código para <b>' + n + '</b> ainda não está pronto.<br>Peça-o a quem lhe recomendou a app.',
+      valid: 'Código válido até ',
+      save: '⬇ Transferir o código QR',
+      saveHint: 'Depois na app Zepp: Perfil → ler código → ícone da galeria → escolha a imagem.',
+      updated: (d) => 'Códigos atualizados a ' + d + ' (renovados todos os dias).',
+      share: 'Partilhar',
+      shareP: 'O código QR desta página, para enviar a quem quiser experimentar a app (útil em grupos que não aceitam links).',
+      shareBtn: '⬇ Transferir o QR do site',
+      noList: 'Lista de modelos não disponível.',
+    },
+    br: {
+      wo: 'Tem um relógio Wear OS?',
+      wop: 'Galaxy Watch, Pixel Watch, TicWatch, Oppo, Mi Watch, Fossil… a partir do <b>Android 9</b>, incluindo os antigos Wear OS 2 e 3: existe o <b>Live Assistant</b> com Gemini Live, Casa, Contatos, WhatsApp e Telegram. Em vez dos passos 2 e 3, é instalado pelo <b>Gateway Assistant</b>:',
+      woa: 'Relógio: Configurações → Sobre (no Galaxy <i>Sobre o relógio → Informações do software</i>) → toque várias vezes em <b>Versão do software</b> ou <b>Número da versão</b> para ter as Opções do desenvolvedor.',
+      wob: 'Relógio e celular no mesmo Wi-Fi (o roteador do celular serve). <b>Wear OS 4 e posterior</b>: ative a <b>Depuração sem fio</b>. <b>Wear OS 2 e 3</b>: ative a <b>Depuração ADB</b> e <b>Depurar por Wi-Fi</b>.',
+      woc: 'Gateway Assistant → <b>⌚ Relógio Wear OS: instalação e diagnóstico</b>. Com a Depuração sem fio: no relógio <b>Parear novo dispositivo</b>, no Gateway digite só o código e toque em <b>🔗 Parear</b> (ele encontra o relógio sozinho). Depois <b>⬇ Baixar e instalar o Live Assistant</b>: chaves e permissões passam automaticamente.',
+      wod: 'As atualizações chegam sozinhas no relógio. No Galaxy Watch Ultra você também pode abrir o Live com o <b>botão laranja</b> (configurações do Live no relógio).',
+      woguide: '📖 Guia Wear OS passo a passo',
+      wobtn: '⬇ Baixar o APK para Wear OS',
+      wosmall: 'O APK só é necessário se você instalar de outro jeito: com o Gateway Assistant não precisa baixar.',
+      woUrl: 'GUIA-BR.md#relógio-wear-os-beta',
+      hw: 'Tem um Huawei Watch 3 ou Watch 4?',
+      hwp: 'Para os relógios Huawei baseados em Android existe o <b>Live Assistant</b>, com Gemini Live: responde por voz em 1-3 segundos, também por Bluetooth. Em vez dos passos 2 e 3, é instalado pelo <b>Gateway Assistant</b>:',
+      hwa: 'Relógio: Configurações → Sobre → toque várias vezes no <b>número da versão</b>; depois Opções do desenvolvedor → ative a <b>depuração HDC</b> e a <b>Depuração por Wi-Fi</b>.',
+      hwb: 'Relógio e celular no mesmo Wi-Fi (o roteador do celular serve).',
+      hwc: 'Gateway Assistant → <b>⌚ Relógio Huawei: instalação e diagnóstico</b> → digite o IP do relógio → <b>Baixar e instalar o Live Assistant</b>. A chave Gemini e o código passam automaticamente.',
+      hwd: 'Toque em <b>Permitir Bluetooth Huawei</b> (funciona mesmo sem Wi-Fi nem LTE) e em <b>Botão de baixo: abrir o Live Assistant</b> para abrir com o botão em vez da Celia.',
+      hwbtn: '⬇ Baixar o APK para Huawei',
+      hwsmall: 'O APK só é necessário se você instalar de outro jeito: com o Gateway Assistant não precisa baixar. Detalhes no guia completo.',
+      lead: 'Fale com o Gemini pelo seu relógio Amazfit, Huawei ou Wear OS. Com o <b>Gateway Assistant</b> no celular você também controla a casa Google, faz ligações e envia e lê mensagens de WhatsApp.',
+      s1: 'App do celular',
+      s1p: 'Baixe o <b>Gateway Assistant</b> no seu celular Android e instale (se o Android pedir, permita instalações desta fonte).',
+      s1btn: 'Baixar o Gateway Assistant',
+      s1small: 'Abra, toque em <b>Iniciar o gateway</b>, dê as permissões da lista até ficarem todas ✅ e copie o <b>código</b>.',
+      iphone: '<b>Tem um iPhone?</b> O Gateway Assistant é só para Android, mas o Live Assistant funciona mesmo assim: perguntas ao Gemini, voz, clima, notícias, lembretes e comandos do relógio. Só faltam a casa Google, as ligações por nome e o WhatsApp. Pule este passo e deixe vazio o código do Gateway; mantenha o app Zepp aberto em segundo plano, senão o iOS suspende ele.',
+      s2: 'App do relógio',
+      s2p: 'Escolha seu relógio: aparece o código QR para escanear com o app <b>Zepp</b>.',
+      s2a: 'App Zepp → <b>Perfil</b> → <b>Configurações</b> → <b>Sobre</b>: toque várias vezes no logo do Zepp até ativar o <b>modo desenvolvedor</b>.',
+      s2b: 'Volte para <b>Perfil</b>, toque no ícone de <b>escanear</b> em cima e aponte para o código (em outra tela, ou tire um print e escaneie pelo app).',
+      s2c: 'O app <b>Live Assistant</b> é instalado no relógio.',
+      s3: 'Configurações',
+      s3p: 'App Zepp → seu relógio → Apps → <b>Live Assistant</b> → Configurações:',
+      s3a: '<b>Chave API do Gemini</b>: grátis em <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a>',
+      s3b: '<b>Minha cidade</b> (clima e notícias locais)',
+      s3c: '<b>Gateway Assistant → Código</b>: cole o código copiado no passo 1',
+      s3d: '<b>Nomes que você usa sempre</b> (opcional): pessoas, cidades, times…',
+      s3e: '<b>Idioma do app</b>: normalmente o do relógio; o búlgaro é escolhido aqui',
+      s4: 'O que você pode dizer',
+      s4a: '"Como vai estar o tempo amanhã?", "Como foi o Flamengo?"',
+      s4b: '"Acende a luz da cozinha", "boa noite"',
+      s4c: '"Liga pro Mário"',
+      s4d: '"Manda um WhatsApp pro Mário: chego em dez minutos", "lê as mensagens"',
+      s4e: '"Me lembra às 18 de ligar pro dentista", "desliga o alarme de amanhã"',
+      guide: 'Guia completo',
+      guideUrl: 'GUIA-BR.md',
+      foot: 'Cada pessoa usa o próprio celular, conta Google e chave Gemini: nada é compartilhado. O app fala italiano, inglês, espanhol, francês, português (Portugal e Brasil) e búlgaro, conforme o idioma do relógio e do celular.',
+      model: 'Modelo do relógio',
+      qrAlt: 'Código QR para ',
+      notReady: (n) => 'O código para <b>' + n + '</b> ainda não está pronto.<br>Peça para quem te recomendou o app.',
+      valid: 'Código válido até ',
+      save: '⬇ Baixar o código QR',
+      saveHint: 'Depois no app Zepp: Perfil → escanear → ícone da galeria → escolha a imagem.',
+      updated: (d) => 'Códigos atualizados em ' + d + ' (renovados todo dia).',
+      share: 'Compartilhar',
+      shareP: 'O código QR desta página, para mandar para quem quiser testar o app (útil em grupos que não aceitam links).',
+      shareBtn: '⬇ Baixar o QR do site',
+      noList: 'Lista de modelos não disponível.',
+    },
+    bg: {
+      wo: 'Имате часовник Wear OS?',
+      wop: 'Galaxy Watch, Pixel Watch, TicWatch, Oppo, Mi Watch, Fossil… от <b>Android 9 нагоре</b>, включително старите Wear OS 2 и 3: има <b>Live Assistant</b> с Gemini Live, Дом, Контакти, WhatsApp и Telegram. Вместо стъпки 2 и 3 се инсталира от <b>Gateway Assistant</b>:',
+      woa: 'Часовник: Настройки → Информация (при Galaxy <i>Информация за часовника → Информация за софтуера</i>) → докоснете няколко пъти <b>Версия на софтуера</b> или <b>Номер на компилацията</b>, за да получите Опции за програмисти.',
+      wob: 'Часовникът и телефонът в една и съща Wi-Fi мрежа (точката за достъп на телефона става). <b>Wear OS 4 и по-нови</b>: включете <b>Безжично отстраняване на грешки</b>. <b>Wear OS 2 и 3</b>: включете <b>ADB отстраняване на грешки</b> и <b>През Wi-Fi</b>.',
+      woc: 'Gateway Assistant → <b>⌚ Часовник Wear OS: инсталиране и диагностика</b>. С безжично отстраняване на грешки: на часовника <b>Сдвояване на ново устройство</b>, в Gateway въведете само кода и докоснете <b>🔗 Сдвои</b> (намира часовника сам). После <b>⬇ Изтегли и инсталирай Live Assistant</b>: ключовете и разрешенията се предават автоматично.',
+      wod: 'Актуализациите стигат до часовника сами. При Galaxy Watch Ultra можете да отваряте Live и с <b>оранжевия бутон</b> (настройки на Live на часовника).',
+      woguide: '📖 Ръководство за Wear OS стъпка по стъпка',
+      wobtn: '⬇ Изтегли APK за Wear OS',
+      wosmall: 'APK е нужен само ако инсталирате по друг начин: с Gateway Assistant не е нужно да го изтегляте.',
+      woUrl: 'GUIDE-BG.md#часовник-wear-os-бета',
+      hw: 'Имате Huawei Watch 3 или Watch 4?',
+      hwp: 'За часовниците Huawei на базата на Android има <b>Live Assistant</b> с Gemini Live: отговаря с глас за 1-3 секунди, дори през Bluetooth. Вместо стъпки 2 и 3 се инсталира от <b>Gateway Assistant</b>:',
+      hwa: 'Часовник: Настройки → Информация → докоснете няколко пъти <b>номера на компилацията</b>; после Опции за програмисти → включете <b>HDC отстраняване на грешки</b> и <b>Отстраняване на грешки през Wi-Fi</b>.',
+      hwb: 'Часовникът и телефонът в една и съща Wi-Fi мрежа (точката за достъп на телефона става).',
+      hwc: 'Gateway Assistant → <b>⌚ Часовник Huawei: инсталиране и диагностика</b> → въведете IP адреса на часовника → <b>Изтегли и инсталирай Live Assistant</b>. Ключът за Gemini и кодът се предават автоматично.',
+      hwd: 'Докоснете <b>Разреши Bluetooth за Huawei</b> (работи дори без Wi-Fi и LTE) и <b>Долен бутон: отвори Live Assistant</b>, за да го отваряте с бутона вместо Celia.',
+      hwbtn: '⬇ Изтегли APK за Huawei',
+      hwsmall: 'APK е нужен само ако инсталирате по друг начин: с Gateway Assistant не е нужно да го изтегляте. Подробности в пълното ръководство.',
+      lead: 'Говорете с Gemini от своя часовник Amazfit, Huawei или Wear OS. С <b>Gateway Assistant</b> на телефона можете и да управлявате дома си в Google, да се обаждате и да пращате и четете съобщения в WhatsApp.',
+      s1: 'Приложение за телефона',
+      s1p: 'Изтеглете <b>Gateway Assistant</b> на телефона си с Android и го инсталирайте (ако Android попита, разрешете инсталирането от този източник).',
+      s1btn: 'Изтегли Gateway Assistant',
+      s1small: 'Отворете го, докоснете <b>Стартирай Gateway</b>, дайте разрешенията от списъка, докато всички станат ✅, и копирайте <b>кода</b>.',
+      iphone: '<b>Имате iPhone?</b> Gateway Assistant е само за Android, но Live Assistant пак работи: въпроси към Gemini, глас, време, новини, напомняния и команди на часовника. Липсват само домът в Google, обажданията по име и WhatsApp. Пропуснете тази стъпка и оставете кода за Gateway празен; дръжте приложението Zepp отворено във фонов режим, иначе iOS го спира.',
+      s2: 'Приложение за часовника',
+      s2p: 'Изберете часовника си: появява се QR кодът за сканиране с приложението <b>Zepp</b>.',
+      s2a: 'Приложение Zepp → <b>Профил</b> → <b>Настройки</b> → <b>Информация</b>: докоснете няколко пъти логото на Zepp, докато се включи <b>режимът за разработчици</b>.',
+      s2b: 'Върнете се в <b>Профил</b>, докоснете иконата за <b>сканиране</b> горе и насочете към кода (на друг екран или направете екранна снимка и я сканирайте от приложението).',
+      s2c: 'Приложението <b>Live Assistant</b> се инсталира на часовника.',
+      s3: 'Настройки',
+      s3p: 'Приложение Zepp → вашият часовник → Приложения → <b>Live Assistant</b> → Настройки:',
+      s3a: '<b>API ключ за Gemini</b>: безплатен от <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a>',
+      s3b: '<b>Моят град</b> (време и местни новини)',
+      s3c: '<b>Gateway Assistant → Код</b>: поставете кода, копиран в стъпка 1',
+      s3d: '<b>Имена, които използвате често</b> (по избор): хора, градове, отбори…',
+      s3e: '<b>Език на приложението</b>: изберете <b>Български</b> — часовникът няма български, затова се избира тук',
+      s4: 'Какво можете да кажете',
+      s4a: '„Какво ще е времето утре?“, „Как игра Левски?“',
+      s4b: '„Включи лампата в кухнята“, „лека нощ“',
+      s4c: '„Обади се на Марио“',
+      s4d: '„Изпрати WhatsApp на Марио: идвам след десет минути“, „прочети съобщенията“',
+      s4e: '„Напомни ми в 18 ч. да се обадя на зъболекаря“, „изключи алармата за утре“',
+      guide: 'Пълно ръководство',
+      guideUrl: 'GUIDE-BG.md',
+      foot: 'Всеки използва собствения си телефон, профил в Google и ключ за Gemini: нищо не се споделя. Приложението говори италиански, английски, испански, френски, португалски (Португалия и Бразилия) и български, според езика на часовника и телефона.',
+      model: 'Модел часовник',
+      qrAlt: 'QR код за ',
+      notReady: (n) => 'Кодът за <b>' + n + '</b> още не е готов.<br>Попитайте човека, който ви препоръча приложението.',
+      valid: 'Кодът е валиден до ',
+      save: '⬇ Изтегли QR кода',
+      saveHint: 'После в приложението Zepp: Профил → сканиране → иконата на галерията → изберете изображението.',
+      updated: (d) => 'Кодовете са обновени на ' + d + ' (подновяват се всеки ден).',
+      share: 'Сподели',
+      shareP: 'QR кодът на тази страница, за да го изпратите на всеки, който иска да пробва приложението (удобно в групи, които не приемат връзки).',
+      shareBtn: '⬇ Изтегли QR кода на сайта',
+      noList: 'Списъкът с модели не е наличен.',
+    },
   }
 
   function pickLang() {
@@ -318,7 +555,9 @@
     try { saved = localStorage.getItem('lingua') } catch (e) {}
     if (T[saved]) return saved
     for (const l of navigator.languages || [navigator.language || '']) {
-      const c = String(l).slice(0, 2).toLowerCase()
+      const low = String(l).toLowerCase()
+      if (low.indexOf('pt-br') === 0) return 'br'
+      const c = low.slice(0, 2)
       if (T[c]) return c
       if (c === 'ca' || c === 'gl' || c === 'eu') return 'es'
     }
@@ -333,7 +572,7 @@
 
   function applyLang() {
     const t = T[L]
-    document.documentElement.lang = L
+    document.documentElement.lang = L === 'br' ? 'pt-BR' : L
     document.querySelectorAll('[data-t]').forEach((el) => { el.innerHTML = t[el.dataset.t] })
     document.querySelectorAll('.langs button').forEach((b) => b.classList.toggle('on', b.dataset.l === L))
     document.getElementById('guide').href = 'https://github.com/Kkaoss969/gateway-assistant-download/blob/main/' + t.guideUrl
