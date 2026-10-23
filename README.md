@@ -14,7 +14,7 @@ Per aggiornare basta installare la nuova versione sopra la vecchia: impostazioni
 
 ## 📖 Guida
 
-Tutti i passaggi (telefono, orologio, permessi, cosa puoi dire): **[GUIDA.md](GUIDA.md)** · English: **[GUIDE.md](GUIDE.md)** · Español: **[GUIA.md](GUIA.md)**
+Tutti i passaggi (telefono, orologio, permessi, cosa puoi dire): **[GUIDA.md](GUIDA.md)** · English: **[GUIDE.md](GUIDE.md)** · Español: **[GUIA.md](GUIA.md)** · Français: **[GUIDE-FR.md](GUIDE-FR.md)** · Português: **[GUIA-PT.md](GUIA-PT.md)** · Português do Brasil: **[GUIA-BR.md](GUIA-BR.md)** · Български: **[GUIDE-BG.md](GUIDE-BG.md)**
 
 🌐 Le app parlano italiano, inglese e spagnolo, secondo la lingua dell'orologio e del telefono.
 

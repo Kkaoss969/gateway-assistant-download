@@ -4,7 +4,7 @@ Con l'orologio Amazfit (Zepp OS), Huawei Watch 3 / Watch 4 o **Wear OS** (Galaxy
 comandare la casa Google, chiamare, mandare/leggere/rispondere ai WhatsApp e avere la voce del telefono.
 Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Gemini: niente da condividere.
 
-🌐 Le app parlano **italiano, inglese e spagnolo**: seguono da sole la lingua dell'orologio e del telefono. · *English: [GUIDE.md](GUIDE.md)* · *Español: [GUIA.md](GUIA.md)*
+🌐 Le app parlano **italiano, inglese, spagnolo, francese, portoghese (Portogallo e Brasile) e bulgaro**: seguono da sole la lingua dell'orologio e del telefono. · *English: [GUIDE.md](GUIDE.md)* · *Español: [GUIA.md](GUIA.md)* · *Français : [GUIDE-FR.md](GUIDE-FR.md)* · *Português: [GUIA-PT.md](GUIA-PT.md)* · *Português do Brasil: [GUIA-BR.md](GUIA-BR.md)* · *Български: [GUIDE-BG.md](GUIDE-BG.md)*
 
 ## Cosa serve
 - Telefono Android con l'app **Zepp** e l'orologio già collegato
@@ -36,6 +36,7 @@ Le chiavi si inseriscono **una volta sola** in Gateway Assistant → **🔑 Chia
    - **Gateway Assistant → Codice**: incolla il codice copiato al punto 1
    - **Chiave API Groq** (facoltativa, gratuita da https://console.groq.com → *API Keys*): notizie e domande scritte rispondono in circa 1 secondo; le domande a voce restano a Gemini
    - **Nomi che usi spesso** (facoltativo): persone, paesi, squadre… aiutano a capire i nomi giusti
+   - **Lingua dell'app**: di solito quella dell'orologio; il **bulgaro** si sceglie qui, perché Zepp OS non lo ha
 
 ## 3 · Consigliato
 - **Chiamate sull'orologio**: app Zepp → Profilo → orologio → Impostazioni app → Telefono → *Chiama sull'orologio* (e associa il Bluetooth).

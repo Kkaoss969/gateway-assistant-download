@@ -4,7 +4,7 @@ With your Amazfit watch (Zepp OS), Huawei Watch 3 / Watch 4 or **Wear OS** watch
 control your Google home, make calls, send/read/reply to WhatsApp messages and use the phone's voice.
 Everyone uses their own phone, Google account and Gemini key: nothing to share.
 
-🌐 The apps speak **English, Italian and Spanish**: they follow the language of the watch and the phone automatically. · *Italiano: [GUIDA.md](GUIDA.md)* · *Español: [GUIA.md](GUIA.md)*
+🌐 The apps speak **English, Italian, Spanish, French, Portuguese (Portugal and Brazil) and Bulgarian**: they follow the language of the watch and the phone automatically. · *Italiano: [GUIDA.md](GUIDA.md)* · *Español: [GUIA.md](GUIA.md)* · *Français : [GUIDE-FR.md](GUIDE-FR.md)* · *Português: [GUIA-PT.md](GUIA-PT.md)* · *Português do Brasil: [GUIA-BR.md](GUIA-BR.md)* · *Български: [GUIDE-BG.md](GUIDE-BG.md)*
 
 ## What you need
 - An Android phone with the **Zepp** app and the watch already paired
@@ -36,6 +36,7 @@ Keys are entered **only once** in Gateway Assistant → **🔑 API keys** and wo
    - **Gateway Assistant → Code**: paste the code copied in step 1
    - **Groq API key** (optional, free from https://console.groq.com → *API Keys*): news and typed questions are answered in about 1 second; spoken questions stay with Gemini
    - **Names you often use** (optional): people, towns, teams… they help it understand the right names
+   - **App language**: usually the watch's; **Bulgarian** is chosen here, because Zepp OS doesn't have it
 
 ## 3 · Recommended
 - **Calls on the watch**: Zepp app → Profile → watch → App settings → Phone → *Answer calls on the watch* (and pair Bluetooth).
