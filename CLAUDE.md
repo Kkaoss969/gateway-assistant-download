@@ -25,5 +25,5 @@ Qui non va **mai** niente di privato: niente chiavi, profili o HAP firmate (cont
 ## Regole
 Questo repository è pubblico: le regole complete del progetto (collaborazione, segreti, pubblicazione) sono nel
 `CLAUDE.md` del repository privato `gateway-assistant`. Si lavora e si risponde in italiano.
-Pubblica chi ha fatto la modifica (Antonio o il suo collaboratore), solo da `main` e dopo l'OK di Antonio, una pubblicazione
+Pubblica chi ha fatto la modifica (Antonio o il suo collaboratore), solo da `main`, una pubblicazione
 alla volta, annotandola in `LAVORI.md` di `gateway-assistant`.
