@@ -1,6 +1,6 @@
 # Live Assistant (saat) + Gateway Assistant (telefon) — hızlı rehber
 
-Amazfit (Zepp OS), Huawei Watch 3 / Watch 4, **Wear OS** saatinizle (Galaxy Watch, Pixel Watch, TicWatch…) ya da **HarmonyOS**'lu Huawei saatinizle (Watch 5, Watch Ultimate 2…) Gemini ile konuşursunuz ve Android telefonunuzdaki **Gateway Assistant** uygulaması sayesinde şunları yapabilirsiniz:
+Amazfit (Zepp OS), Huawei Watch 3 / Watch 4, **Wear OS** saatinizle (Galaxy Watch, Pixel Watch, TicWatch…) ya da **HarmonyOS**'lu Huawei saatinizle (Watch 5, Watch 6, Watch Ultimate 2…) Gemini ile konuşursunuz ve Android telefonunuzdaki **Gateway Assistant** uygulaması sayesinde şunları yapabilirsiniz:
 Google evinizi kontrol etmek, arama yapmak, WhatsApp mesajları göndermek/okumak/yanıtlamak ve telefonun sesini kullanmak.
 Herkes kendi telefonunu, Google hesabını ve Gemini anahtarını kullanır: paylaşılacak bir şey yok.
 
@@ -92,8 +92,8 @@ Gateway uygulamayı yükler, izinleri (mikrofon, sensörler, güncellemeler) ver
 **Aynı sayfada**: *Anahtarları saate gönder*; **Ekran DPI** (*Sıfırla* modelin fabrika DPI'ına döner, ör. Samsung'da 340); **Kendi uygulamalarınızı yükleyin** (APK, APKS, XAPK, APKM); **Saatte çalıştır** (adb komutları); saat **Tanılaması** (model ve Android sürümüyle).
 **Düğme**: Galaxy Watch'ta Ayarlar → Gelişmiş özellikler → Tuşları özelleştir → *Çift basma* → **Live Assistant**. Galaxy Watch Ultra'nın orta düğmesi için düğme koruyucuyu hazırlıyoruz: Gateway'de **🔎 Düğmeleri incele**'ye dokunun, 15 saniye boyunca saatin düğmelerine basın ve sonucu gönderin.
 
-## HarmonyOS saat (Watch 5, Watch Ultimate 2…) (beta)
-APK yükleyemeyen **HarmonyOS NEXT**'li Huawei saatler (ör. Watch 5, Watch Ultimate 2) için **HarmonyOS için Live Assistant** var. Diğer sürümlerle aynı özelliklere sahiptir: Gemini Live ile sesli sorular, hava durumu, Ev, Kişiler, WhatsApp ve Telegram, telefon alarmları, geçmiş. Bilgisayar gerekmeden **Gateway Assistant** üzerinden yüklenir.
+## HarmonyOS saat (Watch 5, Watch 6, Watch Ultimate 2…) (beta)
+APK yükleyemeyen **HarmonyOS NEXT**'li Huawei saatler (ör. Watch 5, Watch 6, Watch Ultimate 2) için **HarmonyOS için Live Assistant** var. Diğer sürümlerle aynı özelliklere sahiptir: Gemini Live ile sesli sorular, hava durumu, Ev, Kişiler, WhatsApp ve Telegram, telefon alarmları, geçmiş. Bilgisayar gerekmeden **Gateway Assistant** üzerinden yüklenir.
 **Neden Huawei geliştirici hesabı gerekir**: HarmonyOS yalnızca saatinizin tanımlayıcısını (UDID) içeren bir profille imzalanmış uygulamaları yükler. Gateway anahtarı, sertifikayı ve profili DevEco Studio gibi **sizin** hesabınızla oluşturur. Bunlar yalnızca telefonunuzda kalır ve paylaşılmaz.
 
 **1 · Huawei geliştirici hesabı (bir kez)**

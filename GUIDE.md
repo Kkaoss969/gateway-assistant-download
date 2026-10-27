@@ -1,6 +1,6 @@
 # Live Assistant (watch) + Gateway Assistant (phone) — quick guide
 
-With your Amazfit watch (Zepp OS), Huawei Watch 3 / Watch 4, **Wear OS** watch (Galaxy Watch, Pixel Watch, TicWatch…) or a Huawei **HarmonyOS** watch (Watch 5, Watch Ultimate 2…) you talk to Gemini and, through the **Gateway Assistant** app on your Android phone, you can:
+With your Amazfit watch (Zepp OS), Huawei Watch 3 / Watch 4, **Wear OS** watch (Galaxy Watch, Pixel Watch, TicWatch…) or a Huawei **HarmonyOS** watch (Watch 5, Watch 6, Watch Ultimate 2…) you talk to Gemini and, through the **Gateway Assistant** app on your Android phone, you can:
 control your Google home, make calls, send/read/reply to WhatsApp messages and use the phone's voice.
 Everyone uses their own phone, Google account and Gemini key: nothing to share.
 
@@ -90,8 +90,8 @@ On **Pixel Watch**, if the icon doesn't appear in the app list after installing,
 **On the same page**: *Send the keys to the watch*; **Screen DPI** (*Reset* goes back to the model's factory DPI, e.g. 340 on Samsung); **Install your own apps** (APK, APKS, XAPK, APKM); **Run on the watch** (adb commands); watch **Diagnostics** (with model and Android version).
 **Button**: on Galaxy Watch, Settings → Advanced features → Customize keys → *Double press* → **Live Assistant**. For the center button of the Galaxy Watch Ultra we are preparing the button guardian: in Gateway tap **🔎 Study the buttons**, press the watch buttons for 15 seconds and send the result.
 
-## HarmonyOS watch (Watch 5, Watch Ultimate 2…) (beta)
-For Huawei watches with **HarmonyOS NEXT** (e.g. Watch 5, Watch Ultimate 2), which can't install APKs, there is **Live Assistant for HarmonyOS**. It has the same features as the other versions: voice questions with Gemini Live, weather, Home, Contacts, WhatsApp and Telegram, phone alarms, history. You install it from **Gateway Assistant**, no computer needed.
+## HarmonyOS watch (Watch 5, Watch 6, Watch Ultimate 2…) (beta)
+For Huawei watches with **HarmonyOS NEXT** (e.g. Watch 5, Watch 6, Watch Ultimate 2), which can't install APKs, there is **Live Assistant for HarmonyOS**. It has the same features as the other versions: voice questions with Gemini Live, weather, Home, Contacts, WhatsApp and Telegram, phone alarms, history. You install it from **Gateway Assistant**, no computer needed.
 **Why you need a Huawei developer account**: HarmonyOS only installs apps signed with a profile that contains your watch's identifier (UDID). Gateway creates the key, certificate and profile with **your** account, the same way DevEco Studio does. They stay on your phone only and are not shared.
 
 **1 · Huawei developer account (once)**
