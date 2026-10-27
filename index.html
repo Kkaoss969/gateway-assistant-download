@@ -43,6 +43,7 @@
   .langs button.on { color: var(--text); border-color: var(--blue); }
   .hw .num { background: #c7000b; color: #fff; font-size: 13px; }
   .wo .num { background: #1a73e8; color: #fff; font-size: 13px; }
+  .hm .num { background: #cf0a2c; color: #fff; font-size: 13px; }
 </style>
 </head>
 <body>
@@ -105,6 +106,19 @@
     <p class="small" data-t="wosmall"></p>
   </section>
 
+  <section class="card hm" id="harmonyos">
+    <div class="step"><span class="num">⌚</span><h2 data-t="hm"></h2></div>
+    <p data-t="hmp"></p>
+    <ol>
+      <li data-t="hma"></li>
+      <li data-t="hmb"></li>
+      <li data-t="hmc"></li>
+      <li data-t="hmd"></li>
+    </ol>
+    <a class="btn ghost" id="hmGuide" data-t="hmguide"></a>
+    <p class="small" data-t="hmsmall"></p>
+  </section>
+
   <section class="card s3">
     <div class="step"><span class="num">3</span><h2 data-t="s3"></h2></div>
     <p data-t="s3p"></p>
@@ -153,6 +167,15 @@
       wobtn: "⬇ Scarica l'APK per Wear OS",
       wosmall: "L'APK serve solo se lo installi in altro modo: con Gateway Assistant non devi scaricarlo.",
       woUrl: 'GUIDA.md#orologio-wear-os-prova',
+      hm: "Hai un orologio HarmonyOS?",
+      hmp: "Huawei Watch 5, Watch 6, Watch Ultimate 2… con <b>HarmonyOS NEXT</b>, che non installano gli APK: c'è <b>Live Assistant per HarmonyOS</b>, con Gemini Live, Casa, Contatti, WhatsApp e Telegram. Al posto dei passi 2 e 3 si installa da <b>Gateway Assistant</b>, senza computer, con il tuo account sviluppatore Huawei:",
+      hma: "Una volta: registrati come sviluppatore su <b>developer.huawei.com</b> (gratuito; per la verifica servono un documento valido e una carta di credito). Poi in Gateway: <b>⌚ Orologio HarmonyOS</b> → <b>🔏 File di firma per le HAP</b> → <b>🔐 Profili automatici: accedi con l'account Huawei</b>.",
+      hmb: "Orologio: Impostazioni → Info → tocca più volte la <b>versione</b>; poi Opzioni sviluppatore → attiva il <b>debug (HDC)</b> e il <b>debug Wi-Fi</b> (mostra IP e porta). Orologio e telefono sulla stessa rete Wi-Fi.",
+      hmc: "Gateway → <b>⌚ Orologio HarmonyOS</b> → <b>📲 Installa o aggiorna Live sull'orologio</b> → IP e porta (o <b>🔎 Cerca</b>) → <b>⬇ Dal sito</b>: Gateway firma l'app con il tuo account, la installa e la apre già collegata.",
+      hmd: "Gli aggiornamenti si fanno allo stesso modo (📲 → ⬇ Dal sito): impostazioni e dati restano.",
+      hmguide: "📖 Guida HarmonyOS passo passo",
+      hmsmall: "Non devi scaricare niente: Gateway prende Live Assistant dal sito e lo firma per il tuo orologio.",
+      hmUrl: "GUIDA.md#orologio-harmonyos-watch-5-watch-6-watch-ultimate-2-prova",
       hw: 'Hai un Huawei Watch 3 o Watch 4?',
       hwp: "Per gli orologi Huawei con base Android c'è <b>Live Assistant</b>, con Gemini Live: risponde a voce in 1-3 secondi, anche via Bluetooth. Al posto dei passi 2 e 3 si installa da <b>Gateway Assistant</b>:",
       hwa: 'Orologio: Impostazioni → Informazioni → tocca più volte il <b>numero di build</b>; poi Opzioni sviluppatore → attiva <b>Debug HDC</b> e <b>Debug via Wi-Fi</b>.',
@@ -211,6 +234,15 @@
       wobtn: '⬇ Download the Wear OS APK',
       wosmall: "The APK is only needed if you install it another way: with Gateway Assistant you don't have to download it.",
       woUrl: 'GUIDE.md#wear-os-watch-beta',
+      hm: "Got a HarmonyOS watch?",
+      hmp: "Huawei Watch 5, Watch 6, Watch Ultimate 2… with <b>HarmonyOS NEXT</b>, which can't install APKs: there is <b>Live Assistant for HarmonyOS</b>, with Gemini Live, Home, Contacts, WhatsApp and Telegram. Instead of steps 2 and 3 you install it from <b>Gateway Assistant</b>, no computer needed, with your Huawei developer account:",
+      hma: "Once: register as a developer at <b>developer.huawei.com</b> (free; the check needs a valid ID document and a credit card). Then in Gateway: <b>⌚ HarmonyOS watch</b> → <b>🔏 Signing files for HAPs</b> → <b>🔐 Automatic profiles: sign in with the Huawei account</b>.",
+      hmb: "Watch: Settings → About → tap the <b>version</b> several times; then Developer options → turn on <b>debugging (HDC)</b> and <b>Wi-Fi debugging</b> (it shows IP and port). Watch and phone on the same Wi-Fi.",
+      hmc: "Gateway → <b>⌚ HarmonyOS watch</b> → <b>📲 Install or update Live on the watch</b> → IP and port (or <b>🔎 Find</b>) → <b>⬇ From the site</b>: Gateway signs the app with your account, installs it and opens it already linked.",
+      hmd: "Updates work the same way (📲 → ⬇ From the site): settings and data are kept.",
+      hmguide: "📖 HarmonyOS step-by-step guide",
+      hmsmall: "You don't need to download anything: Gateway takes Live Assistant from the site and signs it for your watch.",
+      hmUrl: "GUIDE.md#harmonyos-watch-watch-5-watch-6-watch-ultimate-2-beta",
       hw: 'Got a Huawei Watch 3 or Watch 4?',
       hwp: 'For the Android-based Huawei watches there is <b>Live Assistant</b>, with Gemini Live: it answers by voice in 1-3 seconds, even via Bluetooth. Instead of steps 2 and 3 it installs from <b>Gateway Assistant</b>:',
       hwa: 'Watch: Settings → About → tap the <b>build number</b> several times; then Developer options → turn on <b>HDC debugging</b> and <b>Debugging over Wi-Fi</b>.',
@@ -269,6 +301,15 @@
       wobtn: '⬇ Descargar el APK para Wear OS',
       wosmall: 'El APK solo hace falta si lo instalas de otra forma: con Gateway Assistant no tienes que descargarlo.',
       woUrl: 'GUIA.md#reloj-wear-os-prueba',
+      hm: "¿Tienes un reloj HarmonyOS?",
+      hmp: "Huawei Watch 5, Watch 6, Watch Ultimate 2… con <b>HarmonyOS NEXT</b>, que no instalan APK: existe <b>Live Assistant para HarmonyOS</b>, con Gemini Live, Casa, Contactos, WhatsApp y Telegram. En lugar de los pasos 2 y 3 se instala desde <b>Gateway Assistant</b>, sin ordenador, con tu cuenta de desarrollador de Huawei:",
+      hma: "Una vez: regístrate como desarrollador en <b>developer.huawei.com</b> (gratis; para la verificación hacen falta un documento válido y una tarjeta de crédito). Luego en Gateway: <b>⌚ Reloj HarmonyOS</b> → <b>🔏 Archivos de firma para las HAP</b> → <b>🔐 Perfiles automáticos: inicia sesión con la cuenta Huawei</b>.",
+      hmb: "Reloj: Ajustes → Acerca de → toca varias veces la <b>versión</b>; luego Opciones de desarrollador → activa la <b>depuración (HDC)</b> y la <b>depuración Wi-Fi</b> (muestra IP y puerto). Reloj y teléfono en la misma Wi-Fi.",
+      hmc: "Gateway → <b>⌚ Reloj HarmonyOS</b> → <b>📲 Instalar o actualizar Live en el reloj</b> → IP y puerto (o <b>🔎 Buscar</b>) → <b>⬇ Desde el sitio</b>: Gateway firma la app con tu cuenta, la instala y la abre ya conectada.",
+      hmd: "Las actualizaciones se hacen igual (📲 → ⬇ Desde el sitio): ajustes y datos se mantienen.",
+      hmguide: "📖 Guía de HarmonyOS paso a paso",
+      hmsmall: "No tienes que descargar nada: Gateway toma Live Assistant del sitio y lo firma para tu reloj.",
+      hmUrl: "GUIA.md#reloj-harmonyos-watch-5-watch-6-watch-ultimate-2-prueba",
       hw: '¿Tienes un Huawei Watch 3 o Watch 4?',
       hwp: 'Para los relojes Huawei basados en Android existe <b>Live Assistant</b>, con Gemini Live: responde por voz en 1-3 segundos, también por Bluetooth. En lugar de los pasos 2 y 3 se instala desde <b>Gateway Assistant</b>:',
       hwa: 'Reloj: Ajustes → Información → toca varias veces el <b>número de compilación</b>; luego Opciones de desarrollador → activa <b>Depuración HDC</b> y <b>Depuración por Wi-Fi</b>.',
@@ -327,6 +368,15 @@
       wobtn: '⬇ Télécharger l\'APK Wear OS',
       wosmall: 'L\'APK ne sert que si vous l\'installez autrement : avec Gateway Assistant, inutile de le télécharger.',
       woUrl: 'GUIDE-FR.md#montre-wear-os-bêta',
+      hm: "Vous avez une montre HarmonyOS ?",
+      hmp: "Huawei Watch 5, Watch 6, Watch Ultimate 2… sous <b>HarmonyOS NEXT</b>, qui n'installent pas les APK : il y a <b>Live Assistant pour HarmonyOS</b>, avec Gemini Live, Maison, Contacts, WhatsApp et Telegram. À la place des étapes 2 et 3, il s'installe depuis <b>Gateway Assistant</b>, sans ordinateur, avec votre compte développeur Huawei :",
+      hma: "Une fois : inscrivez-vous comme développeur sur <b>developer.huawei.com</b> (gratuit ; la vérification demande une pièce d'identité valide et une carte de crédit). Puis dans Gateway : <b>⌚ Montre HarmonyOS</b> → <b>🔏 Fichiers de signature pour les HAP</b> → <b>🔐 Profils automatiques : connectez-vous avec le compte Huawei</b>.",
+      hmb: "Montre : Paramètres → À propos → touchez plusieurs fois la <b>version</b> ; puis Options pour les développeurs → activez le <b>débogage (HDC)</b> et le <b>débogage Wi-Fi</b> (il affiche IP et port). Montre et téléphone sur le même Wi-Fi.",
+      hmc: "Gateway → <b>⌚ Montre HarmonyOS</b> → <b>📲 Installer ou mettre à jour Live sur la montre</b> → IP et port (ou <b>🔎 Chercher</b>) → <b>⬇ Depuis le site</b> : Gateway signe l'app avec votre compte, l'installe et l'ouvre déjà reliée.",
+      hmd: "Les mises à jour se font de la même façon (📲 → ⬇ Depuis le site) : réglages et données sont conservés.",
+      hmguide: "📖 Guide HarmonyOS pas à pas",
+      hmsmall: "Rien à télécharger : Gateway prend Live Assistant sur le site et le signe pour votre montre.",
+      hmUrl: "GUIDE-FR.md#montre-harmonyos-watch-5-watch-6-watch-ultimate-2-bêta",
       hw: 'Vous avez une Huawei Watch 3 ou Watch 4 ?',
       hwp: 'Pour les montres Huawei basées sur Android, il y a <b>Live Assistant</b>, avec Gemini Live : il répond à voix haute en 1 à 3 secondes, même en Bluetooth. Au lieu des étapes 2 et 3, il s\'installe depuis <b>Gateway Assistant</b> :',
       hwa: 'Montre : Paramètres → À propos → touchez plusieurs fois le <b>numéro de build</b> ; puis Options pour les développeurs → activez le <b>débogage HDC</b> et le <b>Débogage via Wi-Fi</b>.',
@@ -385,6 +435,15 @@
       wobtn: '⬇ Transferir o APK para Wear OS',
       wosmall: 'O APK só é preciso se o instalar de outra forma: com o Gateway Assistant não tem de o transferir.',
       woUrl: 'GUIA-PT.md#relógio-wear-os-beta',
+      hm: "Tem um relógio HarmonyOS?",
+      hmp: "Huawei Watch 5, Watch 6, Watch Ultimate 2… com <b>HarmonyOS NEXT</b>, que não instalam APK: existe o <b>Live Assistant para HarmonyOS</b>, com Gemini Live, Casa, Contactos, WhatsApp e Telegram. Em vez dos passos 2 e 3 instala-se a partir do <b>Gateway Assistant</b>, sem computador, com a sua conta de programador Huawei:",
+      hma: "Uma vez: registe-se como programador em <b>developer.huawei.com</b> (gratuito; para a verificação são precisos um documento válido e um cartão de crédito). Depois no Gateway: <b>⌚ Relógio HarmonyOS</b> → <b>🔏 Ficheiros de assinatura para as HAP</b> → <b>🔐 Perfis automáticos: inicie sessão com a conta Huawei</b>.",
+      hmb: "Relógio: Definições → Acerca de → toque várias vezes na <b>versão</b>; depois Opções de programador → ative a <b>depuração (HDC)</b> e a <b>depuração Wi-Fi</b> (mostra IP e porta). Relógio e telemóvel no mesmo Wi-Fi.",
+      hmc: "Gateway → <b>⌚ Relógio HarmonyOS</b> → <b>📲 Instalar ou atualizar o Live no relógio</b> → IP e porta (ou <b>🔎 Procurar</b>) → <b>⬇ Do site</b>: o Gateway assina a app com a sua conta, instala-a e abre-a já ligada.",
+      hmd: "As atualizações fazem-se da mesma forma (📲 → ⬇ Do site): definições e dados mantêm-se.",
+      hmguide: "📖 Guia HarmonyOS passo a passo",
+      hmsmall: "Não precisa de transferir nada: o Gateway vai buscar o Live Assistant ao site e assina-o para o seu relógio.",
+      hmUrl: "GUIA-PT.md#relógio-harmonyos-watch-5-watch-6-watch-ultimate-2-beta",
       hw: 'Tem um Huawei Watch 3 ou Watch 4?',
       hwp: 'Para os relógios Huawei baseados em Android existe o <b>Live Assistant</b>, com Gemini Live: responde por voz em 1-3 segundos, também por Bluetooth. Em vez dos passos 2 e 3, instala-se a partir do <b>Gateway Assistant</b>:',
       hwa: 'Relógio: Definições → Acerca de → toque várias vezes no <b>número da compilação</b>; depois Opções de programador → ligue a <b>depuração HDC</b> e a <b>Depuração por Wi-Fi</b>.',
@@ -443,6 +502,15 @@
       wobtn: '⬇ Baixar o APK para Wear OS',
       wosmall: 'O APK só é necessário se você instalar de outro jeito: com o Gateway Assistant não precisa baixar.',
       woUrl: 'GUIA-BR.md#relógio-wear-os-beta',
+      hm: "Tem um relógio HarmonyOS?",
+      hmp: "Huawei Watch 5, Watch 6, Watch Ultimate 2… com <b>HarmonyOS NEXT</b>, que não instalam APK: existe o <b>Live Assistant para HarmonyOS</b>, com Gemini Live, Casa, Contatos, WhatsApp e Telegram. No lugar dos passos 2 e 3 ele é instalado pelo <b>Gateway Assistant</b>, sem computador, com sua conta de desenvolvedor Huawei:",
+      hma: "Uma vez: cadastre-se como desenvolvedor em <b>developer.huawei.com</b> (gratuito; para a verificação são necessários um documento válido e um cartão de crédito). Depois no Gateway: <b>⌚ Relógio HarmonyOS</b> → <b>🔏 Arquivos de assinatura para as HAP</b> → <b>🔐 Perfis automáticos: faça login com a conta Huawei</b>.",
+      hmb: "Relógio: Configurações → Sobre → toque várias vezes na <b>versão</b>; depois Opções do desenvolvedor → ative a <b>depuração (HDC)</b> e a <b>depuração Wi-Fi</b> (mostra IP e porta). Relógio e celular no mesmo Wi-Fi.",
+      hmc: "Gateway → <b>⌚ Relógio HarmonyOS</b> → <b>📲 Instalar ou atualizar o Live no relógio</b> → IP e porta (ou <b>🔎 Procurar</b>) → <b>⬇ Do site</b>: o Gateway assina o app com sua conta, instala e abre já conectado.",
+      hmd: "As atualizações são feitas do mesmo jeito (📲 → ⬇ Do site): configurações e dados continuam.",
+      hmguide: "📖 Guia HarmonyOS passo a passo",
+      hmsmall: "Você não precisa baixar nada: o Gateway pega o Live Assistant do site e assina para o seu relógio.",
+      hmUrl: "GUIA-BR.md#relógio-harmonyos-watch-5-watch-6-watch-ultimate-2-beta",
       hw: 'Tem um Huawei Watch 3 ou Watch 4?',
       hwp: 'Para os relógios Huawei baseados em Android existe o <b>Live Assistant</b>, com Gemini Live: responde por voz em 1-3 segundos, também por Bluetooth. Em vez dos passos 2 e 3, é instalado pelo <b>Gateway Assistant</b>:',
       hwa: 'Relógio: Configurações → Sobre → toque várias vezes no <b>número da versão</b>; depois Opções do desenvolvedor → ative a <b>depuração HDC</b> e a <b>Depuração por Wi-Fi</b>.',
@@ -501,6 +569,15 @@
       wobtn: '⬇ Изтегли APK за Wear OS',
       wosmall: 'APK е нужен само ако инсталирате по друг начин: с Gateway Assistant не е нужно да го изтегляте.',
       woUrl: 'GUIDE-BG.md#часовник-wear-os-бета',
+      hm: "Имате часовник с HarmonyOS?",
+      hmp: "Huawei Watch 5, Watch 6, Watch Ultimate 2… с <b>HarmonyOS NEXT</b>, които не инсталират APK: има <b>Live Assistant за HarmonyOS</b> с Gemini Live, Дом, Контакти, WhatsApp и Telegram. Вместо стъпки 2 и 3 се инсталира от <b>Gateway Assistant</b>, без компютър, с вашия акаунт за разработчици на Huawei:",
+      hma: "Веднъж: регистрирайте се като разработчик на <b>developer.huawei.com</b> (безплатно; за проверката са нужни валиден документ и кредитна карта). После в Gateway: <b>⌚ Часовник HarmonyOS</b> → <b>🔏 Файлове за подписване на HAP</b> → <b>🔐 Автоматични профили: вход с акаунт Huawei</b>.",
+      hmb: "Часовник: Настройки → Информация → докоснете няколко пъти <b>версията</b>; после Опции за програмисти → включете <b>отстраняването на грешки (HDC)</b> и <b>през Wi-Fi</b> (показва IP и порт). Часовникът и телефонът в една Wi-Fi мрежа.",
+      hmc: "Gateway → <b>⌚ Часовник HarmonyOS</b> → <b>📲 Инсталирай или обнови Live на часовника</b> → IP и порт (или <b>🔎 Намери</b>) → <b>⬇ От сайта</b>: Gateway подписва приложението с вашия акаунт, инсталира го и го отваря вече свързано.",
+      hmd: "Актуализациите се правят по същия начин (📲 → ⬇ От сайта): настройките и данните остават.",
+      hmguide: "📖 Ръководство за HarmonyOS стъпка по стъпка",
+      hmsmall: "Не е нужно да изтегляте нищо: Gateway взема Live Assistant от сайта и го подписва за вашия часовник.",
+      hmUrl: "GUIDE-BG.md#часовник-harmonyos-watch-5-watch-6-watch-ultimate-2-бета",
       hw: 'Имате Huawei Watch 3 или Watch 4?',
       hwp: 'За часовниците Huawei на базата на Android има <b>Live Assistant</b> с Gemini Live: отговаря с глас за 1-3 секунди, дори през Bluetooth. Вместо стъпки 2 и 3 се инсталира от <b>Gateway Assistant</b>:',
       hwa: 'Часовник: Настройки → Информация → докоснете няколко пъти <b>номера на компилацията</b>; после Опции за програмисти → включете <b>HDC отстраняване на грешки</b> и <b>Отстраняване на грешки през Wi-Fi</b>.',
@@ -559,6 +636,15 @@
       wobtn: '⬇ Wear OS APK\'sını indir',
       wosmall: 'APK yalnızca başka bir yolla yüklerseniz gerekir: Gateway Assistant ile indirmeniz gerekmez.',
       woUrl: 'GUIDE-TR.md#wear-os-saat-beta',
+      hm: "HarmonyOS saatiniz mi var?",
+      hmp: "APK yükleyemeyen <b>HarmonyOS NEXT</b>'li Huawei Watch 5, Watch 6, Watch Ultimate 2…: Gemini Live, Ev, Kişiler, WhatsApp ve Telegram ile <b>HarmonyOS için Live Assistant</b> var. 2. ve 3. adımlar yerine bilgisayar gerekmeden, Huawei geliştirici hesabınızla <b>Gateway Assistant</b> üzerinden yüklenir:",
+      hma: "Bir kez: <b>developer.huawei.com</b> adresinde geliştirici olarak kaydolun (ücretsiz; doğrulama için geçerli bir belge ve bir kredi kartı gerekir). Sonra Gateway'de: <b>⌚ HarmonyOS saat</b> → <b>🔏 HAP imza dosyaları</b> → <b>🔐 Otomatik profiller: Huawei hesabıyla giriş</b>.",
+      hmb: "Saat: Ayarlar → Hakkında → <b>sürüme</b> birkaç kez dokunun; sonra Geliştirici seçenekleri → <b>hata ayıklamayı (HDC)</b> ve <b>Wi-Fi hata ayıklamayı</b> açın (IP ve bağlantı noktasını gösterir). Saat ve telefon aynı Wi-Fi'de.",
+      hmc: "Gateway → <b>⌚ HarmonyOS saat</b> → <b>📲 Live'ı saate yükle veya güncelle</b> → IP ve bağlantı noktası (veya <b>🔎 Bul</b>) → <b>⬇ Siteden</b>: Gateway uygulamayı hesabınızla imzalar, yükler ve bağlı olarak açar.",
+      hmd: "Güncellemeler aynı şekilde yapılır (📲 → ⬇ Siteden): ayarlar ve veriler korunur.",
+      hmguide: "📖 Adım adım HarmonyOS rehberi",
+      hmsmall: "Hiçbir şey indirmeniz gerekmez: Gateway Live Assistant'ı siteden alır ve saatiniz için imzalar.",
+      hmUrl: "GUIDE-TR.md#harmonyos-saat-watch-5-watch-6-watch-ultimate-2-beta",
       hw: 'Huawei Watch 3 veya Watch 4\'ünüz mü var?',
       hwp: 'Android tabanlı Huawei saatler için Gemini Live\'lı <b>Live Assistant</b> var: Bluetooth üzerinden bile 1-3 saniyede sesle yanıt verir. 2. ve 3. adımlar yerine <b>Gateway Assistant</b>\'tan yüklenir:',
       hwa: 'Saat: Ayarlar → Hakkında → <b>yapı numarasına</b> birkaç kez dokunun; sonra Geliştirici seçenekleri → <b>HDC hata ayıklama</b> ve <b>Wi-Fi üzerinden hata ayıklama</b>\'yı açın.',
@@ -635,6 +721,7 @@
     document.querySelectorAll('.langs button').forEach((b) => b.classList.toggle('on', b.dataset.l === L))
     document.getElementById('guide').href = 'https://github.com/Kkaoss969/gateway-assistant-download/blob/main/' + t.guideUrl
     document.getElementById('woGuide').href = 'https://github.com/Kkaoss969/gateway-assistant-download/blob/main/' + t.woUrl
+    document.getElementById('hmGuide').href = 'https://github.com/Kkaoss969/gateway-assistant-download/blob/main/' + t.hmUrl
     sel.setAttribute('aria-label', t.model)
     const share = 'condividi/VoiceAssistant-' + L + '.png'
     document.getElementById('shareImg').src = share
