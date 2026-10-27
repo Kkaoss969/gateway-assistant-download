@@ -1,6 +1,6 @@
 # Live Assistant (montre) + Gateway Assistant (téléphone) — guide rapide
 
-Avec votre montre Amazfit (Zepp OS), Huawei Watch 3 / Watch 4 ou **Wear OS** (Galaxy Watch, Pixel Watch, TicWatch…), vous parlez à Gemini et, grâce à l'app **Gateway Assistant** sur votre téléphone Android, vous pouvez :
+Avec votre montre Amazfit (Zepp OS), Huawei Watch 3 / Watch 4, **Wear OS** (Galaxy Watch, Pixel Watch, TicWatch…) ou une montre Huawei **HarmonyOS** (Watch 5, Watch Ultimate 2…), vous parlez à Gemini et, grâce à l'app **Gateway Assistant** sur votre téléphone Android, vous pouvez :
 commander votre maison Google, téléphoner, envoyer/lire/répondre aux messages WhatsApp et utiliser la voix du téléphone.
 Chacun utilise son propre téléphone, son compte Google et sa clé Gemini : rien à partager.
 
@@ -90,6 +90,35 @@ Sur **Pixel Watch**, si l'icône n'apparaît pas dans la liste des apps après l
 **Mises à jour** : sur la montre, engrenage → *Vérifier et installer*. Sur Wear OS 4 et plus récent, l'app se met à jour toute seule (la première fois, autorisez *Installer des apps inconnues*, puis confirmez) ; sur Wear OS 2 et 3, elle passe par le Débogage via Wi-Fi, qui doit rester activé.
 **Sur la même page** : *Envoyer les clés à la montre* ; **DPI de l'écran** (*Réinitialiser* revient au DPI d'usine du modèle, ex. 340 sur Samsung) ; **Installer vos propres apps** (APK, APKS, XAPK, APKM) ; **Exécuter sur la montre** (commandes adb) ; **Diagnostic** de la montre (avec modèle et version d'Android).
 **Bouton** : sur Galaxy Watch, Paramètres → Fonctions avancées → Personnaliser les touches → *Double appui* → **Live Assistant**. Pour le bouton central de la Galaxy Watch Ultra, nous préparons le gardien du bouton : dans Gateway, touchez **🔎 Étudier les boutons**, appuyez sur les boutons de la montre pendant 15 secondes et envoyez le résultat.
+
+## Montre HarmonyOS (Watch 5, Watch Ultimate 2…) (bêta)
+Pour les montres Huawei sous **HarmonyOS NEXT** (ex. Watch 5, Watch Ultimate 2), qui n'installent pas les APK, il existe **Live Assistant pour HarmonyOS**. Il a les mêmes fonctions que les autres versions : questions à la voix avec Gemini Live, météo, Maison, Contacts, WhatsApp et Telegram, réveils du téléphone, historique. Il s'installe depuis **Gateway Assistant**, sans ordinateur.
+**Pourquoi un compte développeur Huawei** : HarmonyOS n'installe que des apps signées avec un profil qui contient l'identifiant (UDID) de votre montre. Gateway crée la clé, le certificat et le profil avec **votre** compte, comme DevEco Studio. Ils restent uniquement sur votre téléphone et ne sont pas partagés.
+
+**1 · Compte développeur Huawei (une fois)**
+1. Ouvrez https://developer.huawei.com, connectez-vous avec votre **ID Huawei** (celui de l'app Santé convient) et terminez l'**inscription comme développeur** (gratuite, compte individuel). Huawei peut demander une vérification d'identité : attendez qu'elle soit approuvée.
+2. Dans Gateway Assistant, touchez **⌚ Montre HarmonyOS : liaison et diagnostic** → **🔏 Fichiers de signature pour les HAP** → **🔐 Profils automatiques : connectez-vous avec le compte Huawei (comme DevEco)**.
+3. Le navigateur s'ouvre : connectez-vous avec le compte développeur et confirmez. Le navigateur revient tout seul à Gateway, qui affiche **✅ Connecté** ; le bouton devient **🔐 Compte Huawei :** avec votre nom (le toucher vous déconnecte).
+Rien d'autre à faire : la clé et le certificat de débogage se créent tout seuls à la première installation (ou tout de suite, avec **🪄 Créer clé et certificat avec le compte Huawei**). Chaque compte peut avoir au maximum 3 certificats de débogage (celui de Gateway se remplace tout seul) : si vous en avez déjà 3 faits avec DevEco Studio et que Gateway le signale, supprimez-en un ancien dans AppGallery Connect (*Certificats, ID d'app et profils → Certificats*).
+
+**2 · Préparez la montre**
+1. Sur la montre : Paramètres → À propos → touchez plusieurs fois la **version** jusqu'à ce que les **Options pour les développeurs** apparaissent.
+2. Dans les Options pour les développeurs, activez le **débogage (HDC)** et le **débogage Wi-Fi** : la montre affiche **IP et port** (ex. 192.168.0.191:44911). Le port change à chaque réactivation du débogage.
+3. Montre et téléphone sur le **même réseau Wi-Fi** (le partage de connexion du téléphone convient).
+
+**3 · Installez Live Assistant**
+1. Dans Gateway : **⌚ Montre HarmonyOS** → **📲 Installer ou mettre à jour Live sur la montre**.
+2. Saisissez l'**IP** et le **port** de la montre, ou touchez **🔎 Chercher la montre sur le Wi-Fi** (avec l'IP déjà saisie, il trouve le port en quelques secondes).
+3. Touchez **⬇ Depuis le site**. Gateway télécharge Live Assistant, enregistre la montre dans votre compte, crée le profil, signe l'app, l'installe et l'ouvre déjà reliée à Gateway (code du canal et clés). La fenêtre montre chaque étape, jusqu'à **✅ C'est fait**.
+4. La première fois, la montre demande d'**autoriser la connexion** de débogage : acceptez.
+Si la montre a déjà un Live Assistant signé par quelqu'un d'autre, Gateway demande s'il faut d'abord le désinstaller (les données de l'app sur la montre sont perdues).
+
+**Mises à jour** : Gateway Assistant indique quand une nouvelle version est disponible. On met à jour de la même façon (📲 Installer ou mettre à jour → ⬇ Depuis le site), avec le débogage Wi-Fi actif ; réglages et données sont conservés.
+**Liaison avec le téléphone** : Live essaie tout seul le Wi-Fi direct (même réseau), le Bluetooth et enfin Internet (Wi-Fi ou LTE de la montre) avec le code du canal. Pour utiliser le Bluetooth : sur la montre ⚙ → **🔵 Tester le Bluetooth avec Gateway** (autorisez le Bluetooth).
+**Live en arrière-plan (bêta)** : dans ⚙ → **🌙 Live en arrière-plan**, la montre reçoit les alertes de messages en Bluetooth même app fermée et vérifie réveils et messages toutes les 30 minutes. Cela consomme un peu plus de batterie et il faut d'abord un test Bluetooth réussi.
+**Diagnostic** : sur la montre ⚙ → Diagnostic → 📤 Gateway ; dans Gateway, il est dans ⌚ Montre HarmonyOS → **Diagnostic**.
+**Vous avez déjà vos fichiers de signature ?** (pour les utilisateurs de DevEco Studio) : dans **🔏 Fichiers de signature pour les HAP**, chargez la clé **.p12** avec son mot de passe, le certificat de débogage **.cer** et les profils **.p7b** (un par app, avec l'UDID de la montre, que vous copiez depuis **🛠 Outils hdc** → **📋 Identifiant de la montre (UDID)**). Le bouton **🤖 Profils automatiques (AppGallery Connect)** utilise les API officielles, qui ne fonctionnent pas avec les comptes européens : dans ce cas, utilisez la connexion avec le compte Huawei.
+**Autres outils** (🛠 Outils hdc) : **🔑 Envoyer à Live la clé Gemini et le canal**, commandes sur la montre. Avec **Choisir la HAP**, vous installez aussi d'autres apps HarmonyOS : si le compte Huawei est relié, Gateway les signe tout seul.
 
 ## Avec un iPhone
 Gateway Assistant n'existe que sur Android : iOS ne permet pas à une app de rester toujours active, d'appuyer sur « Envoyer » dans WhatsApp, de lire les notifications ou de transmettre des phrases à l'Assistant Google.

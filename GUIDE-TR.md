@@ -1,6 +1,6 @@
 # Live Assistant (saat) + Gateway Assistant (telefon) — hızlı rehber
 
-Amazfit (Zepp OS), Huawei Watch 3 / Watch 4 veya **Wear OS** saatinizle (Galaxy Watch, Pixel Watch, TicWatch…) Gemini ile konuşursunuz ve Android telefonunuzdaki **Gateway Assistant** uygulaması sayesinde şunları yapabilirsiniz:
+Amazfit (Zepp OS), Huawei Watch 3 / Watch 4, **Wear OS** saatinizle (Galaxy Watch, Pixel Watch, TicWatch…) ya da **HarmonyOS**'lu Huawei saatinizle (Watch 5, Watch Ultimate 2…) Gemini ile konuşursunuz ve Android telefonunuzdaki **Gateway Assistant** uygulaması sayesinde şunları yapabilirsiniz:
 Google evinizi kontrol etmek, arama yapmak, WhatsApp mesajları göndermek/okumak/yanıtlamak ve telefonun sesini kullanmak.
 Herkes kendi telefonunu, Google hesabını ve Gemini anahtarını kullanır: paylaşılacak bir şey yok.
 
@@ -91,6 +91,35 @@ Gateway uygulamayı yükler, izinleri (mikrofon, sensörler, güncellemeler) ver
 **Güncellemeler**: saatte dişli → *Denetle ve yükle*. Wear OS 4 ve üstünde uygulama kendini günceller (ilk seferde *Bilinmeyen uygulamaları yükle*'ye izin verin, sonra onaylayın); Wear OS 2 ve 3'te açık kalması gereken Wi-Fi üzerinden hata ayıklama ile olur.
 **Aynı sayfada**: *Anahtarları saate gönder*; **Ekran DPI** (*Sıfırla* modelin fabrika DPI'ına döner, ör. Samsung'da 340); **Kendi uygulamalarınızı yükleyin** (APK, APKS, XAPK, APKM); **Saatte çalıştır** (adb komutları); saat **Tanılaması** (model ve Android sürümüyle).
 **Düğme**: Galaxy Watch'ta Ayarlar → Gelişmiş özellikler → Tuşları özelleştir → *Çift basma* → **Live Assistant**. Galaxy Watch Ultra'nın orta düğmesi için düğme koruyucuyu hazırlıyoruz: Gateway'de **🔎 Düğmeleri incele**'ye dokunun, 15 saniye boyunca saatin düğmelerine basın ve sonucu gönderin.
+
+## HarmonyOS saat (Watch 5, Watch Ultimate 2…) (beta)
+APK yükleyemeyen **HarmonyOS NEXT**'li Huawei saatler (ör. Watch 5, Watch Ultimate 2) için **HarmonyOS için Live Assistant** var. Diğer sürümlerle aynı özelliklere sahiptir: Gemini Live ile sesli sorular, hava durumu, Ev, Kişiler, WhatsApp ve Telegram, telefon alarmları, geçmiş. Bilgisayar gerekmeden **Gateway Assistant** üzerinden yüklenir.
+**Neden Huawei geliştirici hesabı gerekir**: HarmonyOS yalnızca saatinizin tanımlayıcısını (UDID) içeren bir profille imzalanmış uygulamaları yükler. Gateway anahtarı, sertifikayı ve profili DevEco Studio gibi **sizin** hesabınızla oluşturur. Bunlar yalnızca telefonunuzda kalır ve paylaşılmaz.
+
+**1 · Huawei geliştirici hesabı (bir kez)**
+1. https://developer.huawei.com adresini açın, **Huawei Kimliğinizle** giriş yapın (Sağlık uygulamasındaki olur) ve **geliştirici kaydını** tamamlayın (ücretsiz, bireysel hesap). Huawei kimlik doğrulaması isteyebilir: onaylandı görünene kadar bekleyin.
+2. Gateway Assistant'ta **⌚ HarmonyOS saat: bağlantı ve tanılama** → **🔏 HAP imza dosyaları** → **🔐 Otomatik profiller: Huawei hesabıyla giriş (DevEco gibi)** öğesine dokunun.
+3. Tarayıcı açılır: geliştirici hesabıyla giriş yapın ve onaylayın. Tarayıcı kendiliğinden Gateway'e döner ve **✅ Giriş yapıldı** gösterir; düğme adınızla birlikte **🔐 Huawei hesabı:** olur (dokunarak çıkış yaparsınız).
+Başka bir şey gerekmez: hata ayıklama anahtarı ve sertifikası ilk yüklemede kendiliğinden oluşturulur (ya da hemen, **🪄 Huawei hesabıyla anahtar ve sertifika oluştur** ile). Her hesapta en fazla 3 hata ayıklama sertifikası olabilir (Gateway'inki kendiliğinden değiştirilir): DevEco Studio ile yapılmış 3 sertifikanız varsa ve Gateway bunu bildirirse, AppGallery Connect'te eskilerden birini silin (*Sertifikalar, uygulama kimlikleri ve profiller → Sertifikalar*).
+
+**2 · Saati hazırlayın**
+1. Saatte: Ayarlar → Hakkında → **Geliştirici seçenekleri** görünene kadar **sürüme** birkaç kez dokunun.
+2. Geliştirici seçeneklerinde **hata ayıklamayı (HDC)** ve **Wi-Fi hata ayıklamayı** açın: saat **IP ve bağlantı noktasını** gösterir (ör. 192.168.0.191:44911). Hata ayıklamayı her yeniden açtığınızda bağlantı noktası değişir.
+3. Saat ve telefon **aynı Wi-Fi ağında** (telefonun erişim noktası da olur).
+
+**3 · Live Assistant'ı yükleyin**
+1. Gateway'de: **⌚ HarmonyOS saat** → **📲 Live'ı saate yükle veya güncelle**.
+2. Saatin **IP**'sini ve **bağlantı noktasını** yazın ya da **🔎 Saati Wi-Fi'de bul** öğesine dokunun (IP zaten yazılıysa bağlantı noktasını birkaç saniyede bulur).
+3. **⬇ Siteden** öğesine dokunun. Gateway Live Assistant'ı indirir, saati hesabınıza kaydeder, profili oluşturur, uygulamayı imzalar, yükler ve Gateway'e bağlı olarak açar (kanal kodu ve anahtarlar). Pencerede **✅ Tamam** görünene kadar her adımı görürsünüz.
+4. İlk seferde saat hata ayıklama **bağlantısına izin vermenizi** ister: kabul edin.
+Saatte başkası tarafından imzalanmış bir Live Assistant zaten varsa, Gateway önce onu kaldırıp kaldırmayacağını sorar (saatteki uygulama verileri kaybolur).
+
+**Güncellemeler**: Gateway Assistant yeni bir sürüm olduğunda gösterir. Aynı şekilde güncellenir (📲 Yükle veya güncelle → ⬇ Siteden), Wi-Fi hata ayıklama açıkken; ayarlar ve veriler korunur.
+**Telefonla bağlantı**: Live kendiliğinden doğrudan Wi-Fi'yi (aynı ağ), Bluetooth'u ve son olarak kanal koduyla interneti (saatin Wi-Fi'si veya LTE'si) dener. Bluetooth kullanmak için: saatte ⚙ → **🔵 Gateway ile Bluetooth testi** (Bluetooth iznini verin).
+**Arka planda Live (beta)**: ⚙ → **🌙 Arka planda Live** ile saat, uygulama kapalıyken de Bluetooth ile mesaj uyarıları alır ve her 30 dakikada bir alarmları ve mesajları kontrol eder. Biraz daha fazla pil kullanır ve önce başarılı bir Bluetooth testi gerekir.
+**Tanılama**: saatte ⚙ → Tanılama → 📤 Gateway; Gateway'de ⌚ HarmonyOS saat → **Tanılama** içinde bulunur.
+**Kendi imza dosyalarınız var mı?** (DevEco Studio kullananlar için): **🔏 HAP imza dosyaları** içine parolasıyla **.p12** anahtarını, **.cer** hata ayıklama sertifikasını ve **.p7b** profillerini yüklersiniz (uygulama başına bir tane, saatin UDID'si ile; UDID'yi **🛠 hdc araçları** → **📋 Saat tanımlayıcısı (UDID)** içinden kopyalarsınız). **🤖 Otomatik profiller (AppGallery Connect)** düğmesi Avrupa hesaplarıyla çalışmayan resmi API'leri kullanır: bu durumda Huawei hesabıyla girişi kullanın.
+**Diğer araçlar** (🛠 hdc araçları): **🔑 Gemini anahtarını ve kanalı Live'a gönder**, saatte komutlar. **HAP seç** ile başka HarmonyOS uygulamaları da yüklersiniz: Huawei hesabı bağlıysa Gateway bunları kendisi imzalar.
 
 ## iPhone ile
 Gateway Assistant yalnızca Android içindir: iOS bir uygulamanın sürekli açık kalmasına, WhatsApp'ta "Gönder"e basmasına, bildirimleri okumasına veya Google Asistan'a ifade iletmesine izin vermez.

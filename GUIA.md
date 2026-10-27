@@ -1,6 +1,6 @@
 # Live Assistant (reloj) + Gateway Assistant (teléfono) — guía rápida
 
-Con tu reloj Amazfit (Zepp OS), Huawei Watch 3 / Watch 4 o **Wear OS** (Galaxy Watch, Pixel Watch, TicWatch…) hablas con Gemini y, a través de la app **Gateway Assistant** en tu teléfono Android, puedes:
+Con tu reloj Amazfit (Zepp OS), Huawei Watch 3 / Watch 4, **Wear OS** (Galaxy Watch, Pixel Watch, TicWatch…) o un reloj Huawei con **HarmonyOS** (Watch 5, Watch Ultimate 2…) hablas con Gemini y, a través de la app **Gateway Assistant** en tu teléfono Android, puedes:
 controlar tu casa Google, llamar, enviar/leer/responder WhatsApp y usar la voz del teléfono.
 Cada uno usa su propio teléfono, su cuenta de Google y su clave de Gemini: no hay nada que compartir.
 
@@ -89,6 +89,35 @@ En el **Pixel Watch**, si después de instalar el icono no aparece en la lista d
 **Actualizaciones**: en el reloj, engranaje → *Comprobar e instalar*. En Wear OS 4 y posteriores la app se actualiza sola (la primera vez permite *Instalar apps desconocidas* y luego confirma); en Wear OS 2 y 3 pasa por la depuración por Wi-Fi, que debe quedar activa.
 **En la misma página**: *Enviar las claves al reloj*; **DPI de la pantalla** (*Restablecer* vuelve a los DPI de fábrica del modelo, p. ej. 340 en Samsung); **Instala tus apps** (APK, APKS, XAPK, APKM); **Ejecutar en el reloj** (órdenes adb); **Diagnóstico** del reloj (con modelo y versión de Android).
 **Botón**: en Galaxy Watch, Ajustes → Funciones avanzadas → Personalizar botones → *Pulsar dos veces* → **Live Assistant**. Para el botón central de los Galaxy Watch Ultra estamos preparando el guardián del botón: en Gateway toca **🔎 Estudiar los botones**, pulsa los botones del reloj durante 15 segundos y envía el resultado.
+
+## Reloj HarmonyOS (Watch 5, Watch Ultimate 2…) (prueba)
+Para los relojes Huawei con **HarmonyOS NEXT** (p. ej. Watch 5, Watch Ultimate 2), que no instalan APK, existe **Live Assistant para HarmonyOS**. Tiene las mismas funciones que las otras versiones: preguntas por voz con Gemini Live, tiempo, Casa, Contactos, WhatsApp y Telegram, alarmas del teléfono, historial. Se instala desde **Gateway Assistant**, sin ordenador.
+**Por qué hace falta una cuenta de desarrollador de Huawei**: HarmonyOS solo instala apps firmadas con un perfil que contiene el identificador (UDID) de tu reloj. Gateway crea la clave, el certificado y el perfil con **tu** cuenta, igual que DevEco Studio. Se quedan solo en tu teléfono y no se comparten.
+
+**1 · Cuenta de desarrollador de Huawei (una vez)**
+1. Abre https://developer.huawei.com, inicia sesión con tu **ID de Huawei** (sirve el de la app Salud) y completa el **registro como desarrollador** (gratuito, cuenta individual). Huawei puede pedir una verificación de identidad: espera a que aparezca aprobada.
+2. En Gateway Assistant toca **⌚ Reloj HarmonyOS: conexión y diagnóstico** → **🔏 Archivos de firma para las HAP** → **🔐 Perfiles automáticos: inicia sesión con la cuenta Huawei (como DevEco)**.
+3. Se abre el navegador: inicia sesión con la cuenta de desarrollador y confirma. El navegador vuelve solo a Gateway, que muestra **✅ Sesión iniciada**; el botón pasa a **🔐 Cuenta Huawei:** con tu nombre (al tocarlo cierras la sesión).
+No hace falta nada más: la clave y el certificado de depuración se crean solos en la primera instalación (o enseguida, con **🪄 Crear clave y certificado con la cuenta Huawei**). Cada cuenta puede tener como máximo 3 certificados de depuración (el de Gateway se sustituye solo): si ya tienes 3 hechos con DevEco Studio y Gateway lo avisa, borra uno antiguo en AppGallery Connect (*Certificados, ID de apps y perfiles → Certificados*).
+
+**2 · Prepara el reloj**
+1. En el reloj: Ajustes → Acerca de → toca varias veces la **versión** hasta que aparezcan las **Opciones de desarrollador**.
+2. En Opciones de desarrollador activa la **depuración (HDC)** y la **depuración Wi-Fi**: el reloj muestra **IP y puerto** (p. ej. 192.168.0.191:44911). El puerto cambia cada vez que reactivas la depuración.
+3. Reloj y teléfono en la **misma red Wi-Fi** (sirve el punto de acceso del teléfono).
+
+**3 · Instala Live Assistant**
+1. En Gateway: **⌚ Reloj HarmonyOS** → **📲 Instalar o actualizar Live en el reloj**.
+2. Escribe la **IP** y el **puerto** del reloj, o toca **🔎 Buscar el reloj en la Wi-Fi** (con la IP ya escrita encuentra el puerto en pocos segundos).
+3. Toca **⬇ Desde el sitio**. Gateway descarga Live Assistant, registra el reloj en tu cuenta, crea el perfil, firma la app, la instala y la abre ya conectada a Gateway (código del canal y claves). En la ventana ves cada paso, hasta **✅ Hecho**.
+4. La primera vez el reloj pide **permitir la conexión** de depuración: acepta.
+Si en el reloj ya hay un Live Assistant firmado por otra persona, Gateway pregunta si desinstalarlo antes (los datos de la app en el reloj se pierden).
+
+**Actualizaciones**: Gateway Assistant muestra cuándo hay una versión nueva. Se actualiza igual (📲 Instalar o actualizar → ⬇ Desde el sitio), con la depuración Wi-Fi activa; ajustes y datos se mantienen.
+**Conexión con el teléfono**: Live prueba solo la Wi-Fi directa (misma red), el Bluetooth y por último internet (Wi-Fi o LTE del reloj) con el código del canal. Para usar el Bluetooth: en el reloj ⚙ → **🔵 Probar Bluetooth con Gateway** (permite el permiso Bluetooth).
+**Live en segundo plano (prueba)**: en ⚙ → **🌙 Live en segundo plano** el reloj recibe los avisos de mensajes por Bluetooth también con la app cerrada y revisa alarmas y mensajes cada 30 minutos. Gasta algo más de batería y antes hace falta la prueba de Bluetooth correcta.
+**Diagnóstico**: en el reloj ⚙ → Diagnóstico → 📤 Gateway; en Gateway está en ⌚ Reloj HarmonyOS → **Diagnóstico**.
+**¿Ya tienes tus archivos de firma?** (para quien usa DevEco Studio): en **🔏 Archivos de firma para las HAP** cargas la clave **.p12** con su contraseña, el certificado de depuración **.cer** y los perfiles **.p7b** (uno por app, con el UDID del reloj, que copias en **🛠 Herramientas hdc** → **📋 Identificador del reloj (UDID)**). El botón **🤖 Perfiles automáticos (AppGallery Connect)** usa las API oficiales, que no funcionan con las cuentas europeas: en ese caso usa el inicio de sesión con la cuenta Huawei.
+**Otras herramientas** (🛠 Herramientas hdc): **🔑 Enviar a Live la clave de Gemini y el canal**, comandos en el reloj. Con **Elegir la HAP** instalas también otras apps de HarmonyOS: si la cuenta Huawei está conectada, Gateway las firma solo.
 
 ## Con iPhone
 Gateway Assistant solo existe para Android: iOS no permite que una app esté siempre activa, pulse "Enviar" en WhatsApp, lea notificaciones o pase frases al Asistente de Google.
