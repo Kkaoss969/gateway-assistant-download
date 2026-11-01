@@ -4,7 +4,9 @@ Con l'orologio Amazfit (Zepp OS), Huawei Watch 3 / Watch 4, **Wear OS** (Galaxy 
 comandare la casa Google, chiamare, mandare/leggere/rispondere ai WhatsApp e avere la voce del telefono.
 Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Gemini: niente da condividere.
 
-🌐 Le app parlano **italiano, inglese, spagnolo, francese, portoghese (Portogallo e Brasile) bulgaro e turco**: seguono da sole la lingua dell'orologio e del telefono. · *English: [GUIDE.md](GUIDE.md)* · *Español: [GUIA.md](GUIA.md)* · *Français : [GUIDE-FR.md](GUIDE-FR.md)* · *Português: [GUIA-PT.md](GUIA-PT.md)* · *Português do Brasil: [GUIA-BR.md](GUIA-BR.md)* · *Български: [GUIDE-BG.md](GUIDE-BG.md)* · *Türkçe: [GUIDE-TR.md](GUIDE-TR.md)*
+🌐 Le app parlano **italiano, inglese, spagnolo, francese, portoghese (Portogallo e Brasile) bulgaro, turco e tedesco**: seguono da sole la lingua dell'orologio e del telefono. · *English: [GUIDE.md](GUIDE.md)* · *Español: [GUIA.md](GUIA.md)* · *Français : [GUIDE-FR.md](GUIDE-FR.md)* · *Português: [GUIA-PT.md](GUIA-PT.md)* · *Português do Brasil: [GUIA-BR.md](GUIA-BR.md)* · *Български: [GUIDE-BG.md](GUIDE-BG.md)* · *Türkçe: [GUIDE-TR.md](GUIDE-TR.md)* · *Deutsch: [GUIDE-DE.md](GUIDE-DE.md)*
+
+💬 **Gruppo Telegram** dell'app (domande, consigli, novità): https://t.me/Live_Assist
 
 ## Cosa serve
 - Telefono Android con l'app **Zepp** e l'orologio già collegato

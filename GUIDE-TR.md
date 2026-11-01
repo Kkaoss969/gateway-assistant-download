@@ -4,7 +4,9 @@ Amazfit (Zepp OS), Huawei Watch 3 / Watch 4, **Wear OS** saatinizle (Galaxy Watc
 Google evinizi kontrol etmek, arama yapmak, WhatsApp mesajları göndermek/okumak/yanıtlamak ve telefonun sesini kullanmak.
 Herkes kendi telefonunu, Google hesabını ve Gemini anahtarını kullanır: paylaşılacak bir şey yok.
 
-🌐 Uygulamalar **Türkçe, İngilizce, İtalyanca, İspanyolca, Fransızca, Portekizce (Portekiz ve Brezilya) ve Bulgarca** konuşur: saatin ve telefonun dilini otomatik olarak izlerler. · *English: [GUIDE.md](GUIDE.md)* · *Italiano: [GUIDA.md](GUIDA.md)* · *Español: [GUIA.md](GUIA.md)* · *Français : [GUIDE-FR.md](GUIDE-FR.md)* · *Português: [GUIA-PT.md](GUIA-PT.md)* · *Português do Brasil: [GUIA-BR.md](GUIA-BR.md)* · *Български: [GUIDE-BG.md](GUIDE-BG.md)*
+🌐 Uygulamalar **Türkçe, İngilizce, İtalyanca, İspanyolca, Fransızca, Portekizce (Portekiz ve Brezilya), Bulgarca ve Almanca** konuşur: saatin ve telefonun dilini otomatik olarak izlerler. · *English: [GUIDE.md](GUIDE.md)* · *Italiano: [GUIDA.md](GUIDA.md)* · *Español: [GUIA.md](GUIA.md)* · *Français : [GUIDE-FR.md](GUIDE-FR.md)* · *Português: [GUIA-PT.md](GUIA-PT.md)* · *Português do Brasil: [GUIA-BR.md](GUIA-BR.md)* · *Български: [GUIDE-BG.md](GUIDE-BG.md)* · *Deutsch: [GUIDE-DE.md](GUIDE-DE.md)*
+
+💬 Uygulamanın **Telegram grubu** (sorular, ipuçları, haberler): https://t.me/Live_Assist
 
 ## Neye ihtiyacınız var
 - **Zepp** uygulaması yüklü ve saati zaten eşlenmiş bir Android telefon

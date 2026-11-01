@@ -49,7 +49,7 @@
 <body>
 <div class="wrap">
   <nav class="langs" aria-label="Language">
-    <button data-l="it">IT</button><button data-l="en">EN</button><button data-l="es">ES</button><button data-l="fr">FR</button><button data-l="pt">PT</button><button data-l="br" title="Português do Brasil">BR</button><button data-l="bg">BG</button><button data-l="tr">TR</button>
+    <button data-l="it">IT</button><button data-l="en">EN</button><button data-l="es">ES</button><button data-l="fr">FR</button><button data-l="pt">PT</button><button data-l="br" title="Português do Brasil">BR</button><button data-l="bg">BG</button><button data-l="tr">TR</button><button data-l="de">DE</button>
   </nav>
   <header>
     <img src="icon.png" alt="">
@@ -143,6 +143,12 @@
     <a class="btn ghost" id="guide" data-t="guide"></a>
   </section>
 
+  <section class="card" id="telegram">
+    <h2 data-t="tg"></h2>
+    <p data-t="tgP"></p>
+    <a class="btn ghost" href="https://t.me/Live_Assist" target="_blank" rel="noopener" data-t="tgBtn"></a>
+  </section>
+
   <section class="card">
     <h2 data-t="share"></h2>
     <p data-t="shareP"></p>
@@ -153,10 +159,13 @@
   <footer data-t="foot"></footer>
 </div>
 <script>
-  // testi in italiano, inglese, spagnolo, francese, portoghese (pt = Portogallo, br = Brasile), bulgaro e turco;
+  // testi in italiano, inglese, spagnolo, francese, portoghese (pt = Portogallo, br = Brasile), bulgaro, turco e tedesco;
   // la lingua segue quella del browser
   const T = {
     it: {
+      tg: "Gruppo Telegram",
+      tgP: "Domande, consigli e novità su Live Assistant e Gateway Assistant: entra nel gruppo degli utenti.",
+      tgBtn: "💬 Entra nel gruppo Telegram",
       wo: 'Hai un orologio Wear OS?',
       wop: "Galaxy Watch, Pixel Watch, TicWatch, Oppo, Mi Watch, Fossil… da <b>Android 9 in poi</b>, anche i vecchi Wear OS 2 e 3: c'è <b>Live Assistant</b> con Gemini Live, Casa, Contatti, WhatsApp e Telegram. Al posto dei passi 2 e 3 si installa da <b>Gateway Assistant</b>:",
       woa: "Orologio: Impostazioni → Informazioni (sul Galaxy <i>Informazioni sull'orologio → Informazioni software</i>) → tocca più volte <b>Versione software</b> o <b>Numero build</b> per avere le Opzioni sviluppatore.",
@@ -210,7 +219,7 @@
       guide: 'Guida completa',
       guideUrl: 'GUIDA.md',
       s3e: '<b>Lingua dell\'app</b>: di solito quella dell\'orologio; il bulgaro si sceglie qui',
-      foot: 'Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Gemini: niente viene condiviso. L\'app parla italiano, inglese, spagnolo, francese, portoghese (Portogallo e Brasile), bulgaro e turco, secondo la lingua dell\'orologio e del telefono.',
+      foot: 'Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Gemini: niente viene condiviso. L\'app parla italiano, inglese, spagnolo, francese, portoghese (Portogallo e Brasile), bulgaro, turco e tedesco, secondo la lingua dell\'orologio e del telefono.',
       model: "Modello dell'orologio",
       qrAlt: 'Codice QR per ',
       notReady: (n) => 'Il codice per <b>' + n + '</b> non è ancora pronto.<br>Chiedilo a chi ti ha consigliato l\'app.',
@@ -224,6 +233,9 @@
       noList: 'Elenco dei modelli non disponibile.',
     },
     en: {
+      tg: "Telegram group",
+      tgP: "Questions, tips and news about Live Assistant and Gateway Assistant: join the users' group.",
+      tgBtn: "💬 Join the Telegram group",
       wo: 'Got a Wear OS watch?',
       wop: 'Galaxy Watch, Pixel Watch, TicWatch, Oppo, Mi Watch, Fossil… from <b>Android 9 onwards</b>, including the old Wear OS 2 and 3: there is <b>Live Assistant</b> with Gemini Live, Home, Contacts, WhatsApp and Telegram. Instead of steps 2 and 3 it installs from <b>Gateway Assistant</b>:',
       woa: 'Watch: Settings → About (on Galaxy <i>About watch → Software information</i>) → tap <b>Software version</b> or <b>Build number</b> several times to get Developer options.',
@@ -277,7 +289,7 @@
       guide: 'Full guide',
       guideUrl: 'GUIDE.md',
       s3e: '<b>App language</b>: usually the watch\'s; Bulgarian is chosen here',
-      foot: 'Everyone uses their own phone, Google account and Gemini key: nothing is shared. The app speaks Italian, English, Spanish, French, Portuguese (Portugal and Brazil), Bulgarian and Turkish, following the language of the watch and the phone.',
+      foot: 'Everyone uses their own phone, Google account and Gemini key: nothing is shared. The app speaks Italian, English, Spanish, French, Portuguese (Portugal and Brazil), Bulgarian, Turkish and German, following the language of the watch and the phone.',
       model: 'Watch model',
       qrAlt: 'QR code for ',
       notReady: (n) => 'The code for <b>' + n + '</b> is not ready yet.<br>Ask whoever recommended the app.',
@@ -291,6 +303,9 @@
       noList: 'Model list not available.',
     },
     es: {
+      tg: "Grupo de Telegram",
+      tgP: "Preguntas, consejos y novedades sobre Live Assistant y Gateway Assistant: únete al grupo de usuarios.",
+      tgBtn: "💬 Únete al grupo de Telegram",
       wo: '¿Tienes un reloj Wear OS?',
       wop: 'Galaxy Watch, Pixel Watch, TicWatch, Oppo, Mi Watch, Fossil… desde <b>Android 9</b>, incluso los antiguos Wear OS 2 y 3: existe <b>Live Assistant</b> con Gemini Live, Casa, Contactos, WhatsApp y Telegram. En lugar de los pasos 2 y 3 se instala desde <b>Gateway Assistant</b>:',
       woa: 'Reloj: Ajustes → Información (en Galaxy <i>Acerca del reloj → Información de software</i>) → toca varias veces <b>Versión de software</b> o <b>Número de compilación</b> para tener las Opciones de desarrollador.',
@@ -344,7 +359,7 @@
       guide: 'Guía completa',
       guideUrl: 'GUIA.md',
       s3e: '<b>Idioma de la app</b>: normalmente el del reloj; el búlgaro se elige aquí',
-      foot: 'Cada uno usa su propio teléfono, su cuenta de Google y su clave de Gemini: no se comparte nada. La app habla italiano, inglés, español, francés, portugués (Portugal y Brasil), búlgaro y turco, según el idioma del reloj y del teléfono.',
+      foot: 'Cada uno usa su propio teléfono, su cuenta de Google y su clave de Gemini: no se comparte nada. La app habla italiano, inglés, español, francés, portugués (Portugal y Brasil), búlgaro, turco y alemán, según el idioma del reloj y del teléfono.',
       model: 'Modelo del reloj',
       qrAlt: 'Código QR para ',
       notReady: (n) => 'El código para <b>' + n + '</b> aún no está listo.<br>Pídeselo a quien te recomendó la app.',
@@ -358,6 +373,9 @@
       noList: 'Lista de modelos no disponible.',
     },
     fr: {
+      tg: "Groupe Telegram",
+      tgP: "Questions, conseils et nouveautés sur Live Assistant et Gateway Assistant : rejoignez le groupe des utilisateurs.",
+      tgBtn: "💬 Rejoindre le groupe Telegram",
       wo: 'Vous avez une montre Wear OS ?',
       wop: 'Galaxy Watch, Pixel Watch, TicWatch, Oppo, Mi Watch, Fossil… à partir d\'<b>Android 9</b>, y compris les anciennes Wear OS 2 et 3 : il y a <b>Live Assistant</b> avec Gemini Live, Maison, Contacts, WhatsApp et Telegram. Au lieu des étapes 2 et 3, il s\'installe depuis <b>Gateway Assistant</b> :',
       woa: 'Montre : Paramètres → À propos (sur Galaxy <i>À propos de la montre → Informations sur le logiciel</i>) → touchez plusieurs fois <b>Version du logiciel</b> ou <b>Numéro de build</b> pour avoir les Options pour les développeurs.',
@@ -411,7 +429,7 @@
       s4e: '« Rappelle-moi à 18 h d\'appeler le dentiste », « désactive l\'alarme de demain »',
       guide: 'Guide complet',
       guideUrl: 'GUIDE-FR.md',
-      foot: 'Chacun utilise son propre téléphone, son compte Google et sa clé Gemini : rien n\'est partagé. L\'app parle italien, anglais, espagnol, français, portugais (Portugal et Brésil), bulgare et turc, selon la langue de la montre et du téléphone.',
+      foot: 'Chacun utilise son propre téléphone, son compte Google et sa clé Gemini : rien n\'est partagé. L\'app parle italien, anglais, espagnol, français, portugais (Portugal et Brésil), bulgare, turc et allemand, selon la langue de la montre et du téléphone.',
       model: 'Modèle de montre',
       qrAlt: 'Code QR pour ',
       notReady: (n) => 'Le code pour <b>' + n + '</b> n\'est pas encore prêt.<br>Demandez-le à la personne qui vous a conseillé l\'app.',
@@ -425,6 +443,9 @@
       noList: 'Liste des modèles non disponible.',
     },
     pt: {
+      tg: "Grupo do Telegram",
+      tgP: "Perguntas, dicas e novidades sobre o Live Assistant e o Gateway Assistant: entre no grupo de utilizadores.",
+      tgBtn: "💬 Entrar no grupo do Telegram",
       wo: 'Tem um relógio Wear OS?',
       wop: 'Galaxy Watch, Pixel Watch, TicWatch, Oppo, Mi Watch, Fossil… a partir do <b>Android 9</b>, incluindo os antigos Wear OS 2 e 3: existe o <b>Live Assistant</b> com Gemini Live, Casa, Contactos, WhatsApp e Telegram. Em vez dos passos 2 e 3, instala-se a partir do <b>Gateway Assistant</b>:',
       woa: 'Relógio: Definições → Acerca de (no Galaxy <i>Acerca do relógio → Informações do software</i>) → toque várias vezes em <b>Versão do software</b> ou <b>Número da compilação</b> para ter as Opções de programador.',
@@ -478,7 +499,7 @@
       s4e: '«Lembra-me às 18 de ligar ao dentista», «desliga o alarme de amanhã»',
       guide: 'Guia completo',
       guideUrl: 'GUIA-PT.md',
-      foot: 'Cada pessoa usa o seu próprio telemóvel, conta Google e chave Gemini: nada é partilhado. A app fala italiano, inglês, espanhol, francês, português (Portugal e Brasil), búlgaro e turco, conforme a língua do relógio e do telemóvel.',
+      foot: 'Cada pessoa usa o seu próprio telemóvel, conta Google e chave Gemini: nada é partilhado. A app fala italiano, inglês, espanhol, francês, português (Portugal e Brasil), búlgaro, turco e alemão, conforme a língua do relógio e do telemóvel.',
       model: 'Modelo do relógio',
       qrAlt: 'Código QR para ',
       notReady: (n) => 'O código para <b>' + n + '</b> ainda não está pronto.<br>Peça-o a quem lhe recomendou a app.',
@@ -492,6 +513,9 @@
       noList: 'Lista de modelos não disponível.',
     },
     br: {
+      tg: "Grupo do Telegram",
+      tgP: "Perguntas, dicas e novidades sobre o Live Assistant e o Gateway Assistant: entre no grupo de usuários.",
+      tgBtn: "💬 Entrar no grupo do Telegram",
       wo: 'Tem um relógio Wear OS?',
       wop: 'Galaxy Watch, Pixel Watch, TicWatch, Oppo, Mi Watch, Fossil… a partir do <b>Android 9</b>, incluindo os antigos Wear OS 2 e 3: existe o <b>Live Assistant</b> com Gemini Live, Casa, Contatos, WhatsApp e Telegram. Em vez dos passos 2 e 3, é instalado pelo <b>Gateway Assistant</b>:',
       woa: 'Relógio: Configurações → Sobre (no Galaxy <i>Sobre o relógio → Informações do software</i>) → toque várias vezes em <b>Versão do software</b> ou <b>Número da versão</b> para ter as Opções do desenvolvedor.',
@@ -545,7 +569,7 @@
       s4e: '"Me lembra às 18 de ligar pro dentista", "desliga o alarme de amanhã"',
       guide: 'Guia completo',
       guideUrl: 'GUIA-BR.md',
-      foot: 'Cada pessoa usa o próprio celular, conta Google e chave Gemini: nada é compartilhado. O app fala italiano, inglês, espanhol, francês, português (Portugal e Brasil), búlgaro e turco, conforme o idioma do relógio e do celular.',
+      foot: 'Cada pessoa usa o próprio celular, conta Google e chave Gemini: nada é compartilhado. O app fala italiano, inglês, espanhol, francês, português (Portugal e Brasil), búlgaro, turco e alemão, conforme o idioma do relógio e do celular.',
       model: 'Modelo do relógio',
       qrAlt: 'Código QR para ',
       notReady: (n) => 'O código para <b>' + n + '</b> ainda não está pronto.<br>Peça para quem te recomendou o app.',
@@ -559,6 +583,9 @@
       noList: 'Lista de modelos não disponível.',
     },
     bg: {
+      tg: "Група в Telegram",
+      tgP: "Въпроси, съвети и новини за Live Assistant и Gateway Assistant: влезте в групата на потребителите.",
+      tgBtn: "💬 Влезте в групата в Telegram",
       wo: 'Имате часовник Wear OS?',
       wop: 'Galaxy Watch, Pixel Watch, TicWatch, Oppo, Mi Watch, Fossil… от <b>Android 9 нагоре</b>, включително старите Wear OS 2 и 3: има <b>Live Assistant</b> с Gemini Live, Дом, Контакти, WhatsApp и Telegram. Вместо стъпки 2 и 3 се инсталира от <b>Gateway Assistant</b>:',
       woa: 'Часовник: Настройки → Информация (при Galaxy <i>Информация за часовника → Информация за софтуера</i>) → докоснете няколко пъти <b>Версия на софтуера</b> или <b>Номер на компилацията</b>, за да получите Опции за програмисти.',
@@ -612,7 +639,7 @@
       s4e: '„Напомни ми в 18 ч. да се обадя на зъболекаря“, „изключи алармата за утре“',
       guide: 'Пълно ръководство',
       guideUrl: 'GUIDE-BG.md',
-      foot: 'Всеки използва собствения си телефон, профил в Google и ключ за Gemini: нищо не се споделя. Приложението говори италиански, английски, испански, френски, португалски (Португалия и Бразилия), български и турски, според езика на часовника и телефона.',
+      foot: 'Всеки използва собствения си телефон, профил в Google и ключ за Gemini: нищо не се споделя. Приложението говори италиански, английски, испански, френски, португалски (Португалия и Бразилия), български, турски и немски, според езика на часовника и телефона.',
       model: 'Модел часовник',
       qrAlt: 'QR код за ',
       notReady: (n) => 'Кодът за <b>' + n + '</b> още не е готов.<br>Попитайте човека, който ви препоръча приложението.',
@@ -626,6 +653,9 @@
       noList: 'Списъкът с модели не е наличен.',
     },
     tr: {
+      tg: "Telegram grubu",
+      tgP: "Live Assistant ve Gateway Assistant hakkında sorular, ipuçları ve haberler: kullanıcı grubuna katılın.",
+      tgBtn: "💬 Telegram grubuna katıl",
       wo: 'Wear OS saatiniz mi var?',
       wop: 'Galaxy Watch, Pixel Watch, TicWatch, Oppo, Mi Watch, Fossil… <b>Android 9 ve üstü</b>, eski Wear OS 2 ve 3 dahil: Gemini Live, Ev, Kişiler, WhatsApp ve Telegram ile <b>Live Assistant</b> var. 2. ve 3. adımlar yerine <b>Gateway Assistant</b>\'tan yüklenir:',
       woa: 'Saat: Ayarlar → Hakkında (Galaxy\'de <i>Saat hakkında → Yazılım bilgileri</i>) → Geliştirici seçeneklerini açmak için <b>Yazılım sürümü</b> veya <b>Yapı numarası</b>\'na birkaç kez dokunun.',
@@ -679,7 +709,7 @@
       s4e: '"Akşam 6\'da dişçiyi aramamı hatırlat", "yarının alarmını kapat"',
       guide: 'Tam rehber',
       guideUrl: 'GUIDE-TR.md',
-      foot: 'Herkes kendi telefonunu, Google hesabını ve Gemini anahtarını kullanır: hiçbir şey paylaşılmaz. Uygulama, saatin ve telefonun diline göre İtalyanca, İngilizce, İspanyolca, Fransızca, Portekizce (Portekiz ve Brezilya), Bulgarca ve Türkçe konuşur.',
+      foot: 'Herkes kendi telefonunu, Google hesabını ve Gemini anahtarını kullanır: hiçbir şey paylaşılmaz. Uygulama, saatin ve telefonun diline göre İtalyanca, İngilizce, İspanyolca, Fransızca, Portekizce (Portekiz ve Brezilya), Bulgarca, Türkçe ve Almanca konuşur.',
       model: 'Saat modeli',
       qrAlt: 'QR kodu: ',
       notReady: (n) => '<b>' + n + '</b> için kod henüz hazır değil.<br>Uygulamayı size öneren kişiye sorun.',
@@ -691,6 +721,76 @@
       shareP: 'Uygulamayı denemek isteyen herkese göndermek için bu sayfanın QR kodu (bağlantı kabul etmeyen gruplarda kullanışlı).',
       shareBtn: '⬇ Sitenin QR kodunu indir',
       noList: 'Model listesi kullanılamıyor.',
+    },
+    de: {
+      tg: "Telegram-Gruppe",
+      tgP: "Fragen, Tipps und Neuigkeiten zu Live Assistant und Gateway Assistant: tritt der Gruppe der Nutzer bei.",
+      tgBtn: "💬 Der Telegram-Gruppe beitreten",
+      wo: 'Hast du eine Wear OS-Uhr?',
+      wop: 'Galaxy Watch, Pixel Watch, TicWatch, Oppo, Mi Watch, Fossil… <b>ab Android 9</b>, auch die alten Wear OS 2 und 3: es gibt <b>Live Assistant</b> mit Gemini Live, Zuhause, Kontakten, WhatsApp und Telegram. Statt der Schritte 2 und 3 wird es von <b>Gateway Assistant</b> aus installiert:',
+      woa: 'Uhr: Einstellungen → Über (auf der Galaxy <i>Info zur Uhr → Softwareinformationen</i>) → tippe mehrmals auf <b>Softwareversion</b> oder <b>Build-Nummer</b>, um die Entwickleroptionen zu bekommen.',
+      wob: 'Uhr und Telefon im selben WLAN (der Hotspot des Telefons geht auch). <b>Wear OS 4 und neuer</b>: schalte <b>WLAN-Debugging</b> ein. <b>Wear OS 2 und 3</b>: schalte <b>ADB-Debugging</b> und <b>Debugging über WLAN</b> ein.',
+      woc: 'Gateway Assistant → <b>⌚ Wear OS-Uhr: Installation und Diagnose</b>. Mit WLAN-Debugging: auf der Uhr <b>Neues Gerät koppeln</b>, in Gateway nur den Code eingeben und auf <b>🔗 Koppeln</b> tippen (die Uhr wird von selbst gefunden). Dann <b>⬇ Live Assistant herunterladen und installieren</b>: Schlüssel und Berechtigungen werden automatisch übertragen.',
+      wod: 'Updates kommen von selbst auf die Uhr. Auf der Galaxy Watch Ultra kannst du Live auch mit der <b>orangen Taste</b> öffnen (Einstellungen von Live auf der Uhr).',
+      woguide: '📖 Wear OS-Anleitung Schritt für Schritt',
+      wobtn: '⬇ APK für Wear OS herunterladen',
+      wosmall: 'Die APK brauchst du nur, wenn du sie auf andere Weise installierst: mit Gateway Assistant musst du sie nicht herunterladen.',
+      woUrl: 'GUIDE-DE.md#wear-os-uhr-beta',
+      hm: 'Hast du eine HarmonyOS-Uhr?',
+      hmp: 'Huawei Watch 5, Watch 6, Watch Ultimate 2… mit <b>HarmonyOS NEXT</b>, die keine APKs installieren: es gibt <b>Live Assistant für HarmonyOS</b> mit Gemini Live, Zuhause, Kontakten, WhatsApp und Telegram. Statt der Schritte 2 und 3 wird es von <b>Gateway Assistant</b> aus installiert, ohne Computer, mit deinem Huawei-Entwicklerkonto:',
+      hma: 'Einmal: registriere dich als Entwickler auf <b>developer.huawei.com</b> (kostenlos; für die Prüfung brauchst du einen gültigen Ausweis und eine Kreditkarte). Dann in Gateway: <b>⌚ HarmonyOS-Uhr</b> → <b>🔏 Signaturdateien für HAPs</b> → <b>🔐 Automatische Profile: mit dem Huawei-Konto anmelden</b>.',
+      hmb: 'Uhr: Einstellungen → Über → tippe mehrmals auf die <b>Version</b>; dann Entwickleroptionen → schalte <b>Debugging (HDC)</b> und <b>WLAN-Debugging</b> ein (zeigt IP und Port). Uhr und Telefon im selben WLAN.',
+      hmc: 'Gateway → <b>⌚ HarmonyOS-Uhr</b> → <b>📲 Live auf der Uhr installieren oder aktualisieren</b> → IP und Port (oder <b>🔎 Suchen</b>) → <b>⬇ Von der Website</b>: Gateway signiert die App mit deinem Konto, installiert sie und öffnet sie bereits verbunden.',
+      hmd: 'Updates gehen genauso (📲 → ⬇ Von der Website): Einstellungen und Daten bleiben erhalten.',
+      hmguide: '📖 HarmonyOS-Anleitung Schritt für Schritt',
+      hmsmall: 'Du musst nichts herunterladen: Gateway holt Live Assistant von der Website und signiert es für deine Uhr.',
+      hmUrl: 'GUIDE-DE.md#harmonyos-uhr-watch-5-watch-6-watch-ultimate-2-beta',
+      hw: 'Hast du eine Huawei Watch 3 oder Watch 4?',
+      hwp: 'Für Huawei-Uhren mit Android-Basis gibt es <b>Live Assistant</b> mit Gemini Live: es antwortet per Stimme in 1-3 Sekunden, auch über Bluetooth. Statt der Schritte 2 und 3 wird es von <b>Gateway Assistant</b> aus installiert:',
+      hwa: 'Uhr: Einstellungen → Über → tippe mehrmals auf die <b>Build-Nummer</b>; dann Entwickleroptionen → schalte <b>HDC-Debugging</b> und <b>Debugging über WLAN</b> ein.',
+      hwb: 'Uhr und Telefon im selben WLAN (der Hotspot des Telefons geht auch).',
+      hwc: 'Gateway Assistant → <b>⌚ Huawei-Uhr: Installation und Diagnose</b> → gib die IP der Uhr ein → <b>Live Assistant herunterladen und installieren</b>. Gemini-Schlüssel und Code werden automatisch übertragen.',
+      hwd: 'Tippe auf <b>Huawei-Bluetooth erlauben</b> (funktioniert auch ohne WLAN und LTE) und auf <b>Untere Taste: Live Assistant öffnen</b>, um es mit der Taste statt Celia zu öffnen.',
+      hwbtn: '⬇ APK für Huawei herunterladen',
+      hwsmall: 'Die APK brauchst du nur, wenn du sie auf andere Weise installierst: mit Gateway Assistant musst du sie nicht herunterladen. Details in der vollständigen Anleitung.',
+      lead: 'Sprich mit Gemini von deiner Amazfit-, Huawei- oder Wear OS-Uhr. Mit <b>Gateway Assistant</b> auf dem Telefon steuerst du auch dein Google-Zuhause, rufst an, sendest und liest WhatsApp-Nachrichten.',
+      s1: 'App für das Telefon',
+      s1p: 'Lade <b>Gateway Assistant</b> auf dein Android-Telefon herunter und installiere es (wenn Android fragt, erlaube die Installation aus dieser Quelle).',
+      s1btn: 'Gateway Assistant herunterladen',
+      s1small: 'Öffne es, tippe auf <b>Gateway starten</b>, erteile die Berechtigungen der Liste, bis alle ✅ sind, und kopiere den <b>Code</b>.',
+      iphone: '<b>Hast du ein iPhone?</b> Gateway Assistant gibt es nur für Android, aber Live Assistant funktioniert trotzdem: Fragen an Gemini, Stimme, Wetter, Nachrichten, Erinnerungen und Befehle der Uhr. Es fehlen nur Google-Zuhause, Anrufe mit Namen und WhatsApp. Überspringe diesen Schritt und lass den Gateway-Code leer; lass die Zepp-App im Hintergrund offen, sonst hält iOS sie an.',
+      s2: 'App für die Uhr',
+      s2p: 'Wähle deine Uhr: es erscheint der QR-Code, den du mit der <b>Zepp</b>-App scannst.',
+      s2a: 'Zepp-App → <b>Profil</b> → <b>Einstellungen</b> → <b>Über</b>: tippe mehrmals auf das Zepp-Logo, bis der <b>Entwicklermodus</b> an ist.',
+      s2b: 'Geh zurück zu <b>Profil</b>, tippe oben auf das <b>Scan</b>-Symbol und erfasse den Code (von einem anderen Bildschirm, oder mach einen Screenshot und scanne ihn in der App).',
+      s2c: 'Die App <b>Live Assistant</b> wird auf der Uhr installiert.',
+      s3: 'Einstellungen',
+      s3p: 'Zepp-App → deine Uhr → Apps → <b>Live Assistant</b> → Einstellungen:',
+      s3a: '<b>Gemini-API-Schlüssel</b>: kostenlos von <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">aistudio.google.com/apikey</a>',
+      s3b: '<b>Meine Stadt</b> (Wetter und lokale Nachrichten)',
+      s3c: '<b>Gateway Assistant → Code</b>: füge den in Schritt 1 kopierten Code ein',
+      s3d: '<b>Namen, die du oft verwendest</b> (optional): Personen, Orte, Mannschaften…',
+      s3e: '<b>Sprache der App</b>: normalerweise die der Uhr; Bulgarisch wird hier gewählt',
+      s4: 'Was du sagen kannst',
+      s4a: '„Wie wird das Wetter morgen?", „Wie hat Bayern gespielt?"',
+      s4b: '„Schalte das Licht in der Küche ein", „gute Nacht"',
+      s4c: '„Ruf Mario an"',
+      s4d: '„Schick Mario eine WhatsApp: ich bin in zehn Minuten da", „lies die Nachrichten"',
+      s4e: '„Erinnere mich um 18 Uhr, den Zahnarzt anzurufen", „schalte den Wecker für morgen aus"',
+      guide: 'Vollständige Anleitung',
+      guideUrl: 'GUIDE-DE.md',
+      foot: 'Jeder verwendet sein eigenes Telefon, sein Google-Konto und seinen Gemini-Schlüssel: nichts wird geteilt. Die App spricht Italienisch, Englisch, Spanisch, Französisch, Portugiesisch (Portugal und Brasilien), Bulgarisch, Türkisch und Deutsch, je nach Sprache der Uhr und des Telefons.',
+      model: 'Modell der Uhr',
+      qrAlt: 'QR-Code für ',
+      notReady: (n) => 'Der Code für <b>' + n + '</b> ist noch nicht fertig.<br>Frag die Person, die dir die App empfohlen hat.',
+      valid: 'Code gültig bis ',
+      save: '⬇ QR-Code herunterladen',
+      saveHint: 'Dann in der Zepp-App: Profil → Scannen → Galerie-Symbol → das Bild wählen.',
+      updated: (d) => 'Codes aktualisiert am ' + d + ' (sie werden jeden Tag erneuert).',
+      share: 'Teilen',
+      shareP: 'Der QR-Code dieser Seite, zum Senden an alle, die die App ausprobieren möchten (praktisch in Gruppen, die keine Links erlauben).',
+      shareBtn: '⬇ QR-Code der Website herunterladen',
+      noList: 'Liste der Modelle nicht verfügbar.',
     },
   }
 

@@ -14,9 +14,13 @@ Per aggiornare basta installare la nuova versione sopra la vecchia: impostazioni
 
 ## 📖 Guida
 
-Tutti i passaggi (telefono, orologio, permessi, cosa puoi dire): **[GUIDA.md](GUIDA.md)** · English: **[GUIDE.md](GUIDE.md)** · Español: **[GUIA.md](GUIA.md)** · Français: **[GUIDE-FR.md](GUIDE-FR.md)** · Português: **[GUIA-PT.md](GUIA-PT.md)** · Português do Brasil: **[GUIA-BR.md](GUIA-BR.md)** · Български: **[GUIDE-BG.md](GUIDE-BG.md)** · Türkçe: **[GUIDE-TR.md](GUIDE-TR.md)**
+Tutti i passaggi (telefono, orologio, permessi, cosa puoi dire): **[GUIDA.md](GUIDA.md)** · English: **[GUIDE.md](GUIDE.md)** · Español: **[GUIA.md](GUIA.md)** · Français: **[GUIDE-FR.md](GUIDE-FR.md)** · Português: **[GUIA-PT.md](GUIA-PT.md)** · Português do Brasil: **[GUIA-BR.md](GUIA-BR.md)** · Български: **[GUIDE-BG.md](GUIDE-BG.md)** · Türkçe: **[GUIDE-TR.md](GUIDE-TR.md)** · Deutsch: **[GUIDE-DE.md](GUIDE-DE.md)**
 
-🌐 Le app parlano italiano, inglese, spagnolo, francese, portoghese (Portogallo e Brasile), bulgaro e turco, secondo la lingua dell'orologio e del telefono.
+🌐 Le app parlano italiano, inglese, spagnolo, francese, portoghese (Portogallo e Brasile), bulgaro, turco e tedesco, secondo la lingua dell'orologio e del telefono.
+
+## 💬 Gruppo Telegram
+
+Domande, consigli e novità: **https://t.me/Live_Assist**
 
 ## Note
 - **iPhone**: Gateway Assistant è solo per Android. Con l'iPhone Live Assistant funziona lo stesso (domande, voce, meteo, notizie, promemoria), senza casa Google, chiamate per nome e WhatsApp. Dettagli nella guida.
