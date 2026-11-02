@@ -8,6 +8,8 @@ Cada pessoa usa o próprio celular, conta Google e chave Gemini: nada para compa
 
 💬 **Grupo do Telegram** do app (perguntas, dicas, novidades): https://t.me/Live_Assist
 
+☕ **Apoie o projeto** (apps gratuitos): https://ko-fi.com/kkaoss969
+
 ## Do que você precisa
 - Um celular Android com o app **Zepp** e o relógio já pareado
 - Uma **chave API do Gemini** (grátis, ou com crédito para respostas mais rápidas): https://aistudio.google.com/apikey

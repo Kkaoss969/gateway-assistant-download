@@ -8,6 +8,8 @@ Chacun utilise son propre téléphone, son compte Google et sa clé Gemini : rie
 
 💬 **Groupe Telegram** de l'app (questions, conseils, nouveautés) : https://t.me/Live_Assist
 
+☕ **Soutenir le projet** (apps gratuites) : https://ko-fi.com/kkaoss969
+
 ## Ce qu'il vous faut
 - Un téléphone Android avec l'app **Zepp** et la montre déjà associée
 - Une **clé API Gemini** (gratuite, ou avec du crédit pour des réponses plus rapides) : https://aistudio.google.com/apikey

@@ -8,6 +8,8 @@ Jeder verwendet sein eigenes Telefon, sein Google-Konto und seinen Gemini-Schlü
 
 💬 **Telegram-Gruppe** der App (Fragen, Tipps, Neuigkeiten): https://t.me/Live_Assist
 
+☕ **Unterstütze das Projekt** (kostenlose Apps): https://ko-fi.com/kkaoss969
+
 ## Was du brauchst
 - Ein Android-Telefon mit der **Zepp**-App und der bereits gekoppelten Uhr
 - Einen **Gemini-API-Schlüssel** (kostenlos oder mit Guthaben für schnellere Antworten): https://aistudio.google.com/apikey

@@ -8,6 +8,8 @@ Everyone uses their own phone, Google account and Gemini key: nothing to share.
 
 💬 **Telegram group** of the app (questions, tips, news): https://t.me/Live_Assist
 
+☕ **Support the project** (free apps): https://ko-fi.com/kkaoss969
+
 ## What you need
 - An Android phone with the **Zepp** app and the watch already paired
 - A **Gemini API key** (free, or with credit for faster answers): https://aistudio.google.com/apikey

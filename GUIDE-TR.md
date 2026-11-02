@@ -8,6 +8,8 @@ Herkes kendi telefonunu, Google hesabını ve Gemini anahtarını kullanır: pay
 
 💬 Uygulamanın **Telegram grubu** (sorular, ipuçları, haberler): https://t.me/Live_Assist
 
+☕ **Projeyi destekleyin** (ücretsiz uygulamalar): https://ko-fi.com/kkaoss969
+
 ## Neye ihtiyacınız var
 - **Zepp** uygulaması yüklü ve saati zaten eşlenmiş bir Android telefon
 - Bir **Gemini API anahtarı** (ücretsiz veya daha hızlı yanıtlar için krediyle): https://aistudio.google.com/apikey

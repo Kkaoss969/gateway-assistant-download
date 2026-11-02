@@ -22,6 +22,10 @@ Tutti i passaggi (telefono, orologio, permessi, cosa puoi dire): **[GUIDA.md](GU
 
 Domande, consigli e novità: **https://t.me/Live_Assist**
 
+## ☕ Sostieni il progetto
+
+Le app sono gratuite: se ti sono utili puoi offrire un caffè allo sviluppatore su **https://ko-fi.com/kkaoss969**
+
 ## Note
 - **iPhone**: Gateway Assistant è solo per Android. Con l'iPhone Live Assistant funziona lo stesso (domande, voce, meteo, notizie, promemoria), senza casa Google, chiamate per nome e WhatsApp. Dettagli nella guida.
 - Ognuno usa il proprio telefono, il proprio account Google e la propria chiave Gemini: niente viene condiviso.
