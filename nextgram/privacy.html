@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NextGram – Privacy</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1f1f24; --dim: #5f6368; --accent: #5b52d6; --line: #e3e3ea; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #121214; --fg: #e8eaed; --dim: #9aa0a6; --accent: #8e86f5; --line: #2a2a2e; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { color: var(--accent); margin: 0 0 4px; font-size: 28px; }
+  h2 { margin: 36px 0 8px; font-size: 21px; border-top: 1px solid var(--line); padding-top: 24px; }
+  h3 { margin: 22px 0 6px; font-size: 17px; }
+  p, li { margin: 6px 0; }
+  .dim { color: var(--dim); font-size: 14px; }
+  nav a { color: var(--accent); margin-right: 14px; }
+</style>
+</head>
+<body>
+<main>
+<h1>NextGram</h1>
+<p class="dim">Informativa sulla privacy · Privacy policy — aggiornata il / last updated: 4 novembre 2026</p>
+<nav><a href="#it">Italiano</a><a href="#en">English</a></nav>
+
+<h2 id="it">Italiano</h2>
+<p>NextGram è un'app per orologi HarmonyOS che permette di usare Telegram dal polso. Usa l'API ufficiale di Telegram (libreria TDLib). NextGram non è un'app ufficiale di Telegram.</p>
+
+<h3>Chi è responsabile</h3>
+<p>Kkaoss969, sviluppatore di NextGram.</p>
+
+<h3>Dati trattati e dove restano</h3>
+<ul>
+  <li><b>Account e messaggi di Telegram.</b> L'accesso avviene con il QR o con le credenziali di Telegram. Messaggi, contatti, foto e file viaggiano direttamente tra l'orologio e i server di Telegram e sono salvati solo nello spazio dell'app sull'orologio. Non abbiamo server che li ricevono o li leggono. Per i dati conservati da Telegram vale l'<a href="https://telegram.org/privacy">informativa di Telegram</a>.</li>
+  <li><b>Avvisi dei nuovi messaggi.</b> Per avvisarti con l'app chiusa, Telegram manda un avviso cifrato con una chiave creata sull'orologio a un nostro servizio di inoltro (Cloudflare Workers), che lo passa a Huawei Push Kit e quindi all'orologio. L'inoltro non può leggere il contenuto, non lo conserva e vede solo l'identificativo tecnico di Push Kit dell'orologio. Solo l'orologio può decifrare l'avviso.</li>
+  <li><b>Microfono.</b> Si usa solo mentre registri un messaggio vocale, dopo il tuo permesso. L'audio diventa un messaggio di Telegram e non viene usato per altro.</li>
+  <li><b>Diario tecnico.</b> L'app tiene sull'orologio un registro di eventi tecnici (per esempio "chat aperta", errori), senza testi dei messaggi, nomi o numeri. Esce dall'orologio solo se lo mandi tu, con il pulsante apposito, ai tuoi Messaggi salvati di Telegram.</li>
+  <li><b>Impostazioni.</b> Dimensione del testo e consenso a questa informativa restano sull'orologio.</li>
+</ul>
+
+<h3>Cosa non facciamo</h3>
+<ul>
+  <li>Niente pubblicità nostra, niente statistiche o tracciamento, niente vendita o cessione di dati.</li>
+  <li>Niente uso dei dati per addestrare intelligenze artificiali.</li>
+  <li>Nei canali di Telegram l'app mostra i messaggi sponsorizzati forniti da Telegram, come richiesto dalle regole di Telegram.</li>
+</ul>
+
+<h3>Permessi</h3>
+<p>Internet (per Telegram), stato della rete, microfono (solo per i vocali), notifiche (per gli avvisi).</p>
+
+<h3>Cancellazione</h3>
+<p>"Esci da Telegram" nelle impostazioni chiude la sessione sull'orologio. Disinstallando l'app si cancellano tutti i dati salvati sull'orologio. Gli account e i messaggi su Telegram si gestiscono dalle app di Telegram.</p>
+
+<h3>Minori</h3>
+<p>L'app segue i limiti di età di Telegram e non è pensata per minori di 16 anni.</p>
+
+<h3>Contatti</h3>
+<p>Per domande sulla privacy o per esercitare i tuoi diritti (accesso, cancellazione): <a href="mailto:nextgram01@gmail.com">nextgram01@gmail.com</a>.</p>
+
+<h2 id="en">English</h2>
+<p>NextGram is an app for HarmonyOS watches that lets you use Telegram from your wrist. It uses the official Telegram API (TDLib library). NextGram is not an official Telegram app.</p>
+
+<h3>Who is responsible</h3>
+<p>Kkaoss969, developer of NextGram.</p>
+
+<h3>Data processed and where it stays</h3>
+<ul>
+  <li><b>Telegram account and messages.</b> You sign in with the QR code or your Telegram credentials. Messages, contacts, photos and files travel directly between the watch and Telegram's servers and are stored only in the app's storage on the watch. We have no servers that receive or read them. Data kept by Telegram is covered by <a href="https://telegram.org/privacy">Telegram's privacy policy</a>.</li>
+  <li><b>New message notifications.</b> To notify you while the app is closed, Telegram sends a notification encrypted with a key created on the watch to our relay (Cloudflare Workers), which passes it to Huawei Push Kit and then to the watch. The relay cannot read the content, does not store it and only sees the watch's technical Push Kit identifier. Only the watch can decrypt the notification.</li>
+  <li><b>Microphone.</b> Used only while you record a voice message, after you grant permission. The audio becomes a Telegram message and is not used for anything else.</li>
+  <li><b>Technical log.</b> The app keeps a log of technical events on the watch (for example "chat opened", errors), with no message texts, names or numbers. It leaves the watch only if you send it yourself, with the dedicated button, to your Telegram Saved Messages.</li>
+  <li><b>Settings.</b> Text size and your consent to this policy stay on the watch.</li>
+</ul>
+
+<h3>What we don't do</h3>
+<ul>
+  <li>No ads of our own, no analytics or tracking, no selling or sharing of data.</li>
+  <li>No use of data to train artificial intelligence.</li>
+  <li>In Telegram channels the app shows the sponsored messages provided by Telegram, as Telegram's rules require.</li>
+</ul>
+
+<h3>Permissions</h3>
+<p>Internet (for Telegram), network state, microphone (only for voice messages), notifications (for alerts).</p>
+
+<h3>Deletion</h3>
+<p>"Log out of Telegram" in the settings ends the session on the watch. Uninstalling the app deletes all data stored on the watch. Telegram accounts and messages are managed from Telegram's apps.</p>
+
+<h3>Children</h3>
+<p>The app follows Telegram's age limits and is not intended for children under 16.</p>
+
+<h3>Contact</h3>
+<p>For privacy questions or to exercise your rights (access, deletion): <a href="mailto:nextgram01@gmail.com">nextgram01@gmail.com</a>.</p>
+</main>
+</body>
+</html>
