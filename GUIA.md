@@ -169,6 +169,7 @@ Las sacudidas no cuentan en los 2 primeros segundos tras abrir. Tras **30 segund
 - **Gráficos de funciones**: "Haz el gráfico de seno de x", "dibuja la parábola x al cuadrado menos 4", "compara x, x al cuadrado y x al cubo" (hasta 3 curvas).
 - **Zoom**: toca la imagen, la ficha o el gráfico para ampliarlos; con la **corona** acercas y alejas.
 - Las imágenes llegan después de la voz, así la voz no se corta.
+- **Amazfit**: también aquí deportes y noticias pasan por la búsqueda en Google, con la ficha del partido y (con Live) la verificación de la respuesta. En la app Zepp, en Ajustes, puedes **desactivar las sacudidas de muñeca** si se activan solas.
 - **Huawei Watch 3/4**: también hay un icono **Calendario** entre las apps del reloj, para abrir directamente los eventos del teléfono.
 
 ## Si algo no funciona

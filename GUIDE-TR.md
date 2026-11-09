@@ -171,6 +171,7 @@ Açıldıktan sonraki ilk 2 saniyede sallamalar sayılmaz. **30 saniye** hareket
 - **Fonksiyon grafikleri**: "Sinüs x grafiğini çiz", "x kare eksi 4 parabolünü çiz", "x, x kare ve x küpü karşılaştır" (en fazla 3 eğri).
 - **Yakınlaştırma**: büyütmek için görsele, karta veya grafiğe dokunun; **taç** ile yakınlaştırıp uzaklaştırın.
 - Görseller sesten sonra gelir, böylece ses kesilmez.
+- **Amazfit**: burada da spor ve haberler Google aramasından geçer; maç kartı ve (Live ile) yanıt kontrolü vardır. Zepp uygulamasında Ayarlar'dan, kendiliğinden tetikleniyorsa **bilek sallamayı kapatabilirsiniz**.
 - **Huawei Watch 3/4**: saat uygulamaları arasında telefonun etkinliklerini doğrudan açan bir **Takvim** simgesi de var.
 
 ## Bir şeyler ters giderse

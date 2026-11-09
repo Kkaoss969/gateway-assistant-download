@@ -170,6 +170,7 @@ As chacoalhadas não contam nos primeiros 2 segundos depois de abrir. Depois de 
 - **Gráficos de funções**: "Faça o gráfico de seno de x", "desenhe a parábola x ao quadrado menos 4", "compare x, x ao quadrado e x ao cubo" (até 3 curvas).
 - **Zoom**: toque na imagem, na ficha ou no gráfico para ampliar; com a **coroa** aproxima e afasta.
 - As imagens chegam depois da voz, assim a voz não é interrompida.
+- **Amazfit**: aqui também esportes e notícias passam pela pesquisa no Google, com a ficha do jogo e (com o Live) a checagem da resposta. No app Zepp, em Configurações, você pode **desligar as chacoalhadas do pulso** se dispararem sozinhas.
 - **Huawei Watch 3/4**: tem também um ícone **Calendário** nos apps do relógio, para abrir direto os eventos do celular.
 
 ## Se algo der errado

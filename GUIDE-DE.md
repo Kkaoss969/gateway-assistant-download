@@ -170,6 +170,7 @@ Schütteln zählt in den ersten 2 Sekunden nach dem Öffnen nicht. Nach **30 Sek
 - **Funktionsgraphen**: „Zeichne den Graphen von Sinus x“, „zeichne die Parabel x hoch 2 minus 4“, „vergleiche x, x hoch 2 und x hoch 3“ (bis zu 3 Kurven).
 - **Zoom**: Tippe auf Bild, Karte oder Graph, um sie zu vergrößern; mit der **Krone** zoomst du hinein und heraus.
 - Die Bilder kommen nach der Stimme, damit die Stimme nicht unterbrochen wird.
+- **Amazfit**: Auch hier laufen Sport und Nachrichten über die Google-Suche, mit Spielkarte und (mit Live) Prüfung der Antwort. In der Zepp-App kannst du unter Einstellungen das **Schütteln des Handgelenks ausschalten**, wenn es von selbst auslöst.
 - **Huawei Watch 3/4**: Unter den Apps der Uhr gibt es auch ein **Kalender**-Symbol, das die Termine des Telefons direkt öffnet.
 
 ## Wenn etwas nicht funktioniert
