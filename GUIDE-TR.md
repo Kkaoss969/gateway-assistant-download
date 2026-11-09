@@ -163,6 +163,16 @@ Açıldıktan sonraki ilk 2 saniyede sallamalar sayılmaz. **30 saniye** hareket
 
 **Gizlilik modu**: orta düğmenin sağ altındaki **mikrofon** düğmesine dokunun: yeşil bir **klavye** olur: mikrofon kapalı kalır ve orta düğme klavyeyi açar; sorunuzu yazın, yanıt yalnızca metin olarak, ses olmadan gelir. Sese dönmek için yeniden dokunun. Tek bir yazılı soru için orta düğmeye **basılı da tutabilirsiniz**. Zepp OS 4 veya üstü bir saat gerekir.
 
+## Görseller, skorlar, formüller ve grafikler (Huawei, Wear OS, HarmonyOS)
+- **Doğrulanmış spor ve haberler**: saat yanıt vermeden önce Google'da güncel siteleri arar (ekranda «🔎 Google'da arıyorum…», birkaç saniye). Yanıttan sonra hızlı bir kontrol onu bulunanlarla karşılaştırır: bir hata varsa saat **düzeltmeyi** gösterir ve söyler.
+- **Skor kartı**: maçlarda takımlar, skor, turnuva ve dakikasıyla **gol atanlar** görünür (kaynaklar belirttiğinde).
+- **Yanıtın sonunda görseller**: "Kolezyum neye benziyor?" Vikipedi'den fotoğrafı gösterir; haber ve sporda makalenin fotoğrafı **kaynağıyla** görünür (örn. 📰 ntvspor.net). Yüklenirken «görsel geliyor» yazar.
+- **Formüller**: "Dairenin alanı formülü nedir?" formülü düzgün yazılmış gösterir.
+- **Fonksiyon grafikleri**: "Sinüs x grafiğini çiz", "x kare eksi 4 parabolünü çiz", "x, x kare ve x küpü karşılaştır" (en fazla 3 eğri).
+- **Yakınlaştırma**: büyütmek için görsele, karta veya grafiğe dokunun; **taç** ile yakınlaştırıp uzaklaştırın.
+- Görseller sesten sonra gelir, böylece ses kesilmez.
+- **Huawei Watch 3/4**: saat uygulamaları arasında telefonun etkinliklerini doğrudan açan bir **Takvim** simgesi de var.
+
 ## Bir şeyler ters giderse
 - Zepp uygulaması → Live Assistant → **Tanılama**: her soruda ne olduğunu gösterir. Gateway Assistant'a da ulaşır (**⌚ Amazfit saat: tanılama**): oradan kopyalar veya **Dosyayı paylaş** ile dosya olarak gönderirsiniz.
 - Gateway Assistant'ta **Günlük** aramaları, mesajları ve komutları gösterir.

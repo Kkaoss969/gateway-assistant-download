@@ -161,6 +161,16 @@ Shakes don't count in the first 2 seconds after opening. After **30 seconds** of
 
 **Privacy mode**: tap the **microphone** button at the bottom right of the central button: it becomes a green **keyboard**: the microphone stays off and the central button opens the keyboard; type your question and the answer comes back as text only, with no voice. Tap it again to go back to voice. For a single typed question you can also **press and hold** the central button. Needs a watch with Zepp OS 4 or later.
 
+## Images, scores, formulas and graphs (Huawei, Wear OS, HarmonyOS)
+- **Checked sports and news**: before answering, the watch searches Google for up-to-date sites («🔎 Searching Google…» on screen, a few seconds). After the answer a quick check compares it with what was found: if there is a mistake, the watch shows and says the **correction**.
+- **Score card**: for matches you get teams, score, competition and **scorers** with the minute (when the sources report them).
+- **Images at the end of the answer**: "What does the Colosseum look like?" shows the photo from Wikipedia; for news and sports you get the article's photo with its **source** (e.g. 📰 bbc.com). While it loads you read «image coming».
+- **Formulas**: "What is the formula for the area of a circle?" shows the formula properly written.
+- **Function graphs**: "Graph sine of x", "draw the parabola x squared minus 4", "compare x, x squared and x cubed" (up to 3 curves).
+- **Zoom**: tap the image, card or graph to enlarge it; turn the **crown** to zoom in and out.
+- Images arrive after the voice, so the voice is not interrupted.
+- **Huawei Watch 3/4**: there is also a **Calendar** icon among the watch apps, to open the phone's events directly.
+
 ## If something goes wrong
 - Zepp app → Live Assistant → **Diagnostics**: shows what happened with each question. It also reaches Gateway Assistant (**⌚ Amazfit watch: diagnostics**): from there you copy it or send it as a file with **Share file**.
 - In Gateway Assistant the **Log** shows calls, messages and commands.

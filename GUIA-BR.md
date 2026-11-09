@@ -162,6 +162,16 @@ As chacoalhadas não contam nos primeiros 2 segundos depois de abrir. Depois de 
 
 **Modo privacidade**: toque no botão **microfone** embaixo à direita do botão central: ele vira um **teclado** verde: o microfone fica desligado e o botão central abre o teclado; digite sua pergunta e a resposta volta só em texto, sem voz. Toque de novo para voltar à voz. Para uma única pergunta digitada você também pode **segurar** o botão central. Precisa de um relógio com Zepp OS 4 ou posterior.
 
+## Imagens, resultados, fórmulas e gráficos (Huawei, Wear OS, HarmonyOS)
+- **Esportes e notícias verificados**: antes de responder, o relógio pesquisa no Google os sites atualizados («🔎 Pesquisando no Google…» na tela, alguns segundos). Depois da resposta, uma checagem rápida compara com o que foi encontrado: se houver um erro, o relógio mostra e fala a **correção**.
+- **Ficha do resultado**: nos jogos aparecem times, placar, campeonato e **autores dos gols** com o minuto (quando as fontes informam).
+- **Imagens no fim da resposta**: "Como é o Coliseu?" mostra a foto da Wikipédia; em notícias e esportes aparece a foto da matéria com a **fonte** (ex. 📰 ge.globo.com). Enquanto chega aparece «imagem chegando».
+- **Fórmulas**: "Qual é a fórmula da área do círculo?" mostra a fórmula bem escrita.
+- **Gráficos de funções**: "Faça o gráfico de seno de x", "desenhe a parábola x ao quadrado menos 4", "compare x, x ao quadrado e x ao cubo" (até 3 curvas).
+- **Zoom**: toque na imagem, na ficha ou no gráfico para ampliar; com a **coroa** aproxima e afasta.
+- As imagens chegam depois da voz, assim a voz não é interrompida.
+- **Huawei Watch 3/4**: tem também um ícone **Calendário** nos apps do relógio, para abrir direto os eventos do celular.
+
 ## Se algo der errado
 - App Zepp → Live Assistant → **Diagnóstico**: mostra o que aconteceu em cada pergunta. Também chega ao Gateway Assistant (**⌚ Relógio Amazfit: diagnóstico**): de lá você copia ou manda como arquivo com **Compartilhar arquivo**.
 - No Gateway Assistant o **Registro** mostra ligações, mensagens e comandos.

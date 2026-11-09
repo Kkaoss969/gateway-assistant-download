@@ -162,6 +162,16 @@ Schütteln zählt in den ersten 2 Sekunden nach dem Öffnen nicht. Nach **30 Sek
 
 **Privatsphäre-Modus**: tippe auf die Taste **Mikrofon** unten rechts neben der mittleren Taste: sie wird zu einer grünen **Tastatur**: das Mikrofon bleibt aus und die mittlere Taste öffnet die Tastatur; schreib deine Frage und die Antwort kommt nur als Text, ohne Stimme. Tippe erneut darauf, um zur Stimme zurückzukehren. Für eine einzelne geschriebene Frage kannst du die mittlere Taste auch **gedrückt halten**. Braucht eine Uhr mit Zepp OS 4 oder neuer.
 
+## Bilder, Ergebnisse, Formeln und Graphen (Huawei, Wear OS, HarmonyOS)
+- **Geprüfter Sport und Nachrichten**: Vor der Antwort sucht die Uhr bei Google nach aktuellen Seiten („🔎 Ich suche bei Google…“ auf dem Display, ein paar Sekunden). Nach der Antwort vergleicht eine schnelle Prüfung sie mit dem Gefundenen: Bei einem Fehler zeigt und sagt die Uhr die **Korrektur**.
+- **Ergebniskarte**: Bei Spielen erscheinen Mannschaften, Ergebnis, Wettbewerb und **Torschützen** mit Minute (wenn die Quellen sie nennen).
+- **Bilder am Ende der Antwort**: „Wie sieht das Kolosseum aus?“ zeigt das Foto aus Wikipedia; bei Nachrichten und Sport erscheint das Foto des Artikels mit **Quelle** (z. B. 📰 kicker.de). Während es lädt, steht dort „Bild kommt“.
+- **Formeln**: „Wie lautet die Formel für die Kreisfläche?“ zeigt die Formel sauber geschrieben.
+- **Funktionsgraphen**: „Zeichne den Graphen von Sinus x“, „zeichne die Parabel x hoch 2 minus 4“, „vergleiche x, x hoch 2 und x hoch 3“ (bis zu 3 Kurven).
+- **Zoom**: Tippe auf Bild, Karte oder Graph, um sie zu vergrößern; mit der **Krone** zoomst du hinein und heraus.
+- Die Bilder kommen nach der Stimme, damit die Stimme nicht unterbrochen wird.
+- **Huawei Watch 3/4**: Unter den Apps der Uhr gibt es auch ein **Kalender**-Symbol, das die Termine des Telefons direkt öffnet.
+
 ## Wenn etwas nicht funktioniert
 - Zepp-App → Live Assistant → **Diagnose**: zeigt, was bei jeder Frage passiert ist. Sie kommt auch in Gateway Assistant an (**⌚ Amazfit-Uhr: Diagnose**): von dort kopierst du sie oder sendest sie mit **Datei teilen** als Datei.
 - In Gateway Assistant zeigt das **Protokoll** Anrufe, Nachrichten und Befehle.

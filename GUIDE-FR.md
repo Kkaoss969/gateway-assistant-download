@@ -162,6 +162,16 @@ Les secousses ne comptent pas pendant les 2 premières secondes après l'ouvertu
 
 **Mode confidentialité** : touchez le bouton **micro** en bas à droite du bouton central : il devient un **clavier** vert : le micro reste coupé et le bouton central ouvre le clavier ; tapez votre question et la réponse revient seulement en texte, sans voix. Touchez-le à nouveau pour revenir à la voix. Pour une seule question écrite, vous pouvez aussi faire un **appui long** sur le bouton central. Nécessite une montre avec Zepp OS 4 ou plus récent.
 
+## Images, résultats, formules et graphiques (Huawei, Wear OS, HarmonyOS)
+- **Sport et actualités vérifiés** : avant de répondre, la montre cherche sur Google les sites à jour (« 🔎 Je cherche sur Google… » à l'écran, quelques secondes). Après la réponse, une vérification rapide la compare avec ce qui a été trouvé : en cas d'erreur, la montre affiche et dit la **correction**.
+- **Fiche du résultat** : pour les matchs s'affichent équipes, score, compétition et **buteurs** avec la minute (quand les sources les indiquent).
+- **Images en fin de réponse** : « À quoi ressemble le Colisée ? » montre la photo de Wikipédia ; pour l'actualité et le sport, la photo de l'article avec sa **source** (ex. 📰 lequipe.fr). Pendant le chargement on lit « image en cours ».
+- **Formules** : « Quelle est la formule de l'aire du cercle ? » affiche la formule bien écrite.
+- **Graphiques de fonctions** : « Trace le graphique de sinus de x », « dessine la parabole x au carré moins 4 », « compare x, x au carré et x au cube » (jusqu'à 3 courbes).
+- **Zoom** : touchez l'image, la fiche ou le graphique pour l'agrandir ; avec la **couronne** vous zoomez et dézoomez.
+- Les images arrivent après la voix, pour que la voix ne soit pas coupée.
+- **Huawei Watch 3/4** : il y a aussi une icône **Calendrier** parmi les apps de la montre, pour ouvrir directement les événements du téléphone.
+
 ## En cas de problème
 - App Zepp → Live Assistant → **Diagnostic** : montre ce qui s'est passé à chaque question. Il arrive aussi dans Gateway Assistant (**⌚ Montre Amazfit : diagnostic**) : de là, vous le copiez ou l'envoyez en fichier avec **Partager le fichier**.
 - Dans Gateway Assistant, le **Journal** montre les appels, les messages et les commandes.

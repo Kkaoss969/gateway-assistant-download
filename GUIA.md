@@ -161,6 +161,16 @@ Las sacudidas no cuentan en los 2 primeros segundos tras abrir. Tras **30 segund
 
 **Modo privacidad**: toca el botón del **micrófono** abajo a la derecha del botón central: se convierte en un **teclado** verde: el micrófono queda apagado y el botón central abre el teclado; escribe la pregunta y la respuesta llega solo escrita, sin voz. Tócalo otra vez para volver a la voz. Para una sola pregunta escrita también puedes **mantener pulsado** el botón central. Necesita un reloj con Zepp OS 4 o posterior.
 
+## Imágenes, resultados, fórmulas y gráficos (Huawei, Wear OS, HarmonyOS)
+- **Deportes y noticias verificados**: antes de responder, el reloj busca en Google las webs actualizadas («🔎 Busco en Google…» en pantalla, unos segundos). Después de la respuesta, una comprobación rápida la compara con lo encontrado: si hay un error, el reloj muestra y dice la **corrección**.
+- **Ficha del resultado**: en los partidos aparecen equipos, marcador, competición y **goleadores** con el minuto (cuando las fuentes los indican).
+- **Imágenes al final de la respuesta**: "¿Cómo es el Coliseo?" muestra la foto de Wikipedia; en noticias y deportes aparece la foto del artículo con su **fuente** (p. ej. 📰 marca.com). Mientras llega se lee «imagen en camino».
+- **Fórmulas**: "¿Cuál es la fórmula del área del círculo?" muestra la fórmula bien escrita.
+- **Gráficos de funciones**: "Haz el gráfico de seno de x", "dibuja la parábola x al cuadrado menos 4", "compara x, x al cuadrado y x al cubo" (hasta 3 curvas).
+- **Zoom**: toca la imagen, la ficha o el gráfico para ampliarlos; con la **corona** acercas y alejas.
+- Las imágenes llegan después de la voz, así la voz no se corta.
+- **Huawei Watch 3/4**: también hay un icono **Calendario** entre las apps del reloj, para abrir directamente los eventos del teléfono.
+
 ## Si algo no funciona
 - App Zepp → Live Assistant → **Diagnóstico**: muestra qué ha pasado con cada pregunta. También llega a Gateway Assistant (**⌚ Reloj Amazfit: diagnóstico**): desde ahí lo copias o lo envías como archivo con **Compartir archivo**.
 - En Gateway Assistant el **Registro** muestra llamadas, mensajes y órdenes.

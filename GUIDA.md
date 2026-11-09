@@ -161,6 +161,16 @@ Nei primi 2 secondi dopo l'apertura gli scossoni non contano. Dopo **30 secondi*
 
 **Modalità privacy**: tocca il pulsante col **microfono** in basso a destra del pulsante centrale: diventa una **tastiera** verde: il microfono resta spento e il pulsante centrale apre la tastiera; scrivi la domanda e la risposta arriva solo scritta, senza voce. Toccalo di nuovo per tornare alla voce. Per una sola domanda scritta puoi anche **tenere premuto** il pulsante centrale. Serve un orologio con Zepp OS 4 o successivo.
 
+## Immagini, risultati, formule e grafici (Huawei, Wear OS, HarmonyOS)
+- **Sport e notizie verificati**: prima di rispondere l'orologio cerca su Google i siti aggiornati (sullo schermo «🔎 Cerco su Google…», qualche secondo). Dopo la risposta un controllo veloce la confronta con quello che ha trovato: se c'è un errore, l'orologio mostra e dice la **correzione**.
+- **Scheda del risultato**: per le partite compaiono squadre, punteggio, competizione e **marcatori** con il minuto (quando le fonti li riportano).
+- **Immagini in fondo alla risposta**: "Com'è fatto il Colosseo?" mostra la foto da Wikipedia; per le notizie e lo sport compare la foto dell'articolo con la **fonte** (es. 📰 sky.it). Mentre arriva si legge «immagine in arrivo».
+- **Formule**: "Qual è la formula dell'area del cerchio?" mostra la formula scritta per bene.
+- **Grafici di funzioni**: "Fammi il grafico di seno di x", "disegna la parabola x al quadrato meno 4", "confronta x, x al quadrato e x al cubo" (fino a 3 curve).
+- **Zoom**: tocca l'immagine, la scheda o il grafico per ingrandirli; con la **corona** ingrandisci e rimpicciolisci.
+- Le immagini arrivano dopo la voce, così la voce non si interrompe.
+- **Huawei Watch 3/4**: c'è anche l'icona **Calendario** fra le app dell'orologio, per aprire subito gli impegni del telefono.
+
 ## Se qualcosa non va
 - App Zepp → Live Assistant → **Diagnostica**: mostra cosa è successo a ogni domanda. Arriva anche in Gateway Assistant (**⌚ Orologio Amazfit: diagnostica**): da lì la copi o la mandi come file con **Condividi file**.
 - In Gateway Assistant il **Diario** mostra chiamate, messaggi e comandi.
