@@ -169,7 +169,7 @@ Nei primi 2 secondi dopo l'apertura gli scossoni non contano. Dopo **30 secondi*
 - **Grafici di funzioni**: "Fammi il grafico di seno di x", "disegna la parabola x al quadrato meno 4", "confronta x, x al quadrato e x al cubo" (fino a 3 curve).
 - **Zoom**: tocca l'immagine, la scheda o il grafico per ingrandirli; con la **corona** ingrandisci e rimpicciolisci.
 - Le immagini arrivano dopo la voce, così la voce non si interrompe.
-- **Amazfit**: anche qui sport e notizie passano dalla ricerca su Google, con la scheda della partita e (con Live) la verifica della risposta. Nell'app Zepp, in Impostazioni, puoi **spegnere gli scossoni del polso** se partono da soli.
+- **Amazfit**: anche qui sport e notizie passano dalla ricerca su Google, con la scheda della partita e (con Live) la verifica della risposta. Nell'app Zepp, in Impostazioni, puoi **spegnere gli scossoni del polso** se partono da soli. Mostra anche foto (Wikipedia e articoli), formule e grafici in fondo alle risposte, tranne su Bip e Balance prima serie (modalità leggera).
 - **Huawei Watch 3/4**: c'è anche l'icona **Calendario** fra le app dell'orologio, per aprire subito gli impegni del telefono.
 
 ## Se qualcosa non va

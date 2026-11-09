@@ -170,7 +170,7 @@ Les secousses ne comptent pas pendant les 2 premières secondes après l'ouvertu
 - **Graphiques de fonctions** : « Trace le graphique de sinus de x », « dessine la parabole x au carré moins 4 », « compare x, x au carré et x au cube » (jusqu'à 3 courbes).
 - **Zoom** : touchez l'image, la fiche ou le graphique pour l'agrandir ; avec la **couronne** vous zoomez et dézoomez.
 - Les images arrivent après la voix, pour que la voix ne soit pas coupée.
-- **Amazfit** : ici aussi le sport et l'actualité passent par la recherche Google, avec la fiche du match et (avec Live) la vérification de la réponse. Dans l'app Zepp, dans Réglages, vous pouvez **désactiver les secousses du poignet** si elles se déclenchent toutes seules.
+- **Amazfit** : ici aussi le sport et l'actualité passent par la recherche Google, avec la fiche du match et (avec Live) la vérification de la réponse. Dans l'app Zepp, dans Réglages, vous pouvez **désactiver les secousses du poignet** si elles se déclenchent toutes seules. Elle affiche aussi des photos (Wikipédia et articles), des formules et des graphiques en fin de réponse, sauf sur Bip et le premier Balance (mode léger).
 - **Huawei Watch 3/4** : il y a aussi une icône **Calendrier** parmi les apps de la montre, pour ouvrir directement les événements du téléphone.
 
 ## En cas de problème

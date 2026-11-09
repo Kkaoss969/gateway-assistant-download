@@ -169,7 +169,7 @@ Shakes don't count in the first 2 seconds after opening. After **30 seconds** of
 - **Function graphs**: "Graph sine of x", "draw the parabola x squared minus 4", "compare x, x squared and x cubed" (up to 3 curves).
 - **Zoom**: tap the image, card or graph to enlarge it; turn the **crown** to zoom in and out.
 - Images arrive after the voice, so the voice is not interrupted.
-- **Amazfit**: sports and news also go through the Google search here, with the match card and (with Live) the answer check. In the Zepp app, under Settings, you can **turn off wrist shakes** if they trigger by themselves.
+- **Amazfit**: sports and news also go through the Google search here, with the match card and (with Live) the answer check. In the Zepp app, under Settings, you can **turn off wrist shakes** if they trigger by themselves. It also shows photos (Wikipedia and articles), formulas and graphs at the end of the answers, except on Bip and the first Balance (light mode).
 - **Huawei Watch 3/4**: there is also a **Calendar** icon among the watch apps, to open the phone's events directly.
 
 ## If something goes wrong

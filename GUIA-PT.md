@@ -170,7 +170,7 @@ Os abanões não contam nos primeiros 2 segundos depois de abrir. Após **30 seg
 - **Gráficos de funções**: "Faz o gráfico de seno de x", "desenha a parábola x ao quadrado menos 4", "compara x, x ao quadrado e x ao cubo" (até 3 curvas).
 - **Zoom**: toque na imagem, na ficha ou no gráfico para ampliar; com a **coroa** aproxima e afasta.
 - As imagens chegam depois da voz, para a voz não se interromper.
-- **Amazfit**: também aqui desporto e notícias passam pela pesquisa no Google, com a ficha do jogo e (com o Live) a verificação da resposta. Na app Zepp, em Definições, pode **desligar os abanões do pulso** se dispararem sozinhos.
+- **Amazfit**: também aqui desporto e notícias passam pela pesquisa no Google, com a ficha do jogo e (com o Live) a verificação da resposta. Na app Zepp, em Definições, pode **desligar os abanões do pulso** se dispararem sozinhos. Mostra também fotos (Wikipédia e artigos), fórmulas e gráficos no fim das respostas, exceto no Bip e no primeiro Balance (modo leve).
 - **Huawei Watch 3/4**: há também um ícone **Calendário** nas apps do relógio, para abrir diretamente os eventos do telemóvel.
 
 ## Se algo correr mal
