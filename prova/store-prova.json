@@ -7,7 +7,7 @@
       "nome": "NextUp",
       "pkg": "it.gemini.nextup",
       "icona": "nextup.png",
-      "versione": "0.1.0-24",
+      "versione": "0.1.0-25",
       "sistemi": {
         "huawei": "NextUp.apk",
         "wear": "NextUp.apk"
@@ -53,7 +53,7 @@
       "nome": "NextGram",
       "pkg": "it.gemini.nextgram",
       "icona": "nextgram.png",
-      "versione": "0.1.0-62",
+      "versione": "0.1.0-63",
       "sistemi": {
         "huawei": "NextGram.apk",
         "wear": "NextGram.apk"
