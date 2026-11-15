@@ -7,7 +7,7 @@
       "nome": "NextUp",
       "pkg": "it.gemini.nextup",
       "icona": "nextup.png",
-      "versione": "0.1.0-25",
+      "versione": "0.1.0-26",
       "sistemi": {
         "huawei": "NextUp.apk",
         "wear": "NextUp.apk"
@@ -45,7 +45,8 @@
         "cmd appops set $P RUN_ANY_IN_BACKGROUND allow",
         "cmd appops set $P RUN_IN_BACKGROUND allow",
         "am set-standby-bucket $P active",
-        "appops set $P SYSTEM_ALERT_WINDOW allow"
+        "appops set $P SYSTEM_ALERT_WINDOW allow",
+        "appops set $P MANAGE_EXTERNAL_STORAGE allow"
       ]
     },
     {
@@ -53,7 +54,7 @@
       "nome": "NextGram",
       "pkg": "it.gemini.nextgram",
       "icona": "nextgram.png",
-      "versione": "0.1.0-63",
+      "versione": "0.1.0-64",
       "sistemi": {
         "huawei": "NextGram.apk",
         "wear": "NextGram.apk"
@@ -82,7 +83,8 @@
         "cmd appops set $P RUN_IN_BACKGROUND allow",
         "am set-standby-bucket $P active",
         "appops set $P SYSTEM_ALERT_WINDOW allow",
-        "appops set $P REQUEST_INSTALL_PACKAGES allow"
+        "appops set $P REQUEST_INSTALL_PACKAGES allow",
+        "appops set $P MANAGE_EXTERNAL_STORAGE allow"
       ]
     }
   ]
