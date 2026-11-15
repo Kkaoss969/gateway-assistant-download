@@ -1,81 +1,89 @@
 {
- "versione": 1,
- "nota": "Catalogo di PROVA dello Store di Gateway: non pubblicato, solo per i tester.",
- "app": [
-  {
-   "id": "nextup",
-   "nome": "NextUp",
-   "pkg": "it.gemini.nextup",
-   "icona": "nextup.png",
-   "versione": "0.1.0",
-   "sistemi": {
-    "huawei": "NextUp.apk",
-    "wear": "NextUp.apk"
-   },
-   "desc": {
-    "it": "WhatsApp completo sull'orologio: chat, vocali, foto, avvisi e risposte, anche lontano dal telefono.",
-    "en": "Full WhatsApp on the watch: chats, voice notes, photos, alerts and replies, even away from the phone.",
-    "es": "WhatsApp completo en el reloj: chats, audios, fotos, avisos y respuestas, incluso lejos del teléfono.",
-    "fr": "WhatsApp complet sur la montre : discussions, vocaux, photos, alertes et réponses, même loin du téléphone.",
-    "pt-PT": "WhatsApp completo no relógio: conversas, mensagens de voz, fotos, avisos e respostas, mesmo longe do telemóvel.",
-    "pt-BR": "WhatsApp completo no relógio: conversas, áudios, fotos, avisos e respostas, mesmo longe do celular.",
-    "bg": "Пълен WhatsApp на часовника: чатове, гласови съобщения, снимки, известия и отговори, дори далеч от телефона.",
-    "tr": "Saatte tam WhatsApp: sohbetler, sesli mesajlar, fotoğraflar, bildirimler ve yanıtlar, telefondan uzaktayken bile.",
-    "de": "Vollständiges WhatsApp auf der Uhr: Chats, Sprachnachrichten, Fotos, Hinweise und Antworten, auch fern vom Telefon."
-   },
-   "avviso": {
-    "it": "NextUp non è un'app ufficiale di WhatsApp: usarla può portare al blocco del numero. Usala a tuo rischio, meglio con un numero secondario.",
-    "en": "NextUp is not an official WhatsApp app: using it may get your number banned. Use it at your own risk, preferably with a secondary number.",
-    "es": "NextUp no es una app oficial de WhatsApp: usarla puede llevar al bloqueo del número. Úsala bajo tu responsabilidad, mejor con un número secundario.",
-    "fr": "NextUp n'est pas une app officielle de WhatsApp : l'utiliser peut entraîner le blocage du numéro. À vos risques, de préférence avec un numéro secondaire.",
-    "pt-PT": "O NextUp não é uma app oficial do WhatsApp: usá-la pode levar ao bloqueio do número. Use por sua conta e risco, de preferência com um número secundário.",
-    "pt-BR": "O NextUp não é um app oficial do WhatsApp: usar pode levar ao bloqueio do número. Use por sua conta e risco, de preferência com um número secundário.",
-    "bg": "NextUp не е официално приложение на WhatsApp: използването му може да доведе до блокиране на номера. На ваш риск, по-добре с втори номер.",
-    "tr": "NextUp resmi bir WhatsApp uygulaması değildir: kullanmak numaranın engellenmesine yol açabilir. Riski size ait, tercihen ikinci bir numarayla kullanın.",
-    "de": "NextUp ist keine offizielle WhatsApp-App: die Nutzung kann zur Sperrung der Nummer führen. Nutzung auf eigenes Risiko, am besten mit einer Zweitnummer."
-   },
-   "permessi": [
-    "pm grant $P android.permission.RECORD_AUDIO",
-    "pm grant $P android.permission.POST_NOTIFICATIONS",
-    "dumpsys deviceidle whitelist +$P",
-    "cmd appops set $P RUN_ANY_IN_BACKGROUND allow",
-    "cmd appops set $P RUN_IN_BACKGROUND allow",
-    "am set-standby-bucket $P active",
-    "appops set $P SYSTEM_ALERT_WINDOW allow"
-   ]
-  },
-  {
-   "id": "nextgram",
-   "nome": "NextGram",
-   "pkg": "it.gemini.nextgram",
-   "icona": "nextgram.png",
-   "versione": "0.1.0",
-   "sistemi": {
-    "huawei": "NextGram.apk",
-    "wear": "NextGram.apk"
-   },
-   "desc": {
-    "it": "Telegram sull'orologio: chat, vocali, foto, sticker e avvisi, anche senza il telefono.",
-    "en": "Telegram on the watch: chats, voice notes, photos, stickers and alerts, even without the phone.",
-    "es": "Telegram en el reloj: chats, audios, fotos, stickers y avisos, incluso sin el teléfono.",
-    "fr": "Telegram sur la montre : discussions, vocaux, photos, stickers et alertes, même sans le téléphone.",
-    "pt-PT": "Telegram no relógio: conversas, mensagens de voz, fotos, stickers e avisos, mesmo sem o telemóvel.",
-    "pt-BR": "Telegram no relógio: conversas, áudios, fotos, figurinhas e avisos, mesmo sem o celular.",
-    "bg": "Telegram на часовника: чатове, гласови съобщения, снимки, стикери и известия, дори без телефона.",
-    "tr": "Saatte Telegram: sohbetler, sesli mesajlar, fotoğraflar, çıkartmalar ve bildirimler, telefon olmadan bile.",
-    "de": "Telegram auf der Uhr: Chats, Sprachnachrichten, Fotos, Sticker und Hinweise, auch ohne Telefon."
-   },
-   "permessi": [
-    "pm grant $P android.permission.RECORD_AUDIO",
-    "pm grant $P android.permission.POST_NOTIFICATIONS",
-    "pm grant $P android.permission.BLUETOOTH_CONNECT",
-    "dumpsys deviceidle whitelist +$P",
-    "cmd appops set $P RUN_ANY_IN_BACKGROUND allow",
-    "cmd appops set $P RUN_IN_BACKGROUND allow",
-    "am set-standby-bucket $P active",
-    "appops set $P SYSTEM_ALERT_WINDOW allow",
-    "appops set $P REQUEST_INSTALL_PACKAGES allow"
-   ]
-  }
- ]
+  "versione": 1,
+  "nota": "Catalogo di PROVA dello Store di Gateway: non pubblicato, solo per i tester.",
+  "app": [
+    {
+      "id": "nextup",
+      "nome": "NextUp",
+      "pkg": "it.gemini.nextup",
+      "icona": "nextup.png",
+      "versione": "0.1.0-24",
+      "sistemi": {
+        "huawei": "NextUp.apk",
+        "wear": "NextUp.apk"
+      },
+      "desc": {
+        "it": "WhatsApp completo sull'orologio: chat, vocali, foto, avvisi e risposte, anche lontano dal telefono.",
+        "en": "Full WhatsApp on the watch: chats, voice notes, photos, alerts and replies, even away from the phone.",
+        "es": "WhatsApp completo en el reloj: chats, audios, fotos, avisos y respuestas, incluso lejos del teléfono.",
+        "fr": "WhatsApp complet sur la montre : discussions, vocaux, photos, alertes et réponses, même loin du téléphone.",
+        "pt-PT": "WhatsApp completo no relógio: conversas, mensagens de voz, fotos, avisos e respostas, mesmo longe do telemóvel.",
+        "pt-BR": "WhatsApp completo no relógio: conversas, áudios, fotos, avisos e respostas, mesmo longe do celular.",
+        "bg": "Пълен WhatsApp на часовника: чатове, гласови съобщения, снимки, известия и отговори, дори далеч от телефона.",
+        "tr": "Saatte tam WhatsApp: sohbetler, sesli mesajlar, fotoğraflar, bildirimler ve yanıtlar, telefondan uzaktayken bile.",
+        "de": "Vollständiges WhatsApp auf der Uhr: Chats, Sprachnachrichten, Fotos, Hinweise und Antworten, auch fern vom Telefon."
+      },
+      "avviso": {
+        "it": "NextUp non è un'app ufficiale di WhatsApp: usarla può portare al blocco del numero. Usala a tuo rischio, meglio con un numero secondario.",
+        "en": "NextUp is not an official WhatsApp app: using it may get your number banned. Use it at your own risk, preferably with a secondary number.",
+        "es": "NextUp no es una app oficial de WhatsApp: usarla puede llevar al bloqueo del número. Úsala bajo tu responsabilidad, mejor con un número secundario.",
+        "fr": "NextUp n'est pas une app officielle de WhatsApp : l'utiliser peut entraîner le blocage du numéro. À vos risques, de préférence avec un numéro secondaire.",
+        "pt-PT": "O NextUp não é uma app oficial do WhatsApp: usá-la pode levar ao bloqueio do número. Use por sua conta e risco, de preferência com um número secundário.",
+        "pt-BR": "O NextUp não é um app oficial do WhatsApp: usar pode levar ao bloqueio do número. Use por sua conta e risco, de preferência com um número secundário.",
+        "bg": "NextUp не е официално приложение на WhatsApp: използването му може да доведе до блокиране на номера. На ваш риск, по-добре с втори номер.",
+        "tr": "NextUp resmi bir WhatsApp uygulaması değildir: kullanmak numaranın engellenmesine yol açabilir. Riski size ait, tercihen ikinci bir numarayla kullanın.",
+        "de": "NextUp ist keine offizielle WhatsApp-App: die Nutzung kann zur Sperrung der Nummer führen. Nutzung auf eigenes Risiko, am besten mit einer Zweitnummer."
+      },
+      "permessi": [
+        "pm grant $P android.permission.RECORD_AUDIO",
+        "pm grant $P android.permission.POST_NOTIFICATIONS",
+        "pm grant $P android.permission.READ_MEDIA_IMAGES",
+        "pm grant $P android.permission.READ_EXTERNAL_STORAGE",
+        "pm grant $P android.permission.ACCESS_COARSE_LOCATION",
+        "pm grant $P android.permission.ACCESS_FINE_LOCATION",
+        "dumpsys deviceidle whitelist +$P",
+        "cmd appops set $P RUN_ANY_IN_BACKGROUND allow",
+        "cmd appops set $P RUN_IN_BACKGROUND allow",
+        "am set-standby-bucket $P active",
+        "appops set $P SYSTEM_ALERT_WINDOW allow"
+      ]
+    },
+    {
+      "id": "nextgram",
+      "nome": "NextGram",
+      "pkg": "it.gemini.nextgram",
+      "icona": "nextgram.png",
+      "versione": "0.1.0-62",
+      "sistemi": {
+        "huawei": "NextGram.apk",
+        "wear": "NextGram.apk"
+      },
+      "desc": {
+        "it": "Telegram sull'orologio: chat, vocali, foto, sticker e avvisi, anche senza il telefono.",
+        "en": "Telegram on the watch: chats, voice notes, photos, stickers and alerts, even without the phone.",
+        "es": "Telegram en el reloj: chats, audios, fotos, stickers y avisos, incluso sin el teléfono.",
+        "fr": "Telegram sur la montre : discussions, vocaux, photos, stickers et alertes, même sans le téléphone.",
+        "pt-PT": "Telegram no relógio: conversas, mensagens de voz, fotos, stickers e avisos, mesmo sem o telemóvel.",
+        "pt-BR": "Telegram no relógio: conversas, áudios, fotos, figurinhas e avisos, mesmo sem o celular.",
+        "bg": "Telegram на часовника: чатове, гласови съобщения, снимки, стикери и известия, дори без телефона.",
+        "tr": "Saatte Telegram: sohbetler, sesli mesajlar, fotoğraflar, çıkartmalar ve bildirimler, telefon olmadan bile.",
+        "de": "Telegram auf der Uhr: Chats, Sprachnachrichten, Fotos, Sticker und Hinweise, auch ohne Telefon."
+      },
+      "permessi": [
+        "pm grant $P android.permission.RECORD_AUDIO",
+        "pm grant $P android.permission.POST_NOTIFICATIONS",
+        "pm grant $P android.permission.READ_MEDIA_IMAGES",
+        "pm grant $P android.permission.READ_EXTERNAL_STORAGE",
+        "pm grant $P android.permission.ACCESS_COARSE_LOCATION",
+        "pm grant $P android.permission.ACCESS_FINE_LOCATION",
+        "pm grant $P android.permission.BLUETOOTH_CONNECT",
+        "dumpsys deviceidle whitelist +$P",
+        "cmd appops set $P RUN_ANY_IN_BACKGROUND allow",
+        "cmd appops set $P RUN_IN_BACKGROUND allow",
+        "am set-standby-bucket $P active",
+        "appops set $P SYSTEM_ALERT_WINDOW allow",
+        "appops set $P REQUEST_INSTALL_PACKAGES allow"
+      ]
+    }
+  ]
 }
