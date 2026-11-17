@@ -56,7 +56,7 @@
       "nome": "NextGram",
       "pkg": "it.gemini.nextgram",
       "icona": "nextgram.png",
-      "versione": "0.1.0-82",
+      "versione": "0.1.0-83",
       "sistemi": {
         "huawei": "NextGram.apk",
         "wear": "NextGram.apk"
@@ -88,7 +88,7 @@
         "appops set $P REQUEST_INSTALL_PACKAGES allow",
         "appops set $P MANAGE_EXTERNAL_STORAGE allow"
       ],
-      "codice": 82
+      "codice": 83
     }
   ]
 }
