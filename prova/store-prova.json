@@ -3,6 +3,28 @@
   "nota": "Catalogo di PROVA dello Store di Gateway: non pubblicato, solo per i tester.",
   "app": [
     {
+      "id": "live",
+      "nome": "Live Assistant",
+      "pkg": "it.gemini.live",
+      "icona": "live.png",
+      "versione": "1.1.195 · 513",
+      "sistemi": {
+        "huawei": "LiveAssistant.apk"
+      },
+      "desc": {
+        "it": "L'assistente con Gemini Live sull'orologio: voce, casa, messaggi, sveglie del telefono e avvisi. Dallo Store riceve chiavi, permessi e protezioni dal risparmio energetico di Huawei.",
+        "en": "The Gemini Live assistant on the watch: voice, home, messages, phone alarms and alerts. From the Store it gets keys, permissions and protection from Huawei's power saving.",
+        "es": "El asistente con Gemini Live en el reloj: voz, casa, mensajes, alarmas del teléfono y avisos. Desde la Store recibe claves, permisos y protección del ahorro de energía de Huawei.",
+        "fr": "L'assistant Gemini Live sur la montre : voix, maison, messages, réveils du téléphone et alertes. Depuis le Store il reçoit clés, autorisations et protection contre l'économie d'énergie de Huawei.",
+        "pt-PT": "O assistente com Gemini Live no relógio: voz, casa, mensagens, alarmes do telemóvel e avisos. Pela Store recebe chaves, permissões e proteção da poupança de energia da Huawei.",
+        "pt-BR": "O assistente com Gemini Live no relógio: voz, casa, mensagens, alarmes do celular e avisos. Pela Store recebe chaves, permissões e proteção da economia de energia da Huawei.",
+        "bg": "Асистентът с Gemini Live на часовника: глас, дом, съобщения, аларми на телефона и известия. От Store получава ключове, разрешения и защита от пестенето на енергия на Huawei.",
+        "tr": "Saatte Gemini Live asistanı: ses, ev, mesajlar, telefon alarmları ve bildirimler. Store'dan anahtarları, izinleri ve Huawei güç tasarrufuna karşı korumayı alır.",
+        "de": "Der Gemini-Live-Assistent auf der Uhr: Sprache, Zuhause, Nachrichten, Telefonwecker und Hinweise. Aus dem Store bekommt er Schlüssel, Berechtigungen und Schutz vor Huaweis Energiesparen."
+      },
+      "permessi": []
+    },
+    {
       "id": "nextup",
       "nome": "NextUp",
       "pkg": "it.gemini.nextup",
