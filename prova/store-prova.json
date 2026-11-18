@@ -9,7 +9,11 @@
       "icona": "live.png",
       "versione": "1.1.195 · 518",
       "sistemi": {
-        "huawei": "LiveAssistant.apk"
+        "huawei": "LiveAssistant.apk",
+        "amazfit": {
+          "qr": true,
+          "versione": "1.3.93"
+        }
       },
       "desc": {
         "it": "L'assistente con Gemini Live sull'orologio: voce, casa, messaggi, sveglie del telefono e avvisi. Dallo Store riceve chiavi, permessi e protezioni dal risparmio energetico di Huawei.",
