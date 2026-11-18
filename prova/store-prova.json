@@ -7,7 +7,7 @@
       "nome": "Live Assistant",
       "pkg": "it.gemini.live",
       "icona": "live.png",
-      "versione": "1.1.195 · 516",
+      "versione": "1.1.195 · 517",
       "sistemi": {
         "huawei": "LiveAssistant.apk"
       },
@@ -29,7 +29,7 @@
       "nome": "NextUp",
       "pkg": "it.gemini.nextup",
       "icona": "nextup.png",
-      "versione": "0.1.0-42",
+      "versione": "0.1.0-43",
       "sistemi": {
         "huawei": "NextUp.apk",
         "wear": "NextUp.apk"
@@ -71,7 +71,7 @@
         "appops set $P MANAGE_EXTERNAL_STORAGE allow",
         "appops set $P REQUEST_INSTALL_PACKAGES allow"
       ],
-      "codice": 42
+      "codice": 43
     },
     {
       "id": "nextgram",
