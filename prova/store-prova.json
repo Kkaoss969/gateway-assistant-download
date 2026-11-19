@@ -12,11 +12,33 @@
         "huawei": "LiveAssistant.apk",
         "amazfit": {
           "qr": true,
-          "versione": "1.3.93"
+          "versione": "1.3.93",
+          "desc": {
+            "it": "L'assistente vocale sull'orologio Amazfit (Zepp OS): domande con Gemini, casa, messaggi, sveglie del telefono e avvisi.",
+            "en": "The voice assistant on the Amazfit watch (Zepp OS): questions with Gemini, home, messages, phone alarms and alerts.",
+            "es": "El asistente de voz en el reloj Amazfit (Zepp OS): preguntas con Gemini, casa, mensajes, alarmas del teléfono y avisos.",
+            "fr": "L'assistant vocal sur la montre Amazfit (Zepp OS) : questions avec Gemini, maison, messages, alarmes du téléphone et alertes.",
+            "pt-PT": "O assistente de voz no relógio Amazfit (Zepp OS): perguntas com o Gemini, casa, mensagens, alarmes do telemóvel e avisos.",
+            "pt-BR": "O assistente de voz no relógio Amazfit (Zepp OS): perguntas com o Gemini, casa, mensagens, alarmes do celular e avisos.",
+            "bg": "Гласовият асистент на часовника Amazfit (Zepp OS): въпроси с Gemini, дом, съобщения, аларми на телефона и известия.",
+            "tr": "Amazfit saatteki (Zepp OS) sesli asistan: Gemini ile sorular, ev, mesajlar, telefon alarmları ve uyarılar.",
+            "de": "Der Sprachassistent auf der Amazfit-Uhr (Zepp OS): Fragen mit Gemini, Zuhause, Nachrichten, Handy-Wecker und Hinweise."
+          }
         },
         "harmony": {
           "esterno": true,
-          "versione": "0.4.48"
+          "versione": "0.4.48",
+          "desc": {
+            "it": "L'assistente con Gemini Live sull'orologio HarmonyOS (Watch 5, Ultimate 2…): voce, casa, messaggi, sveglie del telefono e avvisi.",
+            "en": "The Gemini Live assistant on the HarmonyOS watch (Watch 5, Ultimate 2…): voice, home, messages, phone alarms and alerts.",
+            "es": "El asistente con Gemini Live en el reloj HarmonyOS (Watch 5, Ultimate 2…): voz, casa, mensajes, alarmas del teléfono y avisos.",
+            "fr": "L'assistant Gemini Live sur la montre HarmonyOS (Watch 5, Ultimate 2…) : voix, maison, messages, alarmes du téléphone et alertes.",
+            "pt-PT": "O assistente com Gemini Live no relógio HarmonyOS (Watch 5, Ultimate 2…): voz, casa, mensagens, alarmes do telemóvel e avisos.",
+            "pt-BR": "O assistente com Gemini Live no relógio HarmonyOS (Watch 5, Ultimate 2…): voz, casa, mensagens, alarmes do celular e avisos.",
+            "bg": "Асистентът с Gemini Live на часовника с HarmonyOS (Watch 5, Ultimate 2…): глас, дом, съобщения, аларми на телефона и известия.",
+            "tr": "HarmonyOS saatte (Watch 5, Ultimate 2…) Gemini Live asistanı: ses, ev, mesajlar, telefon alarmları ve uyarılar.",
+            "de": "Der Gemini-Live-Assistent auf der HarmonyOS-Uhr (Watch 5, Ultimate 2…): Sprache, Zuhause, Nachrichten, Handy-Wecker und Hinweise."
+          }
         }
       },
       "desc": {
