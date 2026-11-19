@@ -59,7 +59,7 @@
       "nome": "NextUp",
       "pkg": "it.gemini.nextup",
       "icona": "nextup.png",
-      "versione": "0.1.0-47",
+      "versione": "0.1.0-48",
       "sistemi": {
         "huawei": "NextUp.apk",
         "wear": "NextUp.apk"
@@ -101,14 +101,14 @@
         "appops set $P MANAGE_EXTERNAL_STORAGE allow",
         "appops set $P REQUEST_INSTALL_PACKAGES allow"
       ],
-      "codice": 47
+      "codice": 48
     },
     {
       "id": "nextgram",
       "nome": "NextGram",
       "pkg": "it.gemini.nextgram",
       "icona": "nextgram.png",
-      "versione": "0.1.0-90",
+      "versione": "0.1.0-91",
       "sistemi": {
         "huawei": "NextGram.apk",
         "wear": "NextGram.apk"
@@ -140,7 +140,7 @@
         "appops set $P REQUEST_INSTALL_PACKAGES allow",
         "appops set $P MANAGE_EXTERNAL_STORAGE allow"
       ],
-      "codice": 90
+      "codice": 91
     }
   ]
 }
