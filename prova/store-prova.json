@@ -62,7 +62,22 @@
       "versione": "0.1.0-51",
       "sistemi": {
         "huawei": "NextUp.apk",
-        "wear": "NextUp.apk"
+        "wear": "NextUp.apk",
+        "amazfit": {
+          "qr": "prova/nextup-amazfit/",
+          "versione": "0.0.1",
+          "desc": {
+            "it": "WhatsApp sull'orologio Amazfit (Zepp OS): chat e messaggi passano dal WhatsApp diretto di Gateway sul telefono, senza un altro dispositivo collegato.",
+            "en": "WhatsApp on the Amazfit watch (Zepp OS): chats and messages go through Gateway's direct WhatsApp on the phone, with no extra linked device.",
+            "es": "WhatsApp en el reloj Amazfit (Zepp OS): los chats y mensajes pasan por el WhatsApp directo de Gateway en el teléfono, sin otro dispositivo vinculado.",
+            "fr": "WhatsApp sur la montre Amazfit (Zepp OS) : discussions et messages passent par le WhatsApp direct de Gateway sur le téléphone, sans autre appareil associé.",
+            "pt-PT": "WhatsApp no relógio Amazfit (Zepp OS): conversas e mensagens passam pelo WhatsApp direto do Gateway no telemóvel, sem outro dispositivo associado.",
+            "pt-BR": "WhatsApp no relógio Amazfit (Zepp OS): conversas e mensagens passam pelo WhatsApp direto do Gateway no celular, sem outro aparelho conectado.",
+            "bg": "WhatsApp на часовника Amazfit (Zepp OS): чатовете и съобщенията минават през директния WhatsApp на Gateway в телефона, без още едно свързано устройство.",
+            "tr": "Amazfit saatte (Zepp OS) WhatsApp: sohbetler ve mesajlar telefondaki Gateway'in doğrudan WhatsApp'ı üzerinden geçer, ek bağlı cihaz olmadan.",
+            "de": "WhatsApp auf der Amazfit-Uhr (Zepp OS): Chats und Nachrichten laufen über Gateways direktes WhatsApp am Handy, ohne weiteres verknüpftes Gerät."
+          }
+        }
       },
       "desc": {
         "it": "WhatsApp completo sull'orologio: chat, vocali, foto, avvisi e risposte, anche lontano dal telefono.",
