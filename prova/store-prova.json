@@ -10,6 +10,22 @@
       "versione": "1.1.195 · 526",
       "sistemi": {
         "huawei": "LiveAssistant.apk",
+        "wear": {
+          "file": "LiveAssistantWear.apk",
+          "pkg": "it.gemini.ponte",
+          "versione": "1.1.120 · 526",
+          "desc": {
+            "it": "L'assistente vocale sull'orologio Wear OS: domande con Gemini, casa, messaggi, sveglie del telefono e avvisi. Gateway dà permessi, accessibilità e chiavi.",
+            "en": "The voice assistant on the Wear OS watch: questions with Gemini, home, messages, phone alarms and alerts. Gateway sets permissions, accessibility and keys.",
+            "es": "El asistente de voz en el reloj Wear OS: preguntas con Gemini, casa, mensajes, alarmas del teléfono y avisos. Gateway da permisos, accesibilidad y claves.",
+            "fr": "L'assistant vocal sur la montre Wear OS : questions avec Gemini, maison, messages, alarmes du téléphone et alertes. Gateway règle autorisations, accessibilité et clés.",
+            "pt-PT": "O assistente de voz no relógio Wear OS: perguntas com o Gemini, casa, mensagens, alarmes do telemóvel e avisos. O Gateway dá permissões, acessibilidade e chaves.",
+            "pt-BR": "O assistente de voz no relógio Wear OS: perguntas com o Gemini, casa, mensagens, alarmes do celular e avisos. O Gateway dá permissões, acessibilidade e chaves.",
+            "bg": "Гласовият асистент на часовника Wear OS: въпроси с Gemini, дом, съобщения, аларми на телефона и известия. Gateway дава разрешения, достъпност и ключове.",
+            "tr": "Wear OS saatteki sesli asistan: Gemini ile sorular, ev, mesajlar, telefon alarmları ve uyarılar. Gateway izinleri, erişilebilirliği ve anahtarları ayarlar.",
+            "de": "Der Sprachassistent auf der Wear OS-Uhr: Fragen mit Gemini, Zuhause, Nachrichten, Handy-Wecker und Hinweise. Gateway setzt Berechtigungen, Bedienungshilfe und Schlüssel."
+          }
+        },
         "amazfit": {
           "qr": true,
           "versione": "1.3.93",
