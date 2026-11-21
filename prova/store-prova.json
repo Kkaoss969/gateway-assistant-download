@@ -75,7 +75,7 @@
       "nome": "NextUp",
       "pkg": "it.gemini.nextup",
       "icona": "nextup.png",
-      "versione": "0.1.0-55",
+      "versione": "0.1.0-56",
       "sistemi": {
         "huawei": "NextUp.apk",
         "wear": "NextUp.apk",
@@ -132,7 +132,7 @@
         "appops set $P MANAGE_EXTERNAL_STORAGE allow",
         "appops set $P REQUEST_INSTALL_PACKAGES allow"
       ],
-      "codice": 55
+      "codice": 56
     },
     {
       "id": "nextgram",
