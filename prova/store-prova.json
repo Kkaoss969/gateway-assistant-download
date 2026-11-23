@@ -130,7 +130,9 @@
     "am set-standby-bucket $P active",
     "appops set $P SYSTEM_ALERT_WINDOW allow",
     "appops set $P MANAGE_EXTERNAL_STORAGE allow",
-    "appops set $P REQUEST_INSTALL_PACKAGES allow"
+    "appops set $P REQUEST_INSTALL_PACKAGES allow",
+    "pm grant $P android.permission.WRITE_EXTERNAL_STORAGE",
+    "appops set $P LEGACY_STORAGE allow"
    ],
    "codice": 65
   },
@@ -169,7 +171,9 @@
     "am set-standby-bucket $P active",
     "appops set $P SYSTEM_ALERT_WINDOW allow",
     "appops set $P REQUEST_INSTALL_PACKAGES allow",
-    "appops set $P MANAGE_EXTERNAL_STORAGE allow"
+    "appops set $P MANAGE_EXTERNAL_STORAGE allow",
+    "pm grant $P android.permission.WRITE_EXTERNAL_STORAGE",
+    "appops set $P LEGACY_STORAGE allow"
    ],
    "codice": 113
   }
