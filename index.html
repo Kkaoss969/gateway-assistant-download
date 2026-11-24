@@ -44,6 +44,7 @@
   .hw .num { background: #c7000b; color: #fff; font-size: 13px; }
   .wo .num { background: #1a73e8; color: #fff; font-size: 13px; }
   .hm .num { background: #cf0a2c; color: #fff; font-size: 13px; }
+  .st .num { background: #1e9e62; color: #fff; font-size: 13px; }
 </style>
 </head>
 <body>
@@ -64,6 +65,13 @@
     <a class="btn" href="GatewayAssistant.apk" download data-t="s1btn"></a>
     <p class="small" data-t="s1small"></p>
     <p class="small" data-t="iphone"></p>
+  </section>
+
+  <section class="card st" id="store">
+    <div class="step"><span class="num">🛍</span><h2 data-t="st"></h2></div>
+    <p data-t="stp"></p>
+    <a class="btn ghost" id="stGuide" data-t="stguide"></a>
+    <p class="small" data-t="stsmall"></p>
   </section>
 
   <section class="card s2" id="orologio">
@@ -169,6 +177,11 @@
   // la lingua segue quella del browser
   const T = {
     it: {
+      st: "Store di Gateway: le app per l'orologio",
+      stp: "Nella scheda <b>Store</b> di Gateway Assistant installi e aggiorni sui tuoi orologi <b>Live Assistant</b>, <b>NextUp</b> (WhatsApp completo sull'orologio) e <b>NextGram</b> (Telegram sull'orologio), con permessi e chiavi già pronti. Nella Home ogni orologio mostra le sue app in <b>verde</b> (aggiornate) o <b>arancione</b> (da aggiornare): toccalo e si apre lo Store.",
+      stguide: "📖 Guida dello Store",
+      stsmall: "Huawei e Wear OS: collega prima l'orologio dalla sua pagina in Gateway. Amazfit: codice QR per l'app Zepp. NextUp non è un'app ufficiale di WhatsApp: meglio provarla con un numero secondario.",
+      stUrl: "GUIDA.md#store-di-gateway-le-app-per-lorologio",
       kofi: "Sostieni il progetto",
       kofiP: "Live Assistant e Gateway Assistant sono gratuiti. Se ti sono utili, puoi offrire un caffè allo sviluppatore: aiuta a continuare.",
       kofiBtn: "☕ Sostieni su Ko-fi",
@@ -242,6 +255,11 @@
       noList: 'Elenco dei modelli non disponibile.',
     },
     en: {
+      st: "Gateway Store: the apps for your watch",
+      stp: "In Gateway Assistant's <b>Store</b> tab you install and update <b>Live Assistant</b>, <b>NextUp</b> (full WhatsApp on the watch) and <b>NextGram</b> (Telegram on the watch) on your watches, with permissions and keys already set. On the Home each watch shows its apps in <b>green</b> (up to date) or <b>orange</b> (to update): tap it and the Store opens.",
+      stguide: "📖 Store guide",
+      stsmall: "Huawei and Wear OS: first connect the watch from its page in Gateway. Amazfit: QR code for the Zepp app. NextUp is not an official WhatsApp app: better try it with a secondary number.",
+      stUrl: "GUIDE.md#gateway-store-the-apps-for-your-watch",
       kofi: "Support the project",
       kofiP: "Live Assistant and Gateway Assistant are free. If you find them useful, you can buy the developer a coffee: it helps keep them going.",
       kofiBtn: "☕ Support on Ko-fi",
@@ -315,6 +333,11 @@
       noList: 'Model list not available.',
     },
     es: {
+      st: "Store de Gateway: las apps para el reloj",
+      stp: "En la pestaña <b>Store</b> de Gateway Assistant instalas y actualizas en tus relojes <b>Live Assistant</b>, <b>NextUp</b> (WhatsApp completo en el reloj) y <b>NextGram</b> (Telegram en el reloj), con permisos y claves ya listos. En el Inicio cada reloj muestra sus apps en <b>verde</b> (al día) o <b>naranja</b> (por actualizar): tócalo y se abre la Store.",
+      stguide: "📖 Guía de la Store",
+      stsmall: "Huawei y Wear OS: primero conecta el reloj desde su página en Gateway. Amazfit: código QR para la app Zepp. NextUp no es una app oficial de WhatsApp: mejor pruébala con un número secundario.",
+      stUrl: "GUIA.md#store-de-gateway-las-apps-para-el-reloj",
       kofi: "Apoya el proyecto",
       kofiP: "Live Assistant y Gateway Assistant son gratuitos. Si te resultan útiles, puedes invitar a un café al desarrollador: ayuda a continuar.",
       kofiBtn: "☕ Apoya en Ko-fi",
@@ -388,6 +411,11 @@
       noList: 'Lista de modelos no disponible.',
     },
     fr: {
+      st: "Store de Gateway : les apps pour la montre",
+      stp: "Dans l'onglet <b>Store</b> de Gateway Assistant, vous installez et mettez à jour sur vos montres <b>Live Assistant</b>, <b>NextUp</b> (WhatsApp complet sur la montre) et <b>NextGram</b> (Telegram sur la montre), avec autorisations et clés déjà prêtes. Sur l'Accueil chaque montre affiche ses apps en <b>vert</b> (à jour) ou en <b>orange</b> (à mettre à jour) : touchez-la et le Store s'ouvre.",
+      stguide: "📖 Guide du Store",
+      stsmall: "Huawei et Wear OS : connectez d'abord la montre depuis sa page dans Gateway. Amazfit : code QR pour l'app Zepp. NextUp n'est pas une app officielle de WhatsApp : essayez-la plutôt avec un numéro secondaire.",
+      stUrl: "GUIDE-FR.md#store-de-gateway--les-apps-pour-la-montre",
       kofi: "Soutenir le projet",
       kofiP: "Live Assistant et Gateway Assistant sont gratuits. S'ils vous sont utiles, vous pouvez offrir un café au développeur : cela aide à continuer.",
       kofiBtn: "☕ Soutenir sur Ko-fi",
@@ -461,6 +489,11 @@
       noList: 'Liste des modèles non disponible.',
     },
     pt: {
+      st: "Store do Gateway: as apps para o relógio",
+      stp: "No separador <b>Store</b> do Gateway Assistant instala e atualiza nos seus relógios o <b>Live Assistant</b>, o <b>NextUp</b> (WhatsApp completo no relógio) e o <b>NextGram</b> (Telegram no relógio), com permissões e chaves já prontas. No Início cada relógio mostra as suas apps a <b>verde</b> (atualizadas) ou a <b>laranja</b> (por atualizar): toque nele e abre-se a Store.",
+      stguide: "📖 Guia da Store",
+      stsmall: "Huawei e Wear OS: primeiro ligue o relógio a partir da página dele no Gateway. Amazfit: código QR para a app Zepp. O NextUp não é uma app oficial do WhatsApp: experimente-o de preferência com um número secundário.",
+      stUrl: "GUIA-PT.md#store-do-gateway-as-apps-para-o-relógio",
       kofi: "Apoie o projeto",
       kofiP: "O Live Assistant e o Gateway Assistant são gratuitos. Se lhe forem úteis, pode oferecer um café ao programador: ajuda a continuar.",
       kofiBtn: "☕ Apoiar no Ko-fi",
@@ -534,6 +567,11 @@
       noList: 'Lista de modelos não disponível.',
     },
     br: {
+      st: "Store do Gateway: os apps para o relógio",
+      stp: "Na aba <b>Store</b> do Gateway Assistant você instala e atualiza nos seus relógios o <b>Live Assistant</b>, o <b>NextUp</b> (WhatsApp completo no relógio) e o <b>NextGram</b> (Telegram no relógio), com permissões e chaves já prontas. No Início cada relógio mostra os seus apps em <b>verde</b> (atualizados) ou <b>laranja</b> (para atualizar): toque nele e a Store abre.",
+      stguide: "📖 Guia da Store",
+      stsmall: "Huawei e Wear OS: primeiro conecte o relógio pela página dele no Gateway. Amazfit: código QR para o app Zepp. O NextUp não é um app oficial do WhatsApp: teste de preferência com um número secundário.",
+      stUrl: "GUIA-BR.md#store-do-gateway-os-apps-para-o-relógio",
       kofi: "Apoie o projeto",
       kofiP: "O Live Assistant e o Gateway Assistant são gratuitos. Se forem úteis para você, pode pagar um café ao desenvolvedor: ajuda a continuar.",
       kofiBtn: "☕ Apoiar no Ko-fi",
@@ -607,6 +645,11 @@
       noList: 'Lista de modelos não disponível.',
     },
     bg: {
+      st: "Store на Gateway: приложенията за часовника",
+      stp: "В раздела <b>Store</b> на Gateway Assistant инсталирате и актуализирате на часовниците си <b>Live Assistant</b>, <b>NextUp</b> (пълен WhatsApp на часовника) и <b>NextGram</b> (Telegram на часовника), с вече готови разрешения и ключове. В Начало всеки часовник показва приложенията си в <b>зелено</b> (актуални) или <b>оранжево</b> (за актуализиране): докоснете го и се отваря Store.",
+      stguide: "📖 Ръководство за Store",
+      stsmall: "Huawei и Wear OS: първо свържете часовника от страницата му в Gateway. Amazfit: QR код за приложението Zepp. NextUp не е официално приложение на WhatsApp: по-добре го пробвайте с втори номер.",
+      stUrl: "GUIDE-BG.md#store-на-gateway-приложенията-за-часовника",
       kofi: "Подкрепете проекта",
       kofiP: "Live Assistant и Gateway Assistant са безплатни. Ако са ви полезни, можете да почерпите разработчика с кафе: това помага да продължи.",
       kofiBtn: "☕ Подкрепете в Ko-fi",
@@ -680,6 +723,11 @@
       noList: 'Списъкът с модели не е наличен.',
     },
     tr: {
+      st: "Gateway Store: saat için uygulamalar",
+      stp: "Gateway Assistant'ın <b>Store</b> sekmesinden saatlerinize <b>Live Assistant</b>, <b>NextUp</b> (saatte tam WhatsApp) ve <b>NextGram</b> (saatte Telegram) uygulamalarını izinler ve anahtarlar hazır şekilde yükler ve güncellersiniz. Ana sayfada her saat uygulamalarını <b>yeşil</b> (güncel) ya da <b>turuncu</b> (güncellenecek) gösterir: dokunun, Store açılır.",
+      stguide: "📖 Store kılavuzu",
+      stsmall: "Huawei ve Wear OS: önce saati Gateway'deki kendi sayfasından bağlayın. Amazfit: Zepp uygulaması için QR kodu. NextUp resmi bir WhatsApp uygulaması değildir: tercihen ikinci bir numarayla deneyin.",
+      stUrl: "GUIDE-TR.md#gateway-store-saat-için-uygulamalar",
       kofi: "Projeyi destekleyin",
       kofiP: "Live Assistant ve Gateway Assistant ücretsizdir. İşinize yarıyorsa geliştiriciye bir kahve ısmarlayabilirsiniz: devam etmesine yardımcı olur.",
       kofiBtn: "☕ Ko-fi'de destekle",
@@ -753,6 +801,11 @@
       noList: 'Model listesi kullanılamıyor.',
     },
     de: {
+      st: "Gateway-Store: die Apps für die Uhr",
+      stp: "Im Tab <b>Store</b> von Gateway Assistant installierst und aktualisierst du auf deinen Uhren <b>Live Assistant</b>, <b>NextUp</b> (komplettes WhatsApp auf der Uhr) und <b>NextGram</b> (Telegram auf der Uhr), mit fertigen Berechtigungen und Schlüsseln. Auf der Startseite zeigt jede Uhr ihre Apps <b>grün</b> (aktuell) oder <b>orange</b> (zu aktualisieren): tippe darauf und der Store öffnet sich.",
+      stguide: "📖 Store-Anleitung",
+      stsmall: "Huawei und Wear OS: verbinde die Uhr zuerst über ihre Seite in Gateway. Amazfit: QR-Code für die Zepp-App. NextUp ist keine offizielle WhatsApp-App: probiere sie besser mit einer Zweitnummer aus.",
+      stUrl: "GUIDE-DE.md#gateway-store-die-apps-für-die-uhr",
       kofi: "Unterstütze das Projekt",
       kofiP: "Live Assistant und Gateway Assistant sind kostenlos. Wenn sie dir nützen, kannst du dem Entwickler einen Kaffee spendieren: das hilft beim Weitermachen.",
       kofiBtn: "☕ Auf Ko-fi unterstützen",
@@ -855,6 +908,7 @@
     document.getElementById('guide').href = 'https://github.com/Kkaoss969/gateway-assistant-download/blob/main/' + t.guideUrl
     document.getElementById('woGuide').href = 'https://github.com/Kkaoss969/gateway-assistant-download/blob/main/' + t.woUrl
     document.getElementById('hmGuide').href = 'https://github.com/Kkaoss969/gateway-assistant-download/blob/main/' + t.hmUrl
+    document.getElementById('stGuide').href = 'https://github.com/Kkaoss969/gateway-assistant-download/blob/main/' + t.stUrl
     sel.setAttribute('aria-label', t.model)
     const share = 'condividi/VoiceAssistant-' + L + '.png'
     document.getElementById('shareImg').src = share

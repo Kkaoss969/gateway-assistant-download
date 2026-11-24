@@ -56,6 +56,23 @@ Anahtarlar Gateway Assistant → **🔑 API anahtarları** bölümüne **yalnız
 
 **Gemini Live (deneme)**: Zepp uygulaması → Live Assistant → Ayarlar'da **Gemini Live kullan**'ı açın (aynı telefonda Gateway Assistant 1.65 veya üstü gerekir). Yanıt, ses sentezini beklemeden doğrudan ses olarak gelir; Live başarısız olursa normal yöntem kullanılır.
 
+## Gateway Store: saat için uygulamalar
+Gateway Assistant'ta alt çubuktaki **Store**'a dokunun: saatleriniz için uygulamalarımız sisteme göre gruplanmış olarak orada (Huawei, Wear OS, Amazfit, HarmonyOS).
+- **Live Assistant**: Gemini Live ile sesli asistan (aşağıda her saatin bölümüne bakın).
+- **NextUp** (Huawei, Wear OS, Amazfit): saatte tam WhatsApp; sohbetler, sesli mesajlar, fotoğraflar, bildirimler ve yanıtlar, telefondan uzaktayken bile. İlk açılışta nasıl kullanacağınızı seçin:
+  - **Gateway üzerinden**: WhatsApp'ın bağlı cihazları arasında yer kaplamaz; Gateway'de *Doğrudan WhatsApp* açık olmalı. Amazfit'te NextUp her zaman böyle çalışır;
+  - **kendi bağlantısı**: telefonda WhatsApp → *Bağlı cihazlar* → *Cihaz bağla*, sonra saatte görünen kodu tarayın.
+  ⚠ NextUp resmi bir WhatsApp uygulaması değildir: kullanmak numaranın engellenmesine yol açabilir. Riski size ait olmak üzere, tercihen ikinci bir numarayla kullanın.
+- **NextGram** (Huawei, Wear OS): saatte Telegram; sohbetler, sesli mesajlar, fotoğraflar, çıkartmalar ve bildirimler, telefon olmadan bile. İlk açılışta saatte görünen kodu telefondaki Telegram ile tarayın (Ayarlar → *Cihazlar* → *Cihaz bağla*).
+
+**Nasıl yüklenir**
+1. Önce saati, Live'da olduğu gibi Gateway'deki kendi sayfasından bağlayın: **Huawei** Wi-Fi üzerinden hata ayıklama ile, **Wear OS** kablosuz hata ayıklama ile (aşağıya bakın).
+2. Store'da sistemi seçin, uygulamaları işaretleyin ve **Seçilenleri yükle**'ye (ya da **📲 Tümünü yükle**'ye) dokunun.
+3. Gateway uygulamaları indirir, imzamızı taşıdıklarını kontrol eder, yükler ve izinleri verir. Live'a ayrıca anahtarları ve kanal kodunu aktarır. Bir pencere her adımı **✅ Bitti: kapatabilirsiniz** yazana kadar gösterir.
+4. **Amazfit**: **📷 QR kodunu göster**'e dokunun ve Zepp uygulamasıyla tarayın (geliştirici modu). **HarmonyOS**: Live, uygulamayı Huawei hesabınızla imzalayan ⌚ HarmonyOS saat sayfasından yüklenir.
+
+**Güncellemeler**: Gateway'in Ana sayfasında her saat uygulamalarını gösterir; güncelse **yeşil**, yeni sürüm varsa **turuncu**. Saate dokunun: Store **🔄 Güncelle** ya da **🔄 Tümünü güncelle** ile açılır. **🔍 Saatlerdeki sürümleri kontrol et** yüklü olanları yeniden okur.
+
 ## Huawei saat (Watch 3, Watch 4)
 **Huawei Watch 3 ve Watch 4** (Android tabanlı olanlar) için **Gemini Live**'lı **Live Assistant** var: siz konuşurken soru zaten Gemini'ye gider ve yanıt doğrudan ses olarak, genellikle 1-3 saniyede geri gelir. Saatin Wi-Fi'si veya LTE'siyle, ayrıca Gateway üzerinden yalnızca Bluetooth ile de çalışır. **Gateway Assistant**'tan yüklenir, bilgisayar gerekmez.
 1. Saatte: Ayarlar → Hakkında → **yapı numarasına** birkaç kez dokunun. Sonra **Geliştirici seçenekleri**'nde **HDC hata ayıklama** ve **Wi-Fi üzerinden hata ayıklama**'yı açın.

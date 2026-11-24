@@ -2,7 +2,7 @@
 
 🌐 **Sito con download e codici QR per l'orologio: https://kkaoss969.github.io/gateway-assistant-download/**
 
-App Android che collega **Live Assistant** (assistente vocale con Gemini per orologi Amazfit con Zepp OS e Huawei Watch 3 / Watch 4) al telefono:
+App Android che collega **Live Assistant** (assistente vocale con Gemini per orologi Amazfit con Zepp OS, Huawei Watch 3 / Watch 4, Wear OS e HarmonyOS) al telefono:
 casa Google tramite l'Assistente del telefono, chiamate, WhatsApp (invio, lettura e risposta) e voce di riserva.
 
 ## ⬇️ Scarica
@@ -11,6 +11,8 @@ casa Google tramite l'Assistente del telefono, chiamate, WhatsApp (invio, lettur
 
 Apri il link dal telefono Android, scarica il file e installalo (consenti l'installazione da questa fonte se Android lo chiede).
 Per aggiornare basta installare la nuova versione sopra la vecchia: impostazioni e permessi restano.
+
+🛍 **Store di Gateway**: dalla scheda *Store* di Gateway Assistant installi e aggiorni sui tuoi orologi **Live Assistant**, **NextUp** (WhatsApp completo sull'orologio) e **NextGram** (Telegram sull'orologio). Nella Home ogni orologio mostra le sue app in verde (aggiornate) o arancione (da aggiornare). Dettagli nella guida.
 
 ## 📖 Guida
 

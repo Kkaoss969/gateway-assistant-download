@@ -54,6 +54,23 @@ Le chiavi si inseriscono **una volta sola** in Gateway Assistant → **🔑 Chia
 
 **Gemini Live (prova)**: nell'app Zepp → Live Assistant → Impostazioni accendi **Usa Gemini Live** (serve Gateway Assistant 1.65 o successivo sullo stesso telefono). La risposta arriva già a voce, senza aspettare la sintesi; se Live non risponde si usa il metodo normale.
 
+## Store di Gateway: le app per l'orologio
+In Gateway Assistant tocca **Store** nella barra in basso: ci sono le nostre app per i tuoi orologi, divise per sistema (Huawei, Wear OS, Amazfit, HarmonyOS).
+- **Live Assistant**: l'assistente vocale con Gemini Live (vedi le sezioni dei singoli orologi qui sotto).
+- **NextUp** (Huawei, Wear OS, Amazfit): WhatsApp completo sull'orologio, con chat, vocali, foto, avvisi e risposte, anche lontano dal telefono. Al primo avvio scegli come usarlo:
+  - **attraverso Gateway**: non occupa un posto tra i dispositivi collegati di WhatsApp; serve *WhatsApp diretto* attivo in Gateway. Su Amazfit NextUp funziona sempre così;
+  - **collegamento proprio**: sul telefono WhatsApp → *Dispositivi collegati* → *Collega un dispositivo*, poi inquadra il codice mostrato dall'orologio.
+  ⚠ NextUp non è un'app ufficiale di WhatsApp: usarla può portare al blocco del numero. Usala a tuo rischio, meglio con un numero secondario.
+- **NextGram** (Huawei, Wear OS): Telegram sull'orologio, con chat, vocali, foto, sticker e avvisi, anche senza il telefono. Al primo avvio inquadri il codice mostrato dall'orologio con Telegram sul telefono (Impostazioni → *Dispositivi* → *Collega un dispositivo*).
+
+**Come si installa**
+1. Prima collega l'orologio dalla sua pagina in Gateway, come per Live: **Huawei** con il Debug via Wi-Fi, **Wear OS** con il Debug wireless (vedi sotto).
+2. Nello Store scegli il sistema, segna le app e tocca **Installa le selezionate** (oppure **📲 Installa tutte**).
+3. Gateway scarica le app, controlla che abbiano la nostra firma, le installa e dà i permessi. A Live passa anche le chiavi e il codice del canale. Una finestra mostra ogni passaggio fino a **✅ Finito: puoi chiudere**.
+4. **Amazfit**: tocca **📷 Mostra il codice QR** e scansionalo con l'app Zepp (modalità sviluppatore). **HarmonyOS**: Live si installa dalla pagina ⌚ Orologio HarmonyOS, che firma l'app con il tuo account Huawei.
+
+**Aggiornamenti**: nella Home di Gateway ogni orologio mostra le sue app, in **verde** se aggiornate e in **arancione** se c'è una versione nuova. Tocca l'orologio: si apre lo Store, con **🔄 Aggiorna** o **🔄 Aggiorna tutte**. **🔍 Controlla le versioni sugli orologi** rilegge cosa è installato.
+
 ## Orologio Huawei (Watch 3, Watch 4)
 Per gli orologi **Huawei Watch 3 e Watch 4** (quelli con base Android) c'è **Live Assistant**, con **Gemini Live**: mentre parli la domanda parte già verso Gemini e la risposta arriva direttamente a voce, di solito in 1-3 secondi. Funziona con il Wi-Fi o l'LTE dell'orologio e anche solo via Bluetooth tramite Gateway. Si installa da **Gateway Assistant**, senza computer.
 1. Sull'orologio: Impostazioni → Informazioni → tocca più volte il **numero di build**. Poi in **Opzioni sviluppatore** attiva **Debug HDC** e **Debug via Wi-Fi**.
