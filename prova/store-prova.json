@@ -176,6 +176,40 @@
     "appops set $P LEGACY_STORAGE allow"
    ],
    "codice": 113
+  },
+  {
+   "id": "tastiera",
+   "nome": "Gboard per Watch 4 (tastiera)",
+   "pkg": "com.google.android.inputmethod.latin",
+   "icona": "tastiera.png",
+   "versione": "5.3.10-it1",
+   "sistemi": {
+    "huawei": "https://raw.githubusercontent.com/Kkaoss969/gboard-wear-it/main/GboardWear-IT.apks"
+   },
+   "desc": {
+    "it": "Tastiera Gboard per Wear OS con i suggerimenti nella tua lingua, anche più lingue insieme. Prima dell'installazione scegli le lingue; poi si cambiano da «Strumenti dell'orologio». Solo Huawei Watch 4.",
+    "en": "Gboard for Wear OS with suggestions in your language, even several languages together. Choose the languages before installing; change them later from \"Watch tools\". Huawei Watch 4 only.",
+    "es": "Gboard para Wear OS con sugerencias en tu idioma, incluso varios idiomas a la vez. Elige los idiomas antes de instalar; luego se cambian en «Herramientas del reloj». Solo Huawei Watch 4.",
+    "fr": "Gboard pour Wear OS avec les suggestions dans votre langue, même plusieurs langues à la fois. Choisissez les langues avant l'installation ; ensuite on les change dans « Outils de la montre ». Huawei Watch 4 uniquement.",
+    "pt-PT": "Gboard para Wear OS com sugestões no seu idioma, até vários idiomas juntos. Escolha os idiomas antes de instalar; depois mudam-se em «Ferramentas do relógio». Só Huawei Watch 4.",
+    "pt-BR": "Gboard para Wear OS com sugestões no seu idioma, até vários idiomas juntos. Escolha os idiomas antes de instalar; depois dá para trocar em «Ferramentas do relógio». Só Huawei Watch 4.",
+    "bg": "Gboard за Wear OS с предложения на вашия език, дори няколко езика заедно. Изберете езиците преди инсталиране; после се сменят от „Инструменти на часовника“. Само Huawei Watch 4.",
+    "tr": "Kendi dilinizde önerilerle Wear OS için Gboard, birden çok dil bir arada bile. Yüklemeden önce dilleri seçin; sonra «Saat araçları»ndan değiştirilir. Yalnızca Huawei Watch 4.",
+    "de": "Gboard für Wear OS mit Vorschlägen in deiner Sprache, auch mehrere Sprachen zusammen. Wähle die Sprachen vor der Installation; später änderst du sie unter „Werkzeuge der Uhr“. Nur Huawei Watch 4."
+   },
+   "avviso": {
+    "it": "Tastiera di Google modificata da noi, non ufficiale. Funziona solo sul Watch 4 (Android 11): sul Watch 3 non si installa. La tastiera Huawei viene spenta (si riaccende dagli Strumenti). Serve un Gateway aggiornato.",
+    "en": "Google's keyboard modified by us, not official. Works only on the Watch 4 (Android 11): it won't install on the Watch 3. The Huawei keyboard is turned off (turn it back on from the Tools). Requires an up-to-date Gateway.",
+    "es": "Teclado de Google modificado por nosotros, no oficial. Solo funciona en el Watch 4 (Android 11): en el Watch 3 no se instala. Se apaga el teclado de Huawei (se reactiva desde Herramientas). Requiere un Gateway actualizado.",
+    "fr": "Clavier de Google modifié par nous, non officiel. Fonctionne uniquement sur la Watch 4 (Android 11) : ne s'installe pas sur la Watch 3. Le clavier Huawei est désactivé (on le réactive depuis les Outils). Nécessite un Gateway à jour.",
+    "pt-PT": "Teclado da Google modificado por nós, não oficial. Só funciona no Watch 4 (Android 11): no Watch 3 não se instala. O teclado da Huawei é desligado (volta a ligar-se nas Ferramentas). É preciso um Gateway atualizado.",
+    "pt-BR": "Teclado do Google modificado por nós, não oficial. Só funciona no Watch 4 (Android 11): no Watch 3 não instala. O teclado da Huawei é desligado (liga de novo pelas Ferramentas). Precisa de um Gateway atualizado.",
+    "bg": "Клавиатурата на Google, променена от нас, неофициална. Работи само на Watch 4 (Android 11): на Watch 3 не се инсталира. Клавиатурата на Huawei се изключва (включва се отново от Инструменти). Нужен е обновен Gateway.",
+    "tr": "Bizim tarafımızdan değiştirilmiş Google klavyesi, resmi değil. Yalnızca Watch 4'te (Android 11) çalışır: Watch 3'e yüklenmez. Huawei klavyesi kapatılır (Araçlar'dan yeniden açılır). Güncel bir Gateway gerekir.",
+    "de": "Von uns veränderte Google-Tastatur, nicht offiziell. Funktioniert nur auf der Watch 4 (Android 11): auf der Watch 3 lässt sie sich nicht installieren. Die Huawei-Tastatur wird ausgeschaltet (wieder einschalten unter Werkzeuge). Erfordert ein aktuelles Gateway."
+   },
+   "permessi": [],
+   "codice": 2228061
   }
  ]
 }
