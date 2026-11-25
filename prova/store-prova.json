@@ -210,6 +210,42 @@
    },
    "permessi": [],
    "codice": 2228061
+  },
+  {
+   "id": "wristmirror",
+   "nome": "WristMirror",
+   "pkg": "it.gemini.wristmirror",
+   "icona": "wristmirror.png",
+   "versione": "1.2.0",
+   "sistemi": {
+    "telefono": {
+     "file": "https://github.com/Kkaoss969/wristmirror-it/releases/latest/download/WristMirror-it.apk",
+     "info": "https://github.com/Kkaoss969/wristmirror-it/releases/latest/download/versione.json",
+     "versione": "1.2.0"
+    }
+   },
+   "desc": {
+    "it": "App per il telefono che gestisce i quadranti degli orologi Huawei (serie WATCH, GT, FIT…): legge, attiva ed elimina i quadranti e installa quadranti HWT di terze parti, anche sostituendone uno esistente. Tradotta nella lingua del telefono.",
+    "en": "Phone app that manages Huawei watch faces (WATCH, GT, FIT… series): it reads, activates and deletes watch faces and installs third-party HWT watch faces, also by replacing an existing one. Translated into the phone's language.",
+    "es": "App para el teléfono que gestiona las esferas de los relojes Huawei (series WATCH, GT, FIT…): lee, activa y elimina esferas e instala esferas HWT de terceros, también sustituyendo una existente. Traducida al idioma del teléfono.",
+    "fr": "App pour le téléphone qui gère les cadrans des montres Huawei (séries WATCH, GT, FIT…) : elle lit, active et supprime les cadrans et installe des cadrans HWT tiers, aussi en remplaçant un cadran existant. Traduite dans la langue du téléphone.",
+    "pt-PT": "App para o telemóvel que gere os mostradores dos relógios Huawei (séries WATCH, GT, FIT…): lê, ativa e elimina mostradores e instala mostradores HWT de terceiros, também substituindo um existente. Traduzida no idioma do telemóvel.",
+    "pt-BR": "App para o celular que gerencia os mostradores dos relógios Huawei (séries WATCH, GT, FIT…): lê, ativa e exclui mostradores e instala mostradores HWT de terceiros, também substituindo um existente. Traduzido no idioma do celular.",
+    "bg": "Приложение за телефона, което управлява циферблатите на часовниците Huawei (серии WATCH, GT, FIT…): чете, активира и изтрива циферблати и инсталира HWT циферблати от трети страни, също и чрез замяна на съществуващ. Преведено на езика на телефона.",
+    "tr": "Huawei saat kadranlarını (WATCH, GT, FIT… serileri) yöneten telefon uygulaması: kadranları okur, etkinleştirir ve siler, üçüncü taraf HWT kadranları da yükler, mevcut bir kadranı değiştirerek de. Telefonun diline çevrilmiştir.",
+    "de": "Handy-App zum Verwalten von Huawei-Zifferblättern (Serien WATCH, GT, FIT…): liest, aktiviert und löscht Zifferblätter und installiert HWT-Zifferblätter von Drittanbietern, auch durch Ersetzen eines vorhandenen. In die Sprache des Handys übersetzt."
+   },
+   "avviso": {
+    "it": "App di Escosis (WristMirror, open source), non nostra: la distribuiamo tradotta. Prima di usarla chiudi Huawei Health.",
+    "en": "App by Escosis (WristMirror, open source), not ours: we distribute it translated. Close Huawei Health before using it.",
+    "es": "App de Escosis (WristMirror, código abierto), no nuestra: la distribuimos traducida. Antes de usarla cierra Huawei Health.",
+    "fr": "App d'Escosis (WristMirror, open source), pas la nôtre : nous la distribuons traduite. Fermez Huawei Health avant de l'utiliser.",
+    "pt-PT": "App da Escosis (WristMirror, código aberto), não é nossa: distribuímo-la traduzida. Antes de a usar feche a Huawei Health.",
+    "pt-BR": "App da Escosis (WristMirror, código aberto), não é nosso: distribuímos traduzido. Antes de usar feche o Huawei Health.",
+    "bg": "Приложение на Escosis (WristMirror, с отворен код), не е наше: разпространяваме го преведено. Преди употреба затворете Huawei Health.",
+    "tr": "Escosis'in uygulaması (WristMirror, açık kaynak), bizim değil: çevrilmiş olarak dağıtıyoruz. Kullanmadan önce Huawei Health'i kapatın.",
+    "de": "App von Escosis (WristMirror, Open Source), nicht von uns: wir verteilen sie übersetzt. Schließe vor der Nutzung Huawei Health."
+   }
   }
  ]
 }
