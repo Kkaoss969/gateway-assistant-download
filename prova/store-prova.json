@@ -1,1 +1,215 @@
-{"versione": 1, "nota": "Catalogo di PROVA dello Store di Gateway: non pubblicato, solo per i tester.", "app": [{"id": "live", "nome": "Live Assistant", "pkg": "it.gemini.live", "icona": "live.png", "versione": "1.1.196 · 543", "sistemi": {"huawei": "LiveAssistant.apk", "wear": {"file": "LiveAssistantWear.apk", "pkg": "it.gemini.ponte", "versione": "1.1.121 · 544", "desc": {"it": "L'assistente vocale sull'orologio Wear OS: domande con Gemini, casa, messaggi, sveglie del telefono e avvisi. Gateway dà permessi, accessibilità e chiavi.", "en": "The voice assistant on the Wear OS watch: questions with Gemini, home, messages, phone alarms and alerts. Gateway sets permissions, accessibility and keys.", "es": "El asistente de voz en el reloj Wear OS: preguntas con Gemini, casa, mensajes, alarmas del teléfono y avisos. Gateway da permisos, accesibilidad y claves.", "fr": "L'assistant vocal sur la montre Wear OS : questions avec Gemini, maison, messages, alarmes du téléphone et alertes. Gateway règle autorisations, accessibilité et clés.", "pt-PT": "O assistente de voz no relógio Wear OS: perguntas com o Gemini, casa, mensagens, alarmes do telemóvel e avisos. O Gateway dá permissões, acessibilidade e chaves.", "pt-BR": "O assistente de voz no relógio Wear OS: perguntas com o Gemini, casa, mensagens, alarmes do celular e avisos. O Gateway dá permissões, acessibilidade e chaves.", "bg": "Гласовият асистент на часовника Wear OS: въпроси с Gemini, дом, съобщения, аларми на телефона и известия. Gateway дава разрешения, достъпност и ключове.", "tr": "Wear OS saatteki sesli asistan: Gemini ile sorular, ev, mesajlar, telefon alarmları ve uyarılar. Gateway izinleri, erişilebilirliği ve anahtarları ayarlar.", "de": "Der Sprachassistent auf der Wear OS-Uhr: Fragen mit Gemini, Zuhause, Nachrichten, Handy-Wecker und Hinweise. Gateway setzt Berechtigungen, Bedienungshilfe und Schlüssel."}}, "amazfit": {"qr": true, "versione": "1.3.93", "desc": {"it": "L'assistente vocale sull'orologio Amazfit (Zepp OS): domande con Gemini, casa, messaggi, sveglie del telefono e avvisi.", "en": "The voice assistant on the Amazfit watch (Zepp OS): questions with Gemini, home, messages, phone alarms and alerts.", "es": "El asistente de voz en el reloj Amazfit (Zepp OS): preguntas con Gemini, casa, mensajes, alarmas del teléfono y avisos.", "fr": "L'assistant vocal sur la montre Amazfit (Zepp OS) : questions avec Gemini, maison, messages, alarmes du téléphone et alertes.", "pt-PT": "O assistente de voz no relógio Amazfit (Zepp OS): perguntas com o Gemini, casa, mensagens, alarmes do telemóvel e avisos.", "pt-BR": "O assistente de voz no relógio Amazfit (Zepp OS): perguntas com o Gemini, casa, mensagens, alarmes do celular e avisos.", "bg": "Гласовият асистент на часовника Amazfit (Zepp OS): въпроси с Gemini, дом, съобщения, аларми на телефона и известия.", "tr": "Amazfit saatteki (Zepp OS) sesli asistan: Gemini ile sorular, ev, mesajlar, telefon alarmları ve uyarılar.", "de": "Der Sprachassistent auf der Amazfit-Uhr (Zepp OS): Fragen mit Gemini, Zuhause, Nachrichten, Handy-Wecker und Hinweise."}}, "harmony": {"esterno": true, "versione": "0.4.48", "desc": {"it": "L'assistente con Gemini Live sull'orologio HarmonyOS (Watch 5, Ultimate 2…): voce, casa, messaggi, sveglie del telefono e avvisi.", "en": "The Gemini Live assistant on the HarmonyOS watch (Watch 5, Ultimate 2…): voice, home, messages, phone alarms and alerts.", "es": "El asistente con Gemini Live en el reloj HarmonyOS (Watch 5, Ultimate 2…): voz, casa, mensajes, alarmas del teléfono y avisos.", "fr": "L'assistant Gemini Live sur la montre HarmonyOS (Watch 5, Ultimate 2…) : voix, maison, messages, alarmes du téléphone et alertes.", "pt-PT": "O assistente com Gemini Live no relógio HarmonyOS (Watch 5, Ultimate 2…): voz, casa, mensagens, alarmes do telemóvel e avisos.", "pt-BR": "O assistente com Gemini Live no relógio HarmonyOS (Watch 5, Ultimate 2…): voz, casa, mensagens, alarmes do celular e avisos.", "bg": "Асистентът с Gemini Live на часовника с HarmonyOS (Watch 5, Ultimate 2…): глас, дом, съобщения, аларми на телефона и известия.", "tr": "HarmonyOS saatte (Watch 5, Ultimate 2…) Gemini Live asistanı: ses, ev, mesajlar, telefon alarmları ve uyarılar.", "de": "Der Gemini-Live-Assistent auf der HarmonyOS-Uhr (Watch 5, Ultimate 2…): Sprache, Zuhause, Nachrichten, Handy-Wecker und Hinweise."}}}, "desc": {"it": "L'assistente con Gemini Live sull'orologio: voce, casa, messaggi, sveglie del telefono e avvisi. Dallo Store riceve chiavi, permessi e protezioni dal risparmio energetico di Huawei.", "en": "The Gemini Live assistant on the watch: voice, home, messages, phone alarms and alerts. From the Store it gets keys, permissions and protection from Huawei's power saving.", "es": "El asistente con Gemini Live en el reloj: voz, casa, mensajes, alarmas del teléfono y avisos. Desde la Store recibe claves, permisos y protección del ahorro de energía de Huawei.", "fr": "L'assistant Gemini Live sur la montre : voix, maison, messages, réveils du téléphone et alertes. Depuis le Store il reçoit clés, autorisations et protection contre l'économie d'énergie de Huawei.", "pt-PT": "O assistente com Gemini Live no relógio: voz, casa, mensagens, alarmes do telemóvel e avisos. Pela Store recebe chaves, permissões e proteção da poupança de energia da Huawei.", "pt-BR": "O assistente com Gemini Live no relógio: voz, casa, mensagens, alarmes do celular e avisos. Pela Store recebe chaves, permissões e proteção da economia de energia da Huawei.", "bg": "Асистентът с Gemini Live на часовника: глас, дом, съобщения, аларми на телефона и известия. От Store получава ключове, разрешения и защита от пестенето на енергия на Huawei.", "tr": "Saatte Gemini Live asistanı: ses, ev, mesajlar, telefon alarmları ve bildirimler. Store'dan anahtarları, izinleri ve Huawei güç tasarrufuna karşı korumayı alır.", "de": "Der Gemini-Live-Assistent auf der Uhr: Sprache, Zuhause, Nachrichten, Telefonwecker und Hinweise. Aus dem Store bekommt er Schlüssel, Berechtigungen und Schutz vor Huaweis Energiesparen."}, "permessi": []}, {"id": "nextup", "nome": "NextUp", "pkg": "it.gemini.nextup", "icona": "nextup.png", "versione": "0.1.0-67", "sistemi": {"huawei": "NextUp.apk", "wear": "NextUp.apk", "amazfit": {"qr": "prova/nextup-amazfit/", "versione": "0.0.1", "desc": {"it": "WhatsApp sull'orologio Amazfit (Zepp OS): chat e messaggi passano dal WhatsApp diretto di Gateway sul telefono, senza un altro dispositivo collegato.", "en": "WhatsApp on the Amazfit watch (Zepp OS): chats and messages go through Gateway's direct WhatsApp on the phone, with no extra linked device.", "es": "WhatsApp en el reloj Amazfit (Zepp OS): los chats y mensajes pasan por el WhatsApp directo de Gateway en el teléfono, sin otro dispositivo vinculado.", "fr": "WhatsApp sur la montre Amazfit (Zepp OS) : discussions et messages passent par le WhatsApp direct de Gateway sur le téléphone, sans autre appareil associé.", "pt-PT": "WhatsApp no relógio Amazfit (Zepp OS): conversas e mensagens passam pelo WhatsApp direto do Gateway no telemóvel, sem outro dispositivo associado.", "pt-BR": "WhatsApp no relógio Amazfit (Zepp OS): conversas e mensagens passam pelo WhatsApp direto do Gateway no celular, sem outro aparelho conectado.", "bg": "WhatsApp на часовника Amazfit (Zepp OS): чатовете и съобщенията минават през директния WhatsApp на Gateway в телефона, без още едно свързано устройство.", "tr": "Amazfit saatte (Zepp OS) WhatsApp: sohbetler ve mesajlar telefondaki Gateway'in doğrudan WhatsApp'ı üzerinden geçer, ek bağlı cihaz olmadan.", "de": "WhatsApp auf der Amazfit-Uhr (Zepp OS): Chats und Nachrichten laufen über Gateways direktes WhatsApp am Handy, ohne weiteres verknüpftes Gerät."}}}, "desc": {"it": "WhatsApp completo sull'orologio: chat, vocali, foto, avvisi e risposte, anche lontano dal telefono.", "en": "Full WhatsApp on the watch: chats, voice notes, photos, alerts and replies, even away from the phone.", "es": "WhatsApp completo en el reloj: chats, audios, fotos, avisos y respuestas, incluso lejos del teléfono.", "fr": "WhatsApp complet sur la montre : discussions, vocaux, photos, alertes et réponses, même loin du téléphone.", "pt-PT": "WhatsApp completo no relógio: conversas, mensagens de voz, fotos, avisos e respostas, mesmo longe do telemóvel.", "pt-BR": "WhatsApp completo no relógio: conversas, áudios, fotos, avisos e respostas, mesmo longe do celular.", "bg": "Пълен WhatsApp на часовника: чатове, гласови съобщения, снимки, известия и отговори, дори далеч от телефона.", "tr": "Saatte tam WhatsApp: sohbetler, sesli mesajlar, fotoğraflar, bildirimler ve yanıtlar, telefondan uzaktayken bile.", "de": "Vollständiges WhatsApp auf der Uhr: Chats, Sprachnachrichten, Fotos, Hinweise und Antworten, auch fern vom Telefon."}, "avviso": {"it": "NextUp non è un'app ufficiale di WhatsApp: usarla può portare al blocco del numero. Usala a tuo rischio, meglio con un numero secondario.", "en": "NextUp is not an official WhatsApp app: using it may get your number banned. Use it at your own risk, preferably with a secondary number.", "es": "NextUp no es una app oficial de WhatsApp: usarla puede llevar al bloqueo del número. Úsala bajo tu responsabilidad, mejor con un número secundario.", "fr": "NextUp n'est pas une app officielle de WhatsApp : l'utiliser peut entraîner le blocage du numéro. À vos risques, de préférence avec un numéro secondaire.", "pt-PT": "O NextUp não é uma app oficial do WhatsApp: usá-la pode levar ao bloqueio do número. Use por sua conta e risco, de preferência com um número secundário.", "pt-BR": "O NextUp não é um app oficial do WhatsApp: usar pode levar ao bloqueio do número. Use por sua conta e risco, de preferência com um número secundário.", "bg": "NextUp не е официално приложение на WhatsApp: използването му може да доведе до блокиране на номера. На ваш риск, по-добре с втори номер.", "tr": "NextUp resmi bir WhatsApp uygulaması değildir: kullanmak numaranın engellenmesine yol açabilir. Riski size ait, tercihen ikinci bir numarayla kullanın.", "de": "NextUp ist keine offizielle WhatsApp-App: die Nutzung kann zur Sperrung der Nummer führen. Nutzung auf eigenes Risiko, am besten mit einer Zweitnummer."}, "permessi": ["pm grant $P android.permission.RECORD_AUDIO", "pm grant $P android.permission.POST_NOTIFICATIONS", "pm grant $P android.permission.READ_MEDIA_IMAGES", "pm grant $P android.permission.READ_EXTERNAL_STORAGE", "pm grant $P android.permission.ACCESS_COARSE_LOCATION", "pm grant $P android.permission.ACCESS_FINE_LOCATION", "dumpsys deviceidle whitelist +$P", "cmd appops set $P RUN_ANY_IN_BACKGROUND allow", "cmd appops set $P RUN_IN_BACKGROUND allow", "am set-standby-bucket $P active", "appops set $P SYSTEM_ALERT_WINDOW allow", "appops set $P MANAGE_EXTERNAL_STORAGE allow", "appops set $P REQUEST_INSTALL_PACKAGES allow", "pm grant $P android.permission.WRITE_EXTERNAL_STORAGE", "appops set $P LEGACY_STORAGE allow"], "codice": 67}, {"id": "nextgram", "nome": "NextGram", "pkg": "it.gemini.nextgram", "icona": "nextgram.png", "versione": "0.1.0-113", "sistemi": {"huawei": "NextGram.apk", "wear": "NextGram.apk"}, "desc": {"it": "Telegram sull'orologio: chat, vocali, foto, sticker e avvisi, anche senza il telefono.", "en": "Telegram on the watch: chats, voice notes, photos, stickers and alerts, even without the phone.", "es": "Telegram en el reloj: chats, audios, fotos, stickers y avisos, incluso sin el teléfono.", "fr": "Telegram sur la montre : discussions, vocaux, photos, stickers et alertes, même sans le téléphone.", "pt-PT": "Telegram no relógio: conversas, mensagens de voz, fotos, stickers e avisos, mesmo sem o telemóvel.", "pt-BR": "Telegram no relógio: conversas, áudios, fotos, figurinhas e avisos, mesmo sem o celular.", "bg": "Telegram на часовника: чатове, гласови съобщения, снимки, стикери и известия, дори без телефона.", "tr": "Saatte Telegram: sohbetler, sesli mesajlar, fotoğraflar, çıkartmalar ve bildirimler, telefon olmadan bile.", "de": "Telegram auf der Uhr: Chats, Sprachnachrichten, Fotos, Sticker und Hinweise, auch ohne Telefon."}, "permessi": ["pm grant $P android.permission.RECORD_AUDIO", "pm grant $P android.permission.POST_NOTIFICATIONS", "pm grant $P android.permission.READ_MEDIA_IMAGES", "pm grant $P android.permission.READ_EXTERNAL_STORAGE", "pm grant $P android.permission.ACCESS_COARSE_LOCATION", "pm grant $P android.permission.ACCESS_FINE_LOCATION", "pm grant $P android.permission.BLUETOOTH_CONNECT", "dumpsys deviceidle whitelist +$P", "cmd appops set $P RUN_ANY_IN_BACKGROUND allow", "cmd appops set $P RUN_IN_BACKGROUND allow", "am set-standby-bucket $P active", "appops set $P SYSTEM_ALERT_WINDOW allow", "appops set $P REQUEST_INSTALL_PACKAGES allow", "appops set $P MANAGE_EXTERNAL_STORAGE allow", "pm grant $P android.permission.WRITE_EXTERNAL_STORAGE", "appops set $P LEGACY_STORAGE allow"], "codice": 113}, {"id": "tastiera", "nome": "Gboard per Watch 4 (tastiera)", "pkg": "com.google.android.inputmethod.latin", "icona": "tastiera.png", "versione": "5.3.10-it1", "sistemi": {"huawei": "https://raw.githubusercontent.com/Kkaoss969/gboard-wear-it/main/GboardWear-IT.apks"}, "desc": {"it": "Tastiera Gboard per Wear OS con i suggerimenti nella tua lingua, anche più lingue insieme. Prima dell'installazione scegli le lingue; poi si cambiano da «Strumenti dell'orologio». Solo Huawei Watch 4.", "en": "Gboard for Wear OS with suggestions in your language, even several languages together. Choose the languages before installing; change them later from \"Watch tools\". Huawei Watch 4 only.", "es": "Gboard para Wear OS con sugerencias en tu idioma, incluso varios idiomas a la vez. Elige los idiomas antes de instalar; luego se cambian en «Herramientas del reloj». Solo Huawei Watch 4.", "fr": "Gboard pour Wear OS avec les suggestions dans votre langue, même plusieurs langues à la fois. Choisissez les langues avant l'installation ; ensuite on les change dans « Outils de la montre ». Huawei Watch 4 uniquement.", "pt-PT": "Gboard para Wear OS com sugestões no seu idioma, até vários idiomas juntos. Escolha os idiomas antes de instalar; depois mudam-se em «Ferramentas do relógio». Só Huawei Watch 4.", "pt-BR": "Gboard para Wear OS com sugestões no seu idioma, até vários idiomas juntos. Escolha os idiomas antes de instalar; depois dá para trocar em «Ferramentas do relógio». Só Huawei Watch 4.", "bg": "Gboard за Wear OS с предложения на вашия език, дори няколко езика заедно. Изберете езиците преди инсталиране; после се сменят от „Инструменти на часовника“. Само Huawei Watch 4.", "tr": "Kendi dilinizde önerilerle Wear OS için Gboard, birden çok dil bir arada bile. Yüklemeden önce dilleri seçin; sonra «Saat araçları»ndan değiştirilir. Yalnızca Huawei Watch 4.", "de": "Gboard für Wear OS mit Vorschlägen in deiner Sprache, auch mehrere Sprachen zusammen. Wähle die Sprachen vor der Installation; später änderst du sie unter „Werkzeuge der Uhr“. Nur Huawei Watch 4."}, "avviso": {"it": "Tastiera di Google modificata da noi, non ufficiale. Funziona solo sul Watch 4: serve almeno Android 11, quindi sul Watch 3 (Android 10) non si installa. La tastiera Huawei viene spenta (si riaccende dagli Strumenti). Serve un Gateway aggiornato.", "en": "Google's keyboard modified by us, not official. Works only on the Watch 4: it needs Android 11 or later, so it won't install on the Watch 3 (Android 10). The Huawei keyboard is turned off (turn it back on from the Tools). Requires an up-to-date Gateway.", "es": "Teclado de Google modificado por nosotros, no oficial. Solo funciona en el Watch 4: necesita Android 11 o posterior, así que en el Watch 3 (Android 10) no se instala. Se apaga el teclado de Huawei (se reactiva desde Herramientas). Requiere un Gateway actualizado.", "fr": "Clavier de Google modifié par nous, non officiel. Fonctionne uniquement sur la Watch 4 : il faut Android 11 ou plus récent, donc il ne s'installe pas sur la Watch 3 (Android 10). Le clavier Huawei est désactivé (on le réactive depuis les Outils). Nécessite un Gateway à jour.", "pt-PT": "Teclado da Google modificado por nós, não oficial. Só funciona no Watch 4: precisa do Android 11 ou mais recente, por isso no Watch 3 (Android 10) não se instala. O teclado da Huawei é desligado (volta a ligar-se nas Ferramentas). É preciso um Gateway atualizado.", "pt-BR": "Teclado do Google modificado por nós, não oficial. Só funciona no Watch 4: precisa do Android 11 ou mais recente, então no Watch 3 (Android 10) não instala. O teclado da Huawei é desligado (liga de novo pelas Ferramentas). Precisa de um Gateway atualizado.", "bg": "Клавиатурата на Google, променена от нас, неофициална. Работи само на Watch 4: нужен е Android 11 или по-нов, затова на Watch 3 (Android 10) не се инсталира. Клавиатурата на Huawei се изключва (включва се отново от Инструменти). Нужен е обновен Gateway.", "tr": "Bizim tarafımızdan değiştirilmiş Google klavyesi, resmi değil. Yalnızca Watch 4'te çalışır: Android 11 veya üstü gerekir, bu yüzden Watch 3'e (Android 10) yüklenmez. Huawei klavyesi kapatılır (Araçlar'dan yeniden açılır). Güncel bir Gateway gerekir.", "de": "Von uns veränderte Google-Tastatur, nicht offiziell. Funktioniert nur auf der Watch 4: sie braucht Android 11 oder neuer, daher lässt sie sich auf der Watch 3 (Android 10) nicht installieren. Die Huawei-Tastatur wird ausgeschaltet (wieder einschalten unter Werkzeuge). Erfordert ein aktuelles Gateway."}, "permessi": [], "codice": 2228061}]}
+{
+ "versione": 1,
+ "nota": "Catalogo di PROVA dello Store di Gateway: non pubblicato, solo per i tester.",
+ "app": [
+  {
+   "id": "live",
+   "nome": "Live Assistant",
+   "pkg": "it.gemini.live",
+   "icona": "live.png",
+   "versione": "1.1.196 · 543",
+   "sistemi": {
+    "huawei": "LiveAssistant.apk",
+    "wear": {
+     "file": "LiveAssistantWear.apk",
+     "pkg": "it.gemini.ponte",
+     "versione": "1.1.121 · 544",
+     "desc": {
+      "it": "L'assistente vocale sull'orologio Wear OS: domande con Gemini, casa, messaggi, sveglie del telefono e avvisi. Gateway dà permessi, accessibilità e chiavi.",
+      "en": "The voice assistant on the Wear OS watch: questions with Gemini, home, messages, phone alarms and alerts. Gateway sets permissions, accessibility and keys.",
+      "es": "El asistente de voz en el reloj Wear OS: preguntas con Gemini, casa, mensajes, alarmas del teléfono y avisos. Gateway da permisos, accesibilidad y claves.",
+      "fr": "L'assistant vocal sur la montre Wear OS : questions avec Gemini, maison, messages, alarmes du téléphone et alertes. Gateway règle autorisations, accessibilité et clés.",
+      "pt-PT": "O assistente de voz no relógio Wear OS: perguntas com o Gemini, casa, mensagens, alarmes do telemóvel e avisos. O Gateway dá permissões, acessibilidade e chaves.",
+      "pt-BR": "O assistente de voz no relógio Wear OS: perguntas com o Gemini, casa, mensagens, alarmes do celular e avisos. O Gateway dá permissões, acessibilidade e chaves.",
+      "bg": "Гласовият асистент на часовника Wear OS: въпроси с Gemini, дом, съобщения, аларми на телефона и известия. Gateway дава разрешения, достъпност и ключове.",
+      "tr": "Wear OS saatteki sesli asistan: Gemini ile sorular, ev, mesajlar, telefon alarmları ve uyarılar. Gateway izinleri, erişilebilirliği ve anahtarları ayarlar.",
+      "de": "Der Sprachassistent auf der Wear OS-Uhr: Fragen mit Gemini, Zuhause, Nachrichten, Handy-Wecker und Hinweise. Gateway setzt Berechtigungen, Bedienungshilfe und Schlüssel."
+     }
+    },
+    "amazfit": {
+     "qr": true,
+     "versione": "1.3.93",
+     "desc": {
+      "it": "L'assistente vocale sull'orologio Amazfit (Zepp OS): domande con Gemini, casa, messaggi, sveglie del telefono e avvisi.",
+      "en": "The voice assistant on the Amazfit watch (Zepp OS): questions with Gemini, home, messages, phone alarms and alerts.",
+      "es": "El asistente de voz en el reloj Amazfit (Zepp OS): preguntas con Gemini, casa, mensajes, alarmas del teléfono y avisos.",
+      "fr": "L'assistant vocal sur la montre Amazfit (Zepp OS) : questions avec Gemini, maison, messages, alarmes du téléphone et alertes.",
+      "pt-PT": "O assistente de voz no relógio Amazfit (Zepp OS): perguntas com o Gemini, casa, mensagens, alarmes do telemóvel e avisos.",
+      "pt-BR": "O assistente de voz no relógio Amazfit (Zepp OS): perguntas com o Gemini, casa, mensagens, alarmes do celular e avisos.",
+      "bg": "Гласовият асистент на часовника Amazfit (Zepp OS): въпроси с Gemini, дом, съобщения, аларми на телефона и известия.",
+      "tr": "Amazfit saatteki (Zepp OS) sesli asistan: Gemini ile sorular, ev, mesajlar, telefon alarmları ve uyarılar.",
+      "de": "Der Sprachassistent auf der Amazfit-Uhr (Zepp OS): Fragen mit Gemini, Zuhause, Nachrichten, Handy-Wecker und Hinweise."
+     }
+    },
+    "harmony": {
+     "esterno": true,
+     "versione": "0.4.48",
+     "desc": {
+      "it": "L'assistente con Gemini Live sull'orologio HarmonyOS (Watch 5, Ultimate 2…): voce, casa, messaggi, sveglie del telefono e avvisi.",
+      "en": "The Gemini Live assistant on the HarmonyOS watch (Watch 5, Ultimate 2…): voice, home, messages, phone alarms and alerts.",
+      "es": "El asistente con Gemini Live en el reloj HarmonyOS (Watch 5, Ultimate 2…): voz, casa, mensajes, alarmas del teléfono y avisos.",
+      "fr": "L'assistant Gemini Live sur la montre HarmonyOS (Watch 5, Ultimate 2…) : voix, maison, messages, alarmes du téléphone et alertes.",
+      "pt-PT": "O assistente com Gemini Live no relógio HarmonyOS (Watch 5, Ultimate 2…): voz, casa, mensagens, alarmes do telemóvel e avisos.",
+      "pt-BR": "O assistente com Gemini Live no relógio HarmonyOS (Watch 5, Ultimate 2…): voz, casa, mensagens, alarmes do celular e avisos.",
+      "bg": "Асистентът с Gemini Live на часовника с HarmonyOS (Watch 5, Ultimate 2…): глас, дом, съобщения, аларми на телефона и известия.",
+      "tr": "HarmonyOS saatte (Watch 5, Ultimate 2…) Gemini Live asistanı: ses, ev, mesajlar, telefon alarmları ve uyarılar.",
+      "de": "Der Gemini-Live-Assistent auf der HarmonyOS-Uhr (Watch 5, Ultimate 2…): Sprache, Zuhause, Nachrichten, Handy-Wecker und Hinweise."
+     }
+    }
+   },
+   "desc": {
+    "it": "L'assistente con Gemini Live sull'orologio: voce, casa, messaggi, sveglie del telefono e avvisi. Dallo Store riceve chiavi, permessi e protezioni dal risparmio energetico di Huawei.",
+    "en": "The Gemini Live assistant on the watch: voice, home, messages, phone alarms and alerts. From the Store it gets keys, permissions and protection from Huawei's power saving.",
+    "es": "El asistente con Gemini Live en el reloj: voz, casa, mensajes, alarmas del teléfono y avisos. Desde la Store recibe claves, permisos y protección del ahorro de energía de Huawei.",
+    "fr": "L'assistant Gemini Live sur la montre : voix, maison, messages, réveils du téléphone et alertes. Depuis le Store il reçoit clés, autorisations et protection contre l'économie d'énergie de Huawei.",
+    "pt-PT": "O assistente com Gemini Live no relógio: voz, casa, mensagens, alarmes do telemóvel e avisos. Pela Store recebe chaves, permissões e proteção da poupança de energia da Huawei.",
+    "pt-BR": "O assistente com Gemini Live no relógio: voz, casa, mensagens, alarmes do celular e avisos. Pela Store recebe chaves, permissões e proteção da economia de energia da Huawei.",
+    "bg": "Асистентът с Gemini Live на часовника: глас, дом, съобщения, аларми на телефона и известия. От Store получава ключове, разрешения и защита от пестенето на енергия на Huawei.",
+    "tr": "Saatte Gemini Live asistanı: ses, ev, mesajlar, telefon alarmları ve bildirimler. Store'dan anahtarları, izinleri ve Huawei güç tasarrufuna karşı korumayı alır.",
+    "de": "Der Gemini-Live-Assistent auf der Uhr: Sprache, Zuhause, Nachrichten, Telefonwecker und Hinweise. Aus dem Store bekommt er Schlüssel, Berechtigungen und Schutz vor Huaweis Energiesparen."
+   },
+   "permessi": []
+  },
+  {
+   "id": "nextup",
+   "nome": "NextUp",
+   "pkg": "it.gemini.nextup",
+   "icona": "nextup.png",
+   "versione": "0.1.0-67",
+   "sistemi": {
+    "huawei": "NextUp.apk",
+    "wear": "NextUp.apk",
+    "amazfit": {
+     "qr": "prova/nextup-amazfit/",
+     "versione": "0.0.1",
+     "desc": {
+      "it": "WhatsApp sull'orologio Amazfit (Zepp OS): chat e messaggi passano dal WhatsApp diretto di Gateway sul telefono, senza un altro dispositivo collegato.",
+      "en": "WhatsApp on the Amazfit watch (Zepp OS): chats and messages go through Gateway's direct WhatsApp on the phone, with no extra linked device.",
+      "es": "WhatsApp en el reloj Amazfit (Zepp OS): los chats y mensajes pasan por el WhatsApp directo de Gateway en el teléfono, sin otro dispositivo vinculado.",
+      "fr": "WhatsApp sur la montre Amazfit (Zepp OS) : discussions et messages passent par le WhatsApp direct de Gateway sur le téléphone, sans autre appareil associé.",
+      "pt-PT": "WhatsApp no relógio Amazfit (Zepp OS): conversas e mensagens passam pelo WhatsApp direto do Gateway no telemóvel, sem outro dispositivo associado.",
+      "pt-BR": "WhatsApp no relógio Amazfit (Zepp OS): conversas e mensagens passam pelo WhatsApp direto do Gateway no celular, sem outro aparelho conectado.",
+      "bg": "WhatsApp на часовника Amazfit (Zepp OS): чатовете и съобщенията минават през директния WhatsApp на Gateway в телефона, без още едно свързано устройство.",
+      "tr": "Amazfit saatte (Zepp OS) WhatsApp: sohbetler ve mesajlar telefondaki Gateway'in doğrudan WhatsApp'ı üzerinden geçer, ek bağlı cihaz olmadan.",
+      "de": "WhatsApp auf der Amazfit-Uhr (Zepp OS): Chats und Nachrichten laufen über Gateways direktes WhatsApp am Handy, ohne weiteres verknüpftes Gerät."
+     }
+    }
+   },
+   "desc": {
+    "it": "WhatsApp completo sull'orologio: chat, vocali, foto, avvisi e risposte, anche lontano dal telefono.",
+    "en": "Full WhatsApp on the watch: chats, voice notes, photos, alerts and replies, even away from the phone.",
+    "es": "WhatsApp completo en el reloj: chats, audios, fotos, avisos y respuestas, incluso lejos del teléfono.",
+    "fr": "WhatsApp complet sur la montre : discussions, vocaux, photos, alertes et réponses, même loin du téléphone.",
+    "pt-PT": "WhatsApp completo no relógio: conversas, mensagens de voz, fotos, avisos e respostas, mesmo longe do telemóvel.",
+    "pt-BR": "WhatsApp completo no relógio: conversas, áudios, fotos, avisos e respostas, mesmo longe do celular.",
+    "bg": "Пълен WhatsApp на часовника: чатове, гласови съобщения, снимки, известия и отговори, дори далеч от телефона.",
+    "tr": "Saatte tam WhatsApp: sohbetler, sesli mesajlar, fotoğraflar, bildirimler ve yanıtlar, telefondan uzaktayken bile.",
+    "de": "Vollständiges WhatsApp auf der Uhr: Chats, Sprachnachrichten, Fotos, Hinweise und Antworten, auch fern vom Telefon."
+   },
+   "avviso": {
+    "it": "NextUp non è un'app ufficiale di WhatsApp: usarla può portare al blocco del numero. Usala a tuo rischio, meglio con un numero secondario.",
+    "en": "NextUp is not an official WhatsApp app: using it may get your number banned. Use it at your own risk, preferably with a secondary number.",
+    "es": "NextUp no es una app oficial de WhatsApp: usarla puede llevar al bloqueo del número. Úsala bajo tu responsabilidad, mejor con un número secundario.",
+    "fr": "NextUp n'est pas une app officielle de WhatsApp : l'utiliser peut entraîner le blocage du numéro. À vos risques, de préférence avec un numéro secondaire.",
+    "pt-PT": "O NextUp não é uma app oficial do WhatsApp: usá-la pode levar ao bloqueio do número. Use por sua conta e risco, de preferência com um número secundário.",
+    "pt-BR": "O NextUp não é um app oficial do WhatsApp: usar pode levar ao bloqueio do número. Use por sua conta e risco, de preferência com um número secundário.",
+    "bg": "NextUp не е официално приложение на WhatsApp: използването му може да доведе до блокиране на номера. На ваш риск, по-добре с втори номер.",
+    "tr": "NextUp resmi bir WhatsApp uygulaması değildir: kullanmak numaranın engellenmesine yol açabilir. Riski size ait, tercihen ikinci bir numarayla kullanın.",
+    "de": "NextUp ist keine offizielle WhatsApp-App: die Nutzung kann zur Sperrung der Nummer führen. Nutzung auf eigenes Risiko, am besten mit einer Zweitnummer."
+   },
+   "permessi": [
+    "pm grant $P android.permission.RECORD_AUDIO",
+    "pm grant $P android.permission.POST_NOTIFICATIONS",
+    "pm grant $P android.permission.READ_MEDIA_IMAGES",
+    "pm grant $P android.permission.READ_EXTERNAL_STORAGE",
+    "pm grant $P android.permission.ACCESS_COARSE_LOCATION",
+    "pm grant $P android.permission.ACCESS_FINE_LOCATION",
+    "dumpsys deviceidle whitelist +$P",
+    "cmd appops set $P RUN_ANY_IN_BACKGROUND allow",
+    "cmd appops set $P RUN_IN_BACKGROUND allow",
+    "am set-standby-bucket $P active",
+    "appops set $P SYSTEM_ALERT_WINDOW allow",
+    "appops set $P MANAGE_EXTERNAL_STORAGE allow",
+    "appops set $P REQUEST_INSTALL_PACKAGES allow",
+    "pm grant $P android.permission.WRITE_EXTERNAL_STORAGE",
+    "appops set $P LEGACY_STORAGE allow"
+   ],
+   "codice": 67
+  },
+  {
+   "id": "nextgram",
+   "nome": "NextGram",
+   "pkg": "it.gemini.nextgram",
+   "icona": "nextgram.png",
+   "versione": "0.1.0-113",
+   "sistemi": {
+    "huawei": "NextGram.apk",
+    "wear": "NextGram.apk"
+   },
+   "desc": {
+    "it": "Telegram sull'orologio: chat, vocali, foto, sticker e avvisi, anche senza il telefono.",
+    "en": "Telegram on the watch: chats, voice notes, photos, stickers and alerts, even without the phone.",
+    "es": "Telegram en el reloj: chats, audios, fotos, stickers y avisos, incluso sin el teléfono.",
+    "fr": "Telegram sur la montre : discussions, vocaux, photos, stickers et alertes, même sans le téléphone.",
+    "pt-PT": "Telegram no relógio: conversas, mensagens de voz, fotos, stickers e avisos, mesmo sem o telemóvel.",
+    "pt-BR": "Telegram no relógio: conversas, áudios, fotos, figurinhas e avisos, mesmo sem o celular.",
+    "bg": "Telegram на часовника: чатове, гласови съобщения, снимки, стикери и известия, дори без телефона.",
+    "tr": "Saatte Telegram: sohbetler, sesli mesajlar, fotoğraflar, çıkartmalar ve bildirimler, telefon olmadan bile.",
+    "de": "Telegram auf der Uhr: Chats, Sprachnachrichten, Fotos, Sticker und Hinweise, auch ohne Telefon."
+   },
+   "permessi": [
+    "pm grant $P android.permission.RECORD_AUDIO",
+    "pm grant $P android.permission.POST_NOTIFICATIONS",
+    "pm grant $P android.permission.READ_MEDIA_IMAGES",
+    "pm grant $P android.permission.READ_EXTERNAL_STORAGE",
+    "pm grant $P android.permission.ACCESS_COARSE_LOCATION",
+    "pm grant $P android.permission.ACCESS_FINE_LOCATION",
+    "pm grant $P android.permission.BLUETOOTH_CONNECT",
+    "dumpsys deviceidle whitelist +$P",
+    "cmd appops set $P RUN_ANY_IN_BACKGROUND allow",
+    "cmd appops set $P RUN_IN_BACKGROUND allow",
+    "am set-standby-bucket $P active",
+    "appops set $P SYSTEM_ALERT_WINDOW allow",
+    "appops set $P REQUEST_INSTALL_PACKAGES allow",
+    "appops set $P MANAGE_EXTERNAL_STORAGE allow",
+    "pm grant $P android.permission.WRITE_EXTERNAL_STORAGE",
+    "appops set $P LEGACY_STORAGE allow"
+   ],
+   "codice": 113
+  },
+  {
+   "id": "tastiera",
+   "nome": "Gboard per Watch 4 (tastiera)",
+   "pkg": "com.google.android.inputmethod.latin",
+   "icona": "tastiera.png",
+   "versione": "5.3.10-it1",
+   "sistemi": {
+    "huawei": "https://raw.githubusercontent.com/Kkaoss969/gboard-wear-it/main/GboardWear-IT.apks"
+   },
+   "desc": {
+    "it": "Tastiera Gboard per Wear OS con i suggerimenti nella tua lingua, anche più lingue insieme. Prima dell'installazione scegli le lingue; poi si cambiano da «Strumenti dell'orologio». Solo Huawei Watch 4.",
+    "en": "Gboard for Wear OS with suggestions in your language, even several languages together. Choose the languages before installing; change them later from \"Watch tools\". Huawei Watch 4 only.",
+    "es": "Gboard para Wear OS con sugerencias en tu idioma, incluso varios idiomas a la vez. Elige los idiomas antes de instalar; luego se cambian en «Herramientas del reloj». Solo Huawei Watch 4.",
+    "fr": "Gboard pour Wear OS avec les suggestions dans votre langue, même plusieurs langues à la fois. Choisissez les langues avant l'installation ; ensuite on les change dans « Outils de la montre ». Huawei Watch 4 uniquement.",
+    "pt-PT": "Gboard para Wear OS com sugestões no seu idioma, até vários idiomas juntos. Escolha os idiomas antes de instalar; depois mudam-se em «Ferramentas do relógio». Só Huawei Watch 4.",
+    "pt-BR": "Gboard para Wear OS com sugestões no seu idioma, até vários idiomas juntos. Escolha os idiomas antes de instalar; depois dá para trocar em «Ferramentas do relógio». Só Huawei Watch 4.",
+    "bg": "Gboard за Wear OS с предложения на вашия език, дори няколко езика заедно. Изберете езиците преди инсталиране; после се сменят от „Инструменти на часовника“. Само Huawei Watch 4.",
+    "tr": "Kendi dilinizde önerilerle Wear OS için Gboard, birden çok dil bir arada bile. Yüklemeden önce dilleri seçin; sonra «Saat araçları»ndan değiştirilir. Yalnızca Huawei Watch 4.",
+    "de": "Gboard für Wear OS mit Vorschlägen in deiner Sprache, auch mehrere Sprachen zusammen. Wähle die Sprachen vor der Installation; später änderst du sie unter „Werkzeuge der Uhr“. Nur Huawei Watch 4."
+   },
+   "avviso": {
+    "it": "Tastiera di Google modificata da noi, non ufficiale. Funziona solo sul Watch 4: serve almeno Android 11, quindi sul Watch 3 (Android 10) non si installa. La tastiera Huawei viene spenta (si riaccende dagli Strumenti). Serve un Gateway aggiornato.",
+    "en": "Google's keyboard modified by us, not official. Works only on the Watch 4: it needs Android 11 or later, so it won't install on the Watch 3 (Android 10). The Huawei keyboard is turned off (turn it back on from the Tools). Requires an up-to-date Gateway.",
+    "es": "Teclado de Google modificado por nosotros, no oficial. Solo funciona en el Watch 4: necesita Android 11 o posterior, así que en el Watch 3 (Android 10) no se instala. Se apaga el teclado de Huawei (se reactiva desde Herramientas). Requiere un Gateway actualizado.",
+    "fr": "Clavier de Google modifié par nous, non officiel. Fonctionne uniquement sur la Watch 4 : il faut Android 11 ou plus récent, donc il ne s'installe pas sur la Watch 3 (Android 10). Le clavier Huawei est désactivé (on le réactive depuis les Outils). Nécessite un Gateway à jour.",
+    "pt-PT": "Teclado da Google modificado por nós, não oficial. Só funciona no Watch 4: precisa do Android 11 ou mais recente, por isso no Watch 3 (Android 10) não se instala. O teclado da Huawei é desligado (volta a ligar-se nas Ferramentas). É preciso um Gateway atualizado.",
+    "pt-BR": "Teclado do Google modificado por nós, não oficial. Só funciona no Watch 4: precisa do Android 11 ou mais recente, então no Watch 3 (Android 10) não instala. O teclado da Huawei é desligado (liga de novo pelas Ferramentas). Precisa de um Gateway atualizado.",
+    "bg": "Клавиатурата на Google, променена от нас, неофициална. Работи само на Watch 4: нужен е Android 11 или по-нов, затова на Watch 3 (Android 10) не се инсталира. Клавиатурата на Huawei се изключва (включва се отново от Инструменти). Нужен е обновен Gateway.",
+    "tr": "Bizim tarafımızdan değiştirilmiş Google klavyesi, resmi değil. Yalnızca Watch 4'te çalışır: Android 11 veya üstü gerekir, bu yüzden Watch 3'e (Android 10) yüklenmez. Huawei klavyesi kapatılır (Araçlar'dan yeniden açılır). Güncel bir Gateway gerekir.",
+    "de": "Von uns veränderte Google-Tastatur, nicht offiziell. Funktioniert nur auf der Watch 4: sie braucht Android 11 oder neuer, daher lässt sie sich auf der Watch 3 (Android 10) nicht installieren. Die Huawei-Tastatur wird ausgeschaltet (wieder einschalten unter Werkzeuge). Erfordert ein aktuelles Gateway."
+   },
+   "permessi": [],
+   "codice": 2228061
+  }
+ ]
+}
