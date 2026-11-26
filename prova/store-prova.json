@@ -148,7 +148,7 @@
    "nome": "NextGram",
    "pkg": "it.gemini.nextgram",
    "icona": "nextgram.png",
-   "versione": "0.1.0-114",
+   "versione": "0.1.0-115",
    "sistemi": {
     "huawei": "NextGram.apk",
     "wear": "NextGram.apk"
