@@ -7,13 +7,13 @@
    "nome": "Live Assistant",
    "pkg": "it.gemini.live",
    "icona": "live.png",
-   "versione": "1.1.196 · 552",
+   "versione": "1.1.197 · 554",
    "sistemi": {
     "huawei": "LiveAssistant.apk",
     "wear": {
      "file": "LiveAssistantWear.apk",
      "pkg": "it.gemini.ponte",
-     "versione": "1.1.121 · 552",
+     "versione": "1.1.122 · 555",
      "desc": {
       "it": "L'assistente vocale sull'orologio Wear OS: domande con Gemini, casa, messaggi, sveglie del telefono e avvisi. Gateway dà permessi, accessibilità e chiavi.",
       "en": "The voice assistant on the Wear OS watch: questions with Gemini, home, messages, phone alarms and alerts. Gateway sets permissions, accessibility and keys.",
@@ -45,7 +45,7 @@
     },
     "harmony": {
      "esterno": true,
-     "versione": "0.4.48",
+     "versione": "0.4.49",
      "desc": {
       "it": "L'assistente con Gemini Live sull'orologio HarmonyOS (Watch 5, Ultimate 2…): voce, casa, messaggi, sveglie del telefono e avvisi.",
       "en": "The Gemini Live assistant on the HarmonyOS watch (Watch 5, Ultimate 2…): voice, home, messages, phone alarms and alerts.",
