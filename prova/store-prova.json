@@ -79,7 +79,7 @@
    "nome": "NextUp",
    "pkg": "it.gemini.nextup",
    "icona": "nextup.png",
-   "versione": "0.1.0-83",
+   "versione": "0.1.0-84",
    "sistemi": {
     "huawei": "NextUp.apk",
     "wear": "NextUp.apk",
@@ -141,14 +141,14 @@
     "pm grant $P android.permission.WRITE_EXTERNAL_STORAGE",
     "appops set $P LEGACY_STORAGE allow"
    ],
-   "codice": 83
+   "codice": 84
   },
   {
    "id": "nextgram",
    "nome": "NextGram",
    "pkg": "it.gemini.nextgram",
    "icona": "nextgram.png",
-   "versione": "0.1.0-125",
+   "versione": "0.1.0-126",
    "sistemi": {
     "huawei": "NextGram.apk",
     "wear": "NextGram.apk"
@@ -183,7 +183,7 @@
     "pm grant $P android.permission.WRITE_EXTERNAL_STORAGE",
     "appops set $P LEGACY_STORAGE allow"
    ],
-   "codice": 125
+   "codice": 126
   },
   {
    "id": "tastiera",
