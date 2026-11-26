@@ -79,7 +79,7 @@
    "nome": "NextUp",
    "pkg": "it.gemini.nextup",
    "icona": "nextup.png",
-   "versione": "0.1.0-70",
+   "versione": "0.1.0-72",
    "sistemi": {
     "huawei": "NextUp.apk",
     "wear": "NextUp.apk",
