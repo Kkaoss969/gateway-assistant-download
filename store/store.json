@@ -141,7 +141,7 @@
     "pm grant $P android.permission.WRITE_EXTERNAL_STORAGE",
     "appops set $P LEGACY_STORAGE allow"
    ],
-   "codice": 70
+   "codice": 72
   },
   {
    "id": "nextgram",
@@ -183,7 +183,7 @@
     "pm grant $P android.permission.WRITE_EXTERNAL_STORAGE",
     "appops set $P LEGACY_STORAGE allow"
    ],
-   "codice": 113
+   "codice": 115
   }
  ]
 }
