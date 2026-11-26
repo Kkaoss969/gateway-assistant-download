@@ -23,7 +23,8 @@
       "pt-BR": "O assistente de voz no relógio Wear OS: perguntas com o Gemini, casa, mensagens, alarmes do celular e avisos. O Gateway dá permissões, acessibilidade e chaves.",
       "bg": "Гласовият асистент на часовника Wear OS: въпроси с Gemini, дом, съобщения, аларми на телефона и известия. Gateway дава разрешения, достъпност и ключове.",
       "tr": "Wear OS saatteki sesli asistan: Gemini ile sorular, ev, mesajlar, telefon alarmları ve uyarılar. Gateway izinleri, erişilebilirliği ve anahtarları ayarlar.",
-      "de": "Der Sprachassistent auf der Wear OS-Uhr: Fragen mit Gemini, Zuhause, Nachrichten, Handy-Wecker und Hinweise. Gateway setzt Berechtigungen, Bedienungshilfe und Schlüssel."
+      "de": "Der Sprachassistent auf der Wear OS-Uhr: Fragen mit Gemini, Zuhause, Nachrichten, Handy-Wecker und Hinweise. Gateway setzt Berechtigungen, Bedienungshilfe und Schlüssel.",
+      "ru": "Голосовой ассистент на часах Wear OS: вопросы к Gemini, умный дом, сообщения, будильники телефона и оповещения. Gateway настраивает разрешения, специальные возможности и ключи."
      }
     },
     "amazfit": {
@@ -38,7 +39,8 @@
       "pt-BR": "O assistente de voz no relógio Amazfit (Zepp OS): perguntas com o Gemini, casa, mensagens, alarmes do celular e avisos.",
       "bg": "Гласовият асистент на часовника Amazfit (Zepp OS): въпроси с Gemini, дом, съобщения, аларми на телефона и известия.",
       "tr": "Amazfit saatteki (Zepp OS) sesli asistan: Gemini ile sorular, ev, mesajlar, telefon alarmları ve uyarılar.",
-      "de": "Der Sprachassistent auf der Amazfit-Uhr (Zepp OS): Fragen mit Gemini, Zuhause, Nachrichten, Handy-Wecker und Hinweise."
+      "de": "Der Sprachassistent auf der Amazfit-Uhr (Zepp OS): Fragen mit Gemini, Zuhause, Nachrichten, Handy-Wecker und Hinweise.",
+      "ru": "Голосовой ассистент на часах Amazfit (Zepp OS): вопросы к Gemini, умный дом, сообщения, будильники телефона и оповещения."
      }
     },
     "harmony": {
@@ -53,7 +55,8 @@
       "pt-BR": "O assistente com Gemini Live no relógio HarmonyOS (Watch 5, Ultimate 2…): voz, casa, mensagens, alarmes do celular e avisos.",
       "bg": "Асистентът с Gemini Live на часовника с HarmonyOS (Watch 5, Ultimate 2…): глас, дом, съобщения, аларми на телефона и известия.",
       "tr": "HarmonyOS saatte (Watch 5, Ultimate 2…) Gemini Live asistanı: ses, ev, mesajlar, telefon alarmları ve uyarılar.",
-      "de": "Der Gemini-Live-Assistent auf der HarmonyOS-Uhr (Watch 5, Ultimate 2…): Sprache, Zuhause, Nachrichten, Handy-Wecker und Hinweise."
+      "de": "Der Gemini-Live-Assistent auf der HarmonyOS-Uhr (Watch 5, Ultimate 2…): Sprache, Zuhause, Nachrichten, Handy-Wecker und Hinweise.",
+      "ru": "Ассистент Gemini Live на часах HarmonyOS (Watch 5, Ultimate 2…): голос, умный дом, сообщения, будильники телефона и оповещения."
      }
     }
    },
@@ -66,7 +69,8 @@
     "pt-BR": "O assistente com Gemini Live no relógio: voz, casa, mensagens, alarmes do celular e avisos. Pela Store recebe chaves, permissões e proteção da economia de energia da Huawei.",
     "bg": "Асистентът с Gemini Live на часовника: глас, дом, съобщения, аларми на телефона и известия. От Store получава ключове, разрешения и защита от пестенето на енергия на Huawei.",
     "tr": "Saatte Gemini Live asistanı: ses, ev, mesajlar, telefon alarmları ve bildirimler. Store'dan anahtarları, izinleri ve Huawei güç tasarrufuna karşı korumayı alır.",
-    "de": "Der Gemini-Live-Assistent auf der Uhr: Sprache, Zuhause, Nachrichten, Telefonwecker und Hinweise. Aus dem Store bekommt er Schlüssel, Berechtigungen und Schutz vor Huaweis Energiesparen."
+    "de": "Der Gemini-Live-Assistent auf der Uhr: Sprache, Zuhause, Nachrichten, Telefonwecker und Hinweise. Aus dem Store bekommt er Schlüssel, Berechtigungen und Schutz vor Huaweis Energiesparen.",
+    "ru": "Ассистент Gemini Live на часах: голос, умный дом, сообщения, будильники телефона и оповещения. Из Магазина он получает ключи, разрешения и защиту от энергосбережения Huawei."
    },
    "permessi": []
   },
@@ -91,7 +95,8 @@
       "pt-BR": "WhatsApp no relógio Amazfit (Zepp OS): conversas e mensagens passam pelo WhatsApp direto do Gateway no celular, sem outro aparelho conectado.",
       "bg": "WhatsApp на часовника Amazfit (Zepp OS): чатовете и съобщенията минават през директния WhatsApp на Gateway в телефона, без още едно свързано устройство.",
       "tr": "Amazfit saatte (Zepp OS) WhatsApp: sohbetler ve mesajlar telefondaki Gateway'in doğrudan WhatsApp'ı üzerinden geçer, ek bağlı cihaz olmadan.",
-      "de": "WhatsApp auf der Amazfit-Uhr (Zepp OS): Chats und Nachrichten laufen über Gateways direktes WhatsApp am Handy, ohne weiteres verknüpftes Gerät."
+      "de": "WhatsApp auf der Amazfit-Uhr (Zepp OS): Chats und Nachrichten laufen über Gateways direktes WhatsApp am Handy, ohne weiteres verknüpftes Gerät.",
+      "ru": "WhatsApp на часах Amazfit (Zepp OS): чаты и сообщения идут через прямой WhatsApp Gateway на телефоне, без дополнительного связанного устройства."
      }
     }
    },
@@ -104,7 +109,8 @@
     "pt-BR": "WhatsApp completo no relógio: conversas, áudios, fotos, avisos e respostas, mesmo longe do celular.",
     "bg": "Пълен WhatsApp на часовника: чатове, гласови съобщения, снимки, известия и отговори, дори далеч от телефона.",
     "tr": "Saatte tam WhatsApp: sohbetler, sesli mesajlar, fotoğraflar, bildirimler ve yanıtlar, telefondan uzaktayken bile.",
-    "de": "Vollständiges WhatsApp auf der Uhr: Chats, Sprachnachrichten, Fotos, Hinweise und Antworten, auch fern vom Telefon."
+    "de": "Vollständiges WhatsApp auf der Uhr: Chats, Sprachnachrichten, Fotos, Hinweise und Antworten, auch fern vom Telefon.",
+    "ru": "Полноценный WhatsApp на часах: чаты, голосовые сообщения, фото, оповещения и ответы, даже вдали от телефона."
    },
    "avviso": {
     "it": "NextUp non è un'app ufficiale di WhatsApp: usarla può portare al blocco del numero. Usala a tuo rischio, meglio con un numero secondario.",
@@ -115,7 +121,8 @@
     "pt-BR": "O NextUp não é um app oficial do WhatsApp: usar pode levar ao bloqueio do número. Use por sua conta e risco, de preferência com um número secundário.",
     "bg": "NextUp не е официално приложение на WhatsApp: използването му може да доведе до блокиране на номера. На ваш риск, по-добре с втори номер.",
     "tr": "NextUp resmi bir WhatsApp uygulaması değildir: kullanmak numaranın engellenmesine yol açabilir. Riski size ait, tercihen ikinci bir numarayla kullanın.",
-    "de": "NextUp ist keine offizielle WhatsApp-App: die Nutzung kann zur Sperrung der Nummer führen. Nutzung auf eigenes Risiko, am besten mit einer Zweitnummer."
+    "de": "NextUp ist keine offizielle WhatsApp-App: die Nutzung kann zur Sperrung der Nummer führen. Nutzung auf eigenes Risiko, am besten mit einer Zweitnummer.",
+    "ru": "NextUp — не официальное приложение WhatsApp: за его использование номер могут заблокировать. Используйте на свой риск, лучше со вторым номером."
    },
    "permessi": [
     "pm grant $P android.permission.RECORD_AUDIO",
@@ -155,7 +162,8 @@
     "pt-BR": "Telegram no relógio: conversas, áudios, fotos, figurinhas e avisos, mesmo sem o celular.",
     "bg": "Telegram на часовника: чатове, гласови съобщения, снимки, стикери и известия, дори без телефона.",
     "tr": "Saatte Telegram: sohbetler, sesli mesajlar, fotoğraflar, çıkartmalar ve bildirimler, telefon olmadan bile.",
-    "de": "Telegram auf der Uhr: Chats, Sprachnachrichten, Fotos, Sticker und Hinweise, auch ohne Telefon."
+    "de": "Telegram auf der Uhr: Chats, Sprachnachrichten, Fotos, Sticker und Hinweise, auch ohne Telefon.",
+    "ru": "Telegram на часах: чаты, голосовые сообщения, фото, стикеры и оповещения, даже без телефона."
    },
    "permessi": [
     "pm grant $P android.permission.RECORD_AUDIO",
