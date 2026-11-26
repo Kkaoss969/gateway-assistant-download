@@ -4,7 +4,7 @@ Com seu relógio Amazfit (Zepp OS), Huawei Watch 3 / Watch 4, **Wear OS** (Galax
 controlar sua casa Google, fazer ligações, enviar/ler/responder mensagens de WhatsApp e usar a voz do celular.
 Cada pessoa usa o próprio celular, conta Google e chave Gemini: nada para compartilhar.
 
-🌐 Os apps falam **italiano, inglês, espanhol, francês, português (Portugal e Brasil) búlgaro, turco e alemão**: seguem automaticamente o idioma do relógio e do celular. · *Italiano: [GUIDA.md](GUIDA.md)* · *English: [GUIDE.md](GUIDE.md)* · *Español: [GUIA.md](GUIA.md)* · *Français: [GUIDE-FR.md](GUIDE-FR.md)* · *Português (Portugal): [GUIA-PT.md](GUIA-PT.md)* · *Български: [GUIDE-BG.md](GUIDE-BG.md)* · *Türkçe: [GUIDE-TR.md](GUIDE-TR.md)* · *Deutsch: [GUIDE-DE.md](GUIDE-DE.md)*
+🌐 Os apps falam **italiano, inglês, espanhol, francês, português (Portugal e Brasil) búlgaro, turco, alemão e russo**: seguem automaticamente o idioma do relógio e do celular. · *Italiano: [GUIDA.md](GUIDA.md)* · *English: [GUIDE.md](GUIDE.md)* · *Español: [GUIA.md](GUIA.md)* · *Français: [GUIDE-FR.md](GUIDE-FR.md)* · *Português (Portugal): [GUIA-PT.md](GUIA-PT.md)* · *Български: [GUIDE-BG.md](GUIDE-BG.md)* · *Türkçe: [GUIDE-TR.md](GUIDE-TR.md)* · *Deutsch: [GUIDE-DE.md](GUIDE-DE.md)* · *Русский: [GUIDE-RU.md](GUIDE-RU.md)*
 
 💬 **Grupo do Telegram** do app (perguntas, dicas, novidades): https://t.me/Live_Assist
 

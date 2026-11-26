@@ -4,7 +4,7 @@ Mit deiner Amazfit-Uhr (Zepp OS), einer Huawei Watch 3 / Watch 4, einer **Wear O
 dein Google-Zuhause steuern, anrufen, WhatsApp-Nachrichten senden, lesen und beantworten und die Stimme des Telefons nutzen.
 Jeder verwendet sein eigenes Telefon, sein Google-Konto und seinen Gemini-Schlüssel: nichts wird geteilt.
 
-🌐 Die Apps sprechen **Deutsch, Englisch, Italienisch, Spanisch, Französisch, Portugiesisch (Portugal und Brasilien), Bulgarisch und Türkisch**: sie folgen automatisch der Sprache der Uhr und des Telefons. · *Italiano: [GUIDA.md](GUIDA.md)* · *English: [GUIDE.md](GUIDE.md)* · *Español: [GUIA.md](GUIA.md)* · *Français : [GUIDE-FR.md](GUIDE-FR.md)* · *Português: [GUIA-PT.md](GUIA-PT.md)* · *Português do Brasil: [GUIA-BR.md](GUIA-BR.md)* · *Български: [GUIDE-BG.md](GUIDE-BG.md)* · *Türkçe: [GUIDE-TR.md](GUIDE-TR.md)*
+🌐 Die Apps sprechen **Deutsch, Englisch, Italienisch, Spanisch, Französisch, Portugiesisch (Portugal und Brasilien), Bulgarisch, Türkisch und Russisch**: sie folgen automatisch der Sprache der Uhr und des Telefons. · *Italiano: [GUIDA.md](GUIDA.md)* · *English: [GUIDE.md](GUIDE.md)* · *Español: [GUIA.md](GUIA.md)* · *Français : [GUIDE-FR.md](GUIDE-FR.md)* · *Português: [GUIA-PT.md](GUIA-PT.md)* · *Português do Brasil: [GUIA-BR.md](GUIA-BR.md)* · *Български: [GUIDE-BG.md](GUIDE-BG.md)* · *Türkçe: [GUIDE-TR.md](GUIDE-TR.md)* · *Русский: [GUIDE-RU.md](GUIDE-RU.md)*
 
 💬 **Telegram-Gruppe** der App (Fragen, Tipps, Neuigkeiten): https://t.me/Live_Assist
 
