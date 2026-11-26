@@ -29,7 +29,7 @@
     },
     "amazfit": {
      "qr": true,
-     "versione": "1.3.93",
+     "versione": "1.3.94",
      "desc": {
       "it": "L'assistente vocale sull'orologio Amazfit (Zepp OS): domande con Gemini, casa, messaggi, sveglie del telefono e avvisi.",
       "en": "The voice assistant on the Amazfit watch (Zepp OS): questions with Gemini, home, messages, phone alarms and alerts.",
