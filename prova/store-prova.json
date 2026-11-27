@@ -148,7 +148,7 @@
    "nome": "NextGram",
    "pkg": "it.gemini.nextgram",
    "icona": "nextgram.png",
-   "versione": "0.1.0-142",
+   "versione": "0.1.0-143",
    "sistemi": {
     "huawei": "NextGram.apk",
     "wear": "NextGram.apk"
@@ -183,7 +183,7 @@
     "pm grant $P android.permission.WRITE_EXTERNAL_STORAGE",
     "appops set $P LEGACY_STORAGE allow"
    ],
-   "codice": 142
+   "codice": 143
   },
   {
    "id": "tastiera",
