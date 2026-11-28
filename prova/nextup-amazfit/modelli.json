@@ -3,7 +3,7 @@
     {
       "id": "balance2",
       "nome": "Amazfit Balance 2",
-      "scade": "2026-12-04 13:05:11",
+      "scade": "2026-12-05 12:18:49",
       "fonti": [
         9568512,
         9568513,
@@ -13,7 +13,7 @@
     {
       "id": "trex3pro48mm",
       "nome": "Amazfit T-Rex 3 Pro (48mm)",
-      "scade": "2026-12-04 13:05:22",
+      "scade": "2026-12-05 12:19:01",
       "fonti": [
         10551552,
         10551553,
@@ -23,7 +23,7 @@
     {
       "id": "trex3pro44mm",
       "nome": "Amazfit T-Rex 3 Pro (44mm)",
-      "scade": "2026-12-04 13:05:32",
+      "scade": "2026-12-05 12:19:12",
       "fonti": [
         10682624,
         10682625,
@@ -33,7 +33,7 @@
     {
       "id": "trex3",
       "nome": "Amazfit T-Rex 3",
-      "scade": "2026-12-04 13:05:42",
+      "scade": "2026-12-05 12:19:23",
       "fonti": [
         8716544,
         8716545,
@@ -43,7 +43,7 @@
     {
       "id": "trexultra2",
       "nome": "Amazfit T-Rex Ultra 2",
-      "scade": "2026-12-04 13:05:52",
+      "scade": "2026-12-05 12:19:34",
       "fonti": [
         10879232,
         10879233,
@@ -53,7 +53,7 @@
     {
       "id": "trexultra",
       "nome": "Amazfit T-Rex Ultra",
-      "scade": "2026-12-04 13:06:01",
+      "scade": "2026-12-05 12:19:44",
       "fonti": [
         6553856,
         6553857
@@ -62,7 +62,7 @@
     {
       "id": "balance3",
       "nome": "Amazfit Balance 3",
-      "scade": "2026-12-04 13:06:10",
+      "scade": "2026-12-05 12:19:56",
       "fonti": [
         11141376,
         11141377,
@@ -72,17 +72,17 @@
     {
       "id": "balance3ti",
       "nome": "Amazfit Balance 3 Titanium",
-      "scade": "2026-12-04 13:06:20"
+      "scade": "2026-12-05 12:20:06"
     },
     {
       "id": "balance2xt",
       "nome": "Amazfit Balance 2 XT",
-      "scade": "2026-12-04 13:06:29"
+      "scade": "2026-12-05 12:20:17"
     },
     {
       "id": "balance",
       "nome": "Amazfit Balance",
-      "scade": "2026-12-04 13:06:38",
+      "scade": "2026-12-05 12:20:28",
       "fonti": [
         8519936,
         8519937,
@@ -92,7 +92,7 @@
     {
       "id": "balanceultra",
       "nome": "Amazfit Balance Ultra",
-      "scade": "2026-12-04 13:06:47",
+      "scade": "2026-12-05 12:20:38",
       "fonti": [
         11075840,
         11075841
@@ -101,12 +101,12 @@
     {
       "id": "active3premium",
       "nome": "Amazfit Active 3 Premium",
-      "scade": "2026-12-04 13:06:56"
+      "scade": "2026-12-05 12:20:50"
     },
     {
       "id": "active2round",
       "nome": "Amazfit Active 2 (Round)",
-      "scade": "2026-12-04 13:07:06",
+      "scade": "2026-12-05 12:21:01",
       "fonti": [
         8913152,
         8913153,
@@ -117,7 +117,7 @@
     {
       "id": "active2nfcround",
       "nome": "Amazfit Active 2 NFC (Round)",
-      "scade": "2026-12-04 13:07:15",
+      "scade": "2026-12-05 12:21:12",
       "fonti": [
         10092800,
         10092801,
@@ -128,7 +128,7 @@
     {
       "id": "activeedge",
       "nome": "Amazfit Active Edge",
-      "scade": "2026-12-04 13:07:25",
+      "scade": "2026-12-05 12:21:23",
       "fonti": [
         8388864,
         8388865
@@ -137,7 +137,7 @@
     {
       "id": "activemax",
       "nome": "Amazfit Active Max",
-      "scade": "2026-12-04 13:07:34",
+      "scade": "2026-12-05 12:21:34",
       "fonti": [
         10813697,
         10813699
@@ -146,7 +146,7 @@
     {
       "id": "cheetah2pro",
       "nome": "Amazfit Cheetah 2 Pro",
-      "scade": "2026-12-04 13:07:43",
+      "scade": "2026-12-05 12:21:44",
       "fonti": [
         11010304,
         11010305,
@@ -156,7 +156,7 @@
     {
       "id": "cheetah2ultra",
       "nome": "Amazfit Cheetah 2 Ultra",
-      "scade": "2026-12-04 13:07:52",
+      "scade": "2026-12-05 12:21:56",
       "fonti": [
         9961728,
         9961729
@@ -165,7 +165,7 @@
     {
       "id": "cheetahpro",
       "nome": "Amazfit Cheetah Pro",
-      "scade": "2026-12-04 13:08:02",
+      "scade": "2026-12-05 12:22:07",
       "fonti": [
         8126720,
         8126721
@@ -174,7 +174,7 @@
     {
       "id": "cheetahround",
       "nome": "Amazfit Cheetah (Round)",
-      "scade": "2026-12-04 13:08:12",
+      "scade": "2026-12-05 12:22:18",
       "fonti": [
         8192256,
         8192257
@@ -183,7 +183,7 @@
     {
       "id": "falcon",
       "nome": "Amazfit Falcon",
-      "scade": "2026-12-04 13:08:21",
+      "scade": "2026-12-05 12:22:30",
       "fonti": [
         414,
         415
@@ -192,7 +192,7 @@
     {
       "id": "bip6",
       "nome": "Amazfit Bip 6",
-      "scade": "2026-12-04 13:08:30",
+      "scade": "2026-12-05 12:22:40",
       "fonti": [
         9765120,
         9765121,
@@ -202,7 +202,7 @@
     {
       "id": "bipmax",
       "nome": "Amazfit Bip Max",
-      "scade": "2026-12-04 13:08:39",
+      "scade": "2026-12-05 12:22:51",
       "fonti": [
         11206915
       ]
@@ -210,7 +210,7 @@
     {
       "id": "active2square",
       "nome": "Amazfit Active 2 (Square)",
-      "scade": "2026-12-04 13:08:49",
+      "scade": "2026-12-05 12:23:02",
       "fonti": [
         10223872,
         10223873,
@@ -220,12 +220,12 @@
     {
       "id": "active2nfcsquare",
       "nome": "Amazfit Active 2 NFC (Square)",
-      "scade": "2026-12-04 13:08:58"
+      "scade": "2026-12-05 12:23:13"
     },
     {
       "id": "active",
       "nome": "Amazfit Active",
-      "scade": "2026-12-04 13:09:07",
+      "scade": "2026-12-05 12:23:24",
       "fonti": [
         8323328,
         8323329
@@ -234,7 +234,7 @@
     {
       "id": "gts4",
       "nome": "Amazfit GTS 4",
-      "scade": "2026-12-04 13:09:16",
+      "scade": "2026-12-05 12:23:35",
       "fonti": [
         7995648,
         7995649
@@ -243,7 +243,7 @@
     {
       "id": "cheetahsquare",
       "nome": "Amazfit Cheetah (Square)",
-      "scade": "2026-12-04 13:09:25",
+      "scade": "2026-12-05 12:23:46",
       "fonti": [
         8257793
       ]
@@ -251,5 +251,5 @@
   ],
   "app": "NextUp per Amazfit",
   "versione": "0.0.1",
-  "aggiornato": "27/11/2026 14:09"
+  "aggiornato": "28/11/2026 13:24"
 }
