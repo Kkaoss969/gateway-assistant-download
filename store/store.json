@@ -7,13 +7,13 @@
    "nome": "Live Assistant",
    "pkg": "it.gemini.live",
    "icona": "live.png",
-   "versione": "1.1.198 · 563",
+   "versione": "1.1.199 · 568",
    "sistemi": {
     "huawei": "LiveAssistant.apk",
     "wear": {
      "file": "LiveAssistantWear.apk",
      "pkg": "it.gemini.ponte",
-     "versione": "1.1.123 · 564",
+     "versione": "1.1.124 · 569",
      "desc": {
       "it": "L'assistente vocale sull'orologio Wear OS: domande con Gemini, casa, messaggi, sveglie del telefono e avvisi. Gateway dà permessi, accessibilità e chiavi.",
       "en": "The voice assistant on the Wear OS watch: questions with Gemini, home, messages, phone alarms and alerts. Gateway sets permissions, accessibility and keys.",
@@ -148,7 +148,7 @@
    "nome": "NextGram",
    "pkg": "it.gemini.nextgram",
    "icona": "nextgram.png",
-   "versione": "0.1.0-143",
+   "versione": "0.1.0-155",
    "sistemi": {
     "huawei": "NextGram.apk",
     "wear": "NextGram.apk"
@@ -183,7 +183,7 @@
     "pm grant $P android.permission.WRITE_EXTERNAL_STORAGE",
     "appops set $P LEGACY_STORAGE allow"
    ],
-   "codice": 143
+   "codice": 155
   }
  ]
 }
